@@ -14,6 +14,17 @@
 		1148547A27487E42004BC904 /* place_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148547927487E42004BC904 /* place_viewTests.swift */; };
 		1148548427487E42004BC904 /* place_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148548327487E42004BC904 /* place_viewUITests.swift */; };
 		1148548627487E42004BC904 /* place_viewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148548527487E42004BC904 /* place_viewUITestsLaunchTests.swift */; };
+		1148549627488055004BC904 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148549527488055004BC904 /* Place.swift */; };
+		115AF1C9275098F9005533EB /* WebcamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AF1C8275098F9005533EB /* WebcamView.swift */; };
+		11BBD001275FE8BC00AD091A /* PlaceFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BBD000275FE8BC00AD091A /* PlaceFavorites.swift */; };
+		11BE7E84274D258F00D3FA6B /* PlaceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE7E83274D258F00D3FA6B /* PlaceNavigation.swift */; };
+		11C465722759F0F900C390DC /* WebcamThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C465712759F0F900C390DC /* WebcamThumbnail.swift */; };
+		11C5EE85275C993800A0EBC7 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5EE84275C993800A0EBC7 /* FavoriteButton.swift */; };
+		11CC9D41274CD443003280A9 /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC9D40274CD443003280A9 /* PlaceData.swift */; };
+		11CC9D43274CD506003280A9 /* PlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC9D42274CD506003280A9 /* PlaceRow.swift */; };
+		11E65F66274A289800A70C0A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E65F65274A289800A70C0A /* MapView.swift */; };
+		11E65F69274A2A0300A70C0A /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E65F68274A2A0300A70C0A /* PlaceView.swift */; };
+		11E65F6B274A2C5100A70C0A /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 11E65F6A274A2C5100A70C0A /* places.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1111511D2748D8C800537021 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		1148546527487E3F004BC904 /* place-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "place-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1148546827487E40004BC904 /* place_viewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place_viewApp.swift; sourceTree = "<group>"; };
 		1148546A27487E40004BC904 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,19 @@
 		1148547F27487E42004BC904 /* place-viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "place-viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1148548327487E42004BC904 /* place_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place_viewUITests.swift; sourceTree = "<group>"; };
 		1148548527487E42004BC904 /* place_viewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place_viewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1148549227488018004BC904 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = City.swift; path = models/City.swift; sourceTree = "<group>"; };
+		1148549527488055004BC904 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		115AF1C8275098F9005533EB /* WebcamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamView.swift; sourceTree = "<group>"; };
+		11BBD000275FE8BC00AD091A /* PlaceFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceFavorites.swift; sourceTree = "<group>"; };
+		11BE7E83274D258F00D3FA6B /* PlaceNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceNavigation.swift; sourceTree = "<group>"; };
+		11C465712759F0F900C390DC /* WebcamThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamThumbnail.swift; sourceTree = "<group>"; };
+		11C5EE84275C993800A0EBC7 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		11CC9D40274CD443003280A9 /* PlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
+		11CC9D42274CD506003280A9 /* PlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRow.swift; sourceTree = "<group>"; };
+		11E65F65274A289800A70C0A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		11E65F68274A2A0300A70C0A /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		11E65F6A274A2C5100A70C0A /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		C4F5F1842765F637001F4C59 /* place-view.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "place-view.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +99,7 @@
 		1148545C27487E3F004BC904 = {
 			isa = PBXGroup;
 			children = (
+				1111511D2748D8C800537021 /* Readme.md */,
 				1148546727487E3F004BC904 /* place-view */,
 				1148547827487E42004BC904 /* place-viewTests */,
 				1148548227487E42004BC904 /* place-viewUITests */,
@@ -94,10 +120,17 @@
 		1148546727487E3F004BC904 /* place-view */ = {
 			isa = PBXGroup;
 			children = (
+				C4F5F1842765F637001F4C59 /* place-view.entitlements */,
+				11BE7E82274D257700D3FA6B /* Navigations */,
+				11E65F67274A29F100A70C0A /* Views */,
+				11E65F62274A276700A70C0A /* Components */,
+				114854972748813C004BC904 /* Resources */,
+				1148549427488045004BC904 /* Models */,
 				1148546827487E40004BC904 /* place_viewApp.swift */,
 				1148546A27487E40004BC904 /* ContentView.swift */,
 				1148546C27487E41004BC904 /* Assets.xcassets */,
 				1148546E27487E41004BC904 /* Preview Content */,
+				1148549227488018004BC904 /* City.swift */,
 			);
 			path = "place-view";
 			sourceTree = "<group>";
@@ -125,6 +158,52 @@
 				1148548527487E42004BC904 /* place_viewUITestsLaunchTests.swift */,
 			);
 			path = "place-viewUITests";
+			sourceTree = "<group>";
+		};
+		1148549427488045004BC904 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1148549527488055004BC904 /* Place.swift */,
+				11CC9D40274CD443003280A9 /* PlaceData.swift */,
+				11BBD000275FE8BC00AD091A /* PlaceFavorites.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		114854972748813C004BC904 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11E65F6A274A2C5100A70C0A /* places.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11BE7E82274D257700D3FA6B /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				11BE7E83274D258F00D3FA6B /* PlaceNavigation.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
+		11E65F62274A276700A70C0A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				11E65F65274A289800A70C0A /* MapView.swift */,
+				11CC9D42274CD506003280A9 /* PlaceRow.swift */,
+				115AF1C8275098F9005533EB /* WebcamView.swift */,
+				11C465712759F0F900C390DC /* WebcamThumbnail.swift */,
+				11C5EE84275C993800A0EBC7 /* FavoriteButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		11E65F67274A29F100A70C0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11E65F68274A2A0300A70C0A /* PlaceView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E65F6B274A2C5100A70C0A /* places.json in Resources */,
 				1148547027487E41004BC904 /* Preview Assets.xcassets in Resources */,
 				1148546D27487E41004BC904 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +338,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1148546B27487E40004BC904 /* ContentView.swift in Sources */,
+				11C465722759F0F900C390DC /* WebcamThumbnail.swift in Sources */,
+				11CC9D41274CD443003280A9 /* PlaceData.swift in Sources */,
+				11E65F66274A289800A70C0A /* MapView.swift in Sources */,
 				1148546927487E40004BC904 /* place_viewApp.swift in Sources */,
+				1148549627488055004BC904 /* Place.swift in Sources */,
+				115AF1C9275098F9005533EB /* WebcamView.swift in Sources */,
+				11E65F69274A2A0300A70C0A /* PlaceView.swift in Sources */,
+				11CC9D43274CD506003280A9 /* PlaceRow.swift in Sources */,
+				11C5EE85275C993800A0EBC7 /* FavoriteButton.swift in Sources */,
+				11BE7E84274D258F00D3FA6B /* PlaceNavigation.swift in Sources */,
+				11BBD001275FE8BC00AD091A /* PlaceFavorites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +418,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -389,6 +480,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -416,9 +508,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "place-view/place-view.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"place-view/Preview Content\"";
+				DEVELOPMENT_TEAM = 92R7KPAV7W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -433,9 +528,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.jousse.place-view";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -444,9 +540,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "place-view/place-view.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"place-view/Preview Content\"";
+				DEVELOPMENT_TEAM = 92R7KPAV7W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -461,9 +560,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.jousse.place-view";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -472,8 +572,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R7KPAV7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,8 +598,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R7KPAV7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,6 +625,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R7KPAV7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -543,6 +648,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92R7KPAV7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

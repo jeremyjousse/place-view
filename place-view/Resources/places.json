@@ -1,0 +1,202 @@
+[
+  {
+    "id": "annecy",
+    "name": "Annecy",
+    "country": "France",
+    "coordinates": {
+        "latitude": 45.904690,
+        "longitude": 6.142201
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Haute-Savoie",
+    "url": "https://www.lac-annecy.com/webcams.html",
+    "webcams": [
+      {
+        "name": "Le lac",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_annecy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_annecy.jpg"
+      }
+    ]
+  },
+  {
+    "id": "autrans",
+    "name": "Autrans",
+    "country": "France",
+    "coordinates": {
+        "latitude": 45.174942,
+        "longitude": 5.541953
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://autrans-meaudre.com/",
+    "webcams": [
+      {
+        "name": "Le tremplin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meaudre_front.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meaudre_front.jpg"
+      }
+    ]
+  },
+  {
+    "id": "corrancon",
+    "name": "Corrançon",
+    "country": "France",
+    "coordinates": {
+        "latitude": 45.031023,
+        "longitude": 5.526644
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://www.villarddelans.com/hiver/webcams.html",
+    "webcams": [
+      {
+        "name": "Les hauts plateaux",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_correncon_plateau.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_correncon_plateau.jpg"
+      }
+    ]
+  },
+  {
+    "id": "lac-blan",
+    "name": "Le lac blanc",
+    "country": "France",
+    "coordinates": {
+        "latitude": 48.137237,
+        "longitude": 7.083907
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haut-Rhin",
+    "url": "https://www.lac-blanc.com/",
+    "webcams": [
+      {
+        "name": "1200",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lac-blanc_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lac-blanc_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "megeve",
+    "name": "Megève",
+    "country": "France",
+    "coordinates": {
+        "latitude": 45.857619,
+        "longitude": 6.617472
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://megeve.com/",
+    "webcams": [
+      {
+        "name": "Rochebrune",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_arbois.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_arbois.jpg"
+      }
+    ]
+  },
+  {
+    "id": "metabief",
+    "name": "Metabief",
+    "country": "France",
+    "coordinates": {
+        "latitude": 46.768753,
+        "longitude": 6.356971
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Doubs",
+    "url": "https://www.tourisme-metabief.com/webcams.html",
+    "webcams": [
+      {
+        "name": "Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "les-rousses",
+    "name": "Les Rousses",
+    "country": "France",
+    "coordinates": {
+        "latitude": 46.485291,
+        "longitude": 6.059871
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Jura",
+    "url": "https://www.lesrousses.com/",
+    "webcams": [
+      {
+        "name": "Porte du Balancier",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesroussesdarbella.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesroussesdarbella.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-gervais",
+    "name": "Saint Gervais Mont-Blanc",
+    "coordinates": {
+        "latitude": 45.891638,
+        "longitude": 6.713500
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.saintgervais.com",
+    "webcams": [
+      {
+        "name": "Le Bettex Front de Neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-joux-fixe.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-joux-fixe.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saisies",
+    "name": "Les Saisies",
+    "coordinates": {
+        "latitude": 45.757167,
+        "longitude": 6.538018
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Savoie",
+    "url": "https://www.lessaisies.com/webcams-les-saisies-hauteluce-bisanne1500-espace-diamant.html",
+    "webcams": [
+      {
+        "name": "Espace Erwin Eckl",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_espace-erwineckl.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_espace-erwineckl.jpg"
+      }
+    ]
+  },
+  {
+    "id": "super-devoluy",
+    "name": "SuperDévoluy",
+    "coordinates": {
+        "latitude": 44.677507,
+        "longitude": 5.926390
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.ledevoluy.com/fr",
+    "webcams": [
+      {
+        "name": "Pied des pistes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_superdevoluy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_superdevoluy.jpg"
+      }
+    ]
+  }
+]
