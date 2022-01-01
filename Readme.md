@@ -2,4 +2,8 @@
 
 Following [SwiftUI tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
 
-[Like button](https://medium.com/macoclock/how-to-create-a-like-button-and-save-favorite-structs-to-userdefault-in-swiftui-67ba215c358d)
+## TODO
+
+Try to add RoundShot webcams.
+
+Possible to get images from the [download link](https://tignes.roundshot.com/download/83387935/?path=val-claret).
