@@ -1,11 +1,51 @@
 [
   {
+    "id": "aillons-margeriaz",
+    "name": "Aillons-Margériaz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.643813,
+      "longitude": 6.062708
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Savoie",
+    "url": "https://www.lesaillons.com",
+    "webcams": [
+      {
+        "name": "Sommet des Biolles",
+        "largeImage": "https://srv07.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-margeriaz.jpg",
+        "thumbnailImage": "https://srv07.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-margeriaz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "albiez",
+    "name": "Albiez",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.218665,
+      "longitude": 6.344217
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Savoie",
+    "url": "https://www.montagnicimes.com/webcam/",
+    "webcams": [
+      {
+        "name": "Haut-Echaux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
+      }
+    ]
+  },
+  {
     "id": "annecy",
     "name": "Annecy",
     "country": "France",
     "coordinates": {
-        "latitude": 45.904690,
-        "longitude": 6.142201
+      "latitude": 45.90469,
+      "longitude": 6.142201
     },
     "isFavorite": true,
     "isFeatured": true,
@@ -20,12 +60,72 @@
     ]
   },
   {
+    "id": "les-arcs",
+    "name": "Les Arcs",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.577597,
+      "longitude": 6.779631
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.lesarcs.com",
+    "webcams": [
+      {
+        "name": "Arcabulle",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs_arpette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs_arpette.jpg"
+      }
+    ]
+  },
+  {
+    "id": "areches-beaufort",
+    "name": "Arêches Beaufort",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.685025,
+      "longitude": 6.563997
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.areches-beaufort.com",
+    "webcams": [
+      {
+        "name": "Planay",
+        "largeImage": "https://srv05.trinum.com/ibox/ftpcam/mega_areches-beaufort_planay.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_planay.jpg"
+      }
+    ]
+  },
+  {
+    "id": "aussois",
+    "name": "Aussois",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.227165,
+      "longitude": 6.741300
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.haute-maurienne-vanoise.com/hiver/aussois",
+    "webcams": [
+      {
+        "name": "Sommet de l’Armoise",
+        "largeImage": "https://srv05.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
+      }
+    ]
+  },
+  {
     "id": "autrans",
     "name": "Autrans",
     "country": "France",
     "coordinates": {
-        "latitude": 45.174942,
-        "longitude": 5.541953
+      "latitude": 45.174942,
+      "longitude": 5.541953
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -40,12 +140,32 @@
     ]
   },
   {
+    "id": "bernex",
+    "name": "Bernex",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.346724,
+      "longitude": 6.697732
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://hiver.bernex-tourisme.com",
+    "webcams": [
+      {
+        "name": "Pré-Richard",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-peva_bernex-tsd-pre-richard.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_bernex-tsd-pre-richard.jpg"
+      }
+    ]
+  },
+  {
     "id": "corrancon",
     "name": "Corrançon",
     "country": "France",
     "coordinates": {
-        "latitude": 45.031023,
-        "longitude": 5.526644
+      "latitude": 45.031023,
+      "longitude": 5.526644
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -64,8 +184,8 @@
     "name": "Le lac blanc",
     "country": "France",
     "coordinates": {
-        "latitude": 48.137237,
-        "longitude": 7.083907
+      "latitude": 48.137237,
+      "longitude": 7.083907
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -84,8 +204,8 @@
     "name": "Megève",
     "country": "France",
     "coordinates": {
-        "latitude": 45.857619,
-        "longitude": 6.617472
+      "latitude": 45.857619,
+      "longitude": 6.617472
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -104,8 +224,8 @@
     "name": "Metabief",
     "country": "France",
     "coordinates": {
-        "latitude": 46.768753,
-        "longitude": 6.356971
+      "latitude": 46.768753,
+      "longitude": 6.356971
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -124,8 +244,8 @@
     "name": "Les Rousses",
     "country": "France",
     "coordinates": {
-        "latitude": 46.485291,
-        "longitude": 6.059871
+      "latitude": 46.485291,
+      "longitude": 6.059871
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -143,8 +263,8 @@
     "id": "saint-gervais",
     "name": "Saint Gervais Mont-Blanc",
     "coordinates": {
-        "latitude": 45.891638,
-        "longitude": 6.713500
+      "latitude": 45.891638,
+      "longitude": 6.7135
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -163,8 +283,8 @@
     "id": "saisies",
     "name": "Les Saisies",
     "coordinates": {
-        "latitude": 45.757167,
-        "longitude": 6.538018
+      "latitude": 45.757167,
+      "longitude": 6.538018
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -180,11 +300,31 @@
     ]
   },
   {
+    "id": "serre-chevalier",
+    "name": "Serre Chevalier",
+    "coordinates": {
+      "latitude": 44.945955,
+      "longitude": 6.559166
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.alpedugrandserre.info",
+    "webcams": [
+      {
+        "name": "La Blache",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_la-blache.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_la-blache.jpg"
+      }
+    ]
+  },
+  {
     "id": "super-devoluy",
     "name": "SuperDévoluy",
     "coordinates": {
-        "latitude": 44.677507,
-        "longitude": 5.926390
+      "latitude": 44.677507,
+      "longitude": 5.92639
     },
     "isFavorite": false,
     "isFeatured": false,
