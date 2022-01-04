@@ -160,6 +160,46 @@
     ]
   },
   {
+    "id": "champagny",
+    "name": "Champagny-en-Vanoise",
+    "country": "France",
+    "coordinates": {
+      "latitude":   45.456095,
+      "longitude": 6.693004
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.la-plagne.com/champagny-en-vanoise",
+    "webcams": [
+      {
+        "name": "Champagy Village",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_champagny_village.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "clusaz",
+    "name": "La Clusaz",
+    "country": "France",
+    "coordinates": {
+      "latitude":   45.904720,
+      "longitude": 6.425410
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://www.laclusaz.com",
+    "webcams": [
+      {
+        "name": "Massif de Beauregard",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_la-clusaz_beauregard.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_la-clusaz_beauregard.jpg"
+      }
+    ]
+  },
+  {
     "id": "corrancon",
     "name": "Corrançon",
     "country": "France",
@@ -180,7 +220,27 @@
     ]
   },
   {
-    "id": "lac-blan",
+    "id": "flumet",
+    "name": "Flumet / St Nicolas la Chapelle",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.823731,
+      "longitude": 6.543064
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.lac-blanc.com/",
+    "webcams": [
+      {
+        "name": "Les Evettes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "lac-blanc",
     "name": "Le lac blanc",
     "country": "France",
     "coordinates": {
@@ -230,12 +290,32 @@
     "isFavorite": false,
     "isFeatured": false,
     "state": "Doubs",
-    "url": "https://www.tourisme-metabief.com/webcams.html",
+    "url": "https://www.tourisme-metabief.com",
     "webcams": [
       {
         "name": "Station",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_front-de-neige.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "la-plagne",
+    "name": "La Plagne",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.506536,
+      "longitude": 6.677127
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.la-plagne.com",
+    "webcams": [
+      {
+        "name": "La Grande Rochette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_la-grande-rochette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_la-grande-rochette.jpg"
       }
     ]
   },
