@@ -10,14 +10,14 @@ import SwiftUI
 struct WebcamThumbnail: View {
     
     var imageUrl: String
+    
     var body: some View {
         AsyncImage(url: URL(string: imageUrl)) { sourceImage in
             sourceImage
                 .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 100, height: 100, alignment: .center)
-                        
-                        .clipped()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100, height: 100, alignment: .center)
+                .clipped()
         } placeholder: {
             ProgressView()
         }

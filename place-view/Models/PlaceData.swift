@@ -10,6 +10,12 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var places: [Place] = load("places.json")
+    
+    public func reload() {
+        print("Reload places.json")
+        places = []
+        places = load("places.json")
+    }
 }
 
 

@@ -9,13 +9,15 @@ import Foundation
 import CoreLocation
 import SwiftUI
 
+struct Webcam: Hashable, Codable {
+    var name: String
+    var largeImage: String
+    var thumbnailImage: String
+}
+
 struct Place: Hashable, Codable, Identifiable {
     
-    struct Webcam: Hashable, Codable {
-        var name: String
-        var largeImage: String
-        var thumbnailImage: String
-    }
+
     
 
     struct Coordinates: Hashable, Codable {
@@ -38,10 +40,5 @@ struct Place: Hashable, Codable, Identifiable {
     var coordinates: Coordinates
     var isFavorite: Bool
     
-    
-//    private var imageName: String
-//    var image: Image {
-//        Image(imageName)
-//    }
 }
 

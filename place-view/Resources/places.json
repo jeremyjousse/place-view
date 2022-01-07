@@ -16,6 +16,11 @@
         "name": "Sommet des Biolles",
         "largeImage": "https://srv07.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-margeriaz.jpg",
         "thumbnailImage": "https://srv07.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-margeriaz.jpg"
+      },
+      {
+        "name": "Sommet Mont Pelat",
+        "largeImage": "https://srv07.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-mont-pelat.jpg",
+        "thumbnailImage": "https://srv07.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-mont-pelat.jpg"
       }
     ]
   },
@@ -200,6 +205,26 @@
     ]
   },
   {
+    "id": "corbier",
+    "name": "Le Corbier",
+    "country": "France",
+    "coordinates": {
+      "latitude":   45.240544,
+      "longitude": 6.268206
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.le-corbier.com/",
+    "webcams": [
+      {
+        "name": "Pointe du Corbier",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_le_corbier_pointe-du-corbier.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_le_corbier_pointe-du-corbier.jpg"
+      }
+    ]
+  },
+  {
     "id": "corrancon",
     "name": "Corrançon",
     "country": "France",
@@ -220,6 +245,26 @@
     ]
   },
   {
+    "id": "les-deux-alpes",
+    "name": "Les Deux Aples",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.009453,
+      "longitude": 6.125173
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://www.les2alpes.com",
+    "webcams": [
+      {
+        "name": "Les hauts plateaux",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=rDhlM-0g6kQ-GluvH-iYTVZ&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=rDhlM-0g6kQ-GluvH-iYTVZ&quality=small"
+      }
+    ]
+  },
+  {
     "id": "flumet",
     "name": "Flumet / St Nicolas la Chapelle",
     "country": "France",
@@ -230,12 +275,53 @@
     "isFavorite": false,
     "isFeatured": false,
     "state": "Savoie",
-    "url": "https://www.lac-blanc.com/",
+    "url": "https://www.lac-blanc.com",
     "webcams": [
       {
         "name": "Les Evettes",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_front-de-neige.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "les-gets",
+    "name": "Les Gets",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.149588,
+      "longitude": 6.658463
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://www.lesgets.com/webcams",
+    "webcams": [
+      {
+        "name": "Le Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesgets_panoramique-front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesgets_panoramique-front-de-neige.jpg"
+      }
+    ]
+  },
+  
+  {
+    "id": "grand-bornand",
+    "name": "Le Grand Bornand",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.943229,
+      "longitude": 6.434244
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://www.legrandbornand.com",
+    "webcams": [
+      {
+        "name": "Les Evettes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gb_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gb_village.jpg"
       }
     ]
   },
@@ -256,6 +342,26 @@
         "name": "1200",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lac-blanc_front-de-neige.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lac-blanc_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "lans-en-vercors",
+    "name": "Lans En Vercors",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.114593,
+      "longitude": 5.607077
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://www.lansenvercors.com",
+    "webcams": [
+      {
+        "name": "Belvedere",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lans-en-vercors_belvedere.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lans-en-vercors_belvedere.jpg"
       }
     ]
   },
@@ -316,6 +422,26 @@
         "name": "La Grande Rochette",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_la-grande-rochette.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_la-grande-rochette.jpg"
+      }
+    ]
+  },
+  {
+    "id": "la-rosiere",
+    "name": "La Rosière",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.629533,
+      "longitude": 6.848892
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.larosiere.net/",
+    "webcams": [
+      {
+        "name": "Mont Valaisan",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_mont-valaisan.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_mont-valaisan.jpg"
       }
     ]
   },

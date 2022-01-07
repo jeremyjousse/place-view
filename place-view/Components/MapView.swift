@@ -11,10 +11,25 @@ struct MapView: UIViewRepresentable {
     }
     
     func updateUIView(_ view: MKMapView, context: Context) {
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = coordinates
+//        annotation.title = "Title"
+        view.addAnnotation(annotation)
+        
         let span = MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
         let region = MKCoordinateRegion(center: coordinates, span: span)
         view.setRegion(region, animated: true)
+        
+        //view.addAnnotations(annotations: annotations)
+
+        
     }
+}
+
+
+struct AnnotationItem: Identifiable {
+    var coordinate: CLLocationCoordinate2D
+    let id = UUID()
 }
 
 struct MapView_Previews: PreviewProvider {

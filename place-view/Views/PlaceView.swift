@@ -11,23 +11,28 @@ import MapKit
 struct PlaceView: View {
     
     @EnvironmentObject var modelData: ModelData
+    @State var selectedImage : Int = 0
     
     init(place: Place) {
-       UIScrollView.appearance().bounces = false
+        UIScrollView.appearance().bounces = false
         self.place = place
     }
-
+    
     var place: Place
     
     var placeIndex: Int {
         modelData.places.firstIndex(where: { $0.id == place.id })!
     }
-
+    
     var body: some View {
         ScrollView {
             VStack {
-                WebcamView(imageUrl: place.webcams[0].largeImage)
+                WebcamView(imageUrl: place.webcams[selectedImage].largeImage)
                     .frame(width: 350)
+                if (place.webcams.count > 1) {
+                    Text("\(selectedImage)")
+                    ThubnailsView(webcams: place.webcams, selectedImage: $selectedImage)
+                }
                 VStack(alignment: .leading) {
                     HStack {
                         Text(place.name)
@@ -64,5 +69,29 @@ struct PlaceView_Previews: PreviewProvider {
     static var previews: some View {
         PlaceView(place: modelData.places[0])
             .environmentObject(modelData)
+    }
+}
+
+struct ThubnailsView: View {
+    var webcams: [Webcam]
+    @Binding var selectedImage: Int
+    
+    
+    var body: some View {
+        ScrollView {
+            HStack {
+                ForEach(webcams, id: \.self) { webcam in
+                    RoundedRectangle(cornerRadius: 5)
+                        .frame(width:100, height: 100)
+                        .overlay {
+                            //WebcamThumbnail(imageUrl: webcam.thumbnailImage)
+                        }
+                        .onTapGesture {
+                        self.selectedImage = webcams.firstIndex(of: webcam) ?? 0
+                    }
+                    // WebcamThumbnail(imageUrl: webcam.thumbnailImage)
+                }
+            }
+        }
     }
 }

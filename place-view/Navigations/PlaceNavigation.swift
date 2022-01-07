@@ -27,7 +27,7 @@ struct PlaceNavigation: View {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
-
+                
                 ForEach(filteredPlaces) { place in
                     NavigationLink {
                         PlaceView(place: place)
@@ -37,6 +37,10 @@ struct PlaceNavigation: View {
                 }
             }
         }.navigationTitle("Places")
+            .refreshable {
+                print("Do your refresh work here")
+                modelData.reload()
+            }
     }
 }
 
