@@ -1,4 +1,4 @@
-#  Place view
+# Place view
 
 Following [SwiftUI tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
 

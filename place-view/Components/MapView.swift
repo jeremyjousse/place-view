@@ -5,7 +5,7 @@ struct MapView: UIViewRepresentable {
     var coordinates: CLLocationCoordinate2D
     
     @State private var region = MKCoordinateRegion()
-
+    
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
@@ -13,7 +13,7 @@ struct MapView: UIViewRepresentable {
     func updateUIView(_ view: MKMapView, context: Context) {
         let annotation = MKPointAnnotation()
         annotation.coordinate = coordinates
-//        annotation.title = "Title"
+        //        annotation.title = "Title"
         view.addAnnotation(annotation)
         
         let span = MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
@@ -21,7 +21,7 @@ struct MapView: UIViewRepresentable {
         view.setRegion(region, animated: true)
         
         //view.addAnnotations(annotations: annotations)
-
+        
         
     }
 }
