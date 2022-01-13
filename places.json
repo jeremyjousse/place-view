@@ -35,12 +35,32 @@
     "isFavorite": true,
     "isFeatured": true,
     "state": "Savoie",
-    "url": "https://www.montagnicimes.com/webcam/",
+    "url": "https://www.montagnicimes.com/albiez/",
     "webcams": [
       {
         "name": "Haut-Echaux",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
+      }
+    ]
+  },
+  {
+    "id": "alpe-huez",
+    "name": "Alpe d'Huez",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.090463,
+      "longitude": 6.066684
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Isère",
+    "url": "https://www.alpedhuez.com",
+    "webcams": [
+      {
+        "name": "Signal de l'homme",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3MhdR-NcGOW-t70O6-Jqo1M&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3MhdR-NcGOW-t70O6-Jqo1M&quality=small"
       }
     ]
   },
@@ -119,7 +139,7 @@
     "webcams": [
       {
         "name": "Sommet de l’Armoise",
-        "largeImage": "https://srv05.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
       }
     ]
