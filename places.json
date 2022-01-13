@@ -299,8 +299,8 @@
     "webcams": [
       {
         "name": "Col de la loze",
-        "largeImage": "http://www.trinum.com/ibox/ftpcam/mega_meribel_col-de-la-loze.jpg",
-        "thumbnailImage": "http://www.trinum.com/ibox/ftpcam/small_meribel_col-de-la-loze.jpg"
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_col-de-la-loze.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_col-de-la-loze.jpg"
       }
     ]
   },
