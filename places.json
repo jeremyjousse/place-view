@@ -285,6 +285,26 @@
     ]
   },
   {
+    "id": "courchevel",
+    "name": "Courchevel",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.414433,
+      "longitude": 6.634647
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://courchevel.com",
+    "webcams": [
+      {
+        "name": "Col de la loze",
+        "largeImage": "http://www.trinum.com/ibox/ftpcam/mega_meribel_col-de-la-loze.jpg",
+        "thumbnailImage": "http://www.trinum.com/ibox/ftpcam/small_meribel_col-de-la-loze.jpg"
+      }
+    ]
+  },
+  {
     "id": "les-deux-alpes",
     "name": "Les Deux Aples",
     "country": "France",
