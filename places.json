@@ -165,6 +165,26 @@
     ]
   },
   {
+    "id": "avoriaz",
+    "name": "Avoriaz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.192397,
+      "longitude": 6.774469
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Haute-Savoie",
+    "url": "https://www.avoriaz.com",
+    "webcams": [
+      {
+        "name": "Centre station",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=small"
+      }
+    ]
+  },
+  {
     "id": "bernex",
     "name": "Bernex",
     "country": "France",
