@@ -9,14 +9,16 @@ import SwiftUI
 
 struct PlaceNavigation: View {
     
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var placeFetcher: PlaceFetcher
+    
+    let places: [Place]
     
     @ObservedObject var favorites = PlaceFavorites.sharedInstance
     
     @State private var showFavoritesOnly = false
     
     var filteredPlaces: [Place] {
-        modelData.places.filter { place in
+        places.filter { place in
             (!showFavoritesOnly || favorites.contains(place))
         }
     }
@@ -39,7 +41,7 @@ struct PlaceNavigation: View {
         }.navigationTitle("Places")
             .refreshable {
                 print("Do your refresh work here")
-                modelData.reload()
+                placeFetcher.fetchAllPlaces()
             }
     }
 }
@@ -47,7 +49,7 @@ struct PlaceNavigation: View {
 struct PlaceNavigation_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
-            PlaceNavigation().environmentObject(ModelData())
+            PlaceNavigation(places: []).environmentObject(PlaceFetcher())
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }

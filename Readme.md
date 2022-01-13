@@ -16,8 +16,6 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 
 Stoped at Bonneval sur Arc
 
-[Alpe d'Huez](https://www.alpedhuez.com/fr/hiver/accueil/)
-[Avoriaz](https://www.avoriaz.com)
 [Bonneval sur Arc](https://www.haute-maurienne-vanoise.com/hiver/bonneval-sur-arc/webcam/)
 [Brides Les Bains](https://www.brides-les-bains.com/hiver/webcam/)
 [Chamrousse](https://www.chamrousse.com/webcams.html')

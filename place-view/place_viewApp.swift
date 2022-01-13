@@ -9,12 +9,13 @@ import SwiftUI
 
 @main
 struct place_viewApp: App {
-    @StateObject private var modelData = ModelData()
+    // @StateObject private var modelData = ModelData()
+//
     
     var body: some Scene {
+        
         WindowGroup {
-            PlaceNavigation()
-                .environmentObject(modelData)
+            ContentView()
         }
     }
 }
