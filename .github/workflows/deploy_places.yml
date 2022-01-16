@@ -31,4 +31,5 @@ jobs:
       - name: Check Status
         run: |
           cd site
+          git add .
           echo $(git status)
