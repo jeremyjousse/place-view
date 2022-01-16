@@ -7,6 +7,8 @@
 
 import SwiftUI
 import MapKit
+import Kingfisher
+
 
 struct PlaceView: View {
     
@@ -82,13 +84,35 @@ struct ThubnailsView: View {
             HStack {
                 ForEach(webcams, id: \.self) { webcam in
                     RoundedRectangle(cornerRadius: 5)
+                        .fill(Color.gray)
                         .frame(width:100, height: 100)
                         .overlay {
+                            Image(systemName: "arrow.2.circlepath.circle")
+//                            KFImage(URL(
+//                                string:webcam.thumbnailImage))
+//                                .placeholder {
+//                                    // Placeholder while downloading.
+//                                    Image(systemName: "arrow.2.circlepath.circle")
+//                                        .font(.largeTitle)
+//                                        .opacity(0.3)
+//                                }
+//                                .retry(maxCount: 3, interval: .seconds(5))
+//                                .onSuccess { r in
+//                                    // r: RetrieveImageResult
+//                                    print("success: \(r)")
+//                                }
+//                                .onFailure { e in
+//                                    // e: KingfisherError
+//                                    print("failure: \(e)")
+//                                }                .resizable()
+//                                .aspectRatio(contentMode: .fill)
+//                                .frame(width: 100, height: 100, alignment: .center)
+//                                .clipped()
                             //WebcamThumbnail(imageUrl: webcam.thumbnailImage)
                         }
                         .onTapGesture {
-                        self.selectedImage = webcams.firstIndex(of: webcam) ?? 0
-                    }
+                            self.selectedImage = webcams.firstIndex(of: webcam) ?? 0
+                        }
                     // WebcamThumbnail(imageUrl: webcam.thumbnailImage)
                 }
             }

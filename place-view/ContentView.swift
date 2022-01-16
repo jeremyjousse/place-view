@@ -12,13 +12,13 @@ struct ContentView: View {
     @StateObject var placeFetcher = PlaceFetcher()
     
     var body: some View {
-        if placeFetcher.isLoading {
-            LoadingView()
-        }else if placeFetcher.errorMessage != nil  {
-            ErrorView(placeFetcher: placeFetcher)
-        }else {
+//        if placeFetcher.isLoading {
+//            LoadingView()
+//        }else if placeFetcher.errorMessage != nil  {
+//            ErrorView(placeFetcher: placeFetcher)
+//        }else {
             PlaceNavigation(places: placeFetcher.places).environmentObject(placeFetcher)
-        }
+//        }
     }
 }
 

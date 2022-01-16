@@ -35,12 +35,32 @@
     "isFavorite": true,
     "isFeatured": true,
     "state": "Savoie",
-    "url": "https://www.montagnicimes.com/webcam/",
+    "url": "https://www.montagnicimes.com/albiez/",
     "webcams": [
       {
         "name": "Haut-Echaux",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
+      }
+    ]
+  },
+  {
+    "id": "alpe-huez",
+    "name": "Alpe d'Huez",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.090463,
+      "longitude": 6.066684
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Isère",
+    "url": "https://www.alpedhuez.com",
+    "webcams": [
+      {
+        "name": "Signal de l'homme",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3MhdR-NcGOW-t70O6-Jqo1M&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3MhdR-NcGOW-t70O6-Jqo1M&quality=small"
       }
     ]
   },
@@ -105,12 +125,32 @@
     ]
   },
   {
+    "id": "auron",
+    "name": "Auron",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.225187,
+      "longitude": 6.932811
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-Maritimes",
+    "url": "https://hiver.auron.com",
+    "webcams": [
+      {
+        "name": "Cime de Chevalet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_auron_cime-de-chevalet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_auron_cime-de-chevalet.jpg"
+      }
+    ]
+  },
+  {
     "id": "aussois",
     "name": "Aussois",
     "country": "France",
     "coordinates": {
       "latitude": 45.227165,
-      "longitude": 6.741300
+      "longitude": 6.7413
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -119,7 +159,7 @@
     "webcams": [
       {
         "name": "Sommet de l’Armoise",
-        "largeImage": "https://srv05.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
       }
     ]
@@ -145,6 +185,26 @@
     ]
   },
   {
+    "id": "avoriaz",
+    "name": "Avoriaz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.192397,
+      "longitude": 6.774469
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Haute-Savoie",
+    "url": "https://www.avoriaz.com",
+    "webcams": [
+      {
+        "name": "Centre station",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=small"
+      }
+    ]
+  },
+  {
     "id": "bernex",
     "name": "Bernex",
     "country": "France",
@@ -165,11 +225,31 @@
     ]
   },
   {
+    "id": "chabanon",
+    "name": "Chabanon",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.346895,
+      "longitude": 6.293254
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.selonnetchabanon-tourisme.fr/",
+    "webcams": [
+      {
+        "name": "Sommet les Monges",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chabanon_sommet-les-monges.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chabanon_sommet-les-monges.jpg"
+      }
+    ]
+  },
+  {
     "id": "champagny",
     "name": "Champagny-en-Vanoise",
     "country": "France",
     "coordinates": {
-      "latitude":   45.456095,
+      "latitude": 45.456095,
       "longitude": 6.693004
     },
     "isFavorite": false,
@@ -189,8 +269,8 @@
     "name": "La Clusaz",
     "country": "France",
     "coordinates": {
-      "latitude":   45.904720,
-      "longitude": 6.425410
+      "latitude": 45.90472,
+      "longitude": 6.42541
     },
     "isFavorite": false,
     "isFeatured": false,
@@ -209,7 +289,7 @@
     "name": "Le Corbier",
     "country": "France",
     "coordinates": {
-      "latitude":   45.240544,
+      "latitude": 45.240544,
       "longitude": 6.268206
     },
     "isFavorite": false,
@@ -241,6 +321,26 @@
         "name": "Les hauts plateaux",
         "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_correncon_plateau.jpg",
         "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_correncon_plateau.jpg"
+      }
+    ]
+  },
+  {
+    "id": "courchevel",
+    "name": "Courchevel",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.414433,
+      "longitude": 6.634647
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://courchevel.com",
+    "webcams": [
+      {
+        "name": "Col de la loze",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_col-de-la-loze.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_col-de-la-loze.jpg"
       }
     ]
   },
@@ -304,7 +404,6 @@
       }
     ]
   },
-  
   {
     "id": "grand-bornand",
     "name": "Le Grand Bornand",
@@ -322,6 +421,26 @@
         "name": "Les Evettes",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gb_village.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gb_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "isola-2000",
+    "name": "Isola 2000",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.185579,
+      "longitude": 7.15942
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-Maritimes",
+    "url": "https://www.isola2000.com/",
+    "webcams": [
+      {
+        "name": "Snowpark",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_snowpark.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_snowpark.jpg"
       }
     ]
   },
@@ -402,6 +521,106 @@
         "name": "Station",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_front-de-neige.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "montclar",
+    "name": "Montclar",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.410753,
+      "longitude": 6.351358
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.montclar.com/",
+    "webcams": [
+      {
+        "name": "La breche",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_la-breche.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_la-breche.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "montgenevre",
+    "name": "Montgenevre",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.930712,
+      "longitude": 6.72352
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Hautes-Alpes",
+    "url": "https://montgenevre.com",
+    "webcams": [
+      {
+        "name": "L'eglise",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_eglise.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_eglise.jpg"
+      },
+      {
+        "name": "Brousset",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_brousset.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_brousset.jpg"
+      },
+      {
+        "name": "Sommet TS Crete",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_sommet-ts-crete.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_sommet-ts-crete.jpg"
+      },
+      {
+        "name": "Sommet TDS Gondrans",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mtgenevre_sommet-des-gondrans.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/mega_mtgenevre_sommet-des-gondrans.jpg"
+      },
+      {
+        "name": "Front de Neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_front-de-neige.jpg"
+      },
+      {
+        "name": "Sommet Chalvet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_sommet-chalvet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_sommet-chalvet.jpg"
+      },
+      {
+        "name": "Thibaud",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_thibaud.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_thibaud.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "les-orres",
+    "name": "Les Orres",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.484668,
+      "longitude": 6.553725
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Hautes-Alpes",
+    "url": "https://www.lesorres.com/",
+    "webcams": [
+      {
+        "name": "Sommet Pousterle",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=QP7lQ-UmXZ7-ZyTFE-RH05p&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=QP7lQ-UmXZ7-ZyTFE-RH05p&quality=small"
       }
     ]
   },

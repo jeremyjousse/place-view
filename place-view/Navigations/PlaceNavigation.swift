@@ -41,7 +41,7 @@ struct PlaceNavigation: View {
         }.navigationTitle("Places")
             .refreshable {
                 print("Do your refresh work here")
-                placeFetcher.fetchAllPlaces()
+                //placeFetcher.fetchAllPlaces()
             }
     }
 }
