@@ -28,7 +28,6 @@ jobs:
       - name: Copy places.json
         run: |
             cp "./app/place-view/Resources/places.json" "site"
-            done
       - name: Check Status
         run: |
           cd site
