@@ -27,10 +27,10 @@ struct FavoriteButton: View {
     }
 }
 
-struct FavoriteButton_Previews: PreviewProvider {
-    static var places = ModelData().places
-
-    static var previews: some View {
-        FavoriteButton(place: places[0])
-    }
-}
+//struct FavoriteButton_Previews: PreviewProvider {
+//    
+//
+//    static var previews: some View {
+//        FavoriteButton(place: places[0])
+//    }
+//}

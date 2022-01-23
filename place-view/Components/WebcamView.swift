@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WebcamView: View {
-
+    
     var imageUrl: String
     
     var body: some View {

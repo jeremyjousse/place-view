@@ -16,6 +16,7 @@ struct PlaceNavigation: View {
     @ObservedObject var favorites = PlaceFavorites.sharedInstance
     
     @State private var showFavoritesOnly = false
+    @State private var showSettings: Bool = false
     
     var filteredPlaces: [Place] {
         places.filter { place in
@@ -24,25 +25,38 @@ struct PlaceNavigation: View {
     }
     
     var body: some View {
+        
         NavigationView {
-            List {
-                Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
-                }
-                
-                ForEach(filteredPlaces) { place in
-                    NavigationLink {
-                        PlaceView(place: place)
-                    } label: {
-                        PlaceRow(place: place)
+            VStack {
+                List {
+                    Toggle(isOn: $showFavoritesOnly) {
+                        Text("Favorites only")
+                    }
+                    
+                    ForEach(filteredPlaces) { place in
+                        NavigationLink {
+                            PlaceView(place: place)
+                        } label: {
+                            PlaceRow(place: place)
+                        }
                     }
                 }
-            }
-        }.navigationTitle("Places")
-            .refreshable {
-                print("Do your refresh work here")
-                //placeFetcher.fetchAllPlaces()
-            }
+            }.navigationTitle("Places")
+                .refreshable {
+                    print("Do your refresh work here")
+                    //placeFetcher.fetchAllPlaces()
+                }
+                .navigationBarItems(trailing:
+                                        Button(action: {
+                    self.showSettings = true
+                }, label: {
+                    Image(systemName: "gear").font(.body)
+                        .foregroundColor(.black)
+                }) )
+                .sheet(isPresented: $showSettings) {
+                    SettingsSheet()
+                }
+        }
     }
 }
 

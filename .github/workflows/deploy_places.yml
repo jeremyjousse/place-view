@@ -32,4 +32,5 @@ jobs:
         run: |
           cd site
           git add .
-          echo $(git status)
+          UPDATED=$(git status|grep places.json)
+          [ UPDATED ] && git push

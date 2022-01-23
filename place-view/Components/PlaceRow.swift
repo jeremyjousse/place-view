@@ -36,13 +36,13 @@ struct PlaceRow: View {
     }
 }
 
-struct PlaceRow_Previews: PreviewProvider {
-    static var places = ModelData().places
-    
-    static var previews: some View {
-        Group {
-            PlaceRow(place: places[0])
-            PlaceRow(place: places[2])
-        }.previewLayout(.fixed(width: 300, height: 70))
-    }
-}
+//struct PlaceRow_Previews: PreviewProvider {
+//    static var places = ModelData().places
+//    
+//    static var previews: some View {
+//        Group {
+//            PlaceRow(place: places[0])
+//            PlaceRow(place: places[2])
+//        }.previewLayout(.fixed(width: 300, height: 70))
+//    }
+//}

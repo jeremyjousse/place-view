@@ -10,6 +10,7 @@ import Foundation
 class PlaceFetcher: ObservableObject {
     
     @Published var places = [Place]()
+    @Published var states = [String]()
     @Published var isLoading: Bool = false
     @Published var errorMessage: String? = nil
     
@@ -39,6 +40,8 @@ class PlaceFetcher: ObservableObject {
                 case .success(let places):
                     print("--- sucess with \(places.count)")
                     self.places = places
+                    
+                    self.states = Array(Set(places.map({$0.state})))
                 }
             }
         }
