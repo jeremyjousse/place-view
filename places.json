@@ -21,6 +21,16 @@
         "name": "Sommet Mont Pelat",
         "largeImage": "https://srv07.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-mont-pelat.jpg",
         "thumbnailImage": "https://srv07.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-mont-pelat.jpg"
+      },
+      {
+        "name": "Centre d'accueil 1000",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3v74F-ptbOF-IaH1a-yLTFK&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3v74F-ptbOF-IaH1a-yLTFK&quality=small"
+      },
+      {
+        "name": "Espace débutants 1400",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=PAXUw-UVVfS-U0tBe-5h2Bi&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=PAXUw-UVVfS-U0tBe-5h2Bi&quality=small"
       }
     ]
   },
@@ -41,6 +51,16 @@
         "name": "Haut-Echaux",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
+      },
+      {
+        "name": "Haut-Echaux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_bas-des-echaux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_bas-des-echaux.jpg"
+      },
+      {
+        "name": "Haut-Echaux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_grandloupbas.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_grandloupbas.jpg"
       }
     ]
   },
@@ -579,8 +599,8 @@
       },
       {
         "name": "Sommet TDS Gondrans",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_sommet-des-gondrans.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_sommet-des-gondrans.jpg"
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mtgenevre_sommet-des-gondrans.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/mega_mtgenevre_sommet-des-gondrans.jpg"
       },
       {
         "name": "Front de Neige",
