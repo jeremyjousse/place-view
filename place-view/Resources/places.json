@@ -51,6 +51,16 @@
         "name": "Haut-Echaux",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
+      },
+      {
+        "name": "Haut-Echaux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_bas-des-echaux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_bas-des-echaux.jpg"
+      },
+      {
+        "name": "Haut-Echaux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_grandloupbas.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_grandloupbas.jpg"
       }
     ]
   },
