@@ -31,6 +31,8 @@ jobs:
       - name: Check Status
         run: |
           cd site
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
           git add .
           UPDATED=$(git status|grep places.json)
           [ UPDATED ] && git commit -m "🏔 update places.json" && git push && echo "🚀 places.json pushed to gp-page branche"
