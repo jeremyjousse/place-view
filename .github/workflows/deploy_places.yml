@@ -33,4 +33,4 @@ jobs:
           cd site
           git add .
           UPDATED=$(git status|grep places.json)
-          [ UPDATED ] && git push
+          [ UPDATED ] && git commit -m "🏔 update places.json" && git push
