@@ -98,9 +98,64 @@
     "url": "https://www.lac-annecy.com",
     "webcams": [
       {
-        "name": "Le lac",
+        "name": "Annecy, Le lac",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_annecy.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_annecy.jpg"
+      },
+      {
+        "name": "Sevrier, Base Nautique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sevrier_base-nautique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sevrier_base-nautique.jpg"
+      },
+      {
+        "name": "Veyrier-du-Lac, Centre-village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-acacias_acacias.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-acacias_acacias.jpg"
+      },
+      {
+        "name": "Talloires-Montmin, Embarcadère",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pere-bise_auberge.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pere-bise_auberge.jpg"
+      },
+      {
+        "name": "Talloires-Montmin, Baie de Talloires",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_cottage-bise_lac-annecy-talloires.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_cottage-bise_lac-annecy-talloires.jpg"
+      },
+      {
+        "name": "Talloires-Montmin, Angon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-grillons_vue-lac-annecy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-grillons_vue-lac-annecy.jpg"
+      },
+      {
+        "name": "Doussard, Port",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=DHfDR-sJvu7-t7HTB-jizJ2&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=DHfDR-sJvu7-t7HTB-jizJ2&quality=small"
+      },
+      {
+        "name": "Le Semnoz, Arrivée du télémix Belvédère",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_semnoz_somnoz-sommet-tmx.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_semnoz_somnoz-sommet-tmx.jpg"
+      },
+      {
+        "name": "Le Semnoz, Départ du télémix Belvédère",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_semnoz_chantier-telemixte.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_semnoz_chantier-telemixte.jpg"
+      },
+      {
+        "name": "Le Semnoz, Versant Annecy",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_semnoz_versant-annecy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_semnoz_versant-annecy.jpg"
+      },
+      {
+        "name": "Plateau des Glières, Domaine nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_cg74_plateau-des-glieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_cg74_plateau-des-glieres.jpg"
+      },
+      {
+        "name": "La Sambuy, Arrivée du télésiège La Sambuy",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=igESl-UDKJP-5ATS5-0H6VY&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=igESl-UDKJP-5ATS5-0H6VY&quality=small"
       }
     ]
   },

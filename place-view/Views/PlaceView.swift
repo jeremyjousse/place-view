@@ -31,6 +31,7 @@ struct PlaceView: View {
                     .frame(width: 350)
                 if (place.webcams.count > 1) {
                     ThubnailsView(thumbnails: self.viewModel.thumbnails, selectedThumbnail: $selectedImage)
+                        .frame(width: 350)
                 }
                 VStack(alignment: .leading) {
                     HStack {
@@ -80,43 +81,24 @@ struct ThubnailsView: View {
     @Binding var selectedThumbnail: Int
     
     var body: some View {
-        ScrollView {
-            HStack {
-                if thumbnails.count < 1 {
-                    ProgressView()
-                } else {
-                    ScrollView {
-                        HStack (spacing: 10) {
-                            ForEach(thumbnails) { thumbnail in
-                                Image(uiImage: thumbnail.image)
-                                    .resizable()
-                                    .frame(width: 100, height: 100)
-                                    .aspectRatio(contentMode: .fill)
-                                    .onTapGesture {
-                                        selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
-                                        print(selectedThumbnail)
-                                    }
+        if thumbnails.count < 1 {
+            ProgressView()
+        } else {
+            ScrollView(.horizontal) {
+                HStack {
+                    ForEach(thumbnails) { thumbnail in
+                        Image(uiImage: thumbnail.image)
+//                            .resizable()
+//                            
+//                            .frame(width: 100, height: 100, alignment: .center)
+//                            .aspectRatio(contentMode: .fill)
+//                            .clipped()
+                            .onTapGesture {
+                                selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
+                                print(selectedThumbnail)
                             }
-                        }
                     }
-//                    .onAppear {
-//                        if let first = loader.images.first {
-//                            selectedPhoto = first
-//                        }
-//                    }
                 }
-                
-//                ForEach(webcams, id: \.self) { webcam in
-//                    RoundedRectangle(cornerRadius: 5)
-//                        .fill(Color.gray)
-//                        .frame(width:100, height: 100)
-//                        .overlay {
-//                            Image(systemName: "arrow.2.circlepath.circle")
-//                        }
-//                        .onTapGesture {
-//                            self.selectedImage = webcams.firstIndex(of: webcam) ?? 0
-//                        }
-//                }
             }
         }
     }
