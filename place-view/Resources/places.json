@@ -336,6 +336,11 @@
         "name": "Champagy Village",
         "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_champagny_village.jpg",
         "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_village.jpg"
+      },
+      {
+        "name": "Espace nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_champagny-le-haut.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_champagny-le-haut.jpg"
       }
     ]
   },

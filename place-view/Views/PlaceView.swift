@@ -87,12 +87,7 @@ struct ThubnailsView: View {
             ScrollView(.horizontal) {
                 HStack {
                     ForEach(thumbnails) { thumbnail in
-                        Image(uiImage: thumbnail.image)
-//                            .resizable()
-//                            
-//                            .frame(width: 100, height: 100, alignment: .center)
-//                            .aspectRatio(contentMode: .fill)
-//                            .clipped()
+                        Image(uiImage: thumbnail.image).cornerRadius(10)
                             .onTapGesture {
                                 selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
                                 print(selectedThumbnail)
