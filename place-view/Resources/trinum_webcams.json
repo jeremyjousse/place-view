@@ -1161,16 +1161,6 @@
     ]
   },
   {
-    "name": "serrechevalier",
-    "webcams": [
-      {
-        "name": "Col du Prorel",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_serre-chevalier_col-du-prorel.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_serre-chevalier_col-du-prorel.jpg"
-      }
-    ]
-  },
-  {
     "name": "hotel-acacias",
     "webcams": [
       {
@@ -1272,26 +1262,6 @@
         "name": "Parrot",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_anzat-le-luguet_parrot.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_anzat-le-luguet_parrot.jpg"
-      }
-    ]
-  },
-  {
-    "name": "webcam-station-champagny",
-    "webcams": [
-      {
-        "name": "Tour de Glace - Alt.1470m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_cascade-de-glace.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_cascade-de-glace.jpg"
-      },
-      {
-        "name": "Le Village - Alt 1280m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_village.jpg"
-      },
-      {
-        "name": "Le Haut-Site nordique-Alt",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_champagny-le-haut.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_champagny-le-haut.jpg"
       }
     ]
   },
@@ -1417,26 +1387,6 @@
         "name": "Haut",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superbesse_superbesse-haut.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superbesse_superbesse-haut.jpg"
-      }
-    ]
-  },
-  {
-    "name": "webcam-aussois",
-    "webcams": [
-      {
-        "name": "Grand Jeu",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
-      },
-      {
-        "name": "Village",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_village.jpg"
-      },
-      {
-        "name": "Sommet de l'Armoise",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
       }
     ]
   },
@@ -1702,31 +1652,6 @@
         "name": "Mont Blanc",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-blanc.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-blanc.jpg"
-      }
-    ]
-  },
-  {
-    "name": "orex_metabief",
-    "webcams": [
-      {
-        "name": "Morond",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_monrond.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_monrond.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_front-de-neige.jpg"
-      },
-      {
-        "name": "Super Longevilles",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_super-longeville.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_super-longeville.jpg"
-      },
-      {
-        "name": "Piquemiette",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_piquemiette.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_piquemiette.jpg"
       }
     ]
   },
@@ -2816,7 +2741,6 @@
       }
     ]
   },
-  { "name": "alpe-du-grand-serre", "webcams": [] },
   {
     "name": "st-hilaire-de-riez",
     "webcams": [
