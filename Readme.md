@@ -13,7 +13,7 @@ Possible to get images from the [download link](https://tignes.roundshot.com/dow
 ## Webcam to add
 
 Extract the list from [France Montagne](https://www.france-montagnes.com/guide-des-stations/stations-de-ski-france)
-    
+
 - [ ] [AILLONS- MARGERIAZ](http://www.lesaillons.com) - Savoie
 - [ ] [ALBIEZ MONTROND](https://www.montagnicimes.com/albiez/) - Savoie
 - [ ] [ALPE D'HUEZ](http://www.alpedhuez.com) - Isère
@@ -34,13 +34,13 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 - [ ] [LA GIETTAZ]() - Savoie
 - [ ] [LA NORMA](http://www.la-norma.com/) - Savoie
 - [ ] [LA PLAGNE](http://www.la-plagne.com) - Savoie
-- [ ] [LA PLAGNE MONTALBERT]() - 
+- [ ] [LA PLAGNE MONTALBERT]() -
 - [ ] [LA ROSIERE](https://www.larosiere.net/) - Savoie
 - [ ] [LA TOUSSUIRE](http://www.la-toussuire.com) - Savoie
 - [ ] [LANS EN VERCORS](https://www.lansenvercors.com) - Isère
 - [ ] [LE COL DE MARCIEU - CHARTREUSE]() - Isère
 - [ ] [LE COLLET D'ALLEVARD](http://www.lecollet.com/) - Isère
-- [ ] [LE COLLET - BELLEDONNE]() - 
+- [ ] [LE COLLET - BELLEDONNE]() -
 - [ ] [LE CORBIER](http://www.le-corbier.com/) - Savoie
 - [ ] [LE GRAND-BORNAND](http://www.legrandbornand.com) - Haute Savoie
 - [ ] [LES 2 ALPES](http://www.les2alpes.com) - Isère
@@ -79,10 +79,10 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 - [ ] [VAUJANY](http://www.vaujany.com/) - Isère
 - [ ] [VILLARD DE LANS / CORRENCON](http://www.villarddelans-correnconenvercors.com) - Isère
 - [ ] [ABONDANCE]() - Haute Savoie
-- [ ] [ARGENTIÈRE]() - 
+- [ ] [ARGENTIÈRE]() -
 - [ ] [AURIS EN OISANS]() - Isère
 - [ ] [AUTRANS-MEAUDRE en VERCORS]() - Isère
-- [ ] [Bellevaux Hirmentaz]() - 
+- [ ] [Bellevaux Hirmentaz]() -
 - [ ] [BESSANS]() - Savoie
 - [ ] [BRAMANS]() - Savoie
 - [ ] [BRISON SOLAISON]() - Haute Savoie
@@ -91,7 +91,7 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 - [ ] [COL D'ORNON]() - Isère
 - [ ] [COL DE PORTE]() - Isère
 - [ ] [CORDON]() - Haute Savoie
-- [ ] [ESPACE ROC D'ENFER]() - 
+- [ ] [ESPACE ROC D'ENFER]() -
 - [ ] [FLAINE]() - Haute Savoie
 - [ ] [GRESSE EN VERCORS]() - Isère
 - [ ] [HABÈRE POCHE]() - Haute Savoie
@@ -108,10 +108,10 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 - [ ] [LE SALÈVE]() - Haute Savoie
 - [ ] [LE SEMNOZ]() - Haute Savoie
 - [ ] [LES CARROZ]() - Haute Savoie
-- [ ] [LES COULMES/ COL DE ROMEYERE]() - 
-- [ ] [LES ENTREMONTS EN CHARTREUSE]() - 
+- [ ] [LES COULMES/ COL DE ROMEYERE]() -
+- [ ] [LES ENTREMONTS EN CHARTREUSE]() -
 - [ ] [LES GLIÈRES]() - Haute Savoie
-- [ ] [Les Rafforts]() - 
+- [ ] [Les Rafforts]() -
 - [ ] [LULLIN]() - Haute Savoie
 - [ ] [MANIGOD]() - Haute Savoie
 - [ ] [MEGEVE]() - Haute Savoie
@@ -125,16 +125,16 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 - [ ] [ORELLE]() - Savoie
 - [ ] [OZ EN OISANS]() - Isère
 - [ ] [PASSY PLAINE JOUX]() - Haute Savoie
-- [ ] [PLANOLET]() - 
-- [ ] [SAINT HUGUES - LES EGAUX]() - 
+- [ ] [PLANOLET]() -
+- [ ] [SAINT HUGUES - LES EGAUX]() -
 - [ ] [SAINT PIERRE DE CHARTREUSE/LE PLANOLET]() - Isère
 - [ ] [SAINT-BERNARD / COL DE MARCIEU]() - Isère
 - [ ] [SAINT-HILAIRE DU TOUVET]() - Isère
 - [ ] [SAINT-JEAN DE SIX]() - Haute Savoie
-- [ ] [SAINT-NICOLAS DE VÉROCE]() - 
+- [ ] [SAINT-NICOLAS DE VÉROCE]() -
 - [ ] [SAINT-PANCRACE LES BOTTIèRES]() - Savoie
 - [ ] [SAMOËNS]() - Haute Savoie
-- [ ] [SAVOIE GRAND REVARD]() - 
+- [ ] [SAVOIE GRAND REVARD]() -
 - [ ] [SIXT FER à CHEVAL]() - Haute Savoie
 - [ ] [SOLLIÈRES-SARDIÈRES]() - Savoie
 - [ ] [TERMIGNON]() - Savoie
@@ -142,9 +142,8 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 - [ ] [VALFREJUS]() - Savoie
 - [ ] [VALLORCINE]() - Haute Savoie
 - [ ] [VILLARD-RECULAS]() - Isère
-- [ ] [VILLAROGER]() -     
-    
-    
+- [ ] [VILLAROGER]() -
+
 [MONTGENEVRE](https://montgenevre.com/)
 [ORCIERES MERLETTE](https://www.orcieres.com/)
 [PUY ST VINCENT](https://www.paysdesecrins.com/puy-saint-vincent)
@@ -201,8 +200,9 @@ Extract the list from [France Montagne](https://www.france-montagnes.com/guide-d
 [VASSIEUX EN VERCORS]()
 [VILLAR SAINT-PANCRACE]()
 
+- [ ] [BEUIL LES LAUNES](http://www.beuil.fr)
+- [ ] [GREOLIERES LES NEIGES](http://www.stations-greolieres-audibergue.com)
+- [ ] LA COLMIANE
+- [ ] [LE SAUZE](http://www.sauze.com)
 
-[BEUIL LES LAUNES](http://www.beuil.fr)
-[GREOLIERES LES NEIGES](http://www.stations-greolieres-audibergue.com)
-[LA COLMIANE]()
-[LE SAUZE](http://www.sauze.com)
+https://www.google.fr/maps/@44.3699106,6.6050733,11.93z

@@ -308,6 +308,16 @@
     "url": "https://www.haute-maurienne-vanoise.com/hiver/aussois",
     "webcams": [
       {
+        "name": "Grand Jeu",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
+      },
+      {
+        "name": "Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_village.jpg"
+      },
+      {
         "name": "Sommet de l’Armoise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
@@ -426,6 +436,11 @@
         "name": "Champagy Village",
         "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_champagny_village.jpg",
         "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_village.jpg"
+      },
+      {
+        "name": "Tour de Glace - Alt.1470m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_cascade-de-glace.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_cascade-de-glace.jpg"
       },
       {
         "name": "Espace nordique",
@@ -803,9 +818,24 @@
     "url": "https://www.tourisme-metabief.com",
     "webcams": [
       {
-        "name": "Station",
+        "name": "Front de neige",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_front-de-neige.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_front-de-neige.jpg"
+      },
+      {
+        "name": "Super Longevilles",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_super-longeville.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_super-longeville.jpg"
+      },
+      {
+        "name": "Piquemiette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_piquemiette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_piquemiette.jpg"
+      },
+      {
+        "name": "Morond",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_monrond.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_monrond.jpg"
       }
     ]
   },
@@ -1161,6 +1191,11 @@
         "name": "La Blache",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_la-blache.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_la-blache.jpg"
+      },
+      {
+        "name": "Col du Prorel",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_serre-chevalier_col-du-prorel.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_serre-chevalier_col-du-prorel.jpg"
       }
     ]
   },
