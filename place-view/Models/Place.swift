@@ -45,7 +45,6 @@ struct Place: Hashable, Codable, Identifiable {
         case url
         case webcams
         case coordinates
-        case isFavorite
     }
     
     init(from decoder: Decoder) throws {
@@ -58,7 +57,7 @@ struct Place: Hashable, Codable, Identifiable {
         url = try values.decode(String.self, forKey: .url)
         webcams = try values.decode([Webcam].self, forKey: .webcams)
         coordinates = try values.decode(Coordinates.self, forKey: .coordinates)
-        isFavorite = try values.decode(Bool.self, forKey: .isFavorite)
+        isFavorite = false
     }
     
     init(name: String, id: String, country: String, state: String,

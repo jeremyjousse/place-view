@@ -999,7 +999,7 @@
     ]
   },
   {
-    "id": "Meribel",
+    "id": "meribel",
     "coordinates": { "longitude": 6.0482524, "latitude": 46.333019499999999 },
     "country": "France",
     "state": "Savoie",
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "praz-de-lys",
-    "country": "",
+    "country": "France",
     "coordinates": {
       "longitude": 6.592619,
       "latitude": 46.149044
@@ -1689,6 +1689,7 @@
     ]
   },
   {
+    "id": "val-cenis",
     "coordinates": {
       "longitude": 6.8826080999999997,
       "latitude": 45.285563099999997
