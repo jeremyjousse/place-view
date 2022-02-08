@@ -826,51 +826,6 @@
     ]
   },
   {
-    "name": "montgenevre",
-    "webcams": [
-      {
-        "name": "Sommet TMX Serre-Thibaud",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_thibaud.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_thibaud.jpg"
-      },
-      {
-        "name": "Sommet TS Brousset",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_brousset.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_brousset.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_front-de-neige.jpg"
-      },
-      {
-        "name": "Rocher de l'Aigle",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_aigle.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_aigle.jpg"
-      },
-      {
-        "name": "Sommet TS Chalvet",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_sommet-chalvet.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_sommet-chalvet.jpg"
-      },
-      {
-        "name": "Sommet TSD Gondrans",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mtgenevre_sommet-des-gondrans.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mtgenevre_sommet-des-gondrans.jpg"
-      },
-      {
-        "name": "Sommet TS Crête",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_sommet-ts-crete.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_sommet-ts-crete.jpg"
-      },
-      {
-        "name": "Col de Montgenèvre",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_eglise.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_eglise.jpg"
-      }
-    ]
-  },
-  {
     "name": "valfrejus",
     "webcams": [
       {
@@ -1057,26 +1012,6 @@
         "name": "Col du Rousset",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_col-du-rousset.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_col-du-rousset.jpg"
-      }
-    ]
-  },
-  {
-    "name": "risoul",
-    "webcams": [
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_front.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_front.jpg"
-      },
-      {
-        "name": "Homme de Pierre",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_homme-de-pierre.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_homme-de-pierre.jpg"
-      },
-      {
-        "name": "Pré du Bois",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_pre-du-bois.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_pre-du-bois.jpg"
       }
     ]
   },
@@ -1306,26 +1241,6 @@
     ]
   },
   {
-    "name": "st-jean-montclar",
-    "webcams": [
-      {
-        "name": "Espace Débutant",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_espace-debutant.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_espace-debutant.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_front-de-neige.jpg"
-      },
-      {
-        "name": "Versant Ubaye",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_la-breche.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_la-breche.jpg"
-      }
-    ]
-  },
-  {
     "name": "val-d-arly-ot",
     "webcams": [
       {
@@ -1372,31 +1287,6 @@
         "name": "Col de Marcieu",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_coldemarcieu.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_coldemarcieu.jpg"
-      }
-    ]
-  },
-  {
-    "name": "orcieres-1850",
-    "webcams": [
-      {
-        "name": "Sommet Estaris",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_sommet-estaris.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_sommet-estaris.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_Orcieres_Front.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_Orcieres_Front.jpg"
-      },
-      {
-        "name": "Le drouvet",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres-croze.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres-croze.jpg"
-      },
-      {
-        "name": "Rocherousse",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_rocherousse.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_rocherousse.jpg"
       }
     ]
   },
@@ -1627,41 +1517,6 @@
         "name": "Sommet Mont Pelat",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-mont-pelat.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-mont-pelat.jpg"
-      }
-    ]
-  },
-  {
-    "name": "isola",
-    "webcams": [
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_front-de-neige.jpg"
-      },
-      {
-        "name": "Chastillon",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_station.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_station.jpg"
-      },
-      {
-        "name": "Sistron",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_sistron.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_sistron.jpg"
-      },
-      {
-        "name": "Centre Station",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_centre-station.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_centre-station.jpg"
-      },
-      {
-        "name": "Pélevos",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_snowpark.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_snowpark.jpg"
-      },
-      {
-        "name": "Tête Cabane",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_tete-cabane.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_tete-cabane.jpg"
       }
     ]
   },

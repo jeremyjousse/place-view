@@ -750,17 +750,6 @@
   },
   {
     "coordinates": {
-      "longitude": 6.9313710999999998,
-      "latitude": 44.226744099999998
-    },
-    "country": "France",
-    "state": "Alpes Maritimes",
-    "name": "Auron",
-    "url": "http://www.auron.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 6.95368639263208,
       "latitude": 44.087913329821433
     },
@@ -793,17 +782,6 @@
     "webcams": []
   },
   {
-    "coordinates": {
-      "longitude": 7.1580943000000001,
-      "latitude": 44.185551099999998
-    },
-    "country": "France",
-    "state": "Alpes Maritimes",
-    "name": "Isola",
-    "url": "http://www.isola2000.com",
-    "webcams": []
-  },
-  {
     "coordinates": { "longitude": 7.2225105000000003, "latitude": 44.0710409 },
     "country": "France",
     "state": "Alpes Maritimes",
@@ -828,47 +806,6 @@
     "webcams": []
   },
   {
-    "coordinates": {
-      "longitude": 6.5492919000000001,
-      "latitude": 44.513946300000001
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Les Orres",
-    "url": "https://www.lesorres.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.3375950000000003,
-      "latitude": 44.397376100000002
-    },
-    "country": "France",
-    "state": "Alpes de Haute Provence",
-    "name": "Montclar",
-    "url": "http://www.montclar.com",
-    "webcams": []
-  },
-  {
-    "coordinates": { "longitude": 6.7234591999999997, "latitude": 44.9310008 },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Montgenèvre",
-    "url": "https://montgenevre.com/",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.3233452999999997,
-      "latitude": 44.696382900000003
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Orcières",
-    "url": "https://www.orcieres.com/",
-    "webcams": []
-  },
-  {
     "coordinates": { "longitude": 2.3874971, "latitude": 49.467503800000003 },
     "country": "France",
     "state": "Hautes Alpes",
@@ -885,7 +822,23 @@
     "state": "Hautes Alpes",
     "name": "Risoul",
     "url": "http://www.risoul.com/",
-    "webcams": []
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_front.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_front.jpg"
+      },
+      {
+        "name": "Homme de Pierre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_homme-de-pierre.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_homme-de-pierre.jpg"
+      },
+      {
+        "name": "Pré du Bois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_pre-du-bois.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_pre-du-bois.jpg"
+      }
+    ]
   },
   {
     "coordinates": { "longitude": 6.2003298999999998, "latitude": 44.6445528 },

@@ -1098,11 +1098,37 @@
     "isFeatured": false,
     "state": "Alpes-Maritimes",
     "url": "https://www.isola2000.com/",
+    "trail_map": "https://www.isola2000.com/wp-content/uploads/2021/10/isola-2000-v8-2021-2022-bd.pdf",
     "webcams": [
       {
         "name": "Snowpark",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_snowpark.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_snowpark.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_front-de-neige.jpg"
+      },
+      {
+        "name": "Chastillon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_station.jpg"
+      },
+      {
+        "name": "Sistron",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_sistron.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_sistron.jpg"
+      },
+      {
+        "name": "Centre Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_centre-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_centre-station.jpg"
+      },
+      {
+        "name": "Tête Cabane",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_tete-cabane.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_tete-cabane.jpg"
       }
     ]
   },
@@ -1371,6 +1397,11 @@
     "url": "https://www.montclar.com/",
     "webcams": [
       {
+        "name": "Espace Débutant",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_espace-debutant.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_espace-debutant.jpg"
+      },
+      {
         "name": "La breche",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_la-breche.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_la-breche.jpg"
@@ -1481,6 +1512,40 @@
         "name": "La Tyrolienne",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val_thorens_tyrolienne.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val_thorens_tyrolienne.jpg"
+      }
+    ]
+  },
+  {
+    "id": "orcieres",
+    "coordinates": {
+      "longitude": 6.3233452999999997,
+      "latitude": 44.696382900000003
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Orcières",
+    "url": "https://www.orcieres.com/",
+    "trail_map": "https://www.orcieres.com/fileadmin/user_upload/Brochures/Hiver_2022/Plan-des-pistes-Orcieres-Hiver2022.pdf",
+    "webcams": [
+      {
+        "name": "Sommet Estaris",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_sommet-estaris.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_sommet-estaris.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_Orcieres_Front.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_Orcieres_Front.jpg"
+      },
+      {
+        "name": "Le drouvet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres-croze.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres-croze.jpg"
+      },
+      {
+        "name": "Rocherousse",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_rocherousse.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_rocherousse.jpg"
       }
     ]
   },
