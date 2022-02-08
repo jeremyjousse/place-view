@@ -25,7 +25,6 @@ final class PlaceViewModel: ObservableObject {
     func loadParallel() async {
         return await withTaskGroup(of: (String, UIImage).self) { group in
             for webcam in webcams {
-                print(webcam.thumbnailImage)
                 if let url = URL(string: webcam.thumbnailImage) {
                     group.addTask { await (url.absoluteString, self.loadImage(url: url)) }
                 }

@@ -1,15 +1,5 @@
 [
   {
-    "name": "rosiere-planica",
-    "webcams": [
-      {
-        "name": "Résidence Le Planica",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rosiere-planica_hotel.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rosiere-planica_hotel.jpg"
-      }
-    ]
-  },
-  {
     "name": "gerardmer",
     "webcams": [
       {
@@ -47,16 +37,7 @@
   {
     "name": "st_francois_longchamp",
     "webcams": [
-      {
-        "name": "TSF du Mollaret",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_francois_mollaret.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_francois_mollaret.jpg"
-      },
-      {
-        "name": "Centre station 1650m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_francois_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_francois_village.jpg"
-      }
+
     ]
   },
   {
@@ -176,21 +157,6 @@
         "name": "Chapelle des bois",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-de-mouthe_chapelle-des-bois.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-de-mouthe_chapelle-des-bois.jpg"
-      }
-    ]
-  },
-  {
-    "name": "morzine",
-    "webcams": [
-      {
-        "name": "Sommet de la Télécabine d",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_motiv-oxygene_sommet-ts-tete.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_motiv-oxygene_sommet-ts-tete.jpg"
-      },
-      {
-        "name": "Morzine Chamossière",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_motiv-oxygene_morzine-avoriaz.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_motiv-oxygene_morzine-avoriaz.jpg"
       }
     ]
   },
@@ -395,21 +361,6 @@
     ]
   },
   {
-    "name": "pralognan",
-    "webcams": [
-      {
-        "name": "Front de Neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pralognan_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pralognan_village.jpg"
-      },
-      {
-        "name": "Mont Bochor",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pralognan_newbochor.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pralognan_newbochor.jpg"
-      }
-    ]
-  },
-  {
     "name": "courchevel_club_sports",
     "webcams": [
       {
@@ -521,36 +472,6 @@
         "name": "Chabanon",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chabanon_chabanon.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chabanon_chabanon.jpg"
-      }
-    ]
-  },
-  {
-    "name": "bourg-st-maurice",
-    "webcams": [
-      {
-        "name": "Quartier des Alpins",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bourg-st-maurice_quartier-des-alpins.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bourg-st-maurice_quartier-des-alpins.jpg"
-      }
-    ]
-  },
-  {
-    "name": "les-menuires",
-    "webcams": [
-      {
-        "name": "Départ Télécabine Pointe ",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_menuires_depart-tc-pointe-de-la-masse.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_menuires_depart-tc-pointe-de-la-masse.jpg"
-      },
-      {
-        "name": "Sommet Télécabine Point d",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_menuires_sommet-tc-pointe-de-la-masse.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_menuires_sommet-tc-pointe-de-la-masse.jpg"
-      },
-      {
-        "name": "Clocher",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_menuires_clocher.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_menuires_clocher.jpg"
       }
     ]
   },
@@ -1004,16 +925,6 @@
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_la-chapelle-d-abondance-tsd-cret-beni.jpg"
       },
       {
-        "name": "Bernex - TSD Pré-Richard",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-peva_bernex-tsd-pre-richard.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_bernex-tsd-pre-richard.jpg"
-      },
-      {
-        "name": "Bernex - Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bernex_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bernex_front-de-neige.jpg"
-      },
-      {
         "name": "Thollon les Mémises - Parchet",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
@@ -1081,36 +992,6 @@
     ]
   },
   {
-    "name": "la-rosiere",
-    "webcams": [
-      {
-        "name": "plan de l'arc",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_plan-de-l-arc.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_plan-de-l-arc.jpg"
-      },
-      {
-        "name": "Mont Valaisan 2800 m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_mont-valaisan.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_mont-valaisan.jpg"
-      },
-      {
-        "name": "Le Fort - 2400 m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rosiere_traversette.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rosiere_traversette.jpg"
-      },
-      {
-        "name": "Front de neige - 1850 m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_maison-du-ski.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_maison-du-ski.jpg"
-      },
-      {
-        "name": "Plan du Repos - 2330 m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_plan-du-repos.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_plan-du-repos.jpg"
-      }
-    ]
-  },
-  {
     "name": "hauteville-lompnes",
     "webcams": [
       {
@@ -1146,21 +1027,6 @@
     ]
   },
   {
-    "name": "ot-peva",
-    "webcams": [
-      {
-        "name": "Bernex - TSD Pré-Richard",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-peva_bernex-tsd-pre-richard.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_bernex-tsd-pre-richard.jpg"
-      },
-      {
-        "name": "Bernex - Front de neige -",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bernex_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bernex_front-de-neige.jpg"
-      }
-    ]
-  },
-  {
     "name": "hotel-acacias",
     "webcams": [
       {
@@ -1187,21 +1053,6 @@
         "name": "Front de neige",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pyrenees-2000_front.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pyrenees-2000_front.jpg"
-      }
-    ]
-  },
-  {
-    "name": "2alpes-ot",
-    "webcams": [
-      {
-        "name": "Le Diable",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_2alpes-ot_le-diable.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_2alpes-ot_le-diable.jpg"
-      },
-      {
-        "name": "La Station",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_2alpes-ot_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_2alpes-ot_village.jpg"
       }
     ]
   },
@@ -1451,16 +1302,6 @@
     ]
   },
   {
-    "name": "rosiere-montana",
-    "webcams": [
-      {
-        "name": "Chalet le Montana",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rosiere-montana_chalets-les-clarines-le-montana.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rosiere-montana_chalets-les-clarines-le-montana.jpg"
-      }
-    ]
-  },
-  {
     "name": "chambon-sur-lac",
     "webcams": [
       {
@@ -1507,41 +1348,6 @@
         "name": "Entreprise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rdmo_entreprise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rdmo_entreprise.jpg"
-      }
-    ]
-  },
-  {
-    "name": "val-d-arly",
-    "webcams": [
-      {
-        "name": "Praz/Arly - Ban Rouge",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_ban-rouge.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_ban-rouge.jpg"
-      },
-      {
-        "name": "Praz/Arly - Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_depart-des-pistes.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_depart-des-pistes.jpg"
-      },
-      {
-        "name": "NDB - Plan des Fours",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_plan-des-fours.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_plan-des-fours.jpg"
-      },
-      {
-        "name": "Praz/Arly - Crêt du Midi",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_cret-du-midi.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_cret-du-midi.jpg"
-      },
-      {
-        "name": "Flumet - Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_front-de-neige.jpg"
-      },
-      {
-        "name": "NDB1350 - Front de neige ",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_val-d-arly-panoramique1.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_val-d-arly-panoramique1.jpg"
       }
     ]
   },
@@ -1602,56 +1408,6 @@
         "name": "Chastreix Sancy",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chastreix-sancy_station.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chastreix-sancy_station.jpg"
-      }
-    ]
-  },
-  {
-    "name": "st-gervais",
-    "webcams": [
-      {
-        "name": "Mont d'Arbois Eté",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-d-arbois-fixe.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-d-arbois-fixe.jpg"
-      },
-      {
-        "name": "Epaule",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_epaule.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_epaule.jpg"
-      },
-      {
-        "name": "Plateau de la croix",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_plateau-de-la-croix.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_plateau-de-la-croix.jpg"
-      },
-      {
-        "name": "Mont d'Arbois",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-d-arbois.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-d-arbois.jpg"
-      },
-      {
-        "name": "Saint-Gervais Mont-Blanc ",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_bettex.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_bettex.jpg"
-      },
-      {
-        "name": "Mont Joux Fixe",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-joux-fixe.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-joux-fixe.jpg"
-      },
-      {
-        "name": "Freddy",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_gervais_freddy.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_gervais_freddy.jpg"
-      },
-      {
-        "name": "Promenade",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_maison-de-st-gervais.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_maison-de-st-gervais.jpg"
-      },
-      {
-        "name": "Mont Blanc",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-blanc.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-blanc.jpg"
       }
     ]
   },
@@ -1727,16 +1483,6 @@
         "name": "Arclusaz Montlambert",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_coeur-de-savoie_evenementiel-1.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_coeur-de-savoie_evenementiel-1.jpg"
-      }
-    ]
-  },
-  {
-    "name": "meribel-belleville_informatique",
-    "webcams": [
-      {
-        "name": "Hôtel l'Eterlou",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_belleville-informatique_hotel-eterlou-meribel.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_belleville-informatique_hotel-eterlou-meribel.jpg"
       }
     ]
   },
@@ -2096,16 +1842,6 @@
     ]
   },
   {
-    "name": "lescontamines",
-    "webcams": [
-      {
-        "name": "Centre du village",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-contamines_centre-village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-contamines_centre-village.jpg"
-      }
-    ]
-  },
-  {
     "name": "saint-luc",
     "webcams": [
       {
@@ -2147,16 +1883,6 @@
         "name": "Le Planolet",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-pierre-de-chartreuse_le-planolet.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-pierre-de-chartreuse_le-planolet.jpg"
-      }
-    ]
-  },
-  {
-    "name": "brides-les-bains",
-    "webcams": [
-      {
-        "name": "Centre Village",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_brides-les-bains_centre-village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_brides-les-bains_centre-village.jpg"
       }
     ]
   },
@@ -2331,66 +2057,6 @@
     ]
   },
   {
-    "name": "ste-foy-tarentaise",
-    "webcams": [
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_front-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_front-neige.jpg"
-      },
-      {
-        "name": "Plan Bois",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_plan-bois.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_plan-bois.jpg"
-      },
-      {
-        "name": "TSD de la Marquise",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_ts-de-la-marquise.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_ts-de-la-marquise.jpg"
-      },
-      {
-        "name": "Sommet Aiguille",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_sommet-aiguille.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_sommet-aiguille.jpg"
-      }
-    ]
-  },
-  {
-    "name": "meribel",
-    "webcams": [
-      {
-        "name": "Roc de Fer",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_olympic.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_olympic.jpg"
-      },
-      {
-        "name": "Tougnète",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_tougnete.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_tougnete.jpg"
-      },
-      {
-        "name": "Chaudanne",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_meribel-chaudanne-1440.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_meribel-chaudanne-1440.jpg"
-      },
-      {
-        "name": "Bouquetin",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_bouquetin.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_bouquetin.jpg"
-      },
-      {
-        "name": "Mottaret Centre",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_front-de-neige.jpg"
-      },
-      {
-        "name": "Versant Saulire",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_saulire-express.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_saulire-express.jpg"
-      }
-    ]
-  },
-  {
     "name": "praboure",
     "webcams": [
       {
@@ -2466,67 +2132,12 @@
     ]
   },
   {
-    "name": "valcenis",
-    "webcams": [
-      {
-        "name": "Sommet du Solert",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_sommet-solert.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_sommet-solert.jpg"
-      },
-      {
-        "name": "Replat des Canons",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_replat-des-canons.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_replat-des-canons.jpg"
-      },
-      {
-        "name": "La Met",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_la-met.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_la-met.jpg"
-      },
-      {
-        "name": "Téléski de Pont Noir",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_tk-pont-noir.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_tk-pont-noir.jpg"
-      }
-    ]
-  },
-  {
     "name": "laiguillonsurmer",
     "webcams": [
       {
         "name": "Plan d'eau",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_l-aiguillon-sur-mer_plan-d-eau.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_l-aiguillon-sur-mer_plan-d-eau.jpg"
-      }
-    ]
-  },
-  {
-    "name": "le-corbier",
-    "webcams": [
-      {
-        "name": "Pointe du Corbier",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le_corbier_pointe-du-corbier.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le_corbier_pointe-du-corbier.jpg"
-      },
-      {
-        "name": "Office du tourisme",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le_corbier_office-du-tourisme.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le_corbier_office-du-tourisme.jpg"
-      }
-    ]
-  },
-  {
-    "name": "les-karellis",
-    "webcams": [
-      {
-        "name": "Webcam station 1600m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_karellis_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_karellis_front-de-neige.jpg"
-      },
-      {
-        "name": "Webcam 2130m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_karellis_vinouve.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_karellis_vinouve.jpg"
       }
     ]
   },
@@ -2831,22 +2442,6 @@
       }
     ]
   },
-  { "name": "edenarc1800", "webcams": [] },
-  {
-    "name": "thollon-les-memises",
-    "webcams": [
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_front-de-neige.jpg"
-      },
-      {
-        "name": "Thollon les Mémises - Som",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
-      }
-    ]
-  },
   {
     "name": "hotel-hohneck",
     "webcams": [
@@ -2854,26 +2449,6 @@
         "name": "Vue de l'Hôtel",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-hohneck_hohneck.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-hohneck_hohneck.jpg"
-      }
-    ]
-  },
-  {
-    "name": "webcam-station-champagny",
-    "webcams": [
-      {
-        "name": "Le Village - Alt 1280m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_village.jpg"
-      },
-      {
-        "name": "Tour de Glace - Alt.1470m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_cascade-de-glace.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_cascade-de-glace.jpg"
-      },
-      {
-        "name": "Le Haut-Site nordique-Alt",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_champagny-le-haut.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_champagny-le-haut.jpg"
       }
     ]
   },
@@ -2968,16 +2543,6 @@
     ]
   },
   {
-    "name": "courchevel",
-    "webcams": [
-      {
-        "name": "Grangettes - Croisette",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_ariondaz.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_ariondaz.jpg"
-      }
-    ]
-  },
-  {
     "name": "crevoux",
     "webcams": [
       {
@@ -3028,86 +2593,6 @@
     ]
   },
   {
-    "name": "2alpes",
-    "webcams": [
-      {
-        "name": "La Fée",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_2alpes_lafee.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_2alpes_lafee.jpg"
-      },
-      {
-        "name": "Lutin",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_2alpes_lutin.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_2alpes_lutin.jpg"
-      },
-      {
-        "name": "Vallée Blanche",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_2alpes_valleeblanche.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_2alpes_valleeblanche.jpg"
-      },
-      {
-        "name": "Bellecombe",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_2alpes_bellecombe.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_2alpes_bellecombe.jpg"
-      }
-    ]
-  },
-  {
-    "name": "praz_lys_sommand",
-    "webcams": [
-      {
-        "name": "Molliettes",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_molliettes.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_molliettes.jpg"
-      },
-      {
-        "name": "Roy",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_farquet.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_farquet.jpg"
-      },
-      {
-        "name": "Véran",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_veran.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_veran.jpg"
-      },
-      {
-        "name": "Chevaly",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_chevally.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_chevally.jpg"
-      },
-      {
-        "name": "Haut Fleury",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_haut-fleury.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_haut-fleury.jpg"
-      },
-      {
-        "name": "Sommand",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_parking.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_parking.jpg"
-      }
-    ]
-  },
-  {
-    "name": "grand-bornand",
-    "webcams": [
-      {
-        "name": "Village - 1000 m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gb_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gb_village.jpg"
-      },
-      {
-        "name": "Snowpark du Maroly - 1650",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gdbornand_maroly.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gdbornand_maroly.jpg"
-      },
-      {
-        "name": "Lormay-Vallee du Bouchet ",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_nordique.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_nordique.jpg"
-      }
-    ]
-  },
-  {
     "name": "cottage-bise",
     "webcams": [
       {
@@ -3151,69 +2636,9 @@
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_les-saisies-espace-erwineckl.jpg"
       },
       {
-        "name": "Areches Beaufort Cuvy",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_beaufortain_areches-beaufort-cuvy.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_areches-beaufort-cuvy.jpg"
-      },
-      {
         "name": "Les Saisies Bisanne",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_beaufortain_les-saisies-bisanne.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_les-saisies-bisanne.jpg"
-      },
-      {
-        "name": "Areches Beaufort Arolles",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_beaufortain_areches-beaufort-arolles.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_areches-beaufort-arolles.jpg"
-      }
-    ]
-  },
-  {
-    "name": "areches-beaufort",
-    "webcams": [
-      {
-        "name": "Cuvy",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_areches-beaufort_cuvy.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_cuvy.jpg"
-      },
-      {
-        "name": "Arolles",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_areches-beaufort_arolles.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_arolles.jpg"
-      },
-      {
-        "name": "Planay",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_areches-beaufort_planay.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_planay.jpg"
-      },
-      {
-        "name": "Forclaz",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_areches-beaufort_forclaz.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_forclaz.jpg"
-      },
-      {
-        "name": "Pano1",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_areches-beaufort_pano1.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_pano1.jpg"
-      }
-    ]
-  },
-  {
-    "name": "courchevel_club_sports",
-    "webcams": [
-      {
-        "name": "Club des Sports",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_courchevel_club.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_courchevel_club.jpg"
-      },
-      {
-        "name": "Live 3",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_courchevel_club3.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_courchevel_club3.jpg"
-      },
-      {
-        "name": "courchevel-club2",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_courchevel_club2.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_courchevel_club2.jpg"
       }
     ]
   }

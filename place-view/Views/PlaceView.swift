@@ -29,6 +29,7 @@ struct PlaceView: View {
             VStack {
                 WebcamView(imageUrl: place.webcams[selectedImage].largeImage)
                     .frame(width: 350)
+                Text(place.webcams[selectedImage].name)
                 if (place.webcams.count > 1) {
                     ThubnailsView(thumbnails: self.viewModel.thumbnails, selectedThumbnail: $selectedImage)
                         .frame(width: 350)
@@ -66,15 +67,6 @@ struct PlaceView: View {
     }
 }
 
-//struct PlaceView_Previews: PreviewProvider {
-//    static let modelData = ModelData()
-//
-//    static var previews: some View {
-//        PlaceView(place: modelData.places[0])
-//            .environmentObject(modelData)
-//    }
-//}
-
 struct ThubnailsView: View {
     
     var thumbnails: [ThumbnailImg]
@@ -90,7 +82,6 @@ struct ThubnailsView: View {
                         Image(uiImage: thumbnail.image).cornerRadius(10)
                             .onTapGesture {
                                 selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
-                                print(selectedThumbnail)
                             }
                     }
                 }
