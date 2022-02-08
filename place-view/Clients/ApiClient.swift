@@ -19,16 +19,23 @@ struct ApiClient {
         let task = URLSession.shared.dataTask(with: url) {(data , response, error) in
             
             if let error = error as? URLError {
+                print("-------------------------------------- ApiError")
+                print(error)
                 completion(Result.failure(ApiError.url(error)))
             }else if  let response = response as? HTTPURLResponse, !(200...299).contains(response.statusCode) {
+                print("-------------------------------------- statusCode")
+                print(response.statusCode)
                 completion(Result.failure(ApiError.badResponse(statusCode: response.statusCode)))
             }else if let data = data {
                 let decoder = JSONDecoder()
                 do {
                     let result = try decoder.decode(type, from: data)
+                    print("-------------------------------------- Completed load")
                     completion(Result.success(result))
                     
                 }catch {
+                    print("-------------------------------------- error")
+                    print(error)
                     completion(Result.failure(ApiError.parsing(error as? DecodingError)))
                 }
 

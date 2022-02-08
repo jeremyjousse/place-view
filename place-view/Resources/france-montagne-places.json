@@ -263,17 +263,6 @@
   },
   {
     "coordinates": {
-      "longitude": 6.5835663000000002,
-      "latitude": 45.297924100000003
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Val-Thorens",
-    "url": "http://www.valthorens.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 6.4299764000000001,
       "latitude": 45.165068499999997
     },
@@ -295,43 +284,6 @@
     "webcams": []
   },
   {
-    "coordinates": { "longitude": 6.4424427, "latitude": 45.461705700000003 },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Valmorel",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.0767341000000004,
-      "latitude": 45.157751500000003
-    },
-    "country": "France",
-    "state": "Isère",
-    "name": "Vaujany",
-    "url": "http://www.vaujany.com/",
-    "webcams": []
-  },
-  {
-    "country": "",
-    "state": "Isère",
-    "name": "VILLARD DE LANS / CORRENCON",
-    "url": "http://www.villarddelans-correnconenvercors.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.7199134000000003,
-      "latitude": 46.280637800000001
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Abondance",
-    "url": "",
-    "webcams": []
-  },
-  {
     "coordinates": {
       "longitude": 6.9268422999999997,
       "latitude": 45.984138000000002
@@ -350,13 +302,6 @@
     "webcams": []
   },
   {
-    "country": "",
-    "state": "Isère",
-    "name": "AUTRANS-MEAUDRE en VERCORS",
-    "url": "",
-    "webcams": []
-  },
-  {
     "coordinates": {
       "longitude": 6.5103883520834209,
       "latitude": 46.252805656150933
@@ -364,17 +309,6 @@
     "country": "France",
     "state": "",
     "name": "Bellevaux",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.9937861999999997,
-      "latitude": 45.320233899999998
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Bessans",
     "url": "",
     "webcams": []
   },
@@ -408,17 +342,7 @@
     "url": "",
     "webcams": []
   },
-  {
-    "coordinates": {
-      "longitude": 6.8409693999999996,
-      "latitude": 46.267235100000001
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Châtel",
-    "url": "",
-    "webcams": []
-  },
+  
   {
     "coordinates": { "longitude": 19.286406100000001, "latitude": 51.6191703 },
     "country": "Pologne",
@@ -462,17 +386,6 @@
   },
   {
     "coordinates": {
-      "longitude": 6.6895325000000003,
-      "latitude": 46.006535900000003
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Flaine",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 5.5673927000000001,
       "latitude": 44.902195900000002
     },
@@ -490,28 +403,6 @@
     "country": "France",
     "state": "Haute Savoie",
     "name": "Habère-Poche",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.6370558736538081,
-      "latitude": 45.777324415028616
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Hauteluce",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.7879759999999996,
-      "latitude": 46.295496999999997
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "La Chapelle-d'Abondance",
     "url": "",
     "webcams": []
   },
@@ -538,28 +429,10 @@
     "webcams": []
   },
   {
-    "country": "",
-    "state": "Haute Savoie",
-    "name": "LA SAMBUY PAYS DE FAVERGES",
-    "url": "",
-    "webcams": []
-  },
-  {
     "coordinates": { "longitude": 1.6513042, "latitude": 47.843977299999999 },
     "country": "France",
     "state": "Isère",
     "name": "Le Bardon",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 55.395533899999997,
-      "latitude": -20.979082399999999
-    },
-    "country": "La Réunion",
-    "state": "Savoie",
-    "name": "",
     "url": "",
     "webcams": []
   },
@@ -571,24 +444,6 @@
     "country": "France",
     "state": "Savoie",
     "name": "Les Granges de Fert",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "country": "",
-    "state": "Haute Savoie",
-    "name": "LE MASSIF DES BRASSES",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.5349608000000003,
-      "latitude": 46.011249100000001
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Le Reposoir",
     "url": "",
     "webcams": []
   },
@@ -608,17 +463,6 @@
     "country": "France",
     "state": "Haute Savoie",
     "name": "Les Pénoz",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.5627494000000004,
-      "latitude": 45.690249399999999
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Les Carroz",
     "url": "",
     "webcams": []
   },
@@ -668,28 +512,6 @@
   },
   {
     "coordinates": {
-      "longitude": 6.3692595000000001,
-      "latitude": 45.861294999999998
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Manigod",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.6177656000000002,
-      "latitude": 45.856792599999999
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Megève",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 6.4840821000000002,
       "latitude": 46.054499399999997
     },
@@ -730,7 +552,13 @@
     "state": "Haute Savoie",
     "name": "Morillon",
     "url": "",
-    "webcams": []
+    "webcams": [
+      {
+        "name": "Morillon - Lac Bleu",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-du-haut-giffre_morillon-lac-bleu.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-du-haut-giffre_morillon-lac-bleu.jpg"
+      }
+    ]
   },
   {
     "coordinates": { "longitude": 6.5771771000000001, "latitude": 46.0442562 },
@@ -760,31 +588,9 @@
     "webcams": []
   },
   {
-    "coordinates": {
-      "longitude": 6.5341605999999999,
-      "latitude": 45.210067500000001
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Orelle",
-    "url": "",
-    "webcams": []
-  },
-  {
     "country": "",
     "state": "Isère",
     "name": "OZ EN OISANS",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.7402977000000002,
-      "latitude": 45.950383799999997
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Passy",
     "url": "",
     "webcams": []
   },
@@ -796,21 +602,6 @@
     "country": "France",
     "state": "",
     "name": "Planolet",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": { "longitude": 3.4104451, "latitude": 45.657066499999999 },
-    "country": "France",
-    "state": "",
-    "name": "Les Egaux",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "country": "",
-    "state": "Isère",
-    "name": "SAINT PIERRE DE CHARTREUSE/LE PLANOLET",
     "url": "",
     "webcams": []
   },
@@ -838,17 +629,6 @@
   },
   {
     "coordinates": {
-      "longitude": 6.4116026000000002,
-      "latitude": 45.922861599999997
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Saint-Jean-de-Sixt",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 6.7224022000000003,
       "latitude": 45.854990200000003
     },
@@ -866,17 +646,6 @@
     "country": "France",
     "state": "Savoie",
     "name": "Saint-Pancrace",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.7274000000000003,
-      "latitude": 46.083448799999999
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Samoëns",
     "url": "",
     "webcams": []
   },
@@ -900,7 +669,13 @@
     "state": "Haute Savoie",
     "name": "Sixt-Fer-à-Cheval",
     "url": "",
-    "webcams": []
+    "webcams": [
+      {
+        "name": "Sixt Fer à Cheval",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-du-haut-giffre_sixt-fer-a-cheval.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-du-haut-giffre_sixt-fer-a-cheval.jpg"
+      }
+    ]
   },
   {
     "coordinates": {
