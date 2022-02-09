@@ -20,27 +20,6 @@
     ]
   },
   {
-    "name": "st-leger",
-    "webcams": [
-      {
-        "name": "Les mélèzes",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_les-melezes.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_les-melezes.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_front-de-neige.jpg"
-      }
-    ]
-  },
-  {
-    "name": "st_francois_longchamp",
-    "webcams": [
-
-    ]
-  },
-  {
     "name": "espace-nordique-jurassien",
     "webcams": [
       {
@@ -157,16 +136,6 @@
         "name": "Chapelle des bois",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-de-mouthe_chapelle-des-bois.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-de-mouthe_chapelle-des-bois.jpg"
-      }
-    ]
-  },
-  {
-    "name": "Orcieres",
-    "webcams": [
-      {
-        "name": "Base de loisirs",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mairie-orcieres_base-de-loisirs.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mairie-orcieres_base-de-loisirs.jpg"
       }
     ]
   },
@@ -561,36 +530,6 @@
     ]
   },
   {
-    "name": "valberg",
-    "webcams": [
-      {
-        "name": "Beuil-Les Launes ",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_launes.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_launes.jpg"
-      },
-      {
-        "name": "Leysin",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_leysin.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_leysin.jpg"
-      },
-      {
-        "name": "Ancolies",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_ancolies.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_ancolies.jpg"
-      },
-      {
-        "name": "Sommet Tête des Eguilles",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_sommet-tete-des-eguilles.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_sommet-tete-des-eguilles.jpg"
-      },
-      {
-        "name": "Place du village",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_village.jpg"
-      }
-    ]
-  },
-  {
     "name": "grand-massif",
     "webcams": [
       {
@@ -969,19 +908,9 @@
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_depart-ski-fond.jpg"
       },
       {
-        "name": "Grand Echaillon",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_grand-echaillon.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_grand-echaillon.jpg"
-      },
-      {
         "name": "Front de neige Rousset",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_front-de-neige-rousset.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_front-de-neige-rousset.jpg"
-      },
-      {
-        "name": "Font d'Urle",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_font-d-urle.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_font-d-urle.jpg"
       },
       {
         "name": "Piste du Lièvre Blanc",
@@ -1304,16 +1233,6 @@
     "name": "champsaur-valgaudemar",
     "webcams": [
       {
-        "name": "Piste Zénith",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_piste-zenith.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_piste-zenith.jpg"
-      },
-      {
-        "name": "Station",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_station.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_station.jpg"
-      },
-      {
         "name": "Sommet Clot Chenu",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chaillol_sommet-clot-chenu.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chaillol_sommet-clot-chenu.jpg"
@@ -1322,16 +1241,6 @@
         "name": "Piste Clot Chenu",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chaillol_piste-clot-chenu.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chaillol_piste-clot-chenu.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_front-de-neige.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_laye_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_laye_front-de-neige.jpg"
       }
     ]
   },
@@ -1714,31 +1623,7 @@
   {
     "name": "vars",
     "webcams": [
-      {
-        "name": "Snowpark de l'Eyssina",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_snowpark-de-l-eyssina.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_snowpark-de-l-eyssina.jpg"
-      },
-      {
-        "name": "Sainte Marie",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_sainte-marie.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_sainte-marie.jpg"
-      },
-      {
-        "name": "Col de Crevoux",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_col-de-crevoux.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_col-de-crevoux.jpg"
-      },
-      {
-        "name": "Pic de Chabrières",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_chabrieres.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_chabrieres.jpg"
-      },
-      {
-        "name": "Crevoux",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_crevoux.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_crevoux.jpg"
-      }
+
     ]
   },
   {

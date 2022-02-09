@@ -108,6 +108,30 @@
     ]
   },
   {
+    "id": "ancelle",
+    "coordinates": {
+      "longitude": 6.2054505999999998,
+      "latitude": 44.624054700000002
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Ancelle",
+    "url": "https://ancelleski.fr/",
+    "trail_map": "https://ancelleski.fr/wp-content/uploads/2021/06/Ancelle-Remontees-Mecanique-plan-pistes.jpg",
+    "webcams": [
+      {
+        "name": "Piste Zénith",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_piste-zenith.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_piste-zenith.jpg"
+      },
+      {
+        "name": "Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_station.jpg"
+      }
+    ]
+  },
+  {
     "id": "annecy",
     "name": "Annecy",
     "country": "France",
@@ -1546,6 +1570,11 @@
         "name": "Rocherousse",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_rocherousse.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_rocherousse.jpg"
+      },
+      {
+        "name": "Base de loisirs",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mairie-orcieres_base-de-loisirs.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mairie-orcieres_base-de-loisirs.jpg"
       }
     ]
   },
@@ -1754,6 +1783,39 @@
     ]
   },
   {
+    "id": "Risoul",
+    "coordinates": {
+      "longitude": 6.6369838000000003,
+      "latitude": 44.648743199999998
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Risoul",
+    "url": "http://www.risoul.com/",
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_front.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_front.jpg"
+      },
+      {
+        "name": "Homme de Pierre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_homme-de-pierre.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_homme-de-pierre.jpg"
+      },
+      {
+        "name": "Pré du Bois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_pre-du-bois.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_pre-du-bois.jpg"
+      },
+      {
+        "name": "Pointe de Razis",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=R9GoI-loilM-pXvm2-t4XzS&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=R9GoI-loilM-pXvm2-t4XzS&quality=small"
+      }
+    ]
+  },
+  {
     "id": "la-rosiere",
     "name": "La Rosière",
     "country": "France",
@@ -1947,7 +2009,28 @@
     ]
   },
   {
-    "id": "st-pierre-de-chartreuse",
+    "id": "saint-leger-les-melezes",
+    "coordinates": { "longitude": 6.2003298999999998, "latitude": 44.6445528 },
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "name": "Saint-Léger-les-Mélèzes",
+    "url": "https://www.champsaur-valgaudemar.com/hiver/ski-et-neige/les-stations/saint-leger-les-melezes/",
+    "trail_map": "https://woody.cloudly.space/app/themes/champsaur-valgaudemar/src/static/plan-des-pistes-st-leger.jpg",
+    "webcams": [
+      {
+        "name": "Les mélèzes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_les-melezes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_les-melezes.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-pierre-de-chartreuse",
     "coordinates": {
       "longitude": 5.803436,
       "latitude": 45.321534
@@ -2235,6 +2318,45 @@
     ]
   },
   {
+    "id": "valberg",
+    "coordinates": {
+      "longitude": 6.9294551999999996,
+      "latitude": 44.095261399999998
+    },
+    "country": "France",
+    "state": "Alpes Maritimes",
+    "name": "Valberg",
+    "url": "http://www.valberg.com/",
+    "trail_map": "https://www.valberg.com/plandespistes-alpin.html",
+    "webcams": [
+      {
+        "name": "Beuil-Les Launes ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_launes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_launes.jpg"
+      },
+      {
+        "name": "Leysin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_leysin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_leysin.jpg"
+      },
+      {
+        "name": "Ancolies",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_ancolies.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_ancolies.jpg"
+      },
+      {
+        "name": "Sommet Tête des Eguilles",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_sommet-tete-des-eguilles.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_sommet-tete-des-eguilles.jpg"
+      },
+      {
+        "name": "Place du village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_village.jpg"
+      }
+    ]
+  },
+  {
     "id": "valmorel",
     "coordinates": { "longitude": 6.4424427, "latitude": 45.461705700000003 },
     "country": "France",
@@ -2267,6 +2389,45 @@
         "name": "Doucy",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valmorel_doucy-combelouviere.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valmorel_doucy-combelouviere.jpg"
+      }
+    ]
+  },
+  {
+    "id": "Vars",
+    "coordinates": {
+      "longitude": 6.6894121000000002,
+      "latitude": 44.592979399999997
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Vars",
+    "url": "http://www.vars.com",
+    "trail_map": "https://www.vars.com/app/uploads/vars/2021/11/depliant-plan-des-pistes-2021-22-bd.pdf",
+    "webcams": [
+      {
+        "name": "Snowpark de l'Eyssina",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_snowpark-de-l-eyssina.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_snowpark-de-l-eyssina.jpg"
+      },
+      {
+        "name": "Sainte Marie",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_sainte-marie.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_sainte-marie.jpg"
+      },
+      {
+        "name": "Col de Crevoux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_col-de-crevoux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_col-de-crevoux.jpg"
+      },
+      {
+        "name": "Pic de Chabrières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_chabrieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_chabrieres.jpg"
+      },
+      {
+        "name": "Crevoux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_crevoux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_crevoux.jpg"
       }
     ]
   },

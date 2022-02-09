@@ -815,63 +815,6 @@
   },
   {
     "coordinates": {
-      "longitude": 6.6369838000000003,
-      "latitude": 44.648743199999998
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Risoul",
-    "url": "http://www.risoul.com/",
-    "webcams": [
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_front.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_front.jpg"
-      },
-      {
-        "name": "Homme de Pierre",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_homme-de-pierre.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_homme-de-pierre.jpg"
-      },
-      {
-        "name": "Pré du Bois",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_pre-du-bois.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_pre-du-bois.jpg"
-      }
-    ]
-  },
-  {
-    "coordinates": { "longitude": 6.2003298999999998, "latitude": 44.6445528 },
-    "country": "France",
-    "state": "",
-    "name": "Saint-Léger-les-Mélèzes",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.6212011999999998,
-      "latitude": 44.912923200000002
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Briançon",
-    "url": "https://www.serre-chevalier.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.2763445999999998,
-      "latitude": 44.679095500000003
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Serre-Eyraud",
-    "url": "http://www.orcieres.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 2.4333310138836484,
       "latitude": 48.727799556438633
     },
@@ -882,42 +825,9 @@
     "webcams": []
   },
   {
-    "coordinates": {
-      "longitude": 6.9294551999999996,
-      "latitude": 44.095261399999998
-    },
-    "country": "France",
-    "state": "Alpes Maritimes",
-    "name": "Valberg",
-    "url": "http://www.valberg.com/",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.6894121000000002,
-      "latitude": 44.592979399999997
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Vars",
-    "url": "http://www.vars.com",
-    "webcams": []
-  },
-  {
     "country": "",
     "state": "Hautes Alpes",
     "name": "ABRIES EN QUEYRAS",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.2054505999999998,
-      "latitude": 44.624054700000002
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Ancelle",
     "url": "",
     "webcams": []
   },
@@ -936,17 +846,6 @@
     "country": "France",
     "state": "Alpes Maritimes",
     "name": "Gréolières",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 0.31433159999999999,
-      "latitude": 47.147283299999998
-    },
-    "country": "France",
-    "state": "Hautes Alpes",
-    "name": "Briançon",
     "url": "",
     "webcams": []
   },
@@ -1018,7 +917,13 @@
     "state": "Drôme",
     "name": "Font-d'Urle",
     "url": "",
-    "webcams": []
+    "webcams": [
+      {
+        "name": "Font d'Urle",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_font-d-urle.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_font-d-urle.jpg"
+      }
+    ]
   },
   {
     "coordinates": {
@@ -1091,7 +996,13 @@
     "state": "Hautes Alpes",
     "name": "LAYE EN CHAMPSAUR",
     "url": "",
-    "webcams": []
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_laye_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_laye_front-de-neige.jpg"
+      }
+    ]
   },
   {
     "coordinates": {
@@ -1117,7 +1028,13 @@
     "state": "Drôme",
     "name": "LE GRAND ECHAILLON",
     "url": "",
-    "webcams": []
+    "webcams": [
+      {
+        "name": "Grand Echaillon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_grand-echaillon.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_grand-echaillon.jpg"
+      }
+    ]
   },
   {
     "coordinates": {
