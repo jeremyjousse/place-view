@@ -71,17 +71,17 @@
     "url": "https://www.montagnicimes.com/albiez/",
     "webcams": [
       {
-        "name": "Haut-Echaux",
+        "name": "Haut Echaux",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
       },
       {
-        "name": "Haut-Echaux",
+        "name": "Bas des Echaux",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_bas-des-echaux.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_bas-des-echaux.jpg"
       },
       {
-        "name": "Haut-Echaux",
+        "name": "Bas Grand Loup",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_grandloupbas.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_grandloupbas.jpg"
       }
@@ -128,6 +128,11 @@
         "name": "Station",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_station.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_station.jpg"
+      },
+      {
+        "name": "Nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_nordique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_nordique.jpg"
       }
     ]
   },
@@ -278,6 +283,16 @@
         "name": "Mont Blanc",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs-1950_mont-blanc.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs-1950_mont-blanc.jpg"
+      },
+      {
+        "name": "Arcs 1600",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs-ot_arcs-1600.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs-ot_arcs-1600.jpg"
+      },
+      {
+        "name": "Arcs 1800",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs-ot_arcs-1800.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs-ot_arcs-1800.jpg"
       }
     ]
   },
@@ -913,6 +928,16 @@
         "name": "Col de la loze",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_col-de-la-loze.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_col-de-la-loze.jpg"
+      },
+      {
+        "name": "Tremplins Olympiques",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_courchevel-mairie_tremplins-olympiques.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_courchevel-mairie_tremplins-olympiques.jpg"
+      },
+      {
+        "name": "Altiport",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_courchevel-mairie_altiport.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_courchevel-mairie_altiport.jpg"
       }
     ]
   },
@@ -1022,6 +1047,11 @@
         "name": "Front de neige ",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_val-d-arly-panoramique1.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_val-d-arly-panoramique1.jpg"
+      },
+      {
+        "name": "NDB - Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly-ot_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly-ot_village.jpg"
       }
     ]
   },
@@ -1304,6 +1334,21 @@
         "name": "Place du village",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_village.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_village.jpg"
+      },
+      {
+        "name": "Lac d'Arbois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_evasion_retenue-collinaire.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_evasion_retenue-collinaire.jpg"
+      },
+      {
+        "name": "Fontaine",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_evasion_fontaine.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_evasion_fontaine.jpg"
+      },
+      {
+        "name": "Rochebrune",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rochebrune.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rochebrune.jpg"
       }
     ]
   },
@@ -2147,6 +2192,26 @@
         "name": "Espace Erwin Eckl",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_espace-erwineckl.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_espace-erwineckl.jpg"
+      },
+      {
+        "name": "Les Saisies Centre Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ducrey-sports_les-saisies-centre-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ducrey-sports_les-saisies-centre-village.jpg"
+      },
+      {
+        "name": "Bisanne 1500 - Rosières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_rosieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_rosieres.jpg"
+      },
+      {
+        "name": "Pierre à l'âne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ducrey-sports_pierre-a-l-ane.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ducrey-sports_pierre-a-l-ane.jpg"
+      },
+      {
+        "name": "Les Saisies Bisanne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_beaufortain_les-saisies-bisanne.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_les-saisies-bisanne.jpg"
       }
     ]
   },
@@ -2258,6 +2323,21 @@
         "name": "Pied des pistes",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_superdevoluy.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_superdevoluy.jpg"
+      },
+      {
+        "name": "La Joue du Loup",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_la-joue-du-loup.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_la-joue-du-loup.jpg"
+      },
+      {
+        "name": "Arrivée télésiège Génépy ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_sommet-domaine-skiable.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_sommet-domaine-skiable.jpg"
+      },
+      {
+        "name": "Télémix des fontettes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_telemix-des-fontettes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_telemix-des-fontettes.jpg"
       }
     ]
   },
