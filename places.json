@@ -2432,6 +2432,36 @@
     "url": "http://www.valthorens.com",
     "webcams": [
       {
+        "name": "Station",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=small"
+      },
+      {
+        "name": "Sommet 2 lacs",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=small"
+      },
+      {
+        "name": "3 Vallées",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=small"
+      },
+      {
+        "name": "Funitel Thorens",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=hHWSy-HBjoG-tdsPH-6rEFl&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=hHWSy-HBjoG-tdsPH-6rEFl&quality=small"
+      },
+      {
+        "name": "École Prosneige",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EdhD-J696-lZPd-i0xE-CqXk&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EdhD-J696-lZPd-i0xE-CqXk&quality=small"
+      },
+      {
+        "name": "Lac Blanc",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=Iz0R-K010-VJyC-XPp2-5OrM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=Iz0R-K010-VJyC-XPp2-5OrM&quality=small"
+      },
+      {
         "name": "Funitel Bouquetin",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val_thorens_funitel-bouquetin.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val_thorens_funitel-bouquetin.jpg"
