@@ -2421,6 +2421,39 @@
     ]
   },
   {
+    "id": "valdisere",
+    "coordinates": {
+      "longitude": 6.980186,
+      "latitude": 45.448860
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Val d'Isere",
+    "url": "https://www.valdisere.com/",
+    "webcams": [
+      {
+        "name": "Solaise",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=qS4eL-edIS6-ZtamD-fAJCL&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=qS4eL-edIS6-ZtamD-fAJCL&quality=small"
+      },
+      {
+        "name": "Refuge du Prariond",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=nm7zX-hmfER-kDVAy-DO2Vs&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=nm7zX-hmfER-kDVAy-DO2Vs&quality=small"
+      },
+      {
+        "name": "La Daille",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=iRmQR-UnsmY-b4Tdl-ELMBM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=iRmQR-UnsmY-b4Tdl-ELMBM&quality=small"
+      },
+      {
+        "name": "Borsat",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=S8Gyk-GBGoI-OoxCG-dIOJD&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=S8Gyk-GBGoI-OoxCG-dIOJD&quality=small"
+      }
+    ]
+  }, 
+  {
     "id": "val-thorens",
     "coordinates": {
       "longitude": 6.5835663000000002,
