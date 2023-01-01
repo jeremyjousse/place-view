@@ -2275,6 +2275,21 @@
     "url": "https://www.alpedugrandserre.info",
     "webcams": [
       {
+        "name": "Col du Lautaret",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=small"
+      },
+      {
+        "name": "Cucumelle",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=small"
+      },
+      {
+        "name": "Monetier",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=small"
+      },
+      {
         "name": "La Blache",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_la-blache.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_la-blache.jpg"
