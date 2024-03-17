@@ -1,0 +1,2708 @@
+[
+  {
+    "id": "Abondance",
+    "coordinates": {
+      "longitude": 6.7199134000000003,
+      "latitude": 46.280637800000001
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Abondance",
+    "url": "",
+    "webcams": [
+      {
+        "name": "Abondance - TC Essert",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-peva_tc-essert.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_tc-essert.jpg"
+      },
+      {
+        "name": "La Chapelle d'Abondance -",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-peva_la-chapelle-d-abondance-tsd-cret-beni.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_la-chapelle-d-abondance-tsd-cret-beni.jpg"
+      }
+    ]
+  },
+  {
+    "id": "aillons-margeriaz",
+    "name": "Aillons-Margériaz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.643813,
+      "longitude": 6.062708
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Savoie",
+    "url": "https://www.lesaillons.com",
+    "webcams": [
+      {
+        "name": "Sommet des Biolles",
+        "largeImage": "https://srv07.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-margeriaz.jpg",
+        "thumbnailImage": "https://srv07.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-margeriaz.jpg"
+      },
+      {
+        "name": "Sommet Mont Pelat",
+        "largeImage": "https://srv07.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-mont-pelat.jpg",
+        "thumbnailImage": "https://srv07.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-mont-pelat.jpg"
+      },
+      {
+        "name": "Centre d'accueil 1000",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3v74F-ptbOF-IaH1a-yLTFK&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3v74F-ptbOF-IaH1a-yLTFK&quality=small"
+      },
+      {
+        "name": "Espace débutants 1400",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=PAXUw-UVVfS-U0tBe-5h2Bi&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=PAXUw-UVVfS-U0tBe-5h2Bi&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "albiez",
+    "name": "Albiez",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.218665,
+      "longitude": 6.344217
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Savoie",
+    "url": "https://www.montagnicimes.com/albiez/",
+    "webcams": [
+      {
+        "name": "Haut Echaux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
+      },
+      {
+        "name": "Bas Grand Loup",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_grandloupbas.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_grandloupbas.jpg"
+      }
+    ]
+  },
+  {
+    "id": "alpe-huez",
+    "name": "Alpe d'Huez",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.090463,
+      "longitude": 6.066684
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Isère",
+    "url": "https://www.alpedhuez.com",
+    "webcams": [
+      {
+        "name": "Signal de l'homme",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3MhdR-NcGOW-t70O6-Jqo1M&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3MhdR-NcGOW-t70O6-Jqo1M&quality=small"
+      },
+      {
+        "name": "Alpe d'Huez - 3060m",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=8LI5V-1oOHb-ULTx2-Ljw3y&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=8LI5V-1oOHb-ULTx2-Ljw3y&quality=small"
+      },
+      {
+        "name": "Pic Blanc - 3330m",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4gdUN-xO1xC-Aux4k-b3fQK&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4gdUN-xO1xC-Aux4k-b3fQK&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "ancelle",
+    "coordinates": {
+      "longitude": 6.2054505999999998,
+      "latitude": 44.624054700000002
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Ancelle",
+    "url": "https://ancelleski.fr/",
+    "trail_map": "https://ancelleski.fr/wp-content/uploads/2021/06/Ancelle-Remontees-Mecanique-plan-pistes.jpg",
+    "webcams": [
+      {
+        "name": "Piste Zénith",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_piste-zenith.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_piste-zenith.jpg"
+      },
+      {
+        "name": "Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_station.jpg"
+      },
+      {
+        "name": "Nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_nordique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_nordique.jpg"
+      }
+    ]
+  },
+  {
+    "id": "annecy",
+    "name": "Annecy",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.90469,
+      "longitude": 6.142201
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Haute-Savoie",
+    "url": "https://www.lac-annecy.com",
+    "webcams": [
+      {
+        "name": "Annecy, Le lac",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_annecy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_annecy.jpg"
+      },
+      {
+        "name": "Sevrier, Base Nautique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sevrier_base-nautique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sevrier_base-nautique.jpg"
+      },
+      {
+        "name": "Veyrier-du-Lac, Centre-village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-acacias_acacias.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-acacias_acacias.jpg"
+      },
+      {
+        "name": "Talloires-Montmin, Embarcadère",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pere-bise_auberge.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pere-bise_auberge.jpg"
+      },
+      {
+        "name": "Talloires-Montmin, Baie de Talloires",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_cottage-bise_lac-annecy-talloires.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_cottage-bise_lac-annecy-talloires.jpg"
+      },
+      {
+        "name": "Talloires-Montmin, Angon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-grillons_vue-lac-annecy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-grillons_vue-lac-annecy.jpg"
+      },
+      {
+        "name": "Doussard, Port",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=DHfDR-sJvu7-t7HTB-jizJ2&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=DHfDR-sJvu7-t7HTB-jizJ2&quality=small"
+      },
+      {
+        "name": "Le Semnoz, Arrivée du télémix Belvédère",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_semnoz_somnoz-sommet-tmx.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_semnoz_somnoz-sommet-tmx.jpg"
+      },
+      {
+        "name": "Le Semnoz, Départ du télémix Belvédère",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_semnoz_chantier-telemixte.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_semnoz_chantier-telemixte.jpg"
+      },
+      {
+        "name": "Le Semnoz, Versant Annecy",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_semnoz_versant-annecy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_semnoz_versant-annecy.jpg"
+      },
+      {
+        "name": "Plateau des Glières, Domaine nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_cg74_plateau-des-glieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_cg74_plateau-des-glieres.jpg"
+      },
+      {
+        "name": "La Sambuy, Arrivée du télésiège La Sambuy",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=igESl-UDKJP-5ATS5-0H6VY&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=igESl-UDKJP-5ATS5-0H6VY&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "les-arcs",
+    "name": "Les Arcs",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.577597,
+      "longitude": 6.779631
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.lesarcs.com",
+    "webcams": [
+      {
+        "name": "Varet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_arcs_catex.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_arcs_catex.jpg"
+      },
+      {
+        "name": "Arpette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs_arpette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs_arpette.jpg"
+      },
+      {
+        "name": "TSD Mont Blanc",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_arcs_tsd-mont-blanc.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_arcs_tsd-mont-blanc.jpg"
+      },
+      {
+        "name": "Snowpark",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_arcs_snowpark.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_arcs_snowpark.jpg"
+      },
+      {
+        "name": "Aiguille Rouge",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_arcs_aiguille.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_arcs_aiguille.jpg"
+      },
+      {
+        "name": "Arcabulle",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs_arcabulle.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs_arcabulle.jpg"
+      },
+      {
+        "name": "Grizzly",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_peisey-vallandry_grizzly.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_peisey-vallandry_grizzly.jpg"
+      },
+      {
+        "name": "Clocher",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs-1950_clocher.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs-1950_clocher.jpg"
+      },
+      {
+        "name": "Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-arcs-1950_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-arcs-1950_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "areches-beaufort",
+    "name": "Arêches Beaufort",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.685025,
+      "longitude": 6.563997
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.areches-beaufort.com",
+    "webcams": [
+      {
+        "name": "Planay",
+        "largeImage": "https://srv05.trinum.com/ibox/ftpcam/mega_areches-beaufort_planay.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_planay.jpg"
+      },
+      {
+        "name": "Cuvy",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_beaufortain_areches-beaufort-cuvy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_areches-beaufort-cuvy.jpg"
+      },
+      {
+        "name": "Arolles",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_beaufortain_areches-beaufort-arolles.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_areches-beaufort-arolles.jpg"
+      },
+      {
+        "name": "Forclaz",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_areches-beaufort_forclaz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_areches-beaufort_forclaz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "auron",
+    "name": "Auron",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.225187,
+      "longitude": 6.932811
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-Maritimes",
+    "url": "https://hiver.auron.com",
+    "webcams": [
+      {
+        "name": "Blainon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_auron_blainon.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_auron_blainon.jpg"
+      },
+      {
+        "name": "Chastellares",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_auron_depart-las-donnas.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_auron_depart-las-donnas.jpg"
+      },
+      {
+        "name": "Dome",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_auron_cime-de-chevalet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_auron_cime-de-chevalet.jpg"
+      },
+      {
+        "name": "Berchia",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_auron_berchia.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_auron_berchia.jpg"
+      },
+      {
+        "name": "Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_auron_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_auron_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "aussois",
+    "name": "Aussois",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.227165,
+      "longitude": 6.7413
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.haute-maurienne-vanoise.com/hiver/aussois",
+    "webcams": [
+      {
+        "name": "Grand Jeu",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
+      },
+      {
+        "name": "Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_village.jpg"
+      },
+      {
+        "name": "Sommet de l’Armoise",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
+      }
+    ]
+  },
+  {
+    "id": "autrans",
+    "name": "Autrans",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.174942,
+      "longitude": 5.541953
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://autrans-meaudre.com/",
+    "webcams": [
+      {
+        "name": "Front de neige - La Sure",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_autrans-meaudre_auberge-poya.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_autrans-meaudre_auberge-poya.jpg"
+      },
+      {
+        "name": "Départ Zipline Vercors Méaudre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_autrans-meaudre_depart-zipline-vercors-meaudre-alt.1300m.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_autrans-meaudre_depart-zipline-vercors-meaudre-alt.1300m.jpg"
+      },
+      {
+        "name": "Centre nordique Autrans",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_autran-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_autran-village.jpg"
+      },
+      {
+        "name": "Domaine nordique Géve",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_geve.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_geve.jpg"
+      },
+      {
+        "name": "Tremplins du Claret",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_autrans_tremplin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_autrans_tremplin.jpg"
+      },
+      {
+        "name": "Foyer ski de fond Méaudre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meaudre_fond.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meaudre_fond.jpg"
+      },
+      {
+        "name": "Front de Neige ski alpin ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meaudre_front.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meaudre_front.jpg"
+      }
+    ]
+  },
+  {
+    "id": "avoriaz",
+    "name": "Avoriaz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.192397,
+      "longitude": 6.774469
+    },
+    "isFavorite": true,
+    "isFeatured": true,
+    "state": "Haute-Savoie",
+    "url": "https://www.avoriaz.com",
+    "webcams": [
+      {
+        "name": "Centre station",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=small"
+      },
+      {
+        "name": "Zore",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_avoriaz_zore.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_avoriaz_zore.jpg"
+      },
+      {
+        "name": "Tour",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_avoriaz_tour.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_avoriaz_tour.jpg"
+      },
+      {
+        "name": "Fornet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_avoriaz_fornet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_avoriaz_fornet.jpg"
+      },
+      {
+        "name": "Morzine Chamossière",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_motiv-oxygene_morzine-avoriaz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_motiv-oxygene_morzine-avoriaz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "bernex",
+    "name": "Bernex",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.346724,
+      "longitude": 6.697732
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://hiver.bernex-tourisme.com",
+    "webcams": [
+      {
+        "name": "TSD  Pré-Richard",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-peva_bernex-tsd-pre-richard.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_bernex-tsd-pre-richard.jpg"
+      }
+    ]
+  },
+  {
+    "id": "bessans",
+    "coordinates": {
+      "longitude": 6.9937861999999997,
+      "latitude": 45.320233899999998
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Bessans",
+    "url": "https://www.haute-maurienne-vanoise.com/hiver/bessans/",
+    "trail_map": "https://haute-maurienne-vanoise.pro/download/hmv-hiver/bessans-plan-des-pistes-hiver-fr.pdf",
+    "webcams": [
+      {
+        "name": "La Bessannaise",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bessans_la-bessannaise.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bessans_la-bessannaise.jpg"
+      },
+      {
+        "name": "Carreley",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bessans_carreley.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bessans_carreley.jpg"
+      },
+      {
+        "name": "Panoramique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bessans_relais.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bessans_relais.jpg"
+      }
+    ]
+  },
+  {
+    "id": "bourg-saint-maurice",
+    "coordinates": {
+      "longitude": 6.7788325705061956,
+      "latitude": 45.612109565351723
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Bourg-Saint-Maurice",
+    "url": "https://www.lesarcs.com",
+    "webcams": [
+      {
+        "name": "Quartier des Alpins",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bourg-st-maurice_quartier-des-alpins.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bourg-st-maurice_quartier-des-alpins.jpg"
+      }
+    ]
+  },
+  {
+    "id": "massif-des-brasses",
+    "coordinates": {
+      "longitude": 6.449905,
+      "latitude": 46.176101
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Massif des Brasses",
+    "url": "http://www.lesbrasses.com/fr/hiver/",
+    "trail_map": "http://www.lesbrasses.com/fr/brochures/plan-piste-alpin-2021.pdf",
+    "webcams": [
+      {
+        "name": "Restaurant",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-brasses_restaurant.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-brasses_restaurant.jpg"
+      }
+    ]
+  },
+  {
+    "id": "brides-les-bains",
+    "coordinates": {
+      "longitude": 6.567099,
+      "latitude": 45.452539
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Brides-les-Bains",
+    "url": "http://brides-les-bains.com",
+    "webcams": [
+      {
+        "name": "Centre Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_brides-les-bains_centre-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_brides-les-bains_centre-village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "chabanon",
+    "name": "Chabanon",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.346895,
+      "longitude": 6.293254
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.selonnetchabanon-tourisme.fr/",
+    "webcams": [
+      {
+        "name": "Sommet les Monges",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chabanon_sommet-les-monges.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chabanon_sommet-les-monges.jpg"
+      }
+    ]
+  },
+  {
+    "id": "les-carroz",
+    "coordinates": {
+      "longitude": 6.5627494000000004,
+      "latitude": 45.690249399999999
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Les Carroz",
+    "url": "https://www.lescarroz.com/",
+    "trail_map": "https://www.lescarroz.com/content/uploads/2021/12/GM_PlanPistes_2021.pdf",
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lescarroz_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lescarroz_front-de-neige.jpg"
+      },
+      {
+        "name": "Arrivée de la télécabine",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_carroz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_carroz.jpg"
+      },
+      {
+        "name": "Vue village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lescarroz_vue-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lescarroz_vue-village.jpg"
+      },
+      {
+        "name": "Oasis snowpark",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lescarroz_oasis.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lescarroz_oasis.jpg"
+      },
+      {
+        "name": "Les Carroz 2100",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lescarroz_tete-des-saix.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lescarroz_tete-des-saix.jpg"
+      }
+    ]
+  },
+  {
+    "id": "champagny",
+    "name": "Champagny-en-Vanoise",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.456095,
+      "longitude": 6.693004
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.la-plagne.com/champagny-en-vanoise",
+    "webcams": [
+      {
+        "name": "Champagy Village",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_champagny_village.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_village.jpg"
+      },
+      {
+        "name": "Tour de Glace - Alt.1470m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_cascade-de-glace.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_cascade-de-glace.jpg"
+      },
+      {
+        "name": "Espace nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_champagny-le-haut.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_champagny-le-haut.jpg"
+      }
+    ]
+  },
+  {
+    "id": "la-chapelle-d-abondance",
+    "coordinates": {
+      "longitude": 6.7879759999999996,
+      "latitude": 46.295496999999997
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "La Chapelle-d'Abondance",
+    "url": "https://hiver.lachapelledabondance-tourisme.com/",
+    "webcams": [
+      {
+        "name": "Hotel Esprit Montagne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-esprit-montagne_chapelle-abondance.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-esprit-montagne_chapelle-abondance.jpg"
+      },
+      {
+        "name": "Braitaz",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-chapelle_braitaz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-chapelle_braitaz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "chatel",
+    "coordinates": {
+      "longitude": 6.8409693999999996,
+      "latitude": 46.267235100000001
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Châtel",
+    "url": "https://www.chatel.com",
+    "trail_map": "https://www.chatel.com/medias/images/info_pages/portes-du-soleil-2018-2019-v12-2-bd-10223.pdf",
+    "webcams": [
+      {
+        "name": "Panoramique Morclan",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chatel_morclan.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chatel_morclan.jpg"
+      },
+      {
+        "name": "Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chatel_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chatel_village.jpg"
+      },
+      {
+        "name": "Event",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chatel_event.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chatel_event.jpg"
+      },
+      {
+        "name": "TS L'Echo Alpin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chatel_ts-echo-alpin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chatel_ts-echo-alpin.jpg"
+      },
+      {
+        "name": "Torgon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chatel_torgon.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chatel_torgon.jpg"
+      },
+      {
+        "name": "Lac de la Mouille",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chatel_lac-de-la-mouille.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chatel_lac-de-la-mouille.jpg"
+      }
+    ]
+  },
+  {
+    "id": "clusaz",
+    "name": "La Clusaz",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.90472,
+      "longitude": 6.42541
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://www.laclusaz.com",
+    "webcams": [
+      {
+        "name": "Place du village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_otvillage.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_otvillage.jpg"
+      },
+      {
+        "name": "Beauregard",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_beauregard.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_beauregard.jpg"
+      },
+      {
+        "name": "Balme",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_balme.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_balme.jpg"
+      },
+      {
+        "name": "Col de balme",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_col-de-balme.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_col-de-balme.jpg"
+      },
+      {
+        "name": "Crêt du Loup",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_cret-du-loup.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_cret-du-loup.jpg"
+      },
+      {
+        "name": "Bergerie",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_bergerie.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_bergerie.jpg"
+      },
+      {
+        "name": "Snowpark",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_snow-park.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_snow-park.jpg"
+      },
+      {
+        "name": "Etale",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_etale.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_etale.jpg"
+      },
+      {
+        "name": "Massif de l'Etale",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_massif-de-l-etale.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_massif-de-l-etale.jpg"
+      },
+      {
+        "name": "Le Bossonnet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_bossonnet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-clusaz_bossonnet.jpg"
+      }
+    ]
+  },
+  {
+    "id": "corbier",
+    "name": "Le Corbier",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.240544,
+      "longitude": 6.268206
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.le-corbier.com/",
+    "webcams": [
+      {
+        "name": "Pointe du Corbier",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_le_corbier_pointe-du-corbier.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_le_corbier_pointe-du-corbier.jpg"
+      },
+      {
+        "name": "Office du tourisme",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le_corbier_office-du-tourisme.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le_corbier_office-du-tourisme.jpg"
+      }
+    ]
+  },
+  {
+    "id": "correncon",
+    "name": "Corrençon",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.031023,
+      "longitude": 5.526644
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://www.villarddelans.com/hiver/webcams.html",
+    "webcams": [
+      {
+        "name": "Site nordique-Porte des Hauts Plateaux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_correncon_plateau.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_correncon_plateau.jpg"
+      },
+      {
+        "name": "Panorama du VIllage de Corrençon ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_correncon_villemomble.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_correncon_villemomble.jpg"
+      }
+    ]
+  },
+  {
+    "id": "contamines-montjoie",
+    "coordinates": { "longitude": 6.7273740000000002, "latitude": 45.8211358 },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Les Contamines-Montjoie",
+    "url": "https://www.lescontamines.com/",
+    "webcams": [
+      {
+        "name": "Centre du village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-contamines_centre-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-contamines_centre-village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "courchevel",
+    "name": "Courchevel",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.414433,
+      "longitude": 6.634647
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://courchevel.com",
+    "webcams": [
+      {
+        "name": "Grangettes - Croisette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_ariondaz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_ariondaz.jpg"
+      },
+      {
+        "name": "Col de la loze",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_col-de-la-loze.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_col-de-la-loze.jpg"
+      },
+      {
+        "name": "Tremplins Olympiques",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_courchevel-mairie_tremplins-olympiques.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_courchevel-mairie_tremplins-olympiques.jpg"
+      },
+      {
+        "name": "Altiport",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_courchevel-mairie_altiport.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_courchevel-mairie_altiport.jpg"
+      },
+      {
+        "name": "Saulire",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=C9SuH-sr8nl-OLDoV-hO4lk&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=C9SuH-sr8nl-OLDoV-hO4lk&quality=small"
+      },
+      {
+        "name": "Chenus",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=SUG72-Cfbw4-pUxuG-q6Kce&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=SUG72-Cfbw4-pUxuG-q6Kce&quality=small"
+      },
+      {
+        "name": "La Croisette",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=VLkw8-AYUpn-cHxmH-Ayesm&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=VLkw8-AYUpn-cHxmH-Ayesm&quality=small"
+      },
+      {
+        "name": "Bouc Blanc",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=FmmXV-jv9jD-b2a56-5wAQW&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=FmmXV-jv9jD-b2a56-5wAQW&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "les-deux-alpes",
+    "name": "Les Deux Aples",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.009453,
+      "longitude": 6.125173
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://www.les2alpes.com",
+    "webcams": [
+      {
+        "name": "Les hauts plateaux",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=rDhlM-0g6kQ-GluvH-iYTVZ&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=rDhlM-0g6kQ-GluvH-iYTVZ&quality=small"
+      },
+      {
+        "name": "3400m",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=6SQKI-UlFSn-IasOn-22zQI&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=6SQKI-UlFSn-IasOn-22zQI&quality=small"
+      },
+      {
+        "name": "Super Diable",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=wJYTf-gyLNX-tk7ll-cGviT&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=wJYTf-gyLNX-tk7ll-cGviT&quality=small"
+      },
+      {
+        "name": "2600m",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=V8UT8-8BiHn-atAOp-hSrqC&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=V8UT8-8BiHn-atAOp-hSrqC&quality=small"
+      },
+      {
+        "name": "Grande Aiguille",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=GYUT0-nAeiG-t46WB-c7taq&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=GYUT0-nAeiG-t46WB-c7taq&quality=small"
+      },
+      {
+        "name": "Les Lutins",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=YDnTJ-lVAG7-SzupM-AuJt3&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=YDnTJ-lVAG7-SzupM-AuJt3&quality=small"
+      },
+      {
+        "name": "La Fée",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=qkYXT-jdg2N-GOdyt-yEJw6&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=qkYXT-jdg2N-GOdyt-yEJw6&quality=small"
+      },
+      {
+        "name": "Bellecombe",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=XW3jS-HUmJL-YLxZB-rwTxB&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=XW3jS-HUmJL-YLxZB-rwTxB&quality=small"
+      },
+      {
+        "name": "Vallée Blanche",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_2alpes_valleeblanche.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_2alpes_valleeblanche.jpg"
+      }
+    ]
+  },
+  {
+    "id": "flaine",
+    "coordinates": {
+      "longitude": 6.6895325000000003,
+      "latitude": 46.006535900000003
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Flaine",
+    "url": "https://www.flaine.com/",
+    "trail_map": "https://www.flaine.com/media/grandmassif_planpistes_hiver2020-2021.pdf",
+    "webcams": [
+      {
+        "name": "Flaine - Grandes Platières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_flaine-grandes-platieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_flaine-grandes-platieres.jpg"
+      },
+      {
+        "name": "Véret",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=FNT54-ozytI-j3x48-6OSQQ&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=FNT54-ozytI-j3x48-6OSQQ&quality=small"
+      },
+      {
+        "name": "Sommet du télésiège du Désert Blanc",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0EUGD-IbCsL-44TH2-t25Le&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0EUGD-IbCsL-44TH2-t25Le&quality=small"
+      },
+      {
+        "name": "Flaine - Forêt",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_flaine-1600.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_flaine-1600.jpg"
+      }
+    ]
+  },
+  {
+    "id": "flumet",
+    "name": "Flumet / St Nicolas la Chapelle",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.823731,
+      "longitude": 6.543064
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "http://www.valdarly-montblanc.com",
+    "webcams": [
+      {
+        "name": "Ban Rouge",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_ban-rouge.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_ban-rouge.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_depart-des-pistes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_depart-des-pistes.jpg"
+      },
+      {
+        "name": "Crêt du Midi",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_cret-du-midi.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_cret-du-midi.jpg"
+      },
+      {
+        "name": "Flumet - Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_front-de-neige.jpg"
+      },
+      {
+        "name": "Front de neige ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_val-d-arly-panoramique1.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly_val-d-arly-panoramique1.jpg"
+      },
+      {
+        "name": "NDB - Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly-ot_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-d-arly-ot_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "les-gets",
+    "name": "Les Gets",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.149588,
+      "longitude": 6.658463
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://www.lesgets.com/webcams",
+    "webcams": [
+      {
+        "name": "Départ Perrières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesgets_depart-perrieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesgets_depart-perrieres.jpg"
+      },
+      {
+        "name": "Plateau des Chavannes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesgets_plateau-des-chavannes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesgets_plateau-des-chavannes.jpg"
+      },
+      {
+        "name": "Chavannes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesgets_chavannes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesgets_chavannes.jpg"
+      },
+      {
+        "name": "Départ Ranfoilly",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesgets_depart-ranfoilly.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesgets_depart-ranfoilly.jpg"
+      },
+      {
+        "name": "Sommet Chéry",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_gets_sommet-chery.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_gets_sommet-chery.jpg"
+      },
+      {
+        "name": "Grains d'or",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_perriere.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_perriere.jpg"
+      },
+      {
+        "name": "Centre Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_gets_centre-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_gets_centre-village.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesgets_panoramique-front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesgets_panoramique-front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "grand-bornand",
+    "name": "Le Grand Bornand",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.943229,
+      "longitude": 6.434244
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haute-Savoie",
+    "url": "https://www.legrandbornand.com",
+    "webcams": [
+      {
+        "name": "Terres Rouges",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=8rf5k-4WpCB-UL6Z0-IVy2M&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=8rf5k-4WpCB-UL6Z0-IVy2M&quality=small"
+      },
+      {
+        "name": "Taverne",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=YDnwI-fqtUr-FsfjN-CoJVy&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=YDnwI-fqtUr-FsfjN-CoJVy&quality=small"
+      },
+      {
+        "name": "Auberge Nordique",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=cZLTj-AWf2y-U9ldU-YRgWa&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=cZLTj-AWf2y-U9ldU-YRgWa&quality=small"
+      },
+      {
+        "name": "Chinaillon",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=1vkjM-btDJb-I0RrE-GfIeL&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=1vkjM-btDJb-I0RrE-GfIeL&quality=small"
+      },
+      {
+        "name": "Mont Lachat",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=TWYys-vfsKu-ZeRxz-0YTRq&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=TWYys-vfsKu-ZeRxz-0YTRq&quality=small"
+      },
+      {
+        "name": "Village - 1000 m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gb_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gb_village.jpg"
+      },
+      {
+        "name": "Snowpark du Maroly - 1650",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gdbornand_maroly.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gdbornand_maroly.jpg"
+      },
+      {
+        "name": "Lormay-Vallee du Bouchet ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_nordique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_nordique.jpg"
+      }
+    ]
+  },
+  {
+    "id": "isola-2000",
+    "name": "Isola 2000",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.185579,
+      "longitude": 7.15942
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-Maritimes",
+    "url": "https://www.isola2000.com/",
+    "trail_map": "https://www.isola2000.com/wp-content/uploads/2021/10/isola-2000-v8-2021-2022-bd.pdf",
+    "webcams": [
+      {
+        "name": "Snowpark",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_snowpark.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_snowpark.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_front-de-neige.jpg"
+      },
+      {
+        "name": "Chastillon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_station.jpg"
+      },
+      {
+        "name": "Sistron",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_sistron.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_sistron.jpg"
+      },
+      {
+        "name": "Centre Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_centre-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_centre-station.jpg"
+      },
+      {
+        "name": "Tête Cabane",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_isola-2000_tete-cabane.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_isola-2000_tete-cabane.jpg"
+      }
+    ]
+  },
+  {
+    "id": "karellis",
+    "coordinates": {
+      "longitude": 6.4063771999999997,
+      "latitude": 45.227995999999997
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Les Karellis",
+    "url": "http://www.karellis.com/",
+    "webcams": [
+      {
+        "name": "Webcam station 1600m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_karellis_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_karellis_front-de-neige.jpg"
+      },
+      {
+        "name": "Webcam 2130m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_karellis_vinouve.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_karellis_vinouve.jpg"
+      }
+    ]
+  },
+  {
+    "id": "lac-blanc",
+    "name": "Le lac blanc",
+    "country": "France",
+    "coordinates": {
+      "latitude": 48.137237,
+      "longitude": 7.083907
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Haut-Rhin",
+    "url": "https://www.lac-blanc.com/",
+    "webcams": [
+      {
+        "name": "1200",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lac-blanc_espace-debutant.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lac-blanc_espace-debutant.jpg"
+      },
+      {
+        "name": "900",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lac-blanc_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lac-blanc_front-de-neige.jpg"
+      },
+      {
+        "name": "Nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lac-blanc_espace-nordique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lac-blanc_espace-nordique.jpg"
+      }
+    ]
+  },
+  {
+    "id": "lans-en-vercors",
+    "name": "Lans En Vercors",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.114593,
+      "longitude": 5.607077
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Isère",
+    "url": "https://www.lansenvercors.com",
+    "webcams": [
+      {
+        "name": "Espace Aigle",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lans-en-vercors_espace-aigle.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lans-en-vercors_espace-aigle.jpg"
+      },
+      {
+        "name": "Montagnes de Lans",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lans_stade.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lans_stade.jpg"
+      },
+      {
+        "name": "Les Allières - Collet du Furon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lans-en-vercors_les-allieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lans-en-vercors_les-allieres.jpg"
+      },
+      {
+        "name": "Vertige des Cimes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lans-en-vercors_belvedere.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lans-en-vercors_belvedere.jpg"
+      }
+    ]
+  },
+  {
+    "id": "manigod",
+    "coordinates": {
+      "longitude": 6.3692595000000001,
+      "latitude": 45.861294999999998
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Manigod",
+    "url": "https://www.manigod.com/hiver",
+    "webcams": [
+      {
+        "name": "Manigod Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_manigod-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_manigod-village.jpg"
+      },
+      {
+        "name": "Manigod La Croix Fry",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_manigod_la-croix-fry.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_manigod_la-croix-fry.jpg"
+      }
+    ]
+  },
+  {
+    "id": "megeve",
+    "name": "Megève",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.857619,
+      "longitude": 6.617472
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://megeve.com/",
+    "webcams": [
+      {
+        "name": "Mont d’Arbois",
+        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_arbois.jpg",
+        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_arbois.jpg"
+      },
+      {
+        "name": "Altiport",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_altiport.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_altiport.jpg"
+      },
+      {
+        "name": "Palais des Sports",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_palais-des-sports.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_palais-des-sports.jpg"
+      },
+      {
+        "name": "La Livraz",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_la-livraz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_la-livraz.jpg"
+      },
+      {
+        "name": "Place du village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_village.jpg"
+      },
+      {
+        "name": "Lac d'Arbois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_evasion_retenue-collinaire.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_evasion_retenue-collinaire.jpg"
+      },
+      {
+        "name": "Fontaine",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_evasion_fontaine.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_evasion_fontaine.jpg"
+      },
+      {
+        "name": "Rochebrune",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rochebrune.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rochebrune.jpg"
+      }
+    ]
+  },
+  {
+    "id": "menuires",
+    "coordinates": { "longitude": 6.5375493999999996, "latitude": 45.3228838 },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Les Ménuires",
+    "url": "https://lesmenuires.com/",
+    "webcams": [
+      {
+        "name": "La Croisette",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0SiB-F022-AKkj-oD5h-xj6t&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0SiB-F022-AKkj-oD5h-xj6t&quality=small"
+      },
+      {
+        "name": "La Masse",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=wv0TQ-WsVB9-t45XW-2KhiT&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=wv0TQ-WsVB9-t45XW-2KhiT&quality=small"
+      },
+      {
+        "name": "Clocher",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=VNETq-DBYpn-8sjOH-pgOLP&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=VNETq-DBYpn-8sjOH-pgOLP&quality=small"
+      },
+      {
+        "name": "Les Enverses",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=ZDiQZ-ikTEo-FoU0J-lsJ1W&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=ZDiQZ-ikTEo-FoU0J-lsJ1W&quality=small"
+      },
+      {
+        "name": "Lac du Lou",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=LD9MM-7VHg5-HkTyr-61GXX&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=LD9MM-7VHg5-HkTyr-61GXX&quality=small"
+      },
+      {
+        "name": "Départ Télécabine Pointe ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_menuires_depart-tc-pointe-de-la-masse.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_menuires_depart-tc-pointe-de-la-masse.jpg"
+      },
+      {
+        "name": "Sommet Télécabine Point d",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_menuires_sommet-tc-pointe-de-la-masse.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_menuires_sommet-tc-pointe-de-la-masse.jpg"
+      }
+    ]
+  },
+  {
+    "id": "meribel",
+    "coordinates": { "longitude": 6.0482524, "latitude": 46.333019499999999 },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Méribel",
+    "url": "http://www.meribel.net",
+    "webcams": [
+      {
+        "name": "Roc de Fer",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_olympic.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_olympic.jpg"
+      },
+      {
+        "name": "Tougnète",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_tougnete.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_tougnete.jpg"
+      },
+      {
+        "name": "Chaudanne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_meribel-chaudanne-1440.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_meribel-chaudanne-1440.jpg"
+      },
+      {
+        "name": "Bouquetin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_bouquetin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_bouquetin.jpg"
+      },
+      {
+        "name": "Mottaret Centre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_front-de-neige.jpg"
+      },
+      {
+        "name": "Versant Saulire",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_meribel_saulire-express.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_meribel_saulire-express.jpg"
+      }
+    ]
+  },
+  {
+    "id": "metabief",
+    "name": "Metabief",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.768753,
+      "longitude": 6.356971
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Doubs",
+    "url": "https://www.tourisme-metabief.com",
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_front-de-neige.jpg"
+      },
+      {
+        "name": "Super Longevilles",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_super-longeville.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_super-longeville.jpg"
+      },
+      {
+        "name": "Piquemiette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orex_metabief_piquemiette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orex_metabief_piquemiette.jpg"
+      },
+      {
+        "name": "Morond",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_monrond.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_monrond.jpg"
+      }
+    ]
+  },
+  {
+    "id": "millau",
+    "name": "Millau",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.099723,
+      "longitude": 3.078531
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.explore-millau.com/",
+    "webcams": [
+      {
+        "name": "Panoramique",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "montclar",
+    "name": "Montclar",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.410753,
+      "longitude": 6.351358
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.montclar.com/",
+    "webcams": [
+      {
+        "name": "Espace Débutant",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_espace-debutant.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_espace-debutant.jpg"
+      },
+      {
+        "name": "La breche",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_la-breche.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_la-breche.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "montgenevre",
+    "name": "Montgenevre",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.930712,
+      "longitude": 6.72352
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Hautes-Alpes",
+    "url": "https://montgenevre.com",
+    "webcams": [
+      {
+        "name": "L'eglise",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_eglise.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_eglise.jpg"
+      },
+      {
+        "name": "Brousset",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_brousset.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_brousset.jpg"
+      },
+      {
+        "name": "Sommet TS Crete",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_sommet-ts-crete.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_sommet-ts-crete.jpg"
+      },
+      {
+        "name": "Sommet TDS Gondrans",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mtgenevre_sommet-des-gondrans.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/mega_mtgenevre_sommet-des-gondrans.jpg"
+      },
+      {
+        "name": "Front de Neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_front-de-neige.jpg"
+      },
+      {
+        "name": "Sommet Chalvet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_sommet-chalvet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_sommet-chalvet.jpg"
+      },
+      {
+        "name": "Thibaud",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montgenevre_thibaud.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montgenevre_thibaud.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_jean_montclar_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "morzine",
+    "coordinates": {
+      "longitude": 6.7086936000000001,
+      "latitude": 46.179186000000001
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Morzine",
+    "url": "http://www.morzine-avoriaz.com/",
+    "webcams": [
+      {
+        "name": "Sommet de la Télécabine d",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_motiv-oxygene_sommet-ts-tete.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_motiv-oxygene_sommet-ts-tete.jpg"
+      },
+      {
+        "name": "Morzine Chamossière",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_motiv-oxygene_morzine-avoriaz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_motiv-oxygene_morzine-avoriaz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "Orelle",
+    "coordinates": {
+      "longitude": 6.5341605999999999,
+      "latitude": 45.210067500000001
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Orelle",
+    "url": "https://www.orelle.net/",
+    "trail_map": "https://www.orelle.net/build/files/plan-pistes-3-vallees_min.d37d51d1.pdf",
+    "webcams": [
+      {
+        "name": "Sommet TC Orelle",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orelle_sommet-tc-orelle.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orelle_sommet-tc-orelle.jpg"
+      },
+      {
+        "name": "La Tyrolienne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val_thorens_tyrolienne.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val_thorens_tyrolienne.jpg"
+      }
+    ]
+  },
+  {
+    "id": "orcieres",
+    "coordinates": {
+      "longitude": 6.3233452999999997,
+      "latitude": 44.696382900000003
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Orcières",
+    "url": "https://www.orcieres.com/",
+    "trail_map": "https://www.orcieres.com/fileadmin/user_upload/Brochures/Hiver_2022/Plan-des-pistes-Orcieres-Hiver2022.pdf",
+    "webcams": [
+      {
+        "name": "Sommet Estaris",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_sommet-estaris.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_sommet-estaris.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_Orcieres_Front.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_Orcieres_Front.jpg"
+      },
+      {
+        "name": "Le drouvet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres-croze.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres-croze.jpg"
+      },
+      {
+        "name": "Rocherousse",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_rocherousse.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_rocherousse.jpg"
+      },
+      {
+        "name": "Base de loisirs",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mairie-orcieres_base-de-loisirs.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mairie-orcieres_base-de-loisirs.jpg"
+      }
+    ]
+  },
+  {
+    "id": "les-orres",
+    "name": "Les Orres",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.484668,
+      "longitude": 6.553725
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Hautes-Alpes",
+    "url": "https://www.lesorres.com/",
+    "webcams": [
+      {
+        "name": "Sommet Pousterle",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=QP7lQ-UmXZ7-ZyTFE-RH05p&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=QP7lQ-UmXZ7-ZyTFE-RH05p&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "passy",
+    "coordinates": {
+      "longitude": 6.7402977000000002,
+      "latitude": 45.950383799999997
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Passy",
+    "url": "https://www.passy-mont-blanc.com/",
+    "trail_map": "https://www.passy-mont-blanc.com/wp-content/uploads/2021/11/Plan-des-pistes-FR-2021-web.pdf",
+    "webcams": [
+      {
+        "name": "Base de loisirs",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_passy_base-de-loisirs.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_passy_base-de-loisirs.jpg"
+      },
+      {
+        "name": "Plaine-Joux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_passy_plaine-joux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_passy_plaine-joux.jpg"
+      }
+    ]
+  },
+  {
+    "id": "la-plagne",
+    "name": "La Plagne",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.506536,
+      "longitude": 6.677127
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.la-plagne.com",
+    "webcams": [
+      {
+        "name": "Bellecôte",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_bellecote.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_bellecote.jpg"
+      },
+      {
+        "name": "Grande Rochette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_la-grande-rochette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_la-grande-rochette.jpg"
+      },
+      {
+        "name": "Roche de Mio",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_roche-de-mio.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_roche-de-mio.jpg"
+      },
+      {
+        "name": "Bergerie",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_bergerie.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_bergerie.jpg"
+      },
+      {
+        "name": "Becoin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_becoin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_becoin.jpg"
+      },
+      {
+        "name": "Plagne Centre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_colorado.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_colorado.jpg"
+      },
+      {
+        "name": "Montchavin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_montchavin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_montchavin.jpg"
+      },
+      {
+        "name": "La Rossa",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_la-rossa.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_la-rossa.jpg"
+      },
+      {
+        "name": "Fornelet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montalbert_fornelet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montalbert_fornelet.jpg"
+      },
+      {
+        "name": "Les Coches",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montchavin_les-coches.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montchavin_les-coches.jpg"
+      },
+      {
+        "name": "Sommet Bijolin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montchavin_piscine.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montchavin_piscine.jpg"
+      },
+      {
+        "name": "La Plagne Aime 2000",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_aime-2000.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_aime-2000.jpg"
+      }
+    ]
+  },
+  {
+    "id": "praz-de-lys",
+    "country": "France",
+    "coordinates": {
+      "longitude": 6.592619,
+      "latitude": 46.149044
+    },
+    "state": "Haute Savoie",
+    "name": "Praz De Lys",
+    "url": "http://www.prazdelys-sommand.com/",
+    "webcams": [
+      {
+        "name": "Molliettes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_molliettes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_molliettes.jpg"
+      },
+      {
+        "name": "Roy",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_farquet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_farquet.jpg"
+      },
+      {
+        "name": "Véran",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_veran.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_veran.jpg"
+      },
+      {
+        "name": "Chevaly",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_chevally.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_chevally.jpg"
+      },
+      {
+        "name": "Haut Fleury",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_haut-fleury.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_haut-fleury.jpg"
+      },
+      {
+        "name": "Sommand",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_parking.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_praz_lys_sommand_parking.jpg"
+      }
+    ]
+  },
+  {
+    "id": "pralognan-la-vanoise",
+    "coordinates": {
+      "longitude": 6.7216512000000002,
+      "latitude": 45.381142500000003
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Pralognan-la-Vanoise",
+    "url": "http://www.pralognan.com/",
+    "webcams": [
+      {
+        "name": "Front de Neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pralognan_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pralognan_village.jpg"
+      },
+      {
+        "name": "Mont Bochor",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pralognan_newbochor.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pralognan_newbochor.jpg"
+      }
+    ]
+  },
+  {
+    "id": "le-reposoir",
+    "coordinates": {
+      "longitude": 6.5349608000000003,
+      "latitude": 46.011249100000001
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Le Reposoir",
+    "url": "http://www.lereposoir.fr/",
+    "trail_map": "http://static.apidae-tourisme.com/filestore/objets-touristiques/plans/141/31/11804557.pdf",
+    "webcams": [
+      {
+        "name": "Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le-reposoir_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le-reposoir_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "Risoul",
+    "coordinates": {
+      "longitude": 6.6369838000000003,
+      "latitude": 44.648743199999998
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Risoul",
+    "url": "http://www.risoul.com/",
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_front.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_front.jpg"
+      },
+      {
+        "name": "Homme de Pierre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_homme-de-pierre.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_homme-de-pierre.jpg"
+      },
+      {
+        "name": "Pré du Bois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_risoul_pre-du-bois.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_risoul_pre-du-bois.jpg"
+      },
+      {
+        "name": "Pointe de Razis",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=R9GoI-loilM-pXvm2-t4XzS&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=R9GoI-loilM-pXvm2-t4XzS&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "la-rosiere",
+    "name": "La Rosière",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.629533,
+      "longitude": 6.848892
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Savoie",
+    "url": "https://www.larosiere.net/",
+    "webcams": [
+      {
+        "name": "Mont Valaisan",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_mont-valaisan.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_mont-valaisan.jpg"
+      },
+      {
+        "name": "Résidence Le Planica",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rosiere-planica_hotel.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rosiere-planica_hotel.jpg"
+      },
+      {
+        "name": "plan de l'arc",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_plan-de-l-arc.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_plan-de-l-arc.jpg"
+      },
+      {
+        "name": "Le Fort - 2400 m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rosiere_traversette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rosiere_traversette.jpg"
+      },
+      {
+        "name": "Front de neige - 1850 m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_maison-du-ski.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_maison-du-ski.jpg"
+      },
+      {
+        "name": "Plan du Repos - 2330 m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_plan-du-repos.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la_rosiere_plan-du-repos.jpg"
+      },
+      {
+        "name": "Chalet le Montana",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rosiere-montana_chalets-les-clarines-le-montana.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rosiere-montana_chalets-les-clarines-le-montana.jpg"
+      }
+    ]
+  },
+  {
+    "id": "les-rousses",
+    "name": "Les Rousses",
+    "country": "France",
+    "coordinates": {
+      "latitude": 46.485291,
+      "longitude": 6.059871
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Jura",
+    "url": "https://www.lesrousses.com/",
+    "webcams": [
+      {
+        "name": "Centre du village, Omnibus",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-rousses_omnibus.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-rousses_omnibus.jpg"
+      },
+      {
+        "name": "Darbella, pistes nordiques",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesroussesdarbella.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesroussesdarbella.jpg"
+      },
+      {
+        "name": "Sommet Dôle, vue Mont-Blanc",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-rousses_radarstation.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-rousses_radarstation.jpg"
+      },
+      {
+        "name": "La Serra, pied des pistes ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-rousses_la-serra.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-rousses_la-serra.jpg"
+      },
+      {
+        "name": "Sommet des Tuffes ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_rousses_les-tuffes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_rousses_les-tuffes.jpg"
+      },
+      {
+        "name": "Base Nautique, Lac",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-rousses_base.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-rousses_base.jpg"
+      },
+      {
+        "name": "Sommet de la Dôle, vue station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-rousses_massif-de-dole.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-rousses_massif-de-dole.jpg"
+      },
+      {
+        "name": "Les Jouvencelles, pied pistes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-rousses_jouvencelles-ts.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-rousses_jouvencelles-ts.jpg"
+      },
+      {
+        "name": "Le Balancier, pied des pistes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-rousses_balancier.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-rousses_balancier.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-francois-longchamp",
+    "coordinates": {
+      "longitude": 6.3470013999999999,
+      "latitude": 45.408180600000001
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Saint-François-Longchamp",
+    "url": "http://www.saintfrancoislongchamp.com",
+    "webcams": [
+      {
+        "name": "TSF du Mollaret",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_francois_mollaret.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_francois_mollaret.jpg"
+      },
+      {
+        "name": "Centre station 1650m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_francois_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_francois_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-gervais",
+    "name": "Saint Gervais Mont-Blanc",
+    "coordinates": {
+      "latitude": 45.891638,
+      "longitude": 6.7135
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.saintgervais.com",
+    "webcams": [
+      {
+        "name": "Mont d'Arbois Eté",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-d-arbois-fixe.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-d-arbois-fixe.jpg"
+      },
+      {
+        "name": "Epaule",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_epaule.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_epaule.jpg"
+      },
+      {
+        "name": "Plateau de la croix",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_plateau-de-la-croix.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_plateau-de-la-croix.jpg"
+      },
+      {
+        "name": "Mont d'Arbois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-d-arbois.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-d-arbois.jpg"
+      },
+      {
+        "name": "Saint-Gervais Mont-Blanc ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_bettex.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_bettex.jpg"
+      },
+      {
+        "name": "Mont Joux Fixe",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-joux-fixe.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-joux-fixe.jpg"
+      },
+      {
+        "name": "Freddy",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st_gervais_freddy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st_gervais_freddy.jpg"
+      },
+      {
+        "name": "Promenade",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_maison-de-st-gervais.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_maison-de-st-gervais.jpg"
+      },
+      {
+        "name": "Mont Blanc",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-gervais_mont-blanc.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-gervais_mont-blanc.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-leger-les-melezes",
+    "coordinates": { "longitude": 6.2003298999999998, "latitude": 44.6445528 },
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "name": "Saint-Léger-les-Mélèzes",
+    "url": "https://www.champsaur-valgaudemar.com/hiver/ski-et-neige/les-stations/saint-leger-les-melezes/",
+    "trail_map": "https://woody.cloudly.space/app/themes/champsaur-valgaudemar/src/static/plan-des-pistes-st-leger.jpg",
+    "webcams": [
+      {
+        "name": "Les mélèzes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_les-melezes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_les-melezes.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-pierre-de-chartreuse",
+    "coordinates": {
+      "longitude": 5.803436,
+      "latitude": 45.321534
+    },
+    "country": "",
+    "state": "Isère",
+    "name": "Saint-Pierre-de-Chartreuse",
+    "url": "https://www.ski-alpin-chartreuse.com/",
+    "webcams": [
+      {
+        "name": "La Scia",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-pierre-de-chartreuse_la-scia.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-pierre-de-chartreuse_la-scia.jpg"
+      },
+      {
+        "name": "Les Essarts",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-pierre-de-chartreuse_les-essarts.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-pierre-de-chartreuse_les-essarts.jpg"
+      },
+      {
+        "name": "Le Planolet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-pierre-de-chartreuse_le-planolet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-pierre-de-chartreuse_le-planolet.jpg"
+      }
+    ]
+  },
+  {
+    "id": "sainte-foy-tarentaise",
+    "coordinates": {
+      "longitude": 6.8838160000000004,
+      "latitude": 45.590360400000002
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Sainte-Foy-Tarentaise",
+    "url": "https://www.saintefoy-tarentaise.com/",
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_front-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_front-neige.jpg"
+      },
+      {
+        "name": "Plan Bois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_plan-bois.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_plan-bois.jpg"
+      },
+      {
+        "name": "TSD de la Marquise",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_ts-de-la-marquise.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_ts-de-la-marquise.jpg"
+      },
+      {
+        "name": "Sommet Aiguille",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_sommet-aiguille.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_sommet-aiguille.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saisies",
+    "name": "Les Saisies",
+    "coordinates": {
+      "latitude": 45.757167,
+      "longitude": 6.538018
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Savoie",
+    "url": "https://www.lessaisies.com/webcams-les-saisies-hauteluce-bisanne1500-espace-diamant.html",
+    "webcams": [
+      {
+        "name": "Domaine nordique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_depart-domaine-nordique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_depart-domaine-nordique.jpg"
+      },
+      {
+        "name": "Hauteluce Chozal",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hauteluce_chozal.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hauteluce_chozal.jpg"
+      },
+      {
+        "name": "Av. des J.O. - Légette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_centre-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_centre-station.jpg"
+      },
+      {
+        "name": "Hauteluce - Mt Blanc",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hauteluce_mtblanc.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hauteluce_mtblanc.jpg"
+      },
+      {
+        "name": "Bisanne 1500",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_bisanne-1500.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_bisanne-1500.jpg"
+      },
+      {
+        "name": "Boëtet - Mt Bisanne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_regie_beaufortain.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_regie_beaufortain.jpg"
+      },
+      {
+        "name": "Bellasta",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_bellasta.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_bellasta.jpg"
+      },
+      {
+        "name": "Mont Bisanne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_bisanne-panoramique-2000.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_bisanne-panoramique-2000.jpg"
+      },
+      {
+        "name": "Espace Erwin Eckl",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_espace-erwineckl.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_espace-erwineckl.jpg"
+      },
+      {
+        "name": "Les Saisies Centre Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ducrey-sports_les-saisies-centre-village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ducrey-sports_les-saisies-centre-village.jpg"
+      },
+      {
+        "name": "Bisanne 1500 - Rosières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les_saisies_rosieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les_saisies_rosieres.jpg"
+      },
+      {
+        "name": "Pierre à l'âne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ducrey-sports_pierre-a-l-ane.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ducrey-sports_pierre-a-l-ane.jpg"
+      },
+      {
+        "name": "Les Saisies Bisanne",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_beaufortain_les-saisies-bisanne.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_beaufortain_les-saisies-bisanne.jpg"
+      }
+    ]
+  },
+  {
+    "id": "serre-chevalier",
+    "name": "Serre Chevalier",
+    "coordinates": {
+      "latitude": 44.945955,
+      "longitude": 6.559166
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.alpedugrandserre.info",
+    "webcams": [
+      {
+        "name": "Col du Lautaret",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=small"
+      },
+      {
+        "name": "Cucumelle",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=small"
+      },
+      {
+        "name": "Monetier",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=small"
+      },
+      {
+        "name": "La Blache",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_la-blache.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_la-blache.jpg"
+      },
+      {
+        "name": "Col du Prorel",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_serre-chevalier_col-du-prorel.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_serre-chevalier_col-du-prorel.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-jean-de-sixt",
+    "coordinates": {
+      "longitude": 6.4116026000000002,
+      "latitude": 45.922861599999997
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Saint-Jean-de-Sixt",
+    "url": "",
+    "webcams": [
+      {
+        "name": "Sixt - Feulatière",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_feulatiere.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_feulatiere.jpg"
+      },
+      {
+        "name": "Sixt - Fontaine",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_sixt-fer-a-cheval.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_sixt-fer-a-cheval.jpg"
+      }
+    ]
+  },
+  {
+    "id": "samoens",
+    "coordinates": {
+      "longitude": 6.7274000000000003,
+      "latitude": 46.083448799999999
+    },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Samoëns",
+    "url": "",
+    "webcams": [
+      {
+        "name": "Samoëns 1600",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_samoens-1600.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_samoens-1600.jpg"
+      },
+      {
+        "name": "Samoëns - Tête des Saix",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_samoens-tete-des-saix.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_samoens-tete-des-saix.jpg"
+      }
+    ]
+  },
+  {
+    "id": "thollon-les-memises",
+    "coordinates": { "longitude": 6.7131581999999996, "latitude": 46.3901349 },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Thollon-les-Mémises",
+    "url": "http://www.thollonlesmemises-tourisme.com",
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_front-de-neige.jpg"
+      },
+      {
+        "name": "Thollon les Mémises - Som",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
+      }
+    ]
+  },
+  {
+    "id": "super-devoluy",
+    "name": "SuperDévoluy",
+    "coordinates": {
+      "latitude": 44.677507,
+      "longitude": 5.92639
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.ledevoluy.com/fr",
+    "webcams": [
+      {
+        "name": "Pied des pistes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_superdevoluy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_superdevoluy.jpg"
+      },
+      {
+        "name": "La Joue du Loup",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_la-joue-du-loup.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_la-joue-du-loup.jpg"
+      },
+      {
+        "name": "Arrivée télésiège Génépy ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_sommet-domaine-skiable.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_sommet-domaine-skiable.jpg"
+      },
+      {
+        "name": "Télémix des fontettes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_telemix-des-fontettes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_telemix-des-fontettes.jpg"
+      }
+    ]
+  },
+  {
+    "id": "val-cenis",
+    "coordinates": {
+      "longitude": 6.8826080999999997,
+      "latitude": 45.285563099999997
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Val Cenis",
+    "url": "http://www.valcenis.com",
+    "webcams": [
+      {
+        "name": "Sommet du Solert",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_sommet-solert.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_sommet-solert.jpg"
+      },
+      {
+        "name": "Replat des Canons",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_replat-des-canons.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_replat-des-canons.jpg"
+      },
+      {
+        "name": "La Met",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_la-met.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_la-met.jpg"
+      },
+      {
+        "name": "Téléski de Pont Noir",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valcenis_tk-pont-noir.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valcenis_tk-pont-noir.jpg"
+      }
+    ]
+  },
+  {
+    "id": "valdisere",
+    "coordinates": {
+      "longitude": 6.980186,
+      "latitude": 45.44886
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Val d'Isere",
+    "url": "https://www.valdisere.com/",
+    "webcams": [
+      {
+        "name": "Solaise",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=qS4eL-edIS6-ZtamD-fAJCL&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=qS4eL-edIS6-ZtamD-fAJCL&quality=small"
+      },
+      {
+        "name": "Refuge du Prariond",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=nm7zX-hmfER-kDVAy-DO2Vs&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=nm7zX-hmfER-kDVAy-DO2Vs&quality=small"
+      },
+      {
+        "name": "La Daille",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=iRmQR-UnsmY-b4Tdl-ELMBM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=iRmQR-UnsmY-b4Tdl-ELMBM&quality=small"
+      },
+      {
+        "name": "Borsat",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=S8Gyk-GBGoI-OoxCG-dIOJD&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=S8Gyk-GBGoI-OoxCG-dIOJD&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "val-thorens",
+    "coordinates": {
+      "longitude": 6.5835663000000002,
+      "latitude": 45.297924100000003
+    },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Val-Thorens",
+    "url": "http://www.valthorens.com",
+    "webcams": [
+      {
+        "name": "Station",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=small"
+      },
+      {
+        "name": "Sommet 2 lacs",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=small"
+      },
+      {
+        "name": "3 Vallées",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=small"
+      },
+      {
+        "name": "Funitel Thorens",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=hHWSy-HBjoG-tdsPH-6rEFl&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=hHWSy-HBjoG-tdsPH-6rEFl&quality=small"
+      },
+      {
+        "name": "École Prosneige",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EdhD-J696-lZPd-i0xE-CqXk&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EdhD-J696-lZPd-i0xE-CqXk&quality=small"
+      },
+      {
+        "name": "Lac Blanc",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=Iz0R-K010-VJyC-XPp2-5OrM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=Iz0R-K010-VJyC-XPp2-5OrM&quality=small"
+      },
+      {
+        "name": "Funitel Bouquetin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val_thorens_funitel-bouquetin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val_thorens_funitel-bouquetin.jpg"
+      },
+      {
+        "name": "Cime Caron",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val_thorens_cime-caron.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val_thorens_cime-caron.jpg"
+      }
+    ]
+  },
+  {
+    "id": "valberg",
+    "coordinates": {
+      "longitude": 6.9294551999999996,
+      "latitude": 44.095261399999998
+    },
+    "country": "France",
+    "state": "Alpes Maritimes",
+    "name": "Valberg",
+    "url": "http://www.valberg.com/",
+    "trail_map": "https://www.valberg.com/plandespistes-alpin.html",
+    "webcams": [
+      {
+        "name": "Beuil-Les Launes ",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_launes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_launes.jpg"
+      },
+      {
+        "name": "Leysin",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_leysin.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_leysin.jpg"
+      },
+      {
+        "name": "Ancolies",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_ancolies.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_ancolies.jpg"
+      },
+      {
+        "name": "Sommet Tête des Eguilles",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_sommet-tete-des-eguilles.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_sommet-tete-des-eguilles.jpg"
+      },
+      {
+        "name": "Place du village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valberg_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valberg_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "valmorel",
+    "coordinates": { "longitude": 6.4424427, "latitude": 45.461705700000003 },
+    "country": "France",
+    "state": "Savoie",
+    "name": "Valmorel",
+    "url": "https://www.valmorel.com/",
+    "trail_map": "https://www.valmorel.com/wp-content/uploads/2020/10/Plan-Grand-Domaine-2020-2021-WEB-2.pdf",
+    "webcams": [
+      {
+        "name": "Village",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valmorel_village.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valmorel_village.jpg"
+      },
+      {
+        "name": "Biollène",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valmorel_arenouillaz.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valmorel_arenouillaz.jpg"
+      },
+      {
+        "name": "Altispace",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valmorel_altispace.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valmorel_altispace.jpg"
+      },
+      {
+        "name": "Sommet Lanchettes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valmorel_lanchettes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valmorel_lanchettes.jpg"
+      },
+      {
+        "name": "Doucy",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valmorel_doucy-combelouviere.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valmorel_doucy-combelouviere.jpg"
+      }
+    ]
+  },
+  {
+    "id": "Vars",
+    "coordinates": {
+      "longitude": 6.6894121000000002,
+      "latitude": 44.592979399999997
+    },
+    "country": "France",
+    "state": "Hautes Alpes",
+    "name": "Vars",
+    "url": "http://www.vars.com",
+    "trail_map": "https://www.vars.com/app/uploads/vars/2021/11/depliant-plan-des-pistes-2021-22-bd.pdf",
+    "webcams": [
+      {
+        "name": "Snowpark de l'Eyssina",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_snowpark-de-l-eyssina.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_snowpark-de-l-eyssina.jpg"
+      },
+      {
+        "name": "Sainte Marie",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_sainte-marie.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_sainte-marie.jpg"
+      },
+      {
+        "name": "Col de Crevoux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_col-de-crevoux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_col-de-crevoux.jpg"
+      },
+      {
+        "name": "Pic de Chabrières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_chabrieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_chabrieres.jpg"
+      },
+      {
+        "name": "Crevoux",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vars_crevoux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vars_crevoux.jpg"
+      }
+    ]
+  },
+  {
+    "id": "vaujany",
+    "coordinates": {
+      "longitude": 6.0767341000000004,
+      "latitude": 45.157751500000003
+    },
+    "country": "France",
+    "state": "Isère",
+    "name": "Vaujany",
+    "url": "http://www.vaujany.com/",
+    "webcams": [
+      {
+        "name": "Alpette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vaujany_alpette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vaujany_alpette.jpg"
+      },
+      {
+        "name": "Sommet 2800",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vaujany_sommet-2800.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vaujany_sommet-2800.jpg"
+      },
+      {
+        "name": "Vaujany",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vaujany.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vaujany.jpg"
+      }
+    ]
+  },
+  {
+    "id": "villard-de-lans",
+    "coordinates": {
+      "longitude": 5.550028,
+      "latitude": 45.068834
+    },
+    "country": "",
+    "state": "Isère",
+    "name": "Villard-de-Lans",
+    "url": "http://www.villarddelans-correnconenvercors.com",
+    "webcams": [
+      {
+        "name": "Colline des Bains",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_villard-de-lans-correncon-en-vercors_colline-des-bains.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_villard-de-lans-correncon-en-vercors_colline-des-bains.jpg"
+      },
+      {
+        "name": "Bois Barbu",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_villard-de-lans-correncon-en-vercors_bois-barbu.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_villard-de-lans-correncon-en-vercors_bois-barbu.jpg"
+      }
+    ]
+  }
+]
