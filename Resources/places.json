@@ -1511,7 +1511,7 @@
     "url": "https://www.explore-millau.com/",
     "webcams": [
       {
-        "name": "Panoramique",
+        "name": "Causse noir",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=small"
       }

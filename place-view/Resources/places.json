@@ -1123,7 +1123,6 @@
     "state": "Haute-Savoie",
     "url": "https://www.legrandbornand.com",
     "webcams": [
-      
       {
         "name": "Terres Rouges",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=8rf5k-4WpCB-UL6Z0-IVy2M&quality=large",
@@ -1495,6 +1494,26 @@
         "name": "Morond",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_monrond.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_monrond.jpg"
+      }
+    ]
+  },
+  {
+    "id": "millau",
+    "name": "Millau",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.099723,
+      "longitude": 3.078531
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.explore-millau.com/",
+    "webcams": [
+      {
+        "name": "Causse noir",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=small"
       }
     ]
   },
@@ -2366,7 +2385,7 @@
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
       }
     ]
-  },  
+  },
   {
     "id": "super-devoluy",
     "name": "SuperDévoluy",
@@ -2439,7 +2458,7 @@
     "id": "valdisere",
     "coordinates": {
       "longitude": 6.980186,
-      "latitude": 45.448860
+      "latitude": 45.44886
     },
     "country": "France",
     "state": "Savoie",
@@ -2467,7 +2486,7 @@
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=S8Gyk-GBGoI-OoxCG-dIOJD&quality=small"
       }
     ]
-  }, 
+  },
   {
     "id": "val-thorens",
     "coordinates": {
