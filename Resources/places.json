@@ -1518,6 +1518,31 @@
     ]
   },
   {
+    "id": "mont-dore",
+    "name": "Mont-Dore",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.551709,
+      "longitude": 2.813375
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Puy-de-Dôme",
+    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/le-mont-dore/",
+    "webcams": [
+      {
+        "name": "Sommet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_sommet-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_sommet-station.jpg"
+      },
+      {
+        "name": "Bas de station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_bas-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_bas-station.jpg"
+      }
+    ]
+  },
+  {
     "id": "montclar",
     "name": "Montclar",
     "country": "France",
@@ -2383,6 +2408,31 @@
         "name": "Thollon les Mémises - Som",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
+      }
+    ]
+  },
+  {
+    "id": "super-besse",
+    "name": "Super-Besse",
+    "coordinates": {
+      "latitude": 45.509164,
+      "longitude": 2.853922
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Puy-de-Dôme",
+    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/super-besse/superbesse-station-de-ski-et-sports-hiver/",
+    "webcams": [
+      {
+        "name": "Haut de station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_superbesse-haut.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_superbesse-haut.jpg"
+      },
+      {
+        "name": "Bas de station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_superbesse-ecole.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_superbesse-ecole.jpg"
       }
     ]
   },
