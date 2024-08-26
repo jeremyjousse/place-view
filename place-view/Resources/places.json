@@ -1072,6 +1072,26 @@
         "name": "Les Airelles",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_les-airelles.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_les-airelles.jpg"
+      },
+      {
+        "name": "Roc de la Calme",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_roc-de-la-calme.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_roc-de-la-calme.jpg"
+      },
+      {
+        "name": "Calme Sud",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_calme-sud.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_calme-sud.jpg"
+      },
+      {
+        "name": "Pyrenées 2000",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_pyrenees-2000-front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_pyrenees-2000-front-de-neige.jpg"
+      },
+      {
+        "name": "Col de la Pam",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_col-del-pam.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_col-del-pam.jpg"
       }
     ]
   },
