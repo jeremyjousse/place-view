@@ -1056,6 +1056,26 @@
     ]
   },
   {
+    "id": "font-romeu",
+    "name": "Font-Romeu-Odeillo-Via",
+    "country": "France",
+    "coordinates": {
+      "latitude": 42.505197577969724,
+      "longitude": 2.042147008363868
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Pyrénées-Orientales",
+    "url": "https://font-romeu.fr/",
+    "webcams": [
+      {
+        "name": "Les Airelles",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_les-airelles.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_les-airelles.jpg"
+      }
+    ]
+  },
+  {
     "id": "les-gets",
     "name": "Les Gets",
     "country": "France",
@@ -1514,6 +1534,31 @@
         "name": "Causse noir",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "mont-dore",
+    "name": "Mont-Dore",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.551709,
+      "longitude": 2.813375
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "state": "Puy-de-Dôme",
+    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/le-mont-dore/",
+    "webcams": [
+      {
+        "name": "Sommet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_sommet-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_sommet-station.jpg"
+      },
+      {
+        "name": "Bas de station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_bas-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_bas-station.jpg"
       }
     ]
   },
@@ -2281,46 +2326,6 @@
     ]
   },
   {
-    "id": "serre-chevalier",
-    "name": "Serre Chevalier",
-    "coordinates": {
-      "latitude": 44.945955,
-      "longitude": 6.559166
-    },
-    "isFavorite": false,
-    "isFeatured": false,
-    "country": "France",
-    "state": "Hautes-Alpes",
-    "url": "https://www.alpedugrandserre.info",
-    "webcams": [
-      {
-        "name": "Col du Lautaret",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=small"
-      },
-      {
-        "name": "Cucumelle",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=small"
-      },
-      {
-        "name": "Monetier",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=small"
-      },
-      {
-        "name": "La Blache",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_la-blache.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_la-blache.jpg"
-      },
-      {
-        "name": "Col du Prorel",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_serre-chevalier_col-du-prorel.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_serre-chevalier_col-du-prorel.jpg"
-      }
-    ]
-  },
-  {
     "id": "saint-jean-de-sixt",
     "coordinates": {
       "longitude": 6.4116026000000002,
@@ -2367,22 +2372,67 @@
     ]
   },
   {
-    "id": "thollon-les-memises",
-    "coordinates": { "longitude": 6.7131581999999996, "latitude": 46.3901349 },
+    "id": "serre-chevalier",
+    "name": "Serre Chevalier",
+    "coordinates": {
+      "latitude": 44.945955,
+      "longitude": 6.559166
+    },
+    "isFavorite": false,
+    "isFeatured": false,
     "country": "France",
-    "state": "Haute Savoie",
-    "name": "Thollon-les-Mémises",
-    "url": "http://www.thollonlesmemises-tourisme.com",
+    "state": "Hautes-Alpes",
+    "url": "https://www.alpedugrandserre.info",
     "webcams": [
       {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_front-de-neige.jpg"
+        "name": "Col du Lautaret",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=small"
       },
       {
-        "name": "Thollon les Mémises - Som",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
+        "name": "Cucumelle",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=emLUg-rmZuN-majJw-qVIcM&quality=small"
+      },
+      {
+        "name": "Monetier",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=clSP-P998-MHFx-kAQx-lT9A&quality=small"
+      },
+      {
+        "name": "La Blache",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_la-blache.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_alpe-du-grand-serre_la-blache.jpg"
+      },
+      {
+        "name": "Col du Prorel",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_serre-chevalier_col-du-prorel.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_serre-chevalier_col-du-prorel.jpg"
+      }
+    ]
+  },
+  {
+    "id": "super-besse",
+    "name": "Super-Besse",
+    "coordinates": {
+      "latitude": 45.509164,
+      "longitude": 2.853922
+    },
+    "isFavorite": false,
+    "isFeatured": false,
+    "country": "France",
+    "state": "Puy-de-Dôme",
+    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/super-besse/superbesse-station-de-ski-et-sports-hiver/",
+    "webcams": [
+      {
+        "name": "Haut de station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_superbesse-haut.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_superbesse-haut.jpg"
+      },
+      {
+        "name": "Bas de station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_superbesse-ecole.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_superbesse-ecole.jpg"
       }
     ]
   },
@@ -2418,6 +2468,26 @@
         "name": "Télémix des fontettes",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superdevoluy_telemix-des-fontettes.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superdevoluy_telemix-des-fontettes.jpg"
+      }
+    ]
+  },
+  {
+    "id": "thollon-les-memises",
+    "coordinates": { "longitude": 6.7131581999999996, "latitude": 46.3901349 },
+    "country": "France",
+    "state": "Haute Savoie",
+    "name": "Thollon-les-Mémises",
+    "url": "http://www.thollonlesmemises-tourisme.com",
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_front-de-neige.jpg"
+      },
+      {
+        "name": "Thollon les Mémises - Som",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
       }
     ]
   },
