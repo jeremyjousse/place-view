@@ -1,17 +1,6 @@
 [
   {
     "coordinates": {
-      "longitude": 6.0643589000000002,
-      "latitude": 45.090511100000001
-    },
-    "country": "France",
-    "state": "Isère",
-    "name": "L'Alpe-d'Huez",
-    "url": "http://www.alpedhuez.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 7.0525985999999996,
       "latitude": 45.374041300000002
     },
@@ -19,17 +8,6 @@
     "state": "Savoie",
     "name": "Bonneval-sur-Arc",
     "url": "https://www.bonneval-sur-arc.com/",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 5.8766344000000004,
-      "latitude": 45.126456400000002
-    },
-    "country": "France",
-    "state": "Isère",
-    "name": "Chamrousse",
-    "url": "https://www.chamrousse.com",
     "webcams": []
   },
   {
@@ -358,7 +336,7 @@
     "url": "",
     "webcams": []
   },
-  
+
   {
     "coordinates": { "longitude": 19.286406100000001, "latitude": 51.6191703 },
     "country": "Pologne",

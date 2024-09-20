@@ -1,6 +1,4 @@
 {
-    "conventionalCommits.scopes": [
-        "webcams",
-        "github-actions"
-    ]
+  "conventionalCommits.scopes": ["webcams", "github-actions", "admin-tools"],
+  "cSpell.words": ["geocode", "lucide"]
 }
