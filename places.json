@@ -964,7 +964,7 @@
     "state": "Haute-Savoie",
     "name": "Flaine",
     "url": "https://www.flaine.com/",
-    "trail_map": "https://www.flaine.com/media/grandmassif_planpistes_hiver2020-2021.pdf",
+    "trail_map": "https://www.flaine.com/media/gm_planpistes_2024_bd.pdf",
     "webcams": [
       {
         "name": "Flaine - Grandes Platières",
@@ -1176,6 +1176,24 @@
 
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=8rf5k-4WpCB-UL6Z0-IVy2M&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=8rf5k-4WpCB-UL6Z0-IVy2M&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "grand-echaillon",
+    "coordinates": {
+      "longitude": 5.20874,
+      "latitude": 44.913429
+    },
+    "country": "France",
+    "state": "Drôme",
+    "name": "Le Grand Echaillon",
+    "url": "https://www.grand-echaillon.com/",
+    "webcams": [
+      {
+        "name": "Grand Echaillon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_grand-echaillon.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_grand-echaillon.jpg"
       }
     ]
   },
@@ -2235,7 +2253,7 @@
     "isFeatured": false,
     "country": "France",
     "state": "Savoie",
-    "url": "https://www.lessaisies.com/webcams-les-saisies-hauteluce-bisanne1500-espace-diamant.html",
+    "url": "https://www.lessaisies.com/",
     "webcams": [
       {
         "name": "Domaine nordique",
