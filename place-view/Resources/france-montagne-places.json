@@ -34,17 +34,6 @@
   },
   {
     "coordinates": {
-      "longitude": 6.6405459000000002,
-      "latitude": 45.896652799999998
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Combloux",
-    "url": "https://www.combloux.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 6.4947299999999997,
       "latitude": 45.862591299999998
     },
@@ -358,7 +347,7 @@
     "url": "",
     "webcams": []
   },
-  
+
   {
     "coordinates": { "longitude": 19.286406100000001, "latitude": 51.6191703 },
     "country": "Pologne",
@@ -1106,19 +1095,6 @@
     "name": "Le Chazelet",
     "url": "",
     "webcams": []
-  },
-  {
-    "country": "",
-    "state": "Drôme",
-    "name": "LE GRAND ECHAILLON",
-    "url": "",
-    "webcams": [
-      {
-        "name": "Grand Echaillon",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_grand-echaillon.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_grand-echaillon.jpg"
-      }
-    ]
   },
   {
     "coordinates": {
