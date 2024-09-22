@@ -660,6 +660,25 @@
     ]
   },
   {
+    "id": "chastreix",
+    "coordinates": {
+      "longitude": 2.734751,
+      "latitude": 45.511948
+    },
+    "country": "France",
+    "state": "Puy-de-Dôme",
+    "name": "Chastreix",
+    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/chastreix/",
+    "webcams": [
+      {
+        "name": "Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy_chastreix-sancy-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy_chastreix-sancy-station.jpg"
+      }
+    ]
+  },
+
+  {
     "id": "chatel",
     "coordinates": {
       "longitude": 6.8409693999999996,
