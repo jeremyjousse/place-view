@@ -1,17 +1,6 @@
 [
   {
     "coordinates": {
-      "longitude": 6.0643589000000002,
-      "latitude": 45.090511100000001
-    },
-    "country": "France",
-    "state": "Isère",
-    "name": "L'Alpe-d'Huez",
-    "url": "http://www.alpedhuez.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
       "longitude": 7.0525985999999996,
       "latitude": 45.374041300000002
     },
@@ -23,14 +12,14 @@
   },
   {
     "coordinates": {
-      "longitude": 5.8766344000000004,
-      "latitude": 45.126456400000002
+
+      "longitude": 6.6405459000000002,
+      "latitude": 45.896652799999998
     },
     "country": "France",
-    "state": "Isère",
-    "name": "Chamrousse",
-    "url": "https://www.chamrousse.com",
-    "webcams": []
+    "state": "Haute Savoie",
+    "name": "Combloux",
+    "url": "https://www.combloux.com",
   },
   {
     "coordinates": {
