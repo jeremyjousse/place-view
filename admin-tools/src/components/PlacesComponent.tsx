@@ -13,11 +13,11 @@ import { useEffect, useState } from "react";
 
 import { Button } from "./ui/button";
 import Link from "next/link";
-import Place from "@/domain/Place";
+import PlaceDto from "@/domain/Place";
 import { listPlaces } from "@/lib/server/placeService";
 
 export default function PlacesComponent() {
-  let [places, setPlaces] = useState([] as Place[]);
+  let [places, setPlaces] = useState([] as PlaceDto[]);
 
   useEffect(() => {
     listPlaces().then((places) => setPlaces(places));

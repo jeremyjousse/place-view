@@ -2,7 +2,7 @@ import { Map, Marker } from "pigeon-maps";
 import { useEffect, useState } from "react";
 
 import Link from "next/link";
-import Place from "@/domain/Place";
+import PlaceDto from "@/domain/Place";
 import React from "react";
 import { placeDetail } from "@/lib/server/placeService";
 
@@ -11,7 +11,7 @@ type PlaceProps = {
 };
 
 export default function PlaceComponent(props: PlaceProps) {
-  const [place, setPlace] = useState<Place>();
+  const [place, setPlace] = useState<PlaceDto>();
 
   useEffect(() => {
     placeDetail(props.id).then((place) => {

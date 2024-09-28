@@ -20,7 +20,7 @@ import { useEffect, useState } from "react";
 import Coordinates from "@/domain/Coordinates";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import Place from "@/domain/Place";
+import PlaceDto from "@/domain/Place";
 import { Trash2 } from "lucide-react";
 import { useDebounce } from "@uidotdev/usehooks";
 import { useForm } from "react-hook-form";
@@ -44,7 +44,7 @@ type Schema = z.infer<typeof schema>;
 export default function PlaceForm(props: PlaceProps) {
   const [open, setOpen] = useState(false);
   const [coordinates, setCoordinates] = useState<Coordinates>();
-  const [place, setPlace] = useState<Place>();
+  const [place, setPlace] = useState<PlaceDto>();
   const [placeName, setPlaceName] = useState<string>();
   const [predictions, setPredictions] = useState<LocationPrediction[]>();
   const debouncedSearchTerm = useDebounce(placeName, 1000);
