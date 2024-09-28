@@ -12,44 +12,13 @@
   },
   {
     "coordinates": {
-
       "longitude": 6.6405459000000002,
       "latitude": 45.896652799999998
     },
     "country": "France",
     "state": "Haute Savoie",
     "name": "Combloux",
-    "url": "https://www.combloux.com",
-  },
-  {
-    "coordinates": {
-      "longitude": 6.4947299999999997,
-      "latitude": 45.862591299999998
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "La Giettaz",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": { "longitude": 6.6988965, "latitude": 45.202369500000003 },
-    "country": "France",
-    "state": "Savoie",
-    "name": "La Norma",
-    "url": "http://www.la-norma.com/",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 1.7436366999999999,
-      "latitude": 48.961075700000002
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "La Plagne",
-    "url": "http://www.la-plagne.com",
-    "webcams": []
+    "url": "https://www.combloux.com"
   },
   {
     "country": "",
@@ -59,137 +28,11 @@
     "webcams": []
   },
   {
-    "coordinates": {
-      "longitude": 6.2567104000000002,
-      "latitude": 45.256109000000002
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "La Toussuire",
-    "url": "http://www.la-toussuire.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 5.5884967000000003,
-      "latitude": 45.128286000000003
-    },
-    "country": "France",
-    "state": "Isère",
-    "name": "Lans-en-Vercors",
-    "url": "https://www.lansenvercors.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 2.3430645726709352,
-      "latitude": 48.901606693898408
-    },
-    "country": "France",
-    "state": "Isère",
-    "name": "Saint-Ouen-sur-Seine",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": { "longitude": 6.1071133, "latitude": 45.393613000000002 },
-    "country": "France",
-    "state": "Isère",
-    "name": "Allevard",
-    "url": "http://www.lecollet.com/",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 5.2997832000000002,
-      "latitude": 45.314588899999997
-    },
-    "country": "France",
-    "state": "",
-    "name": "Le Collet",
-    "url": "",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.4816048999999998,
-      "latitude": 44.875218099999998
-    },
-    "country": "France",
-    "state": "Isère",
-    "name": "Pelvoux",
-    "url": "http://www.les7laux.com/",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.6697759999999997,
-      "latitude": 46.158919099999999
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Les Gets",
-    "url": "http://www.lesgets.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.7982500999999997,
-      "latitude": 45.890070799999997
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Les Houches",
-    "url": "http://www.leshouches.com",
-    "webcams": []
-  },
-  {
     "coordinates": { "longitude": 6.5382641000000001, "latitude": 45.7583585 },
     "country": "France",
     "state": "Savoie",
     "name": "Les Saisies",
     "url": "https://www.lessaisies.com",
-    "webcams": []
-  },
-  {
-    "country": "",
-    "state": "Savoie",
-    "name": "MONTCHAVIN LA PLAGNE",
-    "url": "http://www.montchavin-la-plagne.com",
-    "webcams": [
-      {
-        "name": "Sommet Bijolin",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montchavin_piscine.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montchavin_piscine.jpg"
-      },
-      {
-        "name": "Montchavin",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-plagne_montchavin.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-plagne_montchavin.jpg"
-      },
-      {
-        "name": "Télébuffette",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_montchavin_les-coches.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_montchavin_les-coches.jpg"
-      }
-    ]
-  },
-  {
-    "country": "",
-    "state": "Isère",
-    "name": "OZ-EN-OISANS",
-    "url": "http://www.oz-en-oisans.com",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.7615717000000002,
-      "latitude": 45.555290900000003
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Vallandry",
-    "url": "http://www.peisey-vallandry.com",
     "webcams": []
   },
   {
@@ -231,39 +74,6 @@
     "state": "Savoie",
     "name": "Saint-Sorlin-d'Arves",
     "url": "http://www.saintsorlindarves.com/fr/hiver/index.htm",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.9076566000000001,
-      "latitude": 45.470295800000002
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Tignes",
-    "url": "http://www.tignes.net",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.9799252000000003,
-      "latitude": 45.449406500000002
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Val-d'Isère",
-    "url": "http://www.valdisere.com/fr",
-    "webcams": []
-  },
-  {
-    "coordinates": {
-      "longitude": 6.4299764000000001,
-      "latitude": 45.165068499999997
-    },
-    "country": "France",
-    "state": "Savoie",
-    "name": "Valloire",
-    "url": "http://www.valloire.net/",
     "webcams": []
   },
   {
@@ -325,18 +135,6 @@
     "url": "",
     "webcams": []
   },
-  {
-    "coordinates": {
-      "longitude": 6.8693638000000004,
-      "latitude": 45.923566399999999
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Chamonix-Mont-Blanc",
-    "url": "",
-    "webcams": []
-  },
-
   {
     "coordinates": { "longitude": 19.286406100000001, "latitude": 51.6191703 },
     "country": "Pologne",
