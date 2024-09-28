@@ -1,6 +1,5 @@
 "use client";
 
-import { CirclePlus, Trash2 } from "lucide-react";
 import {
   Command,
   CommandEmpty,
@@ -20,8 +19,10 @@ import Coordinates from "@/domain/Coordinates";
 import { Input } from "@/components/ui/input";
 import { Label } from "@radix-ui/react-label";
 import Place from "@/domain/Place";
+import { Trash2 } from "lucide-react";
 import Webcam from "@/domain/Webcam";
-import { detectWebcamType } from "@/lib/client/webcamService";
+import WebcamAddInput from "@/components/molecules/WebcamAddInput";
+import { detectWebcamType } from "@/lib/server/webcamService";
 import { placeIdFromName } from "@/lib/client/placeService";
 import { updatePlace } from "@/lib/server/placeService";
 import { useDebounce } from "@uidotdev/usehooks";
@@ -44,15 +45,13 @@ const schema = z.object({
       thumbnailImage: z.string(),
     })
   ),
-  // TODO usefieldarray https://react-hook-form.com/docs/usefieldarray
 });
 type Schema = z.infer<typeof schema>;
 const AddPlaceFrom = () => {
   const [open, setOpen] = useState(false);
   const [addWebcamStatus, setAddWebcamStatus] = useState(false);
   const [webcams, setWebcams] = useState<Webcam[]>([]);
-  const [newWebcamUrl, setNewWebcamUrl] = useState("");
-  const debouncedNewWebcamUrl = useDebounce(newWebcamUrl, 1000);
+
   const [coordinates, setCoordinates] = useState<Coordinates>();
   const [place, setPlace] = useState<Place>({
     id: "",
@@ -131,6 +130,10 @@ const AddPlaceFrom = () => {
     }
   };
 
+  const addWebcam = (webcam: Webcam) => {
+    setValue("webcams", [...getValues("webcams"), webcam]);
+  };
+
   const onSubmit = (data: Schema) => {
     ("use server");
     console.log("onSubmit");
@@ -152,18 +155,6 @@ const AddPlaceFrom = () => {
       }),
     ]);
   };
-
-  useEffect(() => {
-    console.log(debouncedNewWebcamUrl);
-    const detectedWebcam = detectWebcamType(debouncedNewWebcamUrl);
-    if (detectedWebcam) {
-      console.log(detectedWebcam);
-      setNewWebcamUrl("");
-      setAddWebcamStatus(false);
-      setValue("webcams", [...getValues("webcams"), detectedWebcam]);
-      // setWebcams([...webcams, detectedWebcam]);
-    }
-  }, [debouncedNewWebcamUrl]);
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -236,21 +227,8 @@ const AddPlaceFrom = () => {
         <Input {...register("url")} />
       </div>
       {/* TODO <ScrollArea /> https://ui.shadcn.com/docs/components/scroll-area */}
-      {addWebcamStatus ? (
-        <div className="grid w-full max-w-sm items-center gap-1.5">
-          <Label htmlFor="url">New webcam</Label>
-          <Input
-            value={newWebcamUrl}
-            onChange={(event) => setNewWebcamUrl(event.target.value)}
-          />
-        </div>
-      ) : (
-        <div>
-          <button onClick={() => setAddWebcamStatus(true)}>
-            <CirclePlus />
-          </button>
-        </div>
-      )}
+      <WebcamAddInput addWebcam={addWebcam} />
+
       {webcams.map((webcam, index) => (
         <div key={webcam.name} className="max-w-sm m-2 flex">
           <Input

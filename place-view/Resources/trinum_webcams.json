@@ -520,51 +520,6 @@
     ]
   },
   {
-    "name": "pyrenees-2000",
-    "webcams": [
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pyrenees-2000_front.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pyrenees-2000_front.jpg"
-      }
-    ]
-  },
-  {
-    "name": "reallon",
-    "webcams": [
-      {
-        "name": "Front de Neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_reallon-front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_reallon-front-de-neige.jpg"
-      },
-      {
-        "name": "Chabrières",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_reallon_chabrieres.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_reallon_chabrieres.jpg"
-      }
-    ]
-  },
-  {
-    "name": "foncine-le-haut",
-    "webcams": [
-      {
-        "name": "Foncine le haut",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_foncine-le-haut_teleski-foncine.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_foncine-le-haut_teleski-foncine.jpg"
-      }
-    ]
-  },
-  {
-    "name": "anzat-le-luguet",
-    "webcams": [
-      {
-        "name": "Parrot",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_anzat-le-luguet_parrot.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_anzat-le-luguet_parrot.jpg"
-      }
-    ]
-  },
-  {
     "name": "la-drome",
     "webcams": [
       {
@@ -615,46 +570,6 @@
     ]
   },
   {
-    "name": "grand-puy",
-    "webcams": [
-      {
-        "name": "Les Planes",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le-grand-puy_les-planes.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le-grand-puy_les-planes.jpg"
-      },
-      {
-        "name": "Espace débutant",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le-grand-puy_espace-debutant.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le-grand-puy_espace-debutant.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le-grand-puy_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le-grand-puy_front-de-neige.jpg"
-      }
-    ]
-  },
-  {
-    "name": "chambon-sur-lac",
-    "webcams": [
-      {
-        "name": "Le Lac",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chambon-sur-lac_le-lac.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chambon-sur-lac_le-lac.jpg"
-      }
-    ]
-  },
-  {
-    "name": "rdmo",
-    "webcams": [
-      {
-        "name": "Entreprise",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rdmo_entreprise.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rdmo_entreprise.jpg"
-      }
-    ]
-  },
-  {
     "name": "st-leger",
     "webcams": [
       {
@@ -680,72 +595,12 @@
     ]
   },
   {
-    "name": "chambery",
-    "webcams": [
-      {
-        "name": "Stade municipal",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chambery_chantier-stade.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chambery_chantier-stade.jpg"
-      },
-      {
-        "name": "Piscine aqualudique",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chambery_chantier-piscine.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chambery_chantier-piscine.jpg"
-      }
-    ]
-  },
-  {
-    "name": "ossabois",
-    "webcams": [
-      {
-        "name": "Chantier le Corbier",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ossabois_chantier-le-corbier.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ossabois_chantier-le-corbier.jpg"
-      }
-    ]
-  },
-  {
-    "name": "hotel-ours-blanc",
-    "webcams": [
-      {
-        "name": "Hôtel Ours Blanc",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_OursBlanc.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_OursBlanc.jpg"
-      }
-    ]
-  },
-  {
     "name": "coeur-de-savoie",
     "webcams": [
       {
         "name": "La Rochette",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_coeur-de-savoie_la-rochette.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_coeur-de-savoie_la-rochette.jpg"
-      },
-      {
-        "name": "Arclusaz Montlambert",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_coeur-de-savoie_evenementiel-1.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_coeur-de-savoie_evenementiel-1.jpg"
-      }
-    ]
-  },
-  {
-    "name": "chalmazel",
-    "webcams": [
-      {
-        "name": "Jasseries",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chalmazel_jasseries.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chalmazel_jasseries.jpg"
-      },
-      {
-        "name": "Espace apprentissage",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chalmazel_espace-apprentissage.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chalmazel_espace-apprentissage.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chalmazel_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chalmazel_front-de-neige.jpg"
       }
     ]
   },
