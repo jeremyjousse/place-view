@@ -5,9 +5,6 @@ export type LocationPrediction = {
   latitude: number;
   longitude: number;
   displayName: string;
-  city: string;
-  state: string;
-  country: string;
 };
 
 export type GeocodeMapsResponse = {
@@ -28,17 +25,19 @@ export const getLocationPrediction = async (
   const geocodeMapsResponse = (await response.json()) as GeocodeMapsResponse[];
 
   // TODO filter duplicate
-  return geocodeMapsResponse.map((place) => {
-    const displayNameParts = place.display_name.split(",");
-
+  const mappedPredictions = geocodeMapsResponse.map((place) => {
     return {
       id: place.place_id.toString(),
       latitude: Number.parseFloat(place.lat),
       longitude: Number.parseFloat(place.lon),
       displayName: place.display_name,
-      city: displayNameParts[0] || "",
-      state: displayNameParts[1] || "",
-      country: displayNameParts.pop() || "",
     };
   });
+
+  return mappedPredictions.filter(
+    (data, index) =>
+      mappedPredictions.findIndex(
+        (obj) => obj.displayName == data.displayName
+      ) === index
+  );
 };

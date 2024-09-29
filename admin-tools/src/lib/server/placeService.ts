@@ -2,11 +2,11 @@
 
 import { readFileSync, writeFileSync } from "fs";
 
-import Place from "@/domain/Place";
+import { PlaceDto } from "@/domain/Place";
 
 const JSON_PLACE_FILE_PATH = "../place-view/Resources/places.json";
 
-export const updatePlace = async (place: Place) => {
+export const updatePlace = async (place: PlaceDto) => {
   const places = await listPlaces();
 
   const placeIndex = places.findIndex(
@@ -19,16 +19,20 @@ export const updatePlace = async (place: Place) => {
     places.push(place);
   }
 
+  places.sort((a, b) => a.id.localeCompare(b.id));
+
   writeFileSync(JSON_PLACE_FILE_PATH, JSON.stringify(places, null, 2));
 };
 
-export const listPlaces = async (): Promise<Place[]> => {
-  return JSON.parse(readFileSync(JSON_PLACE_FILE_PATH).toString()) as Place[];
+export const listPlaces = async (): Promise<PlaceDto[]> => {
+  return JSON.parse(
+    readFileSync(JSON_PLACE_FILE_PATH).toString()
+  ) as PlaceDto[];
 };
 
 export const placeDetail = async (
   placeId: string
-): Promise<Place | undefined> => {
+): Promise<PlaceDto | undefined> => {
   const places = await listPlaces();
   return places.find((place) => place.id == placeId);
 };

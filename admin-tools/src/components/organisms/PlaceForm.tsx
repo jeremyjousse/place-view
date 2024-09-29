@@ -1,31 +1,20 @@
 "use client";
 
-import {
-  Command,
-  CommandEmpty,
-  CommandInput,
-  CommandItem,
-  CommandList,
-} from "@/components/ui/command";
-import {
-  LocationPrediction,
-  getLocationPrediction,
-} from "@/lib/server/geocodeMapService";
 import { Map, Marker } from "pigeon-maps";
-import { useEffect, useState } from "react";
+import { redirect, useRouter } from "next/navigation";
 import { useFieldArray, useForm } from "react-hook-form";
 
 import Coordinates from "@/domain/Coordinates";
 import { Input } from "@/components/ui/input";
 import { Label } from "@radix-ui/react-label";
-import Place from "@/domain/Place";
+import { PlaceDto } from "@/domain/Place";
+import PlaceNameInput from "../molecules/PlaceNameInput";
 import { Trash2 } from "lucide-react";
 import Webcam from "@/domain/Webcam";
 import WebcamAddInput from "@/components/molecules/WebcamAddInput";
-import { detectWebcamType } from "@/lib/server/webcamService";
 import { placeIdFromName } from "@/lib/client/placeService";
 import { updatePlace } from "@/lib/server/placeService";
-import { useDebounce } from "@uidotdev/usehooks";
+import { useState } from "react";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
@@ -47,27 +36,9 @@ const schema = z.object({
   ),
 });
 type Schema = z.infer<typeof schema>;
-const AddPlaceFrom = () => {
-  const [open, setOpen] = useState(false);
-  const [addWebcamStatus, setAddWebcamStatus] = useState(false);
+const AddPlaceFrom = ({ place }: { place: PlaceDto }) => {
+  const router = useRouter();
   const [webcams, setWebcams] = useState<Webcam[]>([]);
-
-  const [coordinates, setCoordinates] = useState<Coordinates>();
-  const [place, setPlace] = useState<Place>({
-    id: "",
-    name: "",
-    country: "",
-    coordinates: {
-      latitude: 0,
-      longitude: 0,
-    },
-    state: "",
-    url: "",
-    webcams: [],
-  });
-  const [placeName, setPlaceName] = useState<string>();
-  const [predictions, setPredictions] = useState<LocationPrediction[]>();
-  const debouncedSearchTerm = useDebounce(placeName, 1000);
 
   const {
     control,
@@ -79,12 +50,24 @@ const AddPlaceFrom = () => {
     formState: { errors },
   } = useForm<Schema>({
     resolver: zodResolver(schema),
-    defaultValues: { name: "", state: "", country: "" },
+    defaultValues: {
+      name: place.name,
+      state: place.state,
+      country: place.country,
+      coordinates: {
+        latitude: place.coordinates.latitude,
+        longitude: place.coordinates.longitude,
+      },
+      url: place.url,
+      webcams: place.webcams,
+    },
   });
+
+  const coordinates = watch("coordinates");
 
   const { fields, append, prepend, remove, swap, move, insert } = useFieldArray(
     {
-      control, // control props comes from useForm (optional: if you are using FormProvider)
+      control,
       name: "webcams",
     }
   );
@@ -96,28 +79,14 @@ const AddPlaceFrom = () => {
     };
   });
 
-  const selectPrediction = (predictionId: string) => {
-    const selectedPrediction = predictions?.find(
-      (prediction) => prediction.displayName == predictionId
-    );
-
-    if (selectedPrediction) {
-      setCoordinates({
-        longitude: selectedPrediction.longitude,
-        latitude: selectedPrediction.latitude,
-      });
-      setValue("coordinates.latitude", selectedPrediction.latitude);
-      setValue("coordinates.longitude", selectedPrediction.longitude);
-    }
+  const setNameAndCoordinates = (
+    name: string,
+    coordinates: Coordinates
+  ): void => {
+    setValue("name", name);
+    setValue("coordinates.latitude", coordinates.latitude);
+    setValue("coordinates.longitude", coordinates.longitude);
   };
-
-  useEffect(() => {
-    if (debouncedSearchTerm) {
-      getLocationPrediction(debouncedSearchTerm).then(setPredictions);
-    } else {
-      setPredictions([]);
-    }
-  }, [debouncedSearchTerm]);
 
   const handleDeleteWebcam = (largeImage: string) => {
     // TODO attach to form values
@@ -125,24 +94,20 @@ const AddPlaceFrom = () => {
       const webcams = place.webcams.filter(
         (webcam) => webcam.largeImage != largeImage
       );
-
-      setPlace({ ...place, webcams });
     }
   };
 
-  const addWebcam = (webcam: Webcam) => {
+  const addWebcam = (webcam: Webcam): void => {
     setValue("webcams", [...getValues("webcams"), webcam]);
   };
 
   const onSubmit = (data: Schema) => {
     ("use server");
-    console.log("onSubmit");
-    console.log(getValues());
     updatePlace({
       id: placeIdFromName(getValues("name")),
       ...getValues(),
-      // webcams,
     });
+    router.push("/");
   };
 
   const handleUpdateWebcamName = (index: number, name: string) => {
@@ -158,28 +123,7 @@ const AddPlaceFrom = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      {errors.coordinates?.latitude?.message}
-      <Command className="rounded-lg border shadow-md md:min-w-[450px]">
-        <CommandInput
-          placeholder="Type a command or search..."
-          onValueChange={setPlaceName}
-        />
-        <CommandList>
-          <CommandEmpty>No results found.</CommandEmpty>
-          {predictions?.map((prediction) => (
-            <CommandItem
-              key={prediction.displayName}
-              value={prediction.displayName}
-              onSelect={(prediction) => {
-                selectPrediction(prediction);
-                setOpen(false);
-              }}
-            >
-              {prediction.displayName}
-            </CommandItem>
-          ))}
-        </CommandList>
-      </Command>
+      <PlaceNameInput setNameAndCoordinates={setNameAndCoordinates} />
       <div className="grid w-full max-w-sm items-center gap-1.5">
         <Label htmlFor="name">Name</Label>
         <Input {...register("name")} />
@@ -208,15 +152,23 @@ const AddPlaceFrom = () => {
           })}
         />
       </div>
-      {coordinates ? (
+      {watch("coordinates") &&
+      watch("coordinates.latitude") != 0 &&
+      watch("coordinates.longitude") != 0 ? (
         <Map
           height={300}
-          center={[coordinates.latitude, coordinates.longitude]}
+          center={[
+            watch("coordinates.latitude"),
+            watch("coordinates.longitude"),
+          ]}
           defaultZoom={11}
         >
           <Marker
             width={50}
-            anchor={[coordinates.latitude, coordinates.longitude]}
+            anchor={[
+              watch("coordinates.latitude"),
+              watch("coordinates.longitude"),
+            ]}
           />
         </Map>
       ) : (
@@ -249,6 +201,7 @@ const AddPlaceFrom = () => {
         </div>
       ))}
 
+      {/* TODO Add remove webcam button */}
       {controlledWebcamsFields.map((field, index) => (
         <div key={index}>
           <Input

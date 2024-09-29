@@ -10,7 +10,7 @@ import { useDebounce } from "@uidotdev/usehooks";
 const WebcamAddInput = ({
   addWebcam,
 }: {
-  addWebcam: (webcam: Webcam) => {};
+  addWebcam: (webcam: Webcam) => void;
 }) => {
   const [addWebcamStatus, setAddWebcamStatus] = useState(false);
   const [newWebcamUrl, setNewWebcamUrl] = useState("");
