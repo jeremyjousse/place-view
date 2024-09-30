@@ -29,4 +29,4 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add .
-          if [ "$(git status --porcelain | wc -l)" -eq "0" ]; then git commit -m "🏔 update places.json" && git push && echo "🚀 places.json pushed to gp-page branch"; fi
+          if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then git commit -m "🏔 update places.json" && git push && echo "🚀 places.json pushed to gp-page branch"; fi
