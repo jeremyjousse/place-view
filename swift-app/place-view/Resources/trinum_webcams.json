@@ -1,0 +1,412 @@
+[
+  {
+    "name": "espace-nordique-jurassien",
+    "webcams": [
+      {
+        "name": "Bellecombe - Boulème",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hautes-combes_bellecombe-bouleme.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hautes-combes_bellecombe-bouleme.jpg"
+      },
+      {
+        "name": "Meix-Musy",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-de-morteau_meix-musy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-de-morteau_meix-musy.jpg"
+      },
+      {
+        "name": "Lajoux 1",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hautes-combes_lajoux.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hautes-combes_lajoux.jpg"
+      },
+      {
+        "name": "Terre Ronde",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hauteville-lompnes_terre-ronde.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hauteville-lompnes_terre-ronde.jpg"
+      },
+      {
+        "name": "Foncine le haut",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_foncine-le-haut_teleski-foncine.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_foncine-le-haut_teleski-foncine.jpg"
+      },
+      {
+        "name": "Mignovillard - La Bourre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_haute-joux_mignovillard.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_haute-joux_mignovillard.jpg"
+      },
+      {
+        "name": "Bellefontaine",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bellefontaine_bellefontaine.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bellefontaine_bellefontaine.jpg"
+      },
+      {
+        "name": "La Praille",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_Hauteville-la-praille.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_Hauteville-la-praille.jpg"
+      },
+      {
+        "name": "La Combe Saint Pierre",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_combe-saint-pierre_Front-de-Neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_combe-saint-pierre_Front-de-Neige.jpg"
+      },
+      {
+        "name": "Les Dolines",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hautes-combes_moussieres-les-dolines.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hautes-combes_moussieres-les-dolines.jpg"
+      },
+      {
+        "name": "Morbier - Le Glacier",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_morbier_les-glacieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_morbier_les-glacieres.jpg"
+      },
+      {
+        "name": "Pré Poncet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-de-mouthe_pre-poncet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-de-mouthe_pre-poncet.jpg"
+      },
+      {
+        "name": "Lajoux 2",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_espace-nordique-jurassien_lajoux-2.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_espace-nordique-jurassien_lajoux-2.jpg"
+      },
+      {
+        "name": "Bolandoz",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_bolandoz_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_bolandoz_front-de-neige.jpg"
+      },
+      {
+        "name": "Cerniébaud",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_haute-joux_cerniebaud.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_haute-joux_cerniebaud.jpg"
+      },
+      {
+        "name": "Morbier - Les Marais",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_morbier_marais.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_morbier_marais.jpg"
+      },
+      {
+        "name": "Chez Liadet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-de-mouthe_chez-liadet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-de-mouthe_chez-liadet.jpg"
+      },
+      {
+        "name": "La Coupe - Les Fourgs",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-d-or_les-fourgs.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-d-or_les-fourgs.jpg"
+      },
+      {
+        "name": "Mont Jura - La Vattay",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-jura_la-vattay.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-jura_la-vattay.jpg"
+      },
+      {
+        "name": "Les Molunes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hautes-combes_les-molunes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hautes-combes_les-molunes.jpg"
+      },
+      {
+        "name": "Les Rousses - Darbella",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lesroussesdarbella.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lesroussesdarbella.jpg"
+      },
+      {
+        "name": "La Pesse",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hautes-combes_la-pesse.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hautes-combes_la-pesse.jpg"
+      },
+      {
+        "name": "Chapelle des bois",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_val-de-mouthe_chapelle-des-bois.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_val-de-mouthe_chapelle-des-bois.jpg"
+      }
+    ]
+  },
+  {
+    "name": "vallee-d-aulps",
+    "webcams": [
+      {
+        "name": "Col de Graydon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_chevrerie.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_chevrerie.jpg"
+      },
+      {
+        "name": "Col des Follys",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_col-des-follys.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_col-des-follys.jpg"
+      },
+      {
+        "name": "Sommet de la combe de Graydon",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_roc-d-enfer.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_roc-d-enfer.jpg"
+      },
+      {
+        "name": "Plateau St Jean d'Aulps",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_plateau-st-jean-d-aulps.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_plateau-st-jean-d-aulps.jpg"
+      },
+      {
+        "name": "Les Lindarets",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_les-lindarets.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_les-lindarets.jpg"
+      }
+    ]
+  },
+  {
+    "name": "villes_soeurs",
+    "webcams": [
+      {
+        "name": "Ault Onival",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-onival.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ville-soeur_ault-onival.jpg"
+      },
+      {
+        "name": "Le Tréport Plage",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ville-soeur_treport-plage.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ville-soeur_treport-plage.jpg"
+      },
+      {
+        "name": "Criel Sur mer",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ville-soeur_criel-sur-mer.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ville-soeur_criel-sur-mer.jpg"
+      },
+      {
+        "name": "Gamaches - Base nautique",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ville-soeur_gamache-nautique.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ville-soeur_gamache-nautique.jpg"
+      },
+      {
+        "name": "Ault Centre Ville",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-centre-ville.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ville-soeur_ault-centre-ville.jpg"
+      }
+    ]
+  },
+  {
+    "name": "les-haberes",
+    "webcams": [
+      {
+        "name": "Centre Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-haberes_centre-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-haberes_centre-station.jpg"
+      }
+    ]
+  },
+  {
+    "name": "seyssel",
+    "webcams": [
+      {
+        "name": "Sur-Lyand",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_seyssel_sur-lyand.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_seyssel_sur-lyand.jpg"
+      }
+    ]
+  },
+  {
+    "name": "rouge-gazon",
+    "webcams": [
+      {
+        "name": "Téléski",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rouge-gazon_teleski.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rouge-gazon_teleski.jpg"
+      }
+    ]
+  },
+  {
+    "name": "ot-peva",
+    "webcams": [
+      {
+        "name": "Thollon les Mémises - Parchet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
+      },
+      {
+        "name": "Thollon les Mémises - Front",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "name": "conseil-general-74",
+    "webcams": [
+      {
+        "name": "Le Plateau des Glières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_cg74_plateau-des-glieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_cg74_plateau-des-glieres.jpg"
+      },
+      {
+        "name": "Départ des pistes",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_conseil-general-74_depart-des-pistes.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_conseil-general-74_depart-des-pistes.jpg"
+      }
+    ]
+  },
+  {
+    "name": "la-drome",
+    "webcams": [
+      {
+        "name": "Front de neige Rousset",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_front-de-neige-rousset.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_front-de-neige-rousset.jpg"
+      },
+      {
+        "name": "Piste du Lièvre Blanc",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_piste-du-lievre-blanc.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_piste-du-lievre-blanc.jpg"
+      },
+      {
+        "name": "Herbouilly",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_herbouilly.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_herbouilly.jpg"
+      },
+      {
+        "name": "Lus la Jarjatte",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_lus-la-jarjatte.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_lus-la-jarjatte.jpg"
+      },
+      {
+        "name": "Domaine débutant Font d'Urle",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_front-de-neige-font-d-urle.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_front-de-neige-font-d-urle.jpg"
+      },
+      {
+        "name": "Col du Rousset",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_col-du-rousset.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_col-du-rousset.jpg"
+      }
+    ]
+  },
+  {
+    "name": "station-d-orange",
+    "webcams": [
+      {
+        "name": "Base de Loisirs",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_station-d-orange_bob-luge.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_station-d-orange_bob-luge.jpg"
+      }
+    ]
+  },
+  {
+    "name": "coeur-de-savoie",
+    "webcams": [
+      {
+        "name": "La Rochette",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_coeur-de-savoie_la-rochette.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_coeur-de-savoie_la-rochette.jpg"
+      }
+    ]
+  },
+  {
+    "name": "mont-jura",
+    "webcams": [
+      {
+        "name": "La Faucille 1540",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-jura_la-faucille-1540.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-jura_la-faucille-1540.jpg"
+      },
+      {
+        "name": "Catheline",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-jura_catheline.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-jura_catheline.jpg"
+      },
+      {
+        "name": "La Vattay",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-jura_la-vattay.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-jura_la-vattay.jpg"
+      },
+      {
+        "name": "Télécabine de Crozet",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-jura_tc-crozet.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-jura_tc-crozet.jpg"
+      },
+      {
+        "name": "La Faucille Coeur de Stat",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-jura_la-faucille-coeur-de-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-jura_la-faucille-coeur-de-station.jpg"
+      },
+      {
+        "name": "Menthières",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-jura_menthieres.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-jura_menthieres.jpg"
+      }
+    ]
+  },
+  {
+    "name": "circuit-carole",
+    "webcams": [
+      {
+        "name": "Paddock",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_circuit-carole_paddock.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_circuit-carole_paddock.jpg"
+      }
+    ]
+  },
+  {
+    "name": "jurabernois",
+    "webcams": [
+      {
+        "name": "Tramelan",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_tramelan.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_tramelan.jpg"
+      }
+    ]
+  },
+  {
+    "name": "gorges-ardeche",
+    "webcams": [
+      {
+        "name": "Saint Martin d'Ardèche",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-gorges-ardeche_saint-martin-d-ardeche.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-gorges-ardeche_saint-martin-d-ardeche.jpg"
+      }
+    ]
+  },
+  {
+    "name": "la-tania",
+    "webcams": [
+      {
+        "name": "Coeur de Station",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-tania_coeur-de-station.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-tania_coeur-de-station.jpg"
+      }
+    ]
+  },
+  {
+    "name": "hotel-grillons",
+    "webcams": [
+      {
+        "name": "",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-grillons_vue-lac-annecy.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-grillons_vue-lac-annecy.jpg"
+      }
+    ]
+  },
+  {
+    "name": "hotel-hohneck",
+    "webcams": [
+      {
+        "name": "Vue de l'Hôtel",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hotel-hohneck_hohneck.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hotel-hohneck_hohneck.jpg"
+      }
+    ]
+  },
+  {
+    "name": "swiss-medical-network",
+    "webcams": [
+      {
+        "name": "Clinique de Genolier",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_swiss-medical-network_clinique-de-genolier.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_swiss-medical-network_clinique-de-genolier.jpg"
+      }
+    ]
+  },
+  {
+    "name": "port-olona",
+    "webcams": [
+      {
+        "name": "Le port",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_port-olona_capitainerie.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_port-olona_capitainerie.jpg"
+      }
+    ]
+  }
+]

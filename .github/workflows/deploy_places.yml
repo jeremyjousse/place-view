@@ -4,31 +4,29 @@ name: Deploy places
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  deploy:
+    name: Deploy website
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - name: 📥 Checkout main branch
+        uses: actions/checkout@v4
         with:
-          path: 'app'
-      - uses: actions/checkout@v2
+          path: "sources"
+      - name: ⛓️‍💥 Checkout site branch
+        uses: actions/checkout@v4
         with:
-          ref: 'gh-pages'
-          path: 'site'
-      - name: Copy places.json
+          ref: "gh-pages"
+          path: "site"
+      - name: 📤 Copy places.json
         run: |
-            cp "./app/place-view/Resources/places.json" "site"
-      - name: Check Status
+          cp "./sources/resources/places.json" "site"
+      - name: ✅ Commit changes to deploy
         run: |
           cd site
           git config user.name "GitHub Actions Bot"

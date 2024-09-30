@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from "fs";
 
 import { PlaceDto } from "@/domain/Place";
 
-const JSON_PLACE_FILE_PATH = "../place-view/Resources/places.json";
+const JSON_PLACE_FILE_PATH = "../resources/places.json";
 
 export const updatePlace = async (place: PlaceDto) => {
   const places = await listPlaces();
