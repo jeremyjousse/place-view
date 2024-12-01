@@ -76,7 +76,6 @@
       "latitude": 45.218665,
       "longitude": 6.344217
     },
-
     "state": "Savoie",
     "url": "https://www.montagnicimes.com/albiez/",
     "webcams": [
@@ -760,6 +759,24 @@
     ]
   },
   {
+    "id": "chorges",
+    "name": "Chorges",
+    "state": "Hautes-Alpes",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.5450837,
+      "longitude": 6.2754561
+    },
+    "url": "https://www.mairie-chorges.fr/",
+    "webcams": [
+      {
+        "name": "Webcam - Chorges - Baie Saint Michel ",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=XiG2K-ZmvJP-QLT5z-vjfss&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=XiG2K-ZmvJP-QLT5z-vjfss&quality=small"
+      }
+    ]
+  },
+  {
     "id": "clusaz",
     "name": "La Clusaz",
     "country": "France",
@@ -1029,6 +1046,24 @@
         "name": "Front de neige",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_crevoux_front-de-neige.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_crevoux_front-de-neige.jpg"
+      }
+    ]
+  },
+  {
+    "id": "embrun",
+    "name": "Embrun",
+    "state": "Hautes-Alpes",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.5641764,
+      "longitude": 6.4958189
+    },
+    "url": "https://www.ville-embrun.fr/",
+    "webcams": [
+      {
+        "name": "Plage et plan d'eau d'Embrun",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OtsEt-AoHKs-fQLwp-5Ef4y&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OtsEt-AoHKs-fQLwp-5Ef4y&quality=small"
       }
     ]
   },
@@ -1882,6 +1917,24 @@
         "name": "Village",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le-reposoir_village.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le-reposoir_village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "le-sauze-du-lac",
+    "name": "Le Sauze-du-Lac",
+    "state": "Hautes-Alpes",
+    "country": "France",
+    "coordinates": {
+      "latitude": 44.4783324,
+      "longitude": 6.3147084
+    },
+    "url": "https://www.lesauzedulac.fr/",
+    "webcams": [
+      {
+        "name": "Webcam - Le Sauze du Lac",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=SiG4y-RSfd7-fN6xE-18wQV&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=SiG4y-RSfd7-fN6xE-18wQV&quality=small"
       }
     ]
   },
