@@ -511,6 +511,54 @@
     ]
   },
   {
+    "id": "barges",
+    "name": "Barèges",
+    "state": "Hautes Pyrenees",
+    "country": "France",
+    "coordinates": {
+      "latitude": 42.8958816,
+      "longitude": 0.0622368
+    },
+    "url": "https://www.n-py.com/fr/grand-tourmalet",
+    "webcams": [
+      {
+        "name": "Barèges Tournaboup - 1450M",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=CI1HP-55kjI-nLqpH-JUrsP&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=CI1HP-55kjI-nLqpH-JUrsP&quality=small"
+      },
+      {
+        "name": "La Mongie Pourteilh",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=2biJD-Eyyc9-Fz8jE-6CJT3&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=2biJD-Eyyc9-Fz8jE-6CJT3&quality=small"
+      },
+      {
+        "name": "La Mongie 4 Termes",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=95lYD-TNMoZ-9dAii-qfG4D&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=95lYD-TNMoZ-9dAii-qfG4D&quality=small"
+      },
+      {
+        "name": "LA MONGIE COL DU TOURMALET 2115M",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=6oTkM-xskZG-I3vsG-4lDQ9&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=6oTkM-xskZG-I3vsG-4lDQ9&quality=small"
+      },
+      {
+        "name": "La Mongie Village",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=BeQVD-xA1ff-qVmwF-c6Ktx&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=BeQVD-xA1ff-qVmwF-c6Ktx&quality=small"
+      },
+      {
+        "name": "Barèges Laquette 1700M",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=bHmJO-Atb4S-efbrN-6wmDI&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=bHmJO-Atb4S-efbrN-6wmDI&quality=small"
+      },
+      {
+        "name": "Barèges Lienz",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=aHmPZ-NwkvA-qDsbw-5LsQI&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=aHmPZ-NwkvA-qDsbw-5LsQI&quality=small"
+      }
+    ]
+  },
+  {
     "id": "bernex",
     "name": "Bernex",
     "country": "France",
