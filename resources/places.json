@@ -2325,6 +2325,29 @@
     ]
   },
   {
+    "id": "loudenvielle",
+    "name": "Loudenvielle",
+    "state": "Hautes Pyrenees",
+    "country": "France",
+    "coordinates": {
+      "latitude": 42.7958729,
+      "longitude": 0.4112159
+    },
+    "url": "https://www.loudenvielle.fr/",
+    "webcams": [
+      {
+        "name": "Vallée du Louron",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=HT9wi-VT62w-U4t7n-wejIv&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=HT9wi-VT62w-U4t7n-wejIv&quality=small"
+      },
+      {
+        "name": "Peyragudes",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=KQWcy-UQ6Od-fkMUd-bsJkK&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=KQWcy-UQ6Od-fkMUd-bsJkK&quality=small"
+      }
+    ]
+  },
+  {
     "id": "mandelieu-la-napoule",
     "name": "Mandelieu-La-Napoule",
     "state": "Alpes-Maritimes",
