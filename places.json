@@ -537,11 +537,6 @@
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=95lYD-TNMoZ-9dAii-qfG4D&quality=small"
       },
       {
-        "name": "LA MONGIE COL DU TOURMALET 2115M",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=6oTkM-xskZG-I3vsG-4lDQ9&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=6oTkM-xskZG-I3vsG-4lDQ9&quality=small"
-      },
-      {
         "name": "La Mongie Village",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=BeQVD-xA1ff-qVmwF-c6Ktx&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=BeQVD-xA1ff-qVmwF-c6Ktx&quality=small"
