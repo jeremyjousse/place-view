@@ -957,24 +957,6 @@
     ]
   },
   {
-    "id": "contamines-montjoie",
-    "coordinates": {
-      "longitude": 6.727374,
-      "latitude": 45.8211358
-    },
-    "country": "France",
-    "state": "Haute Savoie",
-    "name": "Les Contamines-Montjoie",
-    "url": "https://www.lescontamines.com/",
-    "webcams": [
-      {
-        "name": "Centre du village",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-contamines_centre-village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-contamines_centre-village.jpg"
-      }
-    ]
-  },
-  {
     "id": "corbier",
     "name": "Le Corbier",
     "country": "France",
@@ -3085,6 +3067,29 @@
     ]
   },
   {
+    "id": "rencurel",
+    "name": "Rencurel",
+    "state": "Isère",
+    "country": "France",
+    "coordinates": {
+      "latitude": 45.1028091,
+      "longitude": 5.472705
+    },
+    "url": "https://coulmes-vercors.com/",
+    "webcams": [
+      {
+        "name": "Foyer",
+        "largeImage": "https://coulmes-vercors.com/wp-content/uploads/webcam-foyer/webcam-foyer.jpg",
+        "thumbnailImage": "https://coulmes-vercors.com/wp-content/uploads/webcam-foyer/webcam-foyer.jpg"
+      },
+      {
+        "name": "Belvédère",
+        "largeImage": "https://coulmes-vercors.com/wp-content/uploads/webcam-belvedere/webcam-belvedere.jpg",
+        "thumbnailImage": "https://coulmes-vercors.com/wp-content/uploads/webcam-belvedere/webcam-belvedere.jpg"
+      }
+    ]
+  },
+  {
     "id": "Risoul",
     "coordinates": {
       "longitude": 6.6369838,
@@ -3619,16 +3624,19 @@
   {
     "id": "serre-chevalier",
     "name": "Serre Chevalier",
+    "state": "Hautes-Alpes",
+    "country": "France",
     "coordinates": {
       "latitude": 44.945955,
       "longitude": 6.559166
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "country": "France",
-    "state": "Hautes-Alpes",
     "url": "https://www.alpedugrandserre.info",
     "webcams": [
+      {
+        "name": "Briançon",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=HLuDi-oo66I-0uMZV-rny35&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=HLuDi-oo66I-0uMZV-rny35&quality=small"
+      },
       {
         "name": "Col du Lautaret",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i7ZZy-UaAxw-BETx9-NslVP&quality=large",
@@ -3653,6 +3661,29 @@
         "name": "Col du Prorel",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_serre-chevalier_col-du-prorel.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_serre-chevalier_col-du-prorel.jpg"
+      },
+      {
+        "name": "Saint Chaffrey",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=2KeU2-7DUTK-Td50n-5cJJ1&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=2KeU2-7DUTK-Td50n-5cJJ1&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "singen",
+    "name": "Singen",
+    "state": "Baden-Württemberg",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 47.7617515,
+      "longitude": 8.8348709
+    },
+    "url": "https://www.singen-totallokal.de/",
+    "webcams": [
+      {
+        "name": "Singen",
+        "largeImage": "https://live-image.panomax.com/cams/1170/recent_reduced.jpg",
+        "thumbnailImage": "https://live-image.panomax.com/cams/1170/recent_reduced.jpg"
       }
     ]
   },

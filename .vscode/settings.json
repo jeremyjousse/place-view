@@ -1,6 +1,11 @@
 {
-  "conventionalCommits.scopes": ["webcams", "github-actions", "admin-tools"],
-  "cSpell.words": ["geocode", "lucide", "Skaping", "Trinum"],
+  "conventionalCommits.scopes": [
+    "webcams",
+    "github-actions",
+    "admin-tools",
+    "webapp"
+  ],
+  "cSpell.words": ["geocode", "lucide", "panomax", "Skaping", "Trinum"],
   "sonarlint.connectedMode.project": {
     "connectionId": "jeremyjousse",
     "projectKey": "jeremyjousse_place-view"

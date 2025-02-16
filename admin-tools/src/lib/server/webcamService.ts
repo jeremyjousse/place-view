@@ -15,6 +15,10 @@ export const detectWebcamType = async (
     return extractWebcamFromTrinumImage(webcamUrl);
   }
 
+  if (webcamUrl.includes("panomax.com")) {
+    return extractWebcamFromPanomax(webcamUrl);
+  }
+
   if (/.{5,255}\.jpg$/.test(webcamUrl)) {
     return {
       name: "",
@@ -59,6 +63,37 @@ const extractWebcamFromSkapingWebsite = async (
       name: $("title").text(),
       largeImage: `https://api.skaping.com/media/getLatest?format=jpg&api_key=${skapingWebcamKey}&quality=large`,
       thumbnailImage: `https://api.skaping.com/media/getLatest?format=jpg&api_key=${skapingWebcamKey}&quality=small`,
+    };
+  } catch (e) {
+    console.log(e);
+    return {
+      name: "",
+      largeImage: "",
+      thumbnailImage: "",
+    };
+  }
+};
+
+const extractWebcamFromPanomax = async (url: string): Promise<Webcam> => {
+  console.log(url);
+  try {
+    const panomaxPageResponse = await fetch(url);
+    const panomaxPageSource = await panomaxPageResponse.text();
+
+    const $ = cheerio.load(panomaxPageSource);
+    const script = (
+      $('script[type="text/javascript"][language="JavaScript"]').get()[0]
+        .children[0] as any
+    ).data;
+
+    const panomaxWebcamIds = script.match(/var camId = "([0-9]+)";/);
+
+    const panomaxWebcamId = [...panomaxWebcamIds][1];
+
+    return {
+      name: $("title").text(),
+      largeImage: `https://live-image.panomax.com/cams/${panomaxWebcamId}/recent_reduced.jpg`,
+      thumbnailImage: `https://live-image.panomax.com/cams/${panomaxWebcamId}/recent_reduced.jpg`,
     };
   } catch (e) {
     console.log(e);
