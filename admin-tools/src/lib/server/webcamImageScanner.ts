@@ -18,10 +18,11 @@ export const listBadWebcams = async (): Promise<Webcam[]> => {
 
 export const detectBadWebcam = async (webcam: Webcam): Promise<boolean> => {
   try {
+    const successCodes = [200, 304];
     const fetchedImageStatus = await fetch(webcam.thumbnailImage, {
-      signal: AbortSignal.timeout(2000),
+      signal: AbortSignal.timeout(5000),
     });
-    return fetchedImageStatus.status != 200;
+    return !successCodes.includes(fetchedImageStatus.status);
   } catch (_) {
     return true;
   }
