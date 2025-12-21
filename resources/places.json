@@ -25,19 +25,14 @@
   {
     "id": "aillons-margeriaz",
     "name": "Aillons-Margériaz",
+    "state": "Savoie",
     "country": "France",
+    "url": "https://www.lesaillons.com",
     "coordinates": {
       "latitude": 45.643813,
       "longitude": 6.062708
     },
-    "state": "Savoie",
-    "url": "https://www.lesaillons.com",
     "webcams": [
-      {
-        "name": "Sommet des Biolles",
-        "largeImage": "https://srv07.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-margeriaz.jpg",
-        "thumbnailImage": "https://srv07.trinum.com/ibox/ftpcam/small_aillons-margeriaz_sommet-margeriaz.jpg"
-      },
       {
         "name": "Centre d'accueil 1000",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=3v74F-ptbOF-IaH1a-yLTFK&quality=large",
@@ -689,21 +684,14 @@
   {
     "id": "champagny",
     "name": "Champagny-en-Vanoise",
+    "state": "Savoie",
     "country": "France",
+    "url": "https://www.la-plagne.com/champagny-en-vanoise",
     "coordinates": {
       "latitude": 45.456095,
       "longitude": 6.693004
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://www.la-plagne.com/champagny-en-vanoise",
     "webcams": [
-      {
-        "name": "Champagy Village",
-        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_champagny_village.jpg",
-        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_village.jpg"
-      },
       {
         "name": "Tour de Glace - Alt.1470m",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_cascade-de-glace.jpg",
@@ -959,21 +947,14 @@
   {
     "id": "corbier",
     "name": "Le Corbier",
+    "state": "Savoie",
     "country": "France",
+    "url": "https://www.le-corbier.com/",
     "coordinates": {
       "latitude": 45.240544,
       "longitude": 6.268206
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://www.le-corbier.com/",
     "webcams": [
-      {
-        "name": "Pointe du Corbier",
-        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_le_corbier_pointe-du-corbier.jpg",
-        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_le_corbier_pointe-du-corbier.jpg"
-      },
       {
         "name": "Office du tourisme",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le_corbier_office-du-tourisme.jpg",
@@ -2091,11 +2072,6 @@
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=wJYTf-gyLNX-tk7ll-cGviT&quality=small"
       },
       {
-        "name": "2600m",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=V8UT8-8BiHn-atAOp-hSrqC&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=V8UT8-8BiHn-atAOp-hSrqC&quality=small"
-      },
-      {
         "name": "Grande Aiguille",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=GYUT0-nAeiG-t46WB-c7taq&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=GYUT0-nAeiG-t46WB-c7taq&quality=small"
@@ -2402,11 +2378,6 @@
     "state": "Savoie",
     "url": "https://megeve.com/",
     "webcams": [
-      {
-        "name": "Mont d’Arbois",
-        "largeImage": "https://srv06.trinum.com/ibox/ftpcam/mega_arbois.jpg",
-        "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_arbois.jpg"
-      },
       {
         "name": "Altiport",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_altiport.jpg",
@@ -2892,16 +2863,16 @@
     "name": "Peisey-Vallandry",
     "state": "Savoie",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.7552739,
-      "latitude": 45.5466581
-    },
     "url": "https://www.peisey-vallandry.com",
+    "coordinates": {
+      "latitude": 45.5466581,
+      "longitude": 6.7552739
+    },
     "webcams": [
       {
-        "name": "",
-        "largeImage": "https://srv03-3.trinum.com/ibox/ftpcam/mega_Peisey-Vallandry_vanoise-expresse.jpg",
-        "thumbnailImage": "https://srv03-3.trinum.com/ibox/ftpcam/small_Peisey-Vallandry_vanoise-expresse.jpg"
+        "name": "Vanoise Express",
+        "largeImage": "https://trinum2.trinum.com/ibox/ftpcam/small_Peisey-Vallandry_vanoise-expresse.jpg",
+        "thumbnailImage": "https://trinum2.trinum.com/ibox/ftpcam/mega_Peisey-Vallandry_vanoise-expresse.jpg"
       }
     ]
   },
@@ -3459,14 +3430,14 @@
   },
   {
     "id": "sainte-foy-tarentaise",
-    "coordinates": {
-      "longitude": 6.883816,
-      "latitude": 45.5903604
-    },
-    "country": "France",
-    "state": "Savoie",
     "name": "Sainte-Foy-Tarentaise",
+    "state": "Savoie",
+    "country": "France",
     "url": "https://www.saintefoy-tarentaise.com/",
+    "coordinates": {
+      "latitude": 45.5903604,
+      "longitude": 6.883816
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -3482,11 +3453,6 @@
         "name": "TSD de la Marquise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_ts-de-la-marquise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_ts-de-la-marquise.jpg"
-      },
-      {
-        "name": "Sommet Aiguille",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_sommet-aiguille.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ste-foy-tarentaise_sommet-aiguille.jpg"
       }
     ]
   },
