@@ -54,8 +54,10 @@ class PlaceFetcher: ObservableObject {
         
         // Fetch places again and wait for completion
         await withCheckedContinuation { continuation in
-            isLoading = true
-            errorMessage = nil
+            DispatchQueue.main.async {
+                self.isLoading = true
+                self.errorMessage = nil
+            }
             
             let url = URL(string: "https://jeremyjousse.github.io/place-view/places.json")
             service.fetchPlaces(url: url) { [unowned self] result in
