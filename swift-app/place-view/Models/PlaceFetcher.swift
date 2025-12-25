@@ -48,6 +48,14 @@ class PlaceFetcher: ObservableObject {
         
     }
     
+    func clearCacheAndRefresh() {
+        // Clear URLSession cache for all requests (JSON and images)
+        URLCache.shared.removeAllCachedResponses()
+        
+        // Fetch places again
+        fetchAllPlaces()
+    }
+    
     
     //MARK: preview helpers
     

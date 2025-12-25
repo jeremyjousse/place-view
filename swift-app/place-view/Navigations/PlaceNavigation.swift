@@ -42,10 +42,9 @@ struct PlaceNavigation: View {
                     }
                 }
             }.navigationTitle("Places")
-//                .refreshable {
-//                    print("Do your refresh work here")
-//                    //placeFetcher.fetchAllPlaces()
-//                }
+                .refreshable {
+                    placeFetcher.clearCacheAndRefresh()
+                }
                 .navigationBarItems(trailing:
                                         Button(action: {
                     self.showSettings = true
