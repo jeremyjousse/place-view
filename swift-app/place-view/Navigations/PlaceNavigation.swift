@@ -43,7 +43,7 @@ struct PlaceNavigation: View {
                 }
             }.navigationTitle("Places")
                 .refreshable {
-                    placeFetcher.clearCacheAndRefresh()
+                    await placeFetcher.clearCacheAndRefresh()
                 }
                 .navigationBarItems(trailing:
                                         Button(action: {

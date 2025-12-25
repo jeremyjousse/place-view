@@ -48,12 +48,34 @@ class PlaceFetcher: ObservableObject {
         
     }
     
-    func clearCacheAndRefresh() {
+    func clearCacheAndRefresh() async {
         // Clear URLSession cache for all requests (JSON and images)
         URLCache.shared.removeAllCachedResponses()
         
-        // Fetch places again
-        fetchAllPlaces()
+        // Fetch places again and wait for completion
+        await withCheckedContinuation { continuation in
+            isLoading = true
+            errorMessage = nil
+            
+            let url = URL(string: "https://jeremyjousse.github.io/place-view/places.json")
+            service.fetchPlaces(url: url) { [unowned self] result in
+                
+                DispatchQueue.main.async {
+                    
+                    self.isLoading = false
+                    switch result {
+                    case .failure(let error):
+                        self.errorMessage = error.localizedDescription
+                        print(error)
+                    case .success(let places):
+                        print("--- sucess with \(places.count)")
+                        self.places = places
+                        self.states = Array(Set(places.map({$0.state})))
+                    }
+                    continuation.resume()
+                }
+            }
+        }
     }
     
     
