@@ -28,11 +28,12 @@ struct PlaceNavigation: View {
         
         NavigationView {
             VStack {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
+                }
+                .padding(.horizontal)
+                
                 List {
-                    Toggle(isOn: $showFavoritesOnly) {
-                        Text("Favorites only")
-                    }
-                    
                     ForEach(filteredPlaces) { place in
                         NavigationLink {
                             PlaceView(place: place)
