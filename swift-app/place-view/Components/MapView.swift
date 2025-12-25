@@ -55,7 +55,7 @@ struct MapView: UIViewRepresentable {
         }
         
         func coordinatesEqual(_ coord1: CLLocationCoordinate2D, _ coord2: CLLocationCoordinate2D) -> Bool {
-            return abs(coord1.latitude - coord2.latitude) < Coordinator.coordinateEpsilon && 
+            return abs(coord1.latitude - coord2.latitude) < Coordinator.coordinateEpsilon &&
                    abs(coord1.longitude - coord2.longitude) < Coordinator.coordinateEpsilon
         }
     }
