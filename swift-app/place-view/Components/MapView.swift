@@ -15,28 +15,38 @@ struct MapView: UIViewRepresentable {
     
     func updateUIView(_ view: MKMapView, context: Context) {
         // Only update if coordinates have changed
-        if context.coordinator.lastCoordinates == nil || 
-           !context.coordinator.coordinatesEqual(coordinates, context.coordinator.lastCoordinates!) {
-            
-            // Remove existing annotations
-            view.removeAnnotations(view.annotations)
-            
-            // Add new annotation
-            let annotation = MKPointAnnotation()
-            annotation.coordinate = coordinates
-            view.addAnnotation(annotation)
-            
-            // Set region without animation to prevent blinking
-            let span = MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
-            let region = MKCoordinateRegion(center: coordinates, span: span)
-            view.setRegion(region, animated: false)
-            
-            // Update last coordinates
-            context.coordinator.lastCoordinates = coordinates
+        guard let lastCoords = context.coordinator.lastCoordinates else {
+            // First time setup
+            updateMapView(view, with: coordinates, context: context)
+            return
+        }
+        
+        if !context.coordinator.coordinatesEqual(coordinates, lastCoords) {
+            updateMapView(view, with: coordinates, context: context)
         }
     }
     
+    private func updateMapView(_ view: MKMapView, with coordinates: CLLocationCoordinate2D, context: Context) {
+        // Remove existing annotations
+        view.removeAnnotations(view.annotations)
+        
+        // Add new annotation
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = coordinates
+        view.addAnnotation(annotation)
+        
+        // Set region without animation to prevent blinking
+        let span = MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
+        let region = MKCoordinateRegion(center: coordinates, span: span)
+        view.setRegion(region, animated: false)
+        
+        // Update last coordinates
+        context.coordinator.lastCoordinates = coordinates
+    }
+    
     class Coordinator: NSObject {
+        static let coordinateEpsilon = 1e-6
+        
         var parent: MapView
         var lastCoordinates: CLLocationCoordinate2D?
         
@@ -45,9 +55,8 @@ struct MapView: UIViewRepresentable {
         }
         
         func coordinatesEqual(_ coord1: CLLocationCoordinate2D, _ coord2: CLLocationCoordinate2D) -> Bool {
-            let epsilon = 1e-6
-            return abs(coord1.latitude - coord2.latitude) < epsilon && 
-                   abs(coord1.longitude - coord2.longitude) < epsilon
+            return abs(coord1.latitude - coord2.latitude) < Coordinator.coordinateEpsilon && 
+                   abs(coord1.longitude - coord2.longitude) < Coordinator.coordinateEpsilon
         }
     }
 }
