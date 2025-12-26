@@ -35,8 +35,16 @@ struct PlaceView: View {
                 }
                 VStack(alignment: .leading) {
                     HStack {
-                        Text(place.name)
-                            .font(.title)
+                        if let url = URL(string: place.url) {
+                            Link(destination: url) {
+                                Text(place.name)
+                                    .font(.title)
+                                    .foregroundColor(.primary)
+                            }
+                        } else {
+                            Text(place.name)
+                                .font(.title)
+                        }
                         FavoriteButton(place: place)
                     }
                     HStack {
