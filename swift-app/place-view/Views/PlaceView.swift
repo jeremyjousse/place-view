@@ -17,7 +17,6 @@ struct PlaceView: View {
     @State private var selectedImage: Int = 0
     
     init(place: Place) {
-        UIScrollView.appearance().bounces = false
         self.place = place
         _viewModel = StateObject(wrappedValue: PlaceViewModel(webcams: place.webcams))
     }
@@ -61,6 +60,7 @@ struct PlaceView: View {
                 Spacer()
             }
         }
+        .scrollBounceBehavior(.basedOnSize)
         .task {
             await viewModel.loadParallel()
         }

@@ -3,7 +3,8 @@
     "webcams",
     "github-actions",
     "admin-tools",
-    "webapp"
+    "webapp",
+    "ios"
   ],
   "cSpell.words": ["geocode", "lucide", "panomax", "Skaping", "Trinum"],
   "sonarlint.connectedMode.project": {

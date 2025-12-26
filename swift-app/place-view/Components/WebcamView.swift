@@ -17,11 +17,17 @@ struct WebcamView: View {
                 ScrollView([.horizontal, .vertical]) {
                     AsyncImage(url: URL(string: imageUrl)) { image in
                         image
-                            .resizable().scaledToFit().frame(height: 350)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 350)
                     } placeholder: {
                         ProgressView()
+                            .frame(height: 350)
                     }
-                }.frame(height: 350).cornerRadius(10)
+                }
+                .frame(height: 350)
+                .scrollBounceBehavior(.basedOnSize)
+                .cornerRadius(10)
             }
         }
     }
