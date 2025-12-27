@@ -8,6 +8,14 @@
 import Foundation
 import SwiftUI
 
+#if os(iOS)
+import UIKit
+typealias PlatformImage = UIImage
+#elseif os(macOS)
+import AppKit
+typealias PlatformImage = NSImage
+#endif
+
 final class PlaceViewModel: ObservableObject {
     
     @Published var thumbnails: [ThumbnailImg] = []
@@ -23,7 +31,7 @@ final class PlaceViewModel: ObservableObject {
     
     
     func loadParallel() async {
-        return await withTaskGroup(of: (String, UIImage).self) { group in
+        return await withTaskGroup(of: (String, PlatformImage).self) { group in
             for webcam in webcams {
                 if let url = URL(string: webcam.thumbnailImage) {
                     group.addTask { await (url.absoluteString, self.loadImage(url: url)) }
@@ -51,13 +59,13 @@ final class PlaceViewModel: ObservableObject {
         }
     }
     
-    private func loadImage(url: URL) async -> UIImage {
+    private func loadImage(url: URL) async -> PlatformImage {
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
-            if let img = UIImage(data: data) { return img }
+            if let img = PlatformImage(data: data) { return img }
         }
         catch { print(error) }
-        return UIImage()
+        return PlatformImage()
     }
 }
 
@@ -65,10 +73,11 @@ final class PlaceViewModel: ObservableObject {
 struct ThumbnailImg: Identifiable, Hashable {
     let id = UUID()
     var url: String
-    var image: UIImage
+    var image: PlatformImage
 }
 
 
+#if os(iOS)
 extension UIImage {
     
     enum ContentMode {
@@ -91,8 +100,6 @@ extension UIImage {
             let aspectRatio = max(aspectWidth, aspectHeight)
             return resize(withSize: CGSize(width: self.size.width * aspectRatio, height: self.size.height * aspectRatio))
         }
-        
-        // add cropToBounds
     }
     
     private func resize(withSize size: CGSize) -> UIImage? {
@@ -137,3 +144,79 @@ extension UIImage {
         return image
     }
 }
+#elseif os(macOS)
+extension NSImage {
+    
+    enum ContentMode {
+        case contentFill
+        case contentAspectFill
+        case contentAspectFit
+    }
+    
+    func resize(withSize size: CGSize, contentMode: ContentMode = .contentAspectFill) -> NSImage? {
+        let aspectWidth = size.width / self.size.width
+        let aspectHeight = size.height / self.size.height
+        
+        switch contentMode {
+        case .contentFill:
+            return resize(withSize: size)
+        case .contentAspectFit:
+            let aspectRatio = min(aspectWidth, aspectHeight)
+            return resize(withSize: CGSize(width: self.size.width * aspectRatio, height: self.size.height * aspectRatio))
+        case .contentAspectFill:
+            let aspectRatio = max(aspectWidth, aspectHeight)
+            return resize(withSize: CGSize(width: self.size.width * aspectRatio, height: self.size.height * aspectRatio))
+        }
+    }
+    
+    private func resize(withSize size: CGSize) -> NSImage? {
+        let destSize = NSSize(width: size.width, height: size.height)
+        let newImage = NSImage(size: destSize)
+        newImage.lockFocus()
+        self.draw(in: NSRect(origin: .zero, size: destSize),
+                  from: NSRect(origin: .zero, size: self.size),
+                  operation: .copy,
+                  fraction: 1.0)
+        newImage.unlockFocus()
+        return newImage
+    }
+    
+    func cropToBounds(sizeToCrop: CGSize) -> NSImage {
+        guard let cgimage = self.cgImage(forProposedRect: nil, context: nil, hints: nil) else {
+            return self
+        }
+        
+        let contextImage = NSImage(cgImage: cgimage, size: self.size)
+        let contextSize: CGSize = contextImage.size
+        var posX: CGFloat = 0.0
+        var posY: CGFloat = 0.0
+        var cgwidth: CGFloat = CGFloat(sizeToCrop.width)
+        var cgheight: CGFloat = CGFloat(sizeToCrop.height)
+        
+        // See what size is longer and create the center off of that
+        if contextSize.width > contextSize.height {
+            posX = ((contextSize.width - contextSize.height) / 2)
+            posY = 0
+            cgwidth = contextSize.height
+            cgheight = contextSize.height
+        } else {
+            posX = 0
+            posY = ((contextSize.height - contextSize.width) / 2)
+            cgwidth = contextSize.width
+            cgheight = contextSize.width
+        }
+        
+        let rect: CGRect = CGRect(x: posX, y: posY, width: cgwidth, height: cgheight)
+        
+        // Create bitmap image from context using the rect
+        guard let imageRef = cgimage.cropping(to: rect) else {
+            return self
+        }
+        
+        // Create a new image based on the imageRef
+        let image = NSImage(cgImage: imageRef, size: NSSize(width: imageRef.width, height: imageRef.height))
+        
+        return image
+    }
+}
+#endif

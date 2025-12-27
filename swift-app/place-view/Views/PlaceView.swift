@@ -87,10 +87,17 @@ struct ThubnailsView: View {
             ScrollView(.horizontal) {
                 HStack {
                     ForEach(thumbnails) { thumbnail in
+                        #if os(iOS)
                         Image(uiImage: thumbnail.image).cornerRadius(10)
                             .onTapGesture {
                                 selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
                             }
+                        #elseif os(macOS)
+                        Image(nsImage: thumbnail.image).cornerRadius(10)
+                            .onTapGesture {
+                                selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
+                            }
+                        #endif
                     }
                 }
             }

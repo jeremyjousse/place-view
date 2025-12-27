@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
+#if os(iOS)
 import UIKit
+#endif
 
 struct WebcamView: View {
     
