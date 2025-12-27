@@ -16,6 +16,7 @@ struct PlaceNavigation: View {
     }
     
     @EnvironmentObject var placeFetcher: PlaceFetcher
+    @Environment(\.colorScheme) var colorScheme
     let places: [Place]
     @ObservedObject var favorites = PlaceFavorites.sharedInstance
     
@@ -55,6 +56,7 @@ struct PlaceNavigation: View {
                             NavigationLink(value: place) {
                                 PlaceRow(place: place)
                             }
+                            // .listRowBackground(colorScheme == .dark ? Color(red: 0.1, green: 0.1, blue: 0.1) : nil)
                         }
                         .refreshable {
                             await placeFetcher.clearCacheAndRefresh()
@@ -154,7 +156,8 @@ struct PlaceMapAnnotationView: View {
                 .font(.caption2)
                 .bold()
                 .padding(5)
-                .background(Color.white.opacity(0.9))
+                .background(Color.black)
+                .foregroundColor(.white)
                 .cornerRadius(8)
                 .fixedSize()
         }
