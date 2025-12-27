@@ -1,6 +1,7 @@
 import SwiftUI
 import MapKit
 
+#if os(iOS)
 struct MapView: UIViewRepresentable {
     var coordinates: CLLocationCoordinate2D
     
@@ -21,10 +22,32 @@ struct MapView: UIViewRepresentable {
         view.setRegion(region, animated: true)
         
         //view.addAnnotations(annotations: annotations)
-        
-        
     }
 }
+#elseif os(macOS)
+struct MapView: NSViewRepresentable {
+    var coordinates: CLLocationCoordinate2D
+    
+    @State private var region = MKCoordinateRegion()
+    
+    func makeNSView(context: Context) -> MKMapView {
+        MKMapView(frame: .zero)
+    }
+    
+    func updateNSView(_ view: MKMapView, context: Context) {
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = coordinates
+        //        annotation.title = "Title"
+        view.addAnnotation(annotation)
+        
+        let span = MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
+        let region = MKCoordinateRegion(center: coordinates, span: span)
+        view.setRegion(region, animated: true)
+        
+        //view.addAnnotations(annotations: annotations)
+    }
+}
+#endif
 
 
 struct AnnotationItem: Identifiable {
