@@ -1,1 +1,4 @@
 .DS_Store
+
+.gemini/
+gha-creds-*.json

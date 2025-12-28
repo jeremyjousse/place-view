@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import UIKit
+import os
 
 struct WebcamView: View {
     
@@ -18,7 +18,6 @@ struct WebcamView: View {
             ScrollViewReader { scrollView in
                 ScrollView([.horizontal, .vertical]) {
                     AsyncImage(url: URL(string: imageUrl)) { image in
-                        // Un bouton transparent permet de détecter le clic sur l'image
                         Button(action: { isFullScreenPresented = true }) {
                             image
                                 .resizable()
@@ -43,6 +42,7 @@ struct WebcamView: View {
 }
 
 struct FullScreenWebcamView: View {
+    private let logger = Logger(subsystem: "place-view", category: "FullScreenWebcamView")
     let imageUrl: String
     @Environment(\.dismiss) var dismiss
     
@@ -63,10 +63,10 @@ struct FullScreenWebcamView: View {
                             .frame(width: geometry.size.width, height: geometry.size.height)
                     }
                 }
+                .scrollBounceBehavior(.basedOnSize, axes: .vertical)
             }
             .ignoresSafeArea()
             
-            // Bouton pour fermer le plein écran
             VStack {
                 HStack {
                     Spacer()
@@ -90,18 +90,14 @@ struct FullScreenWebcamView: View {
     
     private func setOrientation(isFullScreen: Bool) {
         #if os(iOS)
-        if isFullScreen {
-            AppDelegate.orientationLock = .allButUpsideDown
-        } else {
-            AppDelegate.orientationLock = .portrait
-        }
-        
-        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-            if !isFullScreen {
-                windowScene.requestGeometryUpdate(.iOS(interfaceOrientations: .portrait))
-            } else {
-                UIViewController.attemptRotationToDeviceOrientation()
+        let mask: UIInterfaceOrientationMask = isFullScreen ? .landscape : .portrait
+        AppDelegate.orientationLock = mask
+        if let windowScene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+            let geometryPreferences = UIWindowScene.GeometryPreferences.iOS(interfaceOrientations: mask)
+            windowScene.requestGeometryUpdate(geometryPreferences) { error in
+                logger.error("Error changing orientation: \(error.localizedDescription, privacy: .public)")
             }
+            windowScene.windows.first?.rootViewController?.setNeedsUpdateOfSupportedInterfaceOrientations()
         }
         #endif
     }

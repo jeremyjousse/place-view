@@ -6,70 +6,42 @@
 //
 
 import Foundation
+import os
 
 
-struct ApiClient {
+struct ApiClient: Sendable {
     
-    func fetch<T: Decodable>(_ type: T.Type, url: URL?, completion: @escaping(Result<T,ApiError>) -> Void) {
+    private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "place-view", category: "ApiError")
+    
+    func fetch<T: Decodable & Sendable>(_ type: T.Type, url: URL?) async throws -> T {
         guard let url = url else {
-            let error = ApiError.badURL
-            completion(Result.failure(error))
-            return
+            throw ApiError.badURL
         }
-        let task = URLSession.shared.dataTask(with: url) {(data , response, error) in
-            
-            if let error = error as? URLError {
-                print("-------------------------------------- ApiError")
-                print(error)
-                completion(Result.failure(ApiError.url(error)))
-            }else if  let response = response as? HTTPURLResponse, !(200...299).contains(response.statusCode) {
-                print("-------------------------------------- statusCode")
-                print(response.statusCode)
-                completion(Result.failure(ApiError.badResponse(statusCode: response.statusCode)))
-            }else if let data = data {
-                let decoder = JSONDecoder()
-                do {
-                    let result = try decoder.decode(type, from: data)
-                    print("-------------------------------------- Completed load")
-                    completion(Result.success(result))
-                    
-                }catch {
-                    print("-------------------------------------- error")
-                    print(error)
-                    completion(Result.failure(ApiError.parsing(error as? DecodingError)))
-                }
-
-            }
+        
+        let (data, response) = try await URLSession.shared.data(from: url)
+        
+        guard let httpResponse = response as? HTTPURLResponse else {
+            logger.error("Fetching API received non-HTTPURLResponse \(response, privacy: .public)")
+            throw ApiError.unknown
         }
-
-        task.resume()
+        
+        guard (200...299).contains(httpResponse.statusCode) else {
+            logger.error("Fetching API bad status code: \(httpResponse.statusCode)")
+            throw ApiError.badResponse(statusCode: httpResponse.statusCode)
+        }
+        
+        do {
+            let decoder = JSONDecoder()
+            let result = try decoder.decode(type, from: data)
+            return result
+        } catch {
+            logger.error("Fetching API JSON decode Error: \(error.localizedDescription)")
+            throw ApiError.parsing(error as? DecodingError)
+        }
     }
     
-    
-    func fetchPlaces(url: URL?, completion: @escaping(Result<[Place], ApiError>) -> Void) {
-        guard let url = url else {
-            let error = ApiError.badURL
-            completion(Result.failure(error))
-            return
-        }
-        let task = URLSession.shared.dataTask(with: url) {(data , response, error) in
-
-            if let error = error as? URLError {
-                completion(Result.failure(ApiError.url(error)))
-            }else if  let response = response as? HTTPURLResponse, !(200...299).contains(response.statusCode) {
-                completion(Result.failure(ApiError.badResponse(statusCode: response.statusCode)))
-            }else if let data = data {
-                let decoder = JSONDecoder()
-                do {
-                    let places = try decoder.decode([Place].self, from: data)
-                    completion(Result.success(places))
-                }catch {
-                    completion(Result.failure(ApiError.parsing(error as? DecodingError)))
-                }
-            }
-        }
-
-        task.resume()
-
+    func fetchPlaces(url: URL?) async throws -> [Place] {
+        try await fetch([Place].self, url: url)
     }
+    
 }

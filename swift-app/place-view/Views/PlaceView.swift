@@ -87,7 +87,8 @@ struct ThubnailsView: View {
             ScrollView(.horizontal) {
                 HStack {
                     ForEach(thumbnails) { thumbnail in
-                        Image(uiImage: thumbnail.image).cornerRadius(10)
+                        PlatformImage(thumbnail.image)
+                            .cornerRadius(10)
                             .onTapGesture {
                                 selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
                             }
@@ -97,3 +98,20 @@ struct ThubnailsView: View {
         }
     }
 }
+extension View {
+    @ViewBuilder
+    func PlatformImage(_ image: PlatformImage) -> some View {
+        #if os(macOS)
+        Image(nsImage: image)
+            .resizable()
+            .scaledToFill()
+            .frame(width: 100, height: 100)
+        #else
+        Image(uiImage: image)
+            .resizable()
+            .scaledToFill()
+            .frame(width: 100, height: 100)
+        #endif
+    }
+}
+

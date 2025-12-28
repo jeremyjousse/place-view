@@ -1,39 +1,44 @@
 import SwiftUI
 import MapKit
 
-struct MapView: UIViewRepresentable {
+#if os(macOS)
+typealias ViewRepresentable = NSViewRepresentable
+#else
+typealias ViewRepresentable = UIViewRepresentable
+#endif
+
+struct MapView: ViewRepresentable {
     var coordinates: CLLocationCoordinate2D
     
     @State private var region = MKCoordinateRegion()
     
+    #if os(macOS)
+    func makeNSView(context: Context) -> MKMapView {
+        MKMapView(frame: .zero)
+    }
+    
+    func updateNSView(_ view: MKMapView, context: Context) {
+        updateMap(view)
+    }
+    #else
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
     
     func updateUIView(_ view: MKMapView, context: Context) {
+        updateMap(view)
+    }
+    #endif
+    
+    private func updateMap(_ view: MKMapView) {
+        view.removeAnnotations(view.annotations)
         let annotation = MKPointAnnotation()
         annotation.coordinate = coordinates
-        //        annotation.title = "Title"
         view.addAnnotation(annotation)
         
         let span = MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3)
         let region = MKCoordinateRegion(center: coordinates, span: span)
         view.setRegion(region, animated: true)
-        
-        //view.addAnnotations(annotations: annotations)
-        
-        
     }
 }
 
-
-struct AnnotationItem: Identifiable {
-    var coordinate: CLLocationCoordinate2D
-    let id = UUID()
-}
-
-struct MapView_Previews: PreviewProvider {
-    static var previews: some View {
-        MapView(coordinates: CLLocationCoordinate2D(latitude: 45.904690, longitude: 6.142201))
-    }
-}

@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+#if os(iOS)
+import UIKit
 class AppDelegate: NSObject, UIApplicationDelegate {
     static var orientationLock = UIInterfaceOrientationMask.portrait
 
@@ -14,13 +16,22 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         return AppDelegate.orientationLock
     }
 }
+#elseif os(macOS)
+import AppKit
+class AppDelegate: NSObject, NSApplicationDelegate {
+    // Add specific macOS methods
+}
+#endif
 
 @main
 struct place_viewApp: App {
+    #if os(iOS)
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    #elseif os(macOS)
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    #endif
     
     var body: some Scene {
-        
         WindowGroup {
             ContentView()
         }

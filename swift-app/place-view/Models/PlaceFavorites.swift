@@ -22,7 +22,6 @@ class PlaceFavorites: ObservableObject {
         } else {
             self.favorties = []
         }
-        NSLog("PlaceFavorites initialized")
     }
     
     func getFavoriteIds() -> Set<String> {
