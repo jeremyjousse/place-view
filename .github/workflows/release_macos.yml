@@ -4,8 +4,8 @@ on:
     push:
         branches:
             - main
-        paths:
-            - "swift-app/**"
+        # paths:
+        #     - "swift-app/**"
     workflow_dispatch:
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
             - name: Get App Version
               run: |
                   cd swift-app
-                  VERSION=$(xcodebuild -project place-view.xcodeproj -scheme place-view -showBuildSettings | grep "MARKETING_VERSION =" | head -n 1 | awk '{print $3}')
+                  VERSION=$(xcodebuild -project place-view.xcodeproj -scheme place-view -destination "generic/platform=macOS,variant=Mac Catalyst" -showBuildSettings | grep "MARKETING_VERSION =" | head -n 1 | awk '{print $3}')
                   echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
 
             - name: Build macOS App
@@ -32,6 +32,7 @@ jobs:
                     -scheme place-view \
                     -configuration Release \
                     -derivedDataPath build \
+                    -destination "generic/platform=macOS,variant=Mac Catalyst" \
                     clean build \
                     CODE_SIGN_IDENTITY="" \
                     CODE_SIGNING_REQUIRED=NO \
@@ -39,12 +40,12 @@ jobs:
 
             - name: Compress App
               run: |
-                  cd swift-app/build/Build/Products/Release
+                  cd swift-app/build/Build/Products/Release-maccatalyst
                   zip -r place-view-macos.zip place-view.app
 
             - name: Create DMG
               run: |
-                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release/ place-view.dmg
+                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release-maccatalyst/ place-view.dmg
 
             - name: Create Release
               uses: softprops/action-gh-release@v2
@@ -61,6 +62,6 @@ jobs:
                       3. If that doesn't work, run `xattr -cr /path/to/place-view.app` in terminal.
                   draft: false
                   prerelease: false
-                  files: swift-app/build/Build/Products/Release/place-view-macos.zip
+                  files: swift-app/build/Build/Products/Release-maccatalyst/place-view-macos.zip
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
