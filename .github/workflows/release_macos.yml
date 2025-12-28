@@ -1,0 +1,66 @@
+name: Build and Release macOS App
+
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - "swift-app/**"
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    build-and-release:
+        runs-on: macos-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v6
+
+            - name: Get App Version
+              run: |
+                  cd swift-app
+                  VERSION=$(xcodebuild -project place-view.xcodeproj -scheme place-view -showBuildSettings | grep "MARKETING_VERSION =" | head -n 1 | awk '{print $3}')
+                  echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
+
+            - name: Build macOS App
+              run: |
+                  cd swift-app
+                  xcodebuild -project place-view.xcodeproj \
+                    -scheme place-view \
+                    -configuration Release \
+                    -derivedDataPath build \
+                    clean build \
+                    CODE_SIGN_IDENTITY="" \
+                    CODE_SIGNING_REQUIRED=NO \
+                    CODE_SIGNING_ALLOWED=NO
+
+            - name: Compress App
+              run: |
+                  cd swift-app/build/Build/Products/Release
+                  zip -r place-view-macos.zip place-view.app
+
+            - name: Create DMG
+              run: |
+                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release/ place-view.dmg
+
+            - name: Create Release
+              uses: softprops/action-gh-release@v2
+              with:
+                  tag_name: v${{ env.APP_VERSION }}
+                  name: Release v${{ env.APP_VERSION }}
+                  body: |
+                      Automated release from main branch.
+
+                      **Note:** This app is not signed with an Apple Developer Certificate.
+                      To run it, you may need to:
+                      1. Unzip the app.
+                      2. Right-click and select "Open" (to bypass Gatekeeper).
+                      3. If that doesn't work, run `xattr -cr /path/to/place-view.app` in terminal.
+                  draft: false
+                  prerelease: false
+                  files: swift-app/build/Build/Products/Release/place-view-macos.zip
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
