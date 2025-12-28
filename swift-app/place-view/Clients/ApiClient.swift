@@ -21,6 +21,7 @@ struct ApiClient: Sendable {
         let (data, response) = try await URLSession.shared.data(from: url)
         
         guard let httpResponse = response as? HTTPURLResponse else {
+            logger.error("Fetching API received non-HTTPURLResponse \(response, privacy: .public)")
             throw ApiError.unknown
         }
         

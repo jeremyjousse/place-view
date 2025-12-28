@@ -23,10 +23,9 @@ struct WebcamThumbnail: View {
             }
             .retry(maxCount: 3, interval: .seconds(5))
             .onSuccess { r in
-                print("success: \(r)")
+                // print("success: \(r)")
             }
             .onFailure { e in
-                // e: KingfisherError
                 print("failure: \(e)")
             }                .resizable()
             .aspectRatio(contentMode: .fill)

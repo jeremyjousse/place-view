@@ -22,8 +22,6 @@ final class PlaceViewModel: ObservableObject {
     @Published var thumbnails: [ThumbnailImg] = []
     @Published var selectedImage : Int = 0
     
-    var temporaryThumbnails: [ThumbnailImg] = []
-    
     var webcams: [Webcam]
     
     init(webcams: [Webcam]) {
@@ -31,7 +29,7 @@ final class PlaceViewModel: ObservableObject {
     }
     
     func loadParallel() async {
-        self.temporaryThumbnails = []
+        var temporaryThumbnails: [ThumbnailImg] = []
         
         await withTaskGroup(of: (String, PlatformImage).self) { group in
             for webcam in webcams {
@@ -49,12 +47,12 @@ final class PlaceViewModel: ObservableObject {
                     continue
                 }
                 
-                self.temporaryThumbnails.append(ThumbnailImg(url: result.0, image: newImage.cropToBounds(sizeToCrop: CGSize(width: 50.0, height: 50.0))))
+                temporaryThumbnails.append(ThumbnailImg(url: result.0, image: newImage.cropToBounds(sizeToCrop: CGSize(width: 50.0, height: 50.0))))
             }
             
             var orderedThumbnails: [ThumbnailImg] = []
             for webcam in webcams {
-                if let temporaryThumbnail = self.temporaryThumbnails.first(where: { $0.url == webcam.thumbnailImage }) {
+                if let temporaryThumbnail = temporaryThumbnails.first(where: { $0.url == webcam.thumbnailImage }) {
                     orderedThumbnails.append(temporaryThumbnail)
                 }
             }
@@ -129,7 +127,7 @@ extension PlatformImage {
         cropped.unlockFocus()
         return cropped
         #else
-        let cgimage = self.cgImage!
+        guard let cgimage = self.cgImage else { return self }
         let contextSize: CGSize = self.size
         var posX: CGFloat = 0.0
         var posY: CGFloat = 0.0
@@ -149,7 +147,7 @@ extension PlatformImage {
         }
         
         let rect: CGRect = CGRect(x: posX, y: posY, width: cgwidth, height: cgheight)
-        let imageRef: CGImage = cgimage.cropping(to: rect)!
+        guard let imageRef: CGImage = cgimage.cropping(to: rect) else { return self }
         return UIImage(cgImage: imageRef, scale: self.scale, orientation: self.imageOrientation)
         #endif
     }

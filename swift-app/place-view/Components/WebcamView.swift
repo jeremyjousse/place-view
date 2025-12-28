@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import os
 
 struct WebcamView: View {
     
@@ -41,6 +42,7 @@ struct WebcamView: View {
 }
 
 struct FullScreenWebcamView: View {
+    private let logger = Logger(subsystem: "place-view", category: "FullScreenWebcamView")
     let imageUrl: String
     @Environment(\.dismiss) var dismiss
     
@@ -93,7 +95,7 @@ struct FullScreenWebcamView: View {
         if let windowScene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
             let geometryPreferences = UIWindowScene.GeometryPreferences.iOS(interfaceOrientations: mask)
             windowScene.requestGeometryUpdate(geometryPreferences) { error in
-                print("Erreur de changement d'orientation: \(error.localizedDescription)")
+                logger.error("Error changing orientation: \(error.localizedDescription, privacy: .public)")
             }
             windowScene.windows.first?.rootViewController?.setNeedsUpdateOfSupportedInterfaceOrientations()
         }

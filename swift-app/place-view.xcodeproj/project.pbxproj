@@ -134,17 +134,17 @@
 		1148546727487E3F004BC904 /* place-view */ = {
 			isa = PBXGroup;
 			children = (
-				C4C7AA4E279899EA002C40C4 /* ViewModels */,
 				C4BA0B4D2790BBDC00D23171 /* Clients */,
-				C4F5F1842765F637001F4C59 /* place-view.entitlements */,
-				11BE7E82274D257700D3FA6B /* Navigations */,
-				11E65F67274A29F100A70C0A /* Views */,
 				11E65F62274A276700A70C0A /* Components */,
-				114854972748813C004BC904 /* Resources */,
+				C4F5F1842765F637001F4C59 /* place-view.entitlements */,
 				1148549427488045004BC904 /* Models */,
+				11BE7E82274D257700D3FA6B /* Navigations */,
 				1148546827487E40004BC904 /* place_viewApp.swift */,
 				1148546A27487E40004BC904 /* ContentView.swift */,
 				1148546C27487E41004BC904 /* Assets.xcassets */,
+				114854972748813C004BC904 /* Resources */,
+				11E65F67274A29F100A70C0A /* Views */,
+				C4C7AA4E279899EA002C40C4 /* ViewModels */,
 				1148546E27487E41004BC904 /* Preview Content */,
 				1148549227488018004BC904 /* City.swift */,
 			);
