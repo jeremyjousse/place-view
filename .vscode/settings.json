@@ -1,11 +1,10 @@
 {
   "conventionalCommits.scopes": [
-    "webcams",
-    "github-actions",
     "admin-tools",
+    "github-actions",
+    "swift-app",
     "webapp",
-    "ios",
-    "swift-app"
+    "webcams-list"
   ],
   "cSpell.words": ["geocode", "lucide", "panomax", "Skaping", "Trinum"],
   "sonarlint.connectedMode.project": {
