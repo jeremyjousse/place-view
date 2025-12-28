@@ -75,14 +75,19 @@ struct PlaceNavigation: View {
             .navigationDestination(item: $selectedPlace) { place in
                 PlaceView(place: place)
             }
-            .toolbar {
-                ToolbarItem(placement: .bottomBar) {
-                    Picker("View Mode", selection: $viewMode) {
-                        Label("List", systemImage: "list.bullet").tag(ViewMode.list)
-                        Label("Map", systemImage: "map").tag(ViewMode.map)
+            .safeAreaInset(edge: .bottom) {
+                VStack(spacing: 0) {
+                    HStack {
+                        Spacer()
+                        Picker("View Mode", selection: $viewMode) {
+                            Label("List", systemImage: "list.bullet").tag(ViewMode.list)
+                            Label("Map", systemImage: "map").tag(ViewMode.map)
+                        }
+                        .pickerStyle(.segmented)
+                        .frame(width: 160)
+                        Spacer()
                     }
-                    .pickerStyle(.segmented)
-                    .frame(width: 150)
+                    .frame(height: 49)
                 }
             }
             .onAppear {

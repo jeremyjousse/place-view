@@ -4,7 +4,8 @@
     "github-actions",
     "admin-tools",
     "webapp",
-    "ios"
+    "ios",
+    "swift-app"
   ],
   "cSpell.words": ["geocode", "lucide", "panomax", "Skaping", "Trinum"],
   "sonarlint.connectedMode.project": {

@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class PlaceFetcher: ObservableObject {
     
     @Published var places = [Place]()
@@ -18,67 +19,39 @@ class PlaceFetcher: ObservableObject {
     
     init(service: ApiClient = ApiClient()) {
         self.service = service
-        fetchAllPlaces()
+        Task {
+            await fetchAllPlaces()
+        }
     }
     
-    func fetchAllPlaces() {
-        
+    func fetchAllPlaces() async {
         isLoading = true
         errorMessage = nil
         
         let url = URL(string: "https://jeremyjousse.github.io/place-view/places.json")
-        service.fetchPlaces(url: url) { [unowned self] result in
-            
-            DispatchQueue.main.async {
-                
-                self.isLoading = false
-                switch result {
-                case .failure(let error):
-                    self.errorMessage = error.localizedDescription
-                    // print(error.description)
-                    print(error)
-                case .success(let places):
-                    print("--- sucess with \(places.count)")
-                    self.places = places
-                    
-                    self.states = Array(Set(places.map({$0.state})))
-                }
-            }
+        
+        do {
+            let fetchedPlaces = try await service.fetchPlaces(url: url)
+            self.places = fetchedPlaces
+            self.states = Array(Set(fetchedPlaces.map({ $0.state })))
+        } catch let error as ApiError {
+            self.errorMessage = error.localizedDescription
+            print(error)
+        } catch {
+            self.errorMessage = "An unexpected error occurred."
+            print(error)
         }
         
+        isLoading = false
     }
     
     func clearCacheAndRefresh() async {
-            // Clear URLSession cache for all requests (JSON and images)
-            URLCache.shared.removeAllCachedResponses()
-            
-            // Fetch places again and wait for completion
-            await withCheckedContinuation { continuation in
-                DispatchQueue.main.async {
-                    self.isLoading = true
-                    self.errorMessage = nil
-                }
-                
-                let url = URL(string: "https://jeremyjousse.github.io/place-view/places.json")
-                service.fetchPlaces(url: url) { [unowned self] result in
-                    
-                    DispatchQueue.main.async {
-                        
-                        self.isLoading = false
-                        switch result {
-                        case .failure(let error):
-                            self.errorMessage = error.localizedDescription
-                            print(error)
-                        case .success(let places):
-                            print("--- sucess with \(places.count)")
-                            self.places = places
-                            self.states = Array(Set(places.map({$0.state})))
-                        }
-                        continuation.resume()
-                    }
-                }
-            }
-        }
+        // Clear URLSession cache for all requests (JSON and images)
+        URLCache.shared.removeAllCachedResponses()
+        
+        // Fetch places again and wait for completion
+        await fetchAllPlaces()
+    }
     
     //MARK: preview helpers
     
@@ -90,8 +63,6 @@ class PlaceFetcher: ObservableObject {
     
     static func successState() -> PlaceFetcher {
         let fetcher = PlaceFetcher()
-        // fetcher.places = [Place.example1(), Place.example2()]
-        
         return fetcher
     }
 }
