@@ -4,8 +4,8 @@ on:
     push:
         branches:
             - main
-        # paths:
-        #     - "swift-app/**"
+        paths:
+            - "swift-app/**"
     workflow_dispatch:
 
 permissions:
@@ -20,10 +20,12 @@ jobs:
               uses: actions/checkout@v6
 
             - name: Get App Version
+              id: get_version
               run: |
                   cd swift-app
                   VERSION=$(xcodebuild -project place-view.xcodeproj -scheme place-view -destination "generic/platform=macOS,variant=Mac Catalyst" -showBuildSettings | grep "MARKETING_VERSION =" | head -n 1 | awk '{print $3}')
                   echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
+                  echo "version=$VERSION" >> $GITHUB_OUTPUT
 
             - name: Build macOS App
               run: |
@@ -45,13 +47,13 @@ jobs:
 
             - name: Create DMG
               run: |
-                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release-maccatalyst/ place-view-macos.dmg
+                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release-maccatalyst/place-view.app swift-app/build/Build/Products/Release-maccatalyst/place-view-macos.dmg
 
             - name: Create Release
               uses: softprops/action-gh-release@v2
               with:
-                  tag_name: v${{ env.APP_VERSION }}
-                  name: Release v${{ env.APP_VERSION }}
+                  tag_name: v${{ steps.get_version.outputs.version }}
+                  name: Release v${{ steps.get_version.outputs.version }}
                   body: |
                       Automated release from main branch.
 

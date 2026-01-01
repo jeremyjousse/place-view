@@ -2871,8 +2871,8 @@
     "webcams": [
       {
         "name": "Vanoise Express",
-        "largeImage": "https://trinum2.trinum.com/ibox/ftpcam/small_Peisey-Vallandry_vanoise-expresse.jpg",
-        "thumbnailImage": "https://trinum2.trinum.com/ibox/ftpcam/mega_Peisey-Vallandry_vanoise-expresse.jpg"
+        "thumbnailImage": "https://trinum2.trinum.com/ibox/ftpcam/small_Peisey-Vallandry_vanoise-expresse.jpg",
+        "largeImage": "https://trinum2.trinum.com/ibox/ftpcam/mega_Peisey-Vallandry_vanoise-expresse.jpg"
       }
     ]
   },
@@ -3732,24 +3732,6 @@
     ]
   },
   {
-    "id": "the-lecht",
-    "name": "The Lecht",
-    "state": "Aberdeenshire",
-    "country": "Scotland",
-    "coordinates": {
-      "latitude": 57.2008971,
-      "longitude": -3.0692553
-    },
-    "url": "https://www.lecht.co.uk/",
-    "webcams": [
-      {
-        "name": "The Lecht",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_the-lecht.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_the-lecht.jpg"
-      }
-    ]
-  },
-  {
     "id": "thollon-les-memises",
     "coordinates": {
       "longitude": 6.7131582,
@@ -4135,6 +4117,132 @@
         "name": "Tour de Matagrin",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_violay_tour-de-matagrin.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_violay_tour-de-matagrin.jpg"
+      }
+    ]
+  },
+  {
+    "id": "gerardmer",
+    "name": "Gérardmer",
+    "country": "France",
+    "state": "Vosges",
+    "url": "https://www.gerardmer-ski.com/fr/",
+    "coordinates": {
+      "latitude": 48.07062355783574,
+      "longitude": 6.877613067626954
+    },
+    "webcams": [
+      {
+        "name": "Tetras",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_gerardmer_tetras.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_gerardmer_tetras.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_gerardmer_front-de-neige.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_gerardmer_front-de-neige.jpg"
+      },
+      {
+        "name": "Hôtel du Nohneck",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_hotel-hohneck_hohneck.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_hotel-hohneck_hohneck.jpg"
+      }
+    ]
+  },
+  {
+    "id": "the-lecht",
+    "name": "The Lecht",
+    "country": "France",
+    "state": "Aberdeenshire",
+    "url": "https://www.lecht.co.uk",
+    "coordinates": {
+      "latitude": 57.201852462606055,
+      "longitude": -3.248519897460938
+    },
+    "webcams": [
+      {
+        "name": "The Lecht",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_the-lecht.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_the-lecht.jpg"
+      }
+    ]
+  },
+  {
+    "id": "sur-lyand",
+    "name": "Sur Lyand",
+    "country": "France",
+    "state": "Ain",
+    "url": "https://sur-lyand.hautrhone-tourisme.fr/",
+    "coordinates": {
+      "latitude": 45.95186578956742,
+      "longitude": 5.775890350341798
+    },
+    "webcams": []
+  },
+  {
+    "id": "habere-poche",
+    "name": "Habère-Poche",
+    "country": "France",
+    "state": "Haute-Savoie",
+    "url": "http://leshaberes.com/",
+    "coordinates": {
+      "latitude": 46.24860604134826,
+      "longitude": 6.473522186279297
+    },
+    "webcams": []
+  },
+  {
+    "id": "ault",
+    "name": "Ault",
+    "country": "France",
+    "state": "Somme",
+    "url": "https://www.villes-soeurs.fr/",
+    "coordinates": {
+      "latitude": 50.101533096777914,
+      "longitude": 1.447277069091797
+    },
+    "webcams": [
+      {
+        "name": "Ault Centre Ville",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-centre-ville.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_ville-soeur_ault-centre-ville.jpg"
+      },
+      {
+        "name": "Ault Onival",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-onival.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_ville-soeur_ault-onival.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-jean-d-aulps",
+    "name": "Saint-Jean-d'Aulps",
+    "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.valleedaulps.com",
+    "coordinates": {
+      "latitude": 46.234596578912914,
+      "longitude": 6.654796600341798
+    },
+    "webcams": [
+      {
+        "name": "Plateau St Jean d'Aulps",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_plateau-st-jean-d-aulps.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_vallee-d-aulps_plateau-st-jean-d-aulps.jpg"
+      },
+      {
+        "name": "Col des Follys",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_col-des-follys.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_vallee-d-aulps_col-des-follys.jpg"
+      },
+      {
+        "name": "Roc d'Enfer",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tWfs-G599K-PJyiE-mTThI&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tWfs-G599K-PJyiE-mTThI&quality=small"
+      },
+      {
+        "name": "Les Lindarets",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_les-lindarets.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_les-lindarets.jpg"
       }
     ]
   }

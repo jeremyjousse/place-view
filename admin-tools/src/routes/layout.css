@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@import 'leaflet/dist/leaflet.css';
+
+body {
+	font-synthesis: none;
+	@apply bg-gray-50 text-gray-900;
+}
