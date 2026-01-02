@@ -1,3 +1,34 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+@layer base {
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+	body {
+		@apply bg-background text-text font-sans antialiased;
+	}
+}
+
+@layer components {
+	.card-flat {
+		@apply bg-surface border border-border transition-colors duration-200;
+	}
+
+	.card-flat-hover {
+		@apply hover:border-primary/50;
+	}
+}
+
+/* Custom Scrollbar - Minimalist */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply rounded-none bg-gray-300 transition-colors hover:bg-gray-400;
+}
