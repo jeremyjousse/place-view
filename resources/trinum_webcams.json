@@ -228,11 +228,6 @@
     "name": "conseil-general-74",
     "webcams": [
       {
-        "name": "Le Plateau des Glières",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_cg74_plateau-des-glieres.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_cg74_plateau-des-glieres.jpg"
-      },
-      {
         "name": "Départ des pistes",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_conseil-general-74_depart-des-pistes.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_conseil-general-74_depart-des-pistes.jpg"

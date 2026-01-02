@@ -2,3 +2,18 @@
 
 .gemini/
 gha-creds-*.json
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+*.log
+.env
+.env.*
+
+# SvelteKit
+.svelte-kit/
+
+# Misc
+.idea/

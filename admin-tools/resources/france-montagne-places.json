@@ -1,0 +1,2685 @@
+[
+	{
+		"coordinates": {
+			"longitude": 7.0525985999999996,
+			"latitude": 45.374041300000002
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Bonneval-sur-Arc",
+		"url": "https://www.bonneval-sur-arc.com/",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.6405459000000002,
+			"latitude": 45.896652799999998
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Combloux",
+		"url": "https://www.combloux.com"
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "LA PLAGNE MONTALBERT",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.5382641000000001, "latitude": 45.7583585 },
+		"country": "France",
+		"state": "Savoie",
+		"name": "Les Saisies",
+		"url": "https://www.lessaisies.com",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.2266307999999997,
+			"latitude": 45.294187899999997
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Saint-Colomban-des-Villards",
+		"url": "http://www.saint-colomban.com/fr/index-hiver.aspx",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.2730313999999998,
+			"latitude": 45.207861600000001
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Saint-Jean-d'Arves",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.5048111999999998,
+			"latitude": 45.379803299999999
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Saint-Martin-de-Belleville",
+		"url": "http://www.st-martin-belleville.com/",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.2329207000000002, "latitude": 45.2214837 },
+		"country": "France",
+		"state": "Savoie",
+		"name": "Saint-Sorlin-d'Arves",
+		"url": "http://www.saintsorlindarves.com/fr/hiver/index.htm",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4801918000000001,
+			"latitude": 45.186451699999999
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Valmeinier",
+		"url": "http://www.valmeinier.com",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.9268422999999997,
+			"latitude": 45.984138000000002
+		},
+		"country": "France",
+		"state": "",
+		"name": "Chamonix-Mont-Blanc",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Isère",
+		"name": "AURIS EN OISANS",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.5103883520834209,
+			"latitude": 46.252805656150933
+		},
+		"country": "France",
+		"state": "",
+		"name": "Bellevaux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.7758111999999997, "latitude": 45.2239164 },
+		"country": "France",
+		"state": "Savoie",
+		"name": "Bramans",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4279998000000003,
+			"latitude": 46.033344999999997
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Brizon",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 19.286406100000001, "latitude": 51.6191703 },
+		"country": "Pologne",
+		"state": "Isère",
+		"name": "Dobroń",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.3052349596360777,
+			"latitude": 48.792986451200157
+		},
+		"country": "France",
+		"state": "Isère",
+		"name": "Bagneux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.6733875999999999,
+			"latitude": 48.659235299999999
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Cordon",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.6303150294783126,
+			"latitude": 48.916641629478313
+		},
+		"country": "France",
+		"state": "",
+		"name": "Le Pin",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.5673927000000001,
+			"latitude": 44.902195900000002
+		},
+		"country": "France",
+		"state": "Isère",
+		"name": "Gresse-en-Vercors",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4715990999999997,
+			"latitude": 46.248867400000002
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Habère-Poche",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.2395949000000002,
+			"latitude": 46.071436200000001
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "La Chapelle-Rambaud",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Front de neige",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chapelle-rambaud_front-de-neige.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chapelle-rambaud_front-de-neige.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 5.7452069999999997,
+			"latitude": 44.958807100000001
+		},
+		"country": "France",
+		"state": "Isère",
+		"name": "La Motte-d'Aveillans",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 1.6513042, "latitude": 47.843977299999999 },
+		"country": "France",
+		"state": "Isère",
+		"name": "Le Bardon",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.0941152000000001,
+			"latitude": 44.233802500000003
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Les Granges de Fert",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.1452917, "latitude": 48.7899952 },
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Buc",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.2072216999999998,
+			"latitude": 45.872405800000003
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Les Pénoz",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "LES COULMES/ COL DE ROMEYERE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "LES ENTREMONTS EN CHARTREUSE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.5431517000000001,
+			"latitude": 47.918261600000001
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Noyers",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4823870000000001,
+			"latitude": 45.788391500000003
+		},
+		"country": "France",
+		"state": "",
+		"name": "Ugine",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.5226268999999997, "latitude": 46.2837508 },
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Lullin",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4840821000000002,
+			"latitude": 46.054499399999997
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Mont-Saxonnex",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.2647728999999996,
+			"latitude": 45.803501400000002
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Montmin",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.6941671999999999,
+			"latitude": 46.197059899999999
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Montriond",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.96933389999999997,
+			"latitude": 47.204391700000002
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Morillon",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Morillon - Lac Bleu",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-du-haut-giffre_morillon-lac-bleu.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-du-haut-giffre_morillon-lac-bleu.jpg"
+			},
+			{
+				"name": "Morillon - Les Esserts",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_morillon-1100.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_morillon-1100.jpg"
+			},
+			{
+				"name": "Morillon - Biollaires",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grand-massif_morillon-biollaires.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grand-massif_morillon-biollaires.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": { "longitude": 6.5771771000000001, "latitude": 46.0442562 },
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Nancy-sur-Cluses",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 1.7669622, "latitude": 45.312923099999999 },
+		"country": "France",
+		"state": "Savoie",
+		"name": "Naves",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.5950449000000004,
+			"latitude": 45.511735899999998
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Notre-Dame-du-Pré",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Isère",
+		"name": "OZ EN OISANS",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.8374585000000003,
+			"latitude": 45.369535900000002
+		},
+		"country": "France",
+		"state": "",
+		"name": "Planolet",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.9171423045714464,
+			"latitude": 45.353269911452621
+		},
+		"country": "France",
+		"state": "Isère",
+		"name": "Saint-Bernard",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.8878985000000004,
+			"latitude": 45.316415800000001
+		},
+		"country": "France",
+		"state": "Isère",
+		"name": "Saint-Hilaire",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.7224022000000003,
+			"latitude": 45.854990200000003
+		},
+		"country": "France",
+		"state": "",
+		"name": "Saint-Nicolas-de-Véroce",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.2973809999999997,
+			"latitude": 45.268538599999999
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Saint-Pancrace",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.9447120126223867,
+			"latitude": 45.784876483217381
+		},
+		"country": "France",
+		"state": "",
+		"name": "Albens",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.7755783999999997,
+			"latitude": 46.055235500000002
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Sixt-Fer-à-Cheval",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Sixt Fer à Cheval",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-du-haut-giffre_sixt-fer-a-cheval.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-du-haut-giffre_sixt-fer-a-cheval.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.8079919000000002,
+			"latitude": 45.263076099999999
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Sollières-Sardières",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.8161987999999996,
+			"latitude": 45.276842299999998
+		},
+		"country": "France",
+		"state": "Savoie",
+		"name": "Termignon",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.2908763033780444,
+			"latitude": 48.739599403749644
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Antony",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.652787, "latitude": 45.1740165 },
+		"country": "France",
+		"state": "Savoie",
+		"name": "Modane",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.9317694000000003,
+			"latitude": 46.033577399999999
+		},
+		"country": "France",
+		"state": "Haute Savoie",
+		"name": "Vallorcine",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.0313685000000001,
+			"latitude": 45.091594499999999
+		},
+		"country": "France",
+		"state": "Isère",
+		"name": "Villard-Reculas",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.8742979999999996, "latitude": 45.5913811 },
+		"country": "France",
+		"state": "",
+		"name": "Villaroger",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.95368639263208,
+			"latitude": 44.087913329821433
+		},
+		"country": "France",
+		"state": "Alpes Maritimes",
+		"name": "Beuil",
+		"url": "http://www.beuil.fr",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.2966847000000001,
+			"latitude": 44.346597199999998
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Selonnet",
+		"url": "http://www.selonnetchabanon-tourisme.fr",
+		"webcams": [
+			{
+				"name": "Sommet Les Monges",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chabanon_sommet-les-monges.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chabanon_sommet-les-monges.jpg"
+			},
+			{
+				"name": "Chabanon",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chabanon_chabanon.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chabanon_chabanon.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.9655418999999998,
+			"latitude": 43.833224199999997
+		},
+		"country": "France",
+		"state": "Alpes Maritimes",
+		"name": "Gréolières Les Neiges",
+		"url": "http://www.stations-greolieres-audibergue.com",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 7.2225105000000003, "latitude": 44.0710409 },
+		"country": "France",
+		"state": "Alpes Maritimes",
+		"name": "La Colmiane",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.452941, "latitude": 48.8901222 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Noisy-le-Sec",
+		"url": "http://www.ledevoluy.com",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.6814605, "latitude": 44.372937899999997 },
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Le Sauze",
+		"url": "http://www.sauze.com",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.3874971, "latitude": 49.467503800000003 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Fournival",
+		"url": "https://www.paysdesecrins.com/puy-saint-vincent",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.4333310138836484,
+			"latitude": 48.727799556438633
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Villeneuve-le-Roi",
+		"url": "https://www.valdallos.com",
+		"webcams": [
+			{
+				"name": "Ubac et Luge",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_front-de-neige.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_front-de-neige.jpg"
+			},
+			{
+				"name": "Parc de loisirs",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_zone-de-loisirs.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_zone-de-loisirs.jpg"
+			},
+			{
+				"name": "Sommet Marin Pascal",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_sommet-marin-pascal.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_sommet-marin-pascal.jpg"
+			},
+			{
+				"name": "Village",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_village.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_village.jpg"
+			},
+			{
+				"name": "Seignus Haut",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_seignus-haut.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_seignus-haut.jpg"
+			},
+			{
+				"name": "Observatoire",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_observatoire.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_observatoire.jpg"
+			},
+			{
+				"name": "Seignus Bas",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_seignus-bas.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_seignus-bas.jpg"
+			},
+			{
+				"name": "Val d'Allos le Seignus",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_champons.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_valdallos_champons.jpg"
+			}
+		]
+	},
+	{
+		"country": "",
+		"state": "Hautes Alpes",
+		"name": "ABRIES EN QUEYRAS",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Hautes Alpes",
+		"name": "ARVIEUX EN QUEYRAS",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.9430522999999997,
+			"latitude": 43.795500500000003
+		},
+		"country": "France",
+		"state": "Alpes Maritimes",
+		"name": "Gréolières",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Hautes Alpes",
+		"name": "CEILLAC EN QUEYRAS",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.7724503999999999,
+			"latitude": 45.847585299999999
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Cervières",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.4240984000000001,
+			"latitude": 44.842550299999999
+		},
+		"country": "France",
+		"state": "Drôme",
+		"name": "Saint-Agnan-en-Vercors",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.6537563999999998,
+			"latitude": 44.188217999999999
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Colmars",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4737362329495269,
+			"latitude": 44.496406776555595
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Crots",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.6087527000000001,
+			"latitude": 44.548154799999999
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Crévoux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.320513, "latitude": 44.899278700000004 },
+		"country": "France",
+		"state": "Drôme",
+		"name": "Font-d'Urle",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Font d'Urle",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-drome_font-d-urle.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-drome_font-d-urle.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.0844626000000002,
+			"latitude": 44.622362699999996
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Gap",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.32303589999999999,
+			"latitude": 48.725399600000003
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Champ-Haut",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.94334439999999997,
+			"latitude": 49.764747700000001
+		},
+		"country": "France",
+		"state": "Drôme",
+		"name": "Saint-Ouen-le-Mauger",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.1391211000000001,
+			"latitude": 48.854935699999999
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "La Celle-Saint-Cloud",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.3081474000000002,
+			"latitude": 45.046466799999997
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "La Grave",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 1.4146274999999999,
+			"latitude": 45.122686000000002
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Larche",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Hautes Alpes",
+		"name": "LAYE EN CHAMPSAUR",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Front de neige",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_laye_front-de-neige.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_laye_front-de-neige.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 7.3018304537254775,
+			"latitude": 44.109413404707745
+		},
+		"country": "France",
+		"state": "Alpes Maritimes",
+		"name": "Saint-Martin-Vésubie",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.2850744000000001, "latitude": 45.0540503 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Le Chazelet",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.77377475947182506,
+			"latitude": 46.916447359021177
+		},
+		"country": "France",
+		"state": "",
+		"name": "Le Grand-Pressigny",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.1949788000000003, "latitude": 44.8164953 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "La Chapelle-en-Valgaudémar",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.705381, "latitude": 44.665327400000002 },
+		"country": "France",
+		"state": "Drôme",
+		"name": "Lus-la-Croix-Haute",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.8421954999999999, "latitude": 44.7310242 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Molines-en-Queyras",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.2644997, "latitude": 44.1841498 },
+		"country": "France",
+		"state": "Vaucluse",
+		"name": "Beaumont-du-Ventoux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "MONTAGNE DE LURE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.6068828999999996,
+			"latitude": 45.019461399999997
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Névache",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.4858278, "latitude": 44.870608799999999 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Pelvoux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.6050732999999999,
+			"latitude": 44.369910599999997
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Pra-Loup",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Costebelle",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pra-loup_tc-molanes.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pra-loup_tc-molanes.jpg"
+			},
+			{
+				"name": "Peguieou",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pra-loup_tsd-bergeries.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pra-loup_tsd-bergeries.jpg"
+			},
+			{
+				"name": "Front de neige",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pra-loup_front-de-neige.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pra-loup_front-de-neige.jpg"
+			},
+			{
+				"name": "Costebelle",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pra-loup_sommet-lac.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pra-loup_sommet-lac.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 7.0440868999999999,
+			"latitude": 44.083707099999998
+		},
+		"country": "France",
+		"state": "Alpes Maritimes",
+		"name": "Roubion",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.3637378, "latitude": 44.595483799999997 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Réallon",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.2003298999999998, "latitude": 44.6445528 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Saint-Léger-les-Mélèzes",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.1678267, "latitude": 44.681819699999998 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Saint-Michel-de-Chaillol",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Piste Clot Chenu",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chaillol_piste-clot-chenu.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chaillol_piste-clot-chenu.jpg"
+			},
+			{
+				"name": "Sommet Clot Chenu",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chaillol_sommet-clot-chenu.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chaillol_sommet-clot-chenu.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.7499203000000003,
+			"latitude": 44.514832200000001
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Saint-Paul-sur-Ubaye",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 4.7354028000000001,
+			"latitude": 46.254719299999998
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Saint-Vérand",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.7213723999999999,
+			"latitude": 44.466710999999997
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "La Condamine-Châtelard",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Alpes de Haute Provence",
+		"name": "SEYNE LES ALPES",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.6295311999999997,
+			"latitude": 43.881534600000002
+		},
+		"country": "France",
+		"state": "Alpes de Haute Provence",
+		"name": "Soleilhas",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Alpes Maritimes",
+		"name": "TENDE / VAL CASTERINO",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.3684464371198382,
+			"latitude": 48.923502570448989
+		},
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Aubervilliers",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.7330952999999996,
+			"latitude": 44.154397699999997
+		},
+		"country": "France",
+		"state": "Alpes Maritimes",
+		"name": "Saint-Martin-d'Entraunes",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.3708577999999996,
+			"latitude": 44.895516899999997
+		},
+		"country": "France",
+		"state": "Drôme",
+		"name": "Vassieux-en-Vercors",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.6279303000000001, "latitude": 44.8733109 },
+		"country": "France",
+		"state": "Hautes Alpes",
+		"name": "Villar-Saint-Pancrace",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.1717559, "latitude": 48.829293200000002 },
+		"country": "France",
+		"state": "",
+		"name": "Marnes-la-Coquette",
+		"url": "http://www.ax-ski.com",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": -0.1143444, "latitude": 42.888516500000001 },
+		"country": "France",
+		"state": "",
+		"name": "Cauterets",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": -0.1143444, "latitude": 42.888516500000001 },
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Cauterets",
+		"url": "http://www.cauterets.com/",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Pyrénées Orientales",
+		"name": "FONT-ROMEU",
+		"url": "http://www.font-romeu.fr/",
+		"webcams": [
+			{
+				"name": "Roc de la Calme",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_roc-de-la-calme.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_roc-de-la-calme.jpg"
+			},
+			{
+				"name": "Les Airelles",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_les-airelles.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_les-airelles.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 2.0468800578351236,
+			"latitude": 48.771576034229469
+		},
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Montigny-le-Bretonneux",
+		"url": "http://www.tourmaletpicdumidi.fr",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 4.7663466000000003,
+			"latitude": 43.952598600000002
+		},
+		"country": "France",
+		"state": "Pyrénées Orientales",
+		"name": "Les Angles",
+		"url": "http://www.lesangles.com",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Hautes Pyrénées",
+		"name": "PEYRAGUDES",
+		"url": "http://www.peyragudes.com",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.32078519999999999,
+			"latitude": 42.815951400000003
+		},
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Saint-Lary-Soulan",
+		"url": "http://www.saintlary.com/",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Pyrénées Atlantiques",
+		"name": "ANÉOU - VALLÉE D'OSSAU",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Pyrénées Atlantiques",
+		"name": "ARTOUSTE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 1.9523921, "latitude": 42.731135100000003 },
+		"country": "France",
+		"state": "Ariège",
+		"name": "Ascou",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.51008430000000005,
+			"latitude": 48.083120299999997
+		},
+		"country": "France",
+		"state": "Ariège",
+		"name": "Beillé",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 1.9164639999999999,
+			"latitude": 42.797909599999997
+		},
+		"country": "France",
+		"state": "Aude",
+		"name": "Camurac",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Pyrénées Orientales",
+		"name": "CAPCIR",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.0455793647158882,
+			"latitude": 48.771905744800016
+		},
+		"country": "France",
+		"state": "Pyrénées Atlantiques",
+		"name": "Montigny-le-Bretonneux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 1.3779243999999999,
+			"latitude": 42.807544399999998
+		},
+		"country": "France",
+		"state": "Ariège",
+		"name": "Le Port",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.1027751000000001, "latitude": 42.6142495 },
+		"country": "France",
+		"state": "Pyrénées Orientales",
+		"name": "Formiguères",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Hautes Pyrénées",
+		"name": "GAVARNIE - GÈDRE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 1.5032363, "latitude": 42.7521202 },
+		"country": "France",
+		"state": "Ariège",
+		"name": "Goulier",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": -0.33239210000000002,
+			"latitude": 42.958144400000002
+		},
+		"country": "France",
+		"state": "Pyrénées Atlantiques",
+		"name": "Gourette",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.8958485, "latitude": 45.984946899999997 },
+		"country": "France",
+		"state": "Ariège",
+		"name": "Gouzet",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": -0.0093194000000000003,
+			"latitude": 42.973977499999997
+		},
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Beaucens",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 12.5926838, "latitude": 42.672999300000001 },
+		"country": "Italie",
+		"state": "Pyrénées Atlantiques",
+		"name": "",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.5003008495318051,
+			"latitude": 47.844062308574564
+		},
+		"country": "France",
+		"state": "Pyrénées Atlantiques",
+		"name": "Branches",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 1.9548875999999999,
+			"latitude": 44.344369800000003
+		},
+		"country": "France",
+		"state": "Pyrénées Orientales",
+		"name": "La Guillone",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Pyrénées Atlantiques",
+		"name": "LANNE / ISSARBE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Pyrénées Orientales",
+		"name": "LE CAMBRE D'AZE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Ariège",
+		"name": "LE CHIOULA",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 0.32940199999999997, "latitude": 48.6411716 },
+		"country": "France",
+		"state": "Haute Garonne",
+		"name": "Courtomer",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "LE POURTALET ANÉO",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Pyrénées Atlantiques",
+		"name": "LE SOMPORT / CANDANCHU",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 1.7441941999999999,
+			"latitude": 42.844361499999998
+		},
+		"country": "France",
+		"state": "Ariège",
+		"name": "Les Monts d'Olmes",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Hautes Pyrénées",
+		"name": "LUZ ARDIDEN",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.0567739, "latitude": 42.730801200000002 },
+		"country": "France",
+		"state": "Ariège",
+		"name": "Mijanès",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.46359739999999999,
+			"latitude": 43.001745399999997
+		},
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Nistos",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 0.2732521, "latitude": 42.943916799999997 },
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Campan",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.15889790000000001,
+			"latitude": 42.784647399999997
+		},
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Piau-Engaly",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "PONT DE CAMPS-FABRÈGES",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 1.8305541000000001,
+			"latitude": 42.548178800000002
+		},
+		"country": "France",
+		"state": "Pyrénées Orientales",
+		"name": "Porté-Puymorens",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.3119920999999999,
+			"latitude": 48.982646199999998
+		},
+		"country": "France",
+		"state": "",
+		"name": "Montmorency",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.1201222999999998,
+			"latitude": 42.646717000000002
+		},
+		"country": "France",
+		"state": "Pyrénées Orientales",
+		"name": "Puyvalador",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.0627450999999999,
+			"latitude": 42.520986499999999
+		},
+		"country": "France",
+		"state": "",
+		"name": "Bolquère",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.57705119999999999,
+			"latitude": 42.767910999999998
+		},
+		"country": "France",
+		"state": "Haute Garonne",
+		"name": "Superbagnères",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.81383450000000002,
+			"latitude": 47.721114499999999
+		},
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Saint-Martin-des-Bois",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 0.38620199999999999, "latitude": 42.7932062 },
+		"country": "France",
+		"state": "Hautes Pyrénées",
+		"name": "Val-Louron",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"id": "Super Besse",
+		"coordinates": { "longitude": 2.8541607, "latitude": 45.512292000000002 },
+		"country": "France",
+		"state": "Puy de Dôme",
+		"name": "Super Besse",
+		"url": "http://www.sancy.com/destination/superbesse",
+		"webcams": [
+			{
+				"name": "Pertuyzat",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy-nordique_pertuyzat.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy-nordique_pertuyzat.jpg"
+			},
+			{
+				"name": "La Stele",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_sancy-nordique_la-stele.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_sancy-nordique_la-stele.jpg"
+			},
+			{
+				"name": "Front de neige",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superbesse_front-de-neige.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superbesse_front-de-neige.jpg"
+			},
+			{
+				"name": "Bas",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superbesse_ecole.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superbesse_ecole.jpg"
+			},
+			{
+				"name": "Haut",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_superbesse_superbesse-haut.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_superbesse_superbesse-haut.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 2.7474145000000001,
+			"latitude": 45.088826699999998
+		},
+		"country": "France",
+		"state": "Cantal",
+		"name": "Le Lioran",
+		"url": "http://www.lelioran.com",
+		"webcams": [
+			{
+				"name": "Font d'Alagnon",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lioran_font-d-alagnon.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lioran_font-d-alagnon.jpg"
+			},
+			{
+				"name": "Versant Plomb",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lioran_tk-refuge-versant-plomb.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lioran_tk-refuge-versant-plomb.jpg"
+			},
+			{
+				"name": "Centre Station",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lioran_station.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lioran_station.jpg"
+			},
+			{
+				"name": "Sommet Combe",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_lioran_combe.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_lioran_combe.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 2.8101641000000002,
+			"latitude": 45.575056600000003
+		},
+		"country": "France",
+		"state": "Puy de Dôme",
+		"name": "Mont-Dore",
+		"url": "https://www.sancy.com/decouvrir/toutes-les-communes/le-mont-dore/",
+		"webcams": [
+			{
+				"name": "Bas Station",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-dore_bas-station.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-dore_bas-station.jpg"
+			},
+			{
+				"name": "Sommet",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mont-dore_sommet.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mont-dore_sommet.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 2.9179354000000002,
+			"latitude": 45.590944999999998
+		},
+		"country": "France",
+		"state": "",
+		"name": "Beaune-le-Froid",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.8505383000000002,
+			"latitude": 45.703806999999998
+		},
+		"country": "France",
+		"state": "Loire",
+		"name": "Chalmazel",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.7347063, "latitude": 45.512096200000002 },
+		"country": "France",
+		"state": "Puy de Dôme",
+		"name": "Chastreix",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Lac Chambon",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chastreix-sancy_lac-chambon.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chastreix-sancy_lac-chambon.jpg"
+			},
+			{
+				"name": "Chastreix Sancy",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chastreix-sancy_station.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chastreix-sancy_station.jpg"
+			}
+		]
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "COL DE BONNECOMBE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 1.446436894510583,
+			"latitude": 49.098484562972487
+		},
+		"country": "France",
+		"state": "Ardèche",
+		"name": "Saint-Marcel",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Puy de Dôme",
+		"name": "Crêtes du Forez",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "DOMAINE NORDIQUE PRAT DE BOUC / LE CHé",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.8281866, "latitude": 45.407795 },
+		"country": "France",
+		"state": "",
+		"name": "Egliseneuve-d'Entraigues",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Aveyron",
+		"name": "ESPACE AUBRAC",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Aveyron",
+		"name": "ESPACE NORDIQUE AUBRAC SUD",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "",
+		"name": "ESPACE NORDIQUE MONTS DU PILAT",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.084061499999999997,
+			"latitude": 49.364562800000002
+		},
+		"country": "France",
+		"state": "Puy de Dôme",
+		"name": "Trouville-sur-Mer",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Cantal",
+		"name": "HAUT CANTAL / PUY MARY",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.1269664063631351,
+			"latitude": 48.871823142380762
+		},
+		"country": "France",
+		"state": "Loire",
+		"name": "Bougival",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.7411156999999999,
+			"latitude": 45.589084800000002
+		},
+		"country": "France",
+		"state": "Puy de Dôme",
+		"name": "La Bourboule",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.0066581000000001,
+			"latitude": 45.471266900000003
+		},
+		"country": "France",
+		"state": "Ardèche",
+		"name": "La Chavade",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.0099755999999998,
+			"latitude": 43.124907800000003
+		},
+		"country": "France",
+		"state": "Allier",
+		"name": "La Garde",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.8458538999999998,
+			"latitude": 44.684148100000002
+		},
+		"country": "France",
+		"state": "",
+		"name": "Laguiole",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Front de neige Le Bouysso",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_laguiole_front-de-neige-le-bouyssou.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_laguiole_front-de-neige-le-bouyssou.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": { "longitude": 4.5357624000000003, "latitude": 45.119121 },
+		"country": "France",
+		"state": "Ardèche",
+		"name": "Lalouvesc",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": -0.18777561066971868,
+			"latitude": 48.893179597730175
+		},
+		"country": "France",
+		"state": "Lozère",
+		"name": "Falaise",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.3202761000000001,
+			"latitude": 44.301294200000001
+		},
+		"country": "France",
+		"state": "Lozère",
+		"name": "La Malène",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Lozère",
+		"name": "LE MAS DE LA BARQUE",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.9041424999999998, "latitude": 46.5345169 },
+		"country": "France",
+		"state": "Lozère",
+		"name": "Les Bouviers",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 4.1541205000000003,
+			"latitude": 44.904261499999997
+		},
+		"country": "France",
+		"state": "",
+		"name": "Les Estables",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.80249749999999997,
+			"latitude": 48.542878700000003
+		},
+		"country": "France",
+		"state": "",
+		"name": "Longny-au-Perche",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Ardèche",
+		"name": "MASSIF DU MEZENC",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": -4.3420674000000004,
+			"latitude": 48.435597600000001
+		},
+		"country": "France",
+		"state": "Haute Loire",
+		"name": "Saint-Divy",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.6737736999999999,
+			"latitude": 46.051013300000001
+		},
+		"country": "France",
+		"state": "Ardèche",
+		"name": "Montivernoux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.0660989000000001,
+			"latitude": 46.014312400000001
+		},
+		"country": "France",
+		"state": "",
+		"name": "Montcel",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.9994722999999999,
+			"latitude": 45.354519699999997
+		},
+		"country": "France",
+		"state": "",
+		"name": "Parrot",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.8897287, "latitude": 45.634498899999997 },
+		"country": "France",
+		"state": "Puy de Dôme",
+		"name": "Pessade",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Cantal",
+		"name": "PLOMB DU CANTAL / CARLADES",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Gard",
+		"name": "PRAT PEYROT / MONT AIGOUAL",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.8701360999999999,
+			"latitude": 45.561207000000003
+		},
+		"country": "France",
+		"state": "Puy de Dôme",
+		"name": "Saint-Anthème",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.3517884000000002,
+			"latitude": 46.773735600000002
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Métabief",
+		"url": "http://www.tourisme-metabief.com",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.39492149999999998,
+			"latitude": 49.304742400000002
+		},
+		"country": "France",
+		"state": "Ain",
+		"name": "Martainville",
+		"url": "https://www.paysdegex-montsjura.com/",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.5115278999999999,
+			"latitude": 49.224746799999998
+		},
+		"country": "France",
+		"state": "",
+		"name": "Apremont",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.3786029198264558,
+			"latitude": 47.050621706912764
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Arc-sous-Cicon",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.4657781999999999,
+			"latitude": 49.098429299999999
+		},
+		"country": "France",
+		"state": "Jura",
+		"name": "Bellefontaine",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.7778868000000001, "latitude": 46.2531143 },
+		"country": "France",
+		"state": "Ain",
+		"name": "Belleydoux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.1121436999999998,
+			"latitude": 47.018789400000003
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Bolandoz",
+		"url": "",
+		"webcams": []
+	},
+	{ "country": "", "state": "Ain", "name": "BRENOD", "url": "", "webcams": [] },
+	{
+		"coordinates": {
+			"longitude": 6.1142152999999997,
+			"latitude": 46.597932100000001
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Chapelle-des-Bois",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Doubs",
+		"name": "CHAUX DE GILLEY",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.8675645999999997, "latitude": 46.5076331 },
+		"country": "France",
+		"state": "Jura",
+		"name": "Chaux-des-Prés",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Doubs",
+		"name": "CHAUX NEUVE / PRé-PONCET",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Jura",
+		"name": "DOMAINE HAUTE-JOUX/VAUX ET CHANTEGRUE",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Mignovillard - La Bourre",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_haute-joux_mignovillard.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_haute-joux_mignovillard.jpg"
+			},
+			{
+				"name": "Cerniébaud",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_haute-joux_cerniebaud.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_haute-joux_cerniebaud.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4092390999999997,
+			"latitude": 46.762541599999999
+		},
+		"country": "France",
+		"state": "",
+		"name": "Entre-les-Fourgs",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.1613866000000002, "latitude": 46.8572785 },
+		"country": "France",
+		"state": "Doubs",
+		"name": "Frasne",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4790532000000001,
+			"latitude": 47.047404200000003
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Gilley",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.7738211000000002,
+			"latitude": 46.225686799999998
+		},
+		"country": "France",
+		"state": "Ain",
+		"name": "Giron",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Doubs",
+		"name": "HAUT SAUGEAIS BLANC",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Jura",
+		"name": "HAUTES COMBES DU JURA",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.5736713, "latitude": 50.273235 },
+		"country": "France",
+		"state": "Ain",
+		"name": "Hauteville",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Hauteville - La Praille",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-praille.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-praille.jpg"
+			},
+			{
+				"name": "Hauteville - Terre Ronde",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_terre-ronde.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_terre-ronde.jpg"
+			},
+			{
+				"name": "Cormaranche Bikepark",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hauteville-lompnes_cormaranche-bike-parc.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hauteville-lompnes_cormaranche-bike-parc.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": { "longitude": 1.7141900000000001, "latitude": 48.9777688 },
+		"country": "France",
+		"state": "Jura",
+		"name": "Mantes-la-Ville",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.4992364, "latitude": 50.426015700000001 },
+		"country": "France",
+		"state": "Doubs",
+		"name": "La Comté",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.9997106999999996,
+			"latitude": 46.606093399999999
+		},
+		"country": "France",
+		"state": "Jura",
+		"name": "Lac-des-Rouges-Truites",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.4333349999999996,
+			"latitude": 48.608294999999998
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Vitrimont",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.5392866999999999,
+			"latitude": 47.049515700000001
+		},
+		"country": "France",
+		"state": "Jura",
+		"name": "Les Combes",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.4005581999999999, "latitude": 46.8352267 },
+		"country": "France",
+		"state": "",
+		"name": "Les Fourgs",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.9610216999999999, "latitude": 46.4565451 },
+		"country": "France",
+		"state": "Jura",
+		"name": "Longchaumois",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.0158310999999998, "latitude": 46.5360285 },
+		"country": "France",
+		"state": "Jura",
+		"name": "Morbier",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Morbier - Les Marais",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_morbier_marais.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_morbier_marais.jpg"
+			},
+			{
+				"name": "Morbier - Le Glacier",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_morbier_les-glacieres.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_morbier_les-glacieres.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.1923566000000001,
+			"latitude": 46.710303000000003
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Mouthe",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Source du Doubs",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_mouthe_source-du-doubs.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_mouthe_source-du-doubs.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.3389338000000004,
+			"latitude": 47.095731299999997
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Nods",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.5263833, "latitude": 47.131301499999999 },
+		"country": "France",
+		"state": "Doubs",
+		"name": "Orchamps-Vennes",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Ain",
+		"name": "Plateau de Retord",
+		"url": "",
+		"webcams": [
+			{
+				"name": "Cuvéry",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_plateau-de-retord_cuvery.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_plateau-de-retord_cuvery.jpg"
+			},
+			{
+				"name": "Plans d'Hotonnes",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_plateau-de-retord_plans-d-hotonnes.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_plateau-de-retord_plans-d-hotonnes.jpg"
+			},
+			{
+				"name": "Biathlon",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_plateau-de-retord_biathlon.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_plateau-de-retord_biathlon.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": { "longitude": 2.3577591, "latitude": 48.915079900000002 },
+		"country": "France",
+		"state": "Doubs",
+		"name": "Saint-Denis",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.5883761000000001,
+			"latitude": 49.102170700000002
+		},
+		"country": "France",
+		"state": "Jura",
+		"name": "Plailly",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Jura",
+		"name": "PRÉNOVEL (NANCHEZ) / LES PIARDS",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 5.4043536000000003, "latitude": 43.2921342 },
+		"country": "France",
+		"state": "Jura",
+		"name": "Marseille",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 5.9539704999999996,
+			"latitude": 46.576170599999998
+		},
+		"country": "France",
+		"state": "Jura",
+		"name": "Saint-Laurent-en-Grandvaux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 0.32151124582497909,
+			"latitude": 49.479013961931905
+		},
+		"country": "France",
+		"state": "Jura",
+		"name": "Saint-Vigor-d'Ymonville",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.6540762638406532,
+			"latitude": 47.702141146482383
+		},
+		"country": "France",
+		"state": "Ain",
+		"name": "Gien",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.4196352484739312,
+			"latitude": 49.184441070856387
+		},
+		"country": "France",
+		"state": "Doubs",
+		"name": "Gouvieux",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.2610484, "latitude": 48.924777800000001 },
+		"country": "France",
+		"state": "Doubs",
+		"name": "Colombes",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 3.8418817999999999,
+			"latitude": 47.572545599999998
+		},
+		"country": "France",
+		"state": "Bas Rhin",
+		"name": "Annay-la-Côte",
+		"url": "https://www.valleedelabruche.fr",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.8772061000000004,
+			"latitude": 48.070275799999997
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "Gérardmer",
+		"url": "http://www.gerardmer.net",
+		"webcams": [
+			{
+				"name": "Tetras",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gerardmer_tetras.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gerardmer_tetras.jpg"
+			},
+			{
+				"name": "Xettes",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gerardmer_xettes.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gerardmer_xettes.jpg"
+			},
+			{
+				"name": "Front de neige",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_gerardmer_front-de-neige.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_gerardmer_front-de-neige.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": {
+			"longitude": 6.8739483000000003,
+			"latitude": 48.003809099999998
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "La Bresse",
+		"url": "http://www.labresse.net",
+		"webcams": [
+			{
+				"name": "Front de neige",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-bresse_front-de-neige.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-bresse_front-de-neige.jpg"
+			},
+			{
+				"name": "Haut d'Artimont",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-bresse_sommet-tsd4.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-bresse_sommet-tsd4.jpg"
+			},
+			{
+				"name": "Domaine Nordique - Lispach",
+				"largeImage": "https://www.trinum.com/ibox/ftpcam/mega_la-bresse-ot_ot.jpg",
+				"thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_la-bresse-ot_ot.jpg"
+			}
+		]
+	},
+	{
+		"coordinates": { "longitude": -1.3752464, "latitude": 43.706429700000001 },
+		"country": "France",
+		"state": "",
+		"name": "Le Lac Blanc",
+		"url": "http://www.lac-blanc.com",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.8242789000000004,
+			"latitude": 47.859223700000001
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "Saint-Maurice-sur-Moselle",
+		"url": "http://www.ballons-hautes-vosges.com",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.8716029000000001, "latitude": 47.9403948 },
+		"country": "France",
+		"state": "Vosges",
+		"name": "Ventron",
+		"url": "https://www.ot-ventron.fr",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.8628765529416791,
+			"latitude": 47.994027756415143
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "La Bresse",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.8739483000000003,
+			"latitude": 48.003809099999998
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "La Bresse",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": -1.6131917806277514,
+			"latitude": 48.082864795642593
+		},
+		"country": "France",
+		"state": "",
+		"name": "Chantepie",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"country": "",
+		"state": "Vosges",
+		"name": "LA SCHLUCHT",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 6.8626497999999998, "latitude": 47.900962 },
+		"country": "France",
+		"state": "Vosges",
+		"name": "Larcenaire",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": -1.3979562000000001,
+			"latitude": 48.023107199999998
+		},
+		"country": "France",
+		"state": "Territoire de Belfort",
+		"name": "Le Ballon",
+		"url": "https://www.ballondalsace.fr/station-hiver/ski-alpin-ballon-d-alsace.htm",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 4.6409830000000003,
+			"latitude": 48.910893199999997
+		},
+		"country": "France",
+		"state": "Haut Rhin",
+		"name": "Le Fresne",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.9898332999999999,
+			"latitude": 48.096299999999999
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "Ban-sur-Meurthe-Clefcy",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 7.0270114000000001,
+			"latitude": 47.927450999999998
+		},
+		"country": "France",
+		"state": "Haut Rhin",
+		"name": "Oderen",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": { "longitude": 2.452941, "latitude": 48.8901222 },
+		"country": "France",
+		"state": "Haut Rhin",
+		"name": "Noisy-le-Sec",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.5070562000000001,
+			"latitude": 43.558280000000003
+		},
+		"country": "France",
+		"state": "Haut Rhin",
+		"name": "Les Cadenelles",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 4.8416420000000002,
+			"latitude": 49.883596300000001
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "Les Hautes-Rivières",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.7875844000000001,
+			"latitude": 48.022433100000001
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "Rochesson",
+		"url": "https://www.massif-des-vosges.fr/stations/les-truches-rochesson/",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 7.0483358999999997,
+			"latitude": 47.986532799999999
+		},
+		"country": "France",
+		"state": "Haut Rhin",
+		"name": "Sondernach",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 2.2401817999999998,
+			"latitude": 46.240152299999998
+		},
+		"country": "France",
+		"state": "Haut Rhin",
+		"name": "Trois-Fonds",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 6.9263494999999997,
+			"latitude": 48.081499299999997
+		},
+		"country": "France",
+		"state": "Vosges",
+		"name": "Xonrupt-Longemer",
+		"url": "",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 9.2128371999999992,
+			"latitude": 42.105609000000001
+		},
+		"country": "France",
+		"state": "",
+		"name": "Ghisoni",
+		"url": "https://www.ghisoni.corsica/station-ghisoni-capanelle/28-webcams",
+		"webcams": []
+	},
+	{
+		"coordinates": {
+			"longitude": 9.0348928999999991,
+			"latitude": 42.453861400000001
+		},
+		"country": "France",
+		"state": "",
+		"name": "Asco",
+		"url": "https://asco.corsica/Webcam_page_182_1,575.htm",
+		"webcams": []
+	}
+]
