@@ -37,16 +37,16 @@ test('reorder webcams', async ({ page }) => {
 
 	// Add Webcam A
 	await page.fill('#webcam-name', 'Reorder A');
-	await page.fill('#webcam-large', 'http://a.com/l');
-	await page.fill('#webcam-thumb', 'http://a.com/t');
+	await page.fill('#webcam-large', 'https://a.com/l');
+	await page.fill('#webcam-thumb', 'https://a.com/t');
 	await page.click('button:has-text("Add Webcam")');
 	await expect(page.getByText('Webcam added successfully')).toBeVisible();
 	await expect(page.getByText('Webcam added successfully')).toBeHidden();
 
 	// Add Webcam B
 	await page.fill('#webcam-name', 'Reorder B');
-	await page.fill('#webcam-large', 'http://b.com/l');
-	await page.fill('#webcam-thumb', 'http://b.com/t');
+	await page.fill('#webcam-large', 'https://b.com/l');
+	await page.fill('#webcam-thumb', 'https://b.com/t');
 	await page.click('button:has-text("Add Webcam")');
 	await expect(page.getByText('Webcam added successfully')).toBeVisible();
 	await expect(page.getByText('Webcam added successfully')).toBeHidden();

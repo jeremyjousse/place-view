@@ -3,6 +3,11 @@
 	let { data } = $props();
 </script>
 
+<svelte:head>
+  <title>Place view - Admin Tools</title>
+  <meta name="description" content="Home page of the admin tools" />
+</svelte:head>
+
 <div class="container mx-auto p-4">
 	<div class="mb-6 flex items-center justify-between">
 		<h1 class="text-3xl font-bold">Places</h1>

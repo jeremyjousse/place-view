@@ -13,6 +13,10 @@
 	};
 </script>
 
+<svelte:head>
+  <title>Place view - Admin Tools - Create New Place</title>
+</svelte:head>
+
 <div class="container mx-auto space-y-8 p-4">
 	<div class="flex items-center justify-between">
 		<h1 class="text-3xl font-bold">Create New Place</h1>
