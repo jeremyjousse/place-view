@@ -1,57 +1,55 @@
 <script lang="ts">
-  import Button from '../atoms/Button.svelte';
+  import { Heart } from 'lucide-svelte';
   import Badge from '../atoms/Badge.svelte';
 
-  interface Webcam {
-    id: string;
-    name: string;
-    imageUrl: string;
-  }
-
-  let { place } = $props<{
+  let { place, isFavorite = false, onToggleFavorite } = $props<{
     place: {
       id: string;
       name: string;
-      region?: string;
+      state?: string;
       country?: string;
-      webcamsCount: number;
-      previewUrl?: string;
-      tags?: string[];
-    }
+      webcams: any[];
+    };
+    isFavorite?: boolean;
+    onToggleFavorite?: (favorite: boolean) => void;
   }>();
+
+  const previewUrl = $derived(place.webcams[0]?.largeImage || '');
+  const webcamsCount = $derived(place.webcams.length);
 </script>
 
-<div class="card-flat group overflow-hidden flex flex-col h-full border-2 border-text shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all">
-  <div class="aspect-video relative overflow-hidden bg-gray-100 border-b-2 border-text">
-    {#if place.previewUrl}
-      <img 
-        src={place.previewUrl} 
-        alt={place.name} 
-        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-      />
-    {:else}
-      <div class="w-full h-full flex items-center justify-center text-text/20 uppercase font-black tracking-tighter text-4xl">
-        NO PREVIEW
-      </div>
-    {/if}
-    
-    <div class="absolute top-2 left-2 flex flex-wrap gap-1">
-      <Badge variant="primary">{place.webcamsCount} WEBCAMS</Badge>
-    </div>
-  </div>
+<div class="card-flat group relative flex flex-col h-full bg-surface border border-border p-3 hover:border-primary/50 hover:shadow-2xl transition-all duration-300">
+  <button 
+    class="absolute top-6 right-6 p-2.5 rounded-full backdrop-blur-md bg-black/20 text-white transition-all hover:bg-black/40 active:scale-90 z-10"
+    onclick={(e) => { e.preventDefault(); e.stopPropagation(); onToggleFavorite?.(!isFavorite); }}
+  >
+    <Heart size={18} fill={isFavorite ? "#C5FF29" : "none"} stroke={isFavorite ? "#C5FF29" : "currentColor"} />
+  </button>
 
-  <div class="p-4 flex flex-col flex-1">
-    <div class="mb-auto">
-      <h3 class="text-xl font-black uppercase tracking-tight mb-1">{place.name}</h3>
-      <p class="text-xs text-text-muted font-bold uppercase tracking-widest">
-        {place.region}{place.country ? `, ${place.country}` : ''}
+  <a href="/place/{place.id}" class="flex flex-col h-full">
+    <div class="aspect-[4/3] relative overflow-hidden rounded-2xl bg-neutral-900 mb-4">
+      {#if previewUrl}
+        <img 
+          src={previewUrl} 
+          alt={place.name} 
+          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+        />
+      {:else}
+        <div class="w-full h-full flex items-center justify-center text-text/10 uppercase font-black tracking-tighter text-3xl">
+          NO VIEW
+        </div>
+      {/if}
+      
+      <div class="absolute bottom-3 left-3">
+         <Badge variant="primary">{webcamsCount} {webcamsCount > 1 ? 'CAMERAS' : 'CAMERA'}</Badge>
+      </div>
+    </div>
+
+    <div class="px-2 pb-2">
+      <h3 class="text-lg font-bold tracking-tight mb-0.5">{place.name}</h3>
+      <p class="text-[10px] text-text-muted font-black uppercase tracking-widest opacity-60">
+        {place.state}{place.country ? ` • ${place.country}` : ''}
       </p>
     </div>
-
-    <div class="mt-4">
-      <Button variant="outline" class="w-full text-xs py-2">
-        VIEW DETAILS
-      </Button>
-    </div>
-  </div>
+  </a>
 </div>

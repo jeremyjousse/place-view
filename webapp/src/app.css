@@ -1,34 +1,59 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+@plugin "@tailwindcss/forms";
+
+@theme {
+	--color-background: #0f1115;
+	--color-surface: #1a1d23;
+	--color-primary: #c5ff29;
+	--color-primary-hover: #d4ff00;
+	--color-primary-text: #000000;
+	--color-accent: #c5ff29;
+	--color-text: #ffffff;
+	--color-text-muted: #8e9aaf;
+	--color-border: #2a2d35;
+
+	--font-sans: 'SF Pro', 'Inter', sans-serif;
+
+	--radius-3xl: 24px;
+	--radius-2xl: 20px;
+}
 
 @layer base {
-	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
 	body {
-		@apply bg-background text-text font-sans antialiased;
+		@apply bg-background font-sans text-text antialiased;
+	}
+
+	::selection {
+		background-color: var(--color-primary);
+		color: var(--color-primary-text);
 	}
 }
 
 @layer components {
 	.card-flat {
-		@apply bg-surface border border-border transition-colors duration-200;
+		@apply rounded-3xl border border-border bg-surface transition-all duration-300;
 	}
 
-	.card-flat-hover {
-		@apply hover:border-primary/50;
+	.card-hover {
+		@apply hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/5;
+	}
+
+	.btn-primary {
+		@apply text-primary-text rounded-2xl bg-primary px-6 py-3 font-bold transition-all active:scale-95;
 	}
 }
 
 /* Custom Scrollbar - Minimalist */
 ::-webkit-scrollbar {
-	width: 6px;
+	width: 4px;
+	height: 4px;
 }
 
 ::-webkit-scrollbar-track {
-	@apply bg-background;
+	@apply bg-transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	@apply rounded-none bg-gray-300 transition-colors hover:bg-gray-400;
+	@apply rounded-full bg-border transition-colors hover:bg-text-muted/50;
 }

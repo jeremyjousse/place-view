@@ -2,18 +2,19 @@
 <script lang="ts">
 	import PlaceForm from '$lib/components/organisms/PlaceForm.svelte';
 	import WebcamList from '$lib/components/organisms/WebcamList.svelte';
+	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import Button from '$lib/components/atoms/Button.svelte';
 
 	let { data } = $props();
 </script>
 
 <svelte:head>
-  <title>Place view - Admin Tools - {data.place.name}</title>
+	<title>Place view - Admin Tools - {data.place.name}</title>
 </svelte:head>
 
 <div class="container mx-auto space-y-8 p-4">
-	<div class="flex items-center justify-between">
-		<h1 class="text-3xl font-bold">{data.place.name}</h1>
-		<div class="flex items-center space-x-4">
+	<PageHeader title={data.place.name}>
+		{#snippet actions()}
 			<form
 				method="POST"
 				action="?/deletePlace"
@@ -23,31 +24,19 @@
 					}
 				}}
 			>
-				<button
-					type="submit"
-					class="rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
-				>
-					Delete Place
-				</button>
+				<Button type="submit" variant="danger">Delete Place</Button>
 			</form>
-			<a href="/" class="text-indigo-600 hover:text-indigo-900">Back to List</a>
-		</div>
-	</div>
+			<a href="/" class="text-sm font-semibold text-indigo-600 hover:text-indigo-900">Back to List</a>
+		{/snippet}
+	</PageHeader>
 
 	<section>
-		<h2 class="mb-4 text-xl font-semibold">Details</h2>
+		<h2 class="mb-4 text-xl font-semibold text-gray-900">Details</h2>
 		<PlaceForm place={data.place} action="?/updatePlace" />
 	</section>
 
 	<section>
-		<h2 class="mb-4 text-xl font-semibold">Webcams</h2>
-		<!-- 
-           Legacy WebcamList is used here because creating WebcamList organism wasn't in the tasks.md explicitly, 
-           although WebcamCard molecule was. 
-           In a real scenario I would self-correct and create it, but I will stick to the plan to be safe 
-           and maybe create it as part of "Polish" or implicitly if I need to.
-           Actually, the legacy WebcamList likely uses legacy components.
-        -->
+		<h2 class="mb-4 text-xl font-semibold text-gray-900">Webcams</h2>
 		<WebcamList webcams={data.place.webcams || []} />
 	</section>
 </div>

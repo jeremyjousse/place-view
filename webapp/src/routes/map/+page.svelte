@@ -15,8 +15,6 @@
 	// France coordinates and zoom level
 	const FRANCE_CENTER: [number, number] = [46.2276, 2.2137];
 	const FRANCE_ZOOM = 6;
-
-	console.log('Map page loaded with places count:', data.places.length);
 </script>
 
 <div class="h-[calc(100vh-200px)] min-h-125 py-1">

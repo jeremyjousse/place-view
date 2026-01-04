@@ -17,7 +17,7 @@ The project is structured as a monorepo containing:
   * **Stack:** SvelteKit, Svelte 5, Tailwind CSS 4, Vite 5.
   * **Architecture:** Clean Architecture + Atomic Design.
   * **Testing:** Vitest (Unit), Playwright (E2E).
-* **`webapp/`**: Public Web Application.
+* **`webapp/`**: Public responsive Web Application.
   * **Stack:** SvelteKit, Svelte 5, Tailwind CSS 3, Vite 5.
   * **Architecture:** Clean Architecture + Atomic Design.
   * **Testing:** Vitest, Playwright.

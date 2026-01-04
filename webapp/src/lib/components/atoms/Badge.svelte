@@ -1,21 +1,27 @@
 <script lang="ts">
+  import type { Snippet } from 'svelte';
+
+  type Variant = 'primary' | 'secondary' | 'outline';
+
   let { 
+    variant = 'primary', 
     children, 
-    class: className = '', 
-    variant = 'default' 
+    class: className = '' 
   } = $props<{
-    children?: any;
+    variant?: Variant;
+    children?: Snippet;
     class?: string;
-    variant?: 'default' | 'primary' | 'accent';
   }>();
 
-  const variants = {
-    default: 'bg-gray-200 text-text-muted',
-    primary: 'bg-primary/10 text-primary',
-    accent: 'bg-accent/10 text-accent'
+  const baseStyles = 'inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider border transition-colors';
+  
+  const variants: Record<Variant, string> = {
+    primary: 'bg-primary border-primary text-primary-text',
+    secondary: 'bg-surface border-border text-text-muted',
+    outline: 'bg-transparent border-border text-text-muted'
   };
 </script>
 
-<span class="inline-flex items-center px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold rounded-none {variants[variant]} {className}">
+<div class="{baseStyles} {variants[variant as Variant]} {className}">
   {@render children?.()}
-</span>
+</div>

@@ -1,0 +1,46 @@
+
+> webapp@0.0.1 build /Users/jerry/Development/Personal/place-view/webapp
+> vite build
+
+vite v7.3.0 building ssr environment for production...
+transforming...
+8:25:20 PM [vite-plugin-svelte] src/routes/+page.svelte:11:28 This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+ 9:   let { data } = $props();
+10: 
+11:   let places = $state<any[]>(data.places);
+                                     ^
+12:   let mapPlaces = $state<any[]>([]);
+13:   let offset = $state(data.places.length);
+8:25:20 PM [vite-plugin-svelte] src/routes/+page.svelte:13:21 This reference only captures the initial value of `data`. Did you mean to reference it inside a derived instead?
+https://svelte.dev/e/state_referenced_locally
+11:   let places = $state<any[]>(data.places);
+12:   let mapPlaces = $state<any[]>([]);
+13:   let offset = $state(data.places.length);
+                              ^
+14:   let hasMore = $state(true);
+15:   let isLoading = $state(false);
+8:25:20 PM [vite-plugin-svelte] src/routes/+page.svelte:69:5 `loaderElement` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+67: 
+68:   let observer: IntersectionObserver;
+69:   let loaderElement: HTMLElement;
+                                    ^
+70: 
+71:   onMount(() => {
+✓ 33 modules transformed.
+✗ Build failed in 174ms
+error during build:
+[@tailwindcss/vite:generate:build] Cannot apply unknown utility class `selection:text-primary-text`
+file: /Users/jerry/Development/Personal/place-view/webapp/src/app.css
+    at onInvalidCandidate (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:21:1511)
+    at Ce (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:16:36652)
+    at file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:21:355
+    at br (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:3:1718)
+    at I (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:3:1377)
+    at Ae (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:21:172)
+    at Wi (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:38:294)
+    at async Za (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:38:631)
+    at async rf (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/tailwindcss@4.1.18/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:38:1406)
+    at async lu (file:///Users/jerry/Development/Personal/place-view/webapp/node_modules/.pnpm/@tailwindcss+node@4.1.18/node_modules/@tailwindcss/node/dist/index.mjs:10:3458)
+ ELIFECYCLE  Command failed with exit code 1.
