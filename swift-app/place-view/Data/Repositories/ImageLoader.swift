@@ -6,12 +6,6 @@
 
 import Foundation
 
-#if os(macOS)
-import AppKit
-#else
-import UIKit
-#endif
-
 final class ImageLoader: ImageLoaderProtocol {
     
     func loadImage(url: URL) async -> PlatformImage {

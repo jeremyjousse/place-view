@@ -7,12 +7,6 @@
 import Foundation
 import CoreGraphics
 
-struct ThumbnailImg: Identifiable, Hashable {
-    let id = UUID()
-    var url: String
-    var image: PlatformImage
-}
-
 final class LoadWebcamImagesUseCase: Sendable {
     private let imageLoader: ImageLoaderProtocol
     
