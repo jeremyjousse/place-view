@@ -12,13 +12,13 @@ import Kingfisher
 
 struct PlaceView: View {
     
-    @StateObject private var viewModel : PlaceViewModel
+    @StateObject private var viewModel: PlaceDetailViewModel
     
     @State private var selectedImage: Int = 0
     
     init(place: Place) {
         self.place = place
-        _viewModel = StateObject(wrappedValue: PlaceViewModel(webcams: place.webcams))
+        _viewModel = StateObject(wrappedValue: DependencyContainer.shared.makePlaceDetailViewModel(webcams: place.webcams))
     }
     
     var place: Place
@@ -70,7 +70,7 @@ struct PlaceView: View {
         }
         .scrollBounceBehavior(.basedOnSize)
         .task {
-            await viewModel.loadParallel()
+            await viewModel.loadThumbnails()
         }
     }
 }

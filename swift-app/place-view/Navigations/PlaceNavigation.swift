@@ -15,9 +15,9 @@ struct PlaceNavigation: View {
         case map
     }
     
-    @EnvironmentObject var placeFetcher: PlaceFetcher
+    @EnvironmentObject var placeListViewModel: PlaceListViewModel
     let places: [Place]
-    @ObservedObject var favorites = PlaceFavorites.sharedInstance
+    @ObservedObject var favorites = FavoritesViewModel.shared
     
     @State private var showFavoritesOnly = false
     @State private var showSettings: Bool = false
@@ -57,7 +57,7 @@ struct PlaceNavigation: View {
                             }
                         }
                         .refreshable {
-                            await placeFetcher.clearCacheAndRefresh()
+                            await placeListViewModel.clearCacheAndRefresh()
                         }
                     } else {
                         PlacesMapView(places: filteredPlaces, position: $position, selectedPlace: $selectedPlace)
@@ -168,6 +168,6 @@ struct PlaceMapAnnotationView: View {
 
 struct PlaceNavigation_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceNavigation(places: []).environmentObject(PlaceFetcher())
+        PlaceNavigation(places: []).environmentObject(DependencyContainer.shared.makePlaceListViewModel())
     }
 }
