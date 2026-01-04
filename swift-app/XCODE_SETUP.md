@@ -30,8 +30,12 @@ The refactoring to Clean Architecture + MVVM has created new files that need to 
 #### Dependency Injection
 - `place-view/DI/DependencyContainer.swift`
 
+#### Models
+- `place-view/Models/ThumbnailImg.swift`
+
 #### Utilities
 - `place-view/Utils/PlatformImageExtensions.swift`
+- `place-view/Utils/PlatformTypes.swift`
 
 #### Tests
 - `place-viewTests/FetchPlacesUseCaseTests.swift`
@@ -71,9 +75,14 @@ place-view
 │       ├── PlaceListViewModel.swift
 │       ├── PlaceDetailViewModel.swift
 │       └── FavoritesViewModel.swift
+├── Models
+│   ├── Place.swift
+│   ├── ThumbnailImg.swift
+│   └── ... (existing models)
 ├── DI
 │   └── DependencyContainer.swift
 ├── Utils
+│   ├── PlatformTypes.swift
 │   └── PlatformImageExtensions.swift
 ├── ... (existing files)
 ```
