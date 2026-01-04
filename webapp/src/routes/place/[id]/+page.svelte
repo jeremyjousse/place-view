@@ -3,8 +3,9 @@
 	import { favoritesStore } from '$lib/stores/favorites.svelte';
 	import Badge from '$lib/components/atoms/Badge.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
+	import type { Place } from '$lib/common/domain/Place';
 
-	let { data } = $props();
+	let { data }: { data: { place: Place } } = $props();
 	const place = $derived(data.place);
 	const isFavorite = $derived(favoritesStore.isFavorite(place.id));
 
@@ -53,7 +54,7 @@
 			<section class="space-y-4">
 				<div class="flex items-center justify-between">
 					<h1 class="text-4xl font-black tracking-tighter lg:text-5xl">{place.name}</h1>
-					{#if selectedWebcam?.is_active}
+					{#if selectedWebcam?.isActive}
 						<Badge variant="primary" class="animate-pulse">LIVE VIEW</Badge>
 					{/if}
 				</div>
@@ -65,10 +66,12 @@
 							>{place.state}, {place.country}</span
 						>
 					</div>
-					{#if place.latitude && place.longitude}
+					{#if place.coordinates?.latitude && place.coordinates?.longitude}
 						<div class="bg-border h-1 w-1 rounded-full"></div>
 						<span class="font-mono text-[10px] opacity-50"
-							>{place.latitude.toFixed(4)}°N, {place.longitude.toFixed(4)}°E</span
+							>{place.coordinates.latitude.toFixed(4)}°N, {place.coordinates.longitude.toFixed(
+								4
+							)}°E</span
 						>
 					{/if}
 				</div>
@@ -84,7 +87,7 @@
 					>
 						<img
 							src={selectedWebcam.largeImage}
-							alt={selectedWebcam.title}
+							alt={selectedWebcam.name}
 							class="m-auto h-full w-auto max-w-none"
 							onload={() => {
 								if (scrollContainer) {
@@ -101,7 +104,7 @@
 						class="pointer-events-none absolute right-6 bottom-6 left-6 flex items-end justify-between"
 					>
 						<div class="space-y-1">
-							<h2 class="text-xl font-bold text-white">{selectedWebcam.title}</h2>
+							<h2 class="text-xl font-bold text-white">{selectedWebcam.name}</h2>
 						</div>
 					</div>
 				{:else}
@@ -125,7 +128,7 @@
 					>
 						<img
 							src={webcam.thumbnailImage}
-							alt={webcam.title}
+							alt={webcam.name}
 							class="h-full w-full object-cover {selectedWebcamIndex === i
 								? 'opacity-100'
 								: 'opacity-40'} transition-opacity hover:opacity-100"
