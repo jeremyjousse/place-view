@@ -53,16 +53,13 @@ final class PlaceListViewModel: ObservableObject {
     // MARK: preview helpers
     
     static func errorState() -> PlaceListViewModel {
-        let repository = PlaceRepository()
-        let useCase = FetchPlacesUseCase(placeRepository: repository)
+        let useCase = DependencyContainer.shared.fetchPlacesUseCase
         let viewModel = PlaceListViewModel(fetchPlacesUseCase: useCase)
         viewModel.errorMessage = ApiError.url(URLError.init(.notConnectedToInternet)).localizedDescription
         return viewModel
     }
     
     static func successState() -> PlaceListViewModel {
-        let repository = PlaceRepository()
-        let useCase = FetchPlacesUseCase(placeRepository: repository)
-        return PlaceListViewModel(fetchPlacesUseCase: useCase)
+        return DependencyContainer.shared.makePlaceListViewModel()
     }
 }

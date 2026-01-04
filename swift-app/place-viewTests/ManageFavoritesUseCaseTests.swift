@@ -85,7 +85,8 @@ final class ManageFavoritesUseCaseTests: XCTestCase {
 
 // MARK: - Mock Repository
 
-final class MockFavoritesRepository: FavoritesRepositoryProtocol, @unchecked Sendable {
+@MainActor
+final class MockFavoritesRepository: FavoritesRepositoryProtocol {
     
     var favorites: Set<String> = []
     

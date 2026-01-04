@@ -41,7 +41,7 @@ final class FetchPlacesUseCaseTests: XCTestCase {
 
 // MARK: - Mock Repository
 
-final class MockPlaceRepository: PlaceRepositoryProtocol, @unchecked Sendable {
+final class MockPlaceRepository: PlaceRepositoryProtocol, Sendable {
     
     static let mockPlaces = [
         Place(

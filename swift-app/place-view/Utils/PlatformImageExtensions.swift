@@ -66,24 +66,15 @@ extension PlatformImage {
         #else
         guard let cgimage = self.cgImage else { return self }
         let contextSize: CGSize = self.size
-        var posX: CGFloat = 0.0
-        var posY: CGFloat = 0.0
-        var cgwidth: CGFloat = sizeToCrop.width
-        var cgheight: CGFloat = sizeToCrop.height
         
-        if contextSize.width > contextSize.height {
-            posX = ((contextSize.width - contextSize.height) / 2)
-            posY = 0
-            cgwidth = contextSize.height
-            cgheight = contextSize.height
-        } else {
-            posX = 0
-            posY = ((contextSize.height - contextSize.width) / 2)
-            cgwidth = contextSize.width
-            cgheight = contextSize.width
-        }
+        // Center crop to target size
+        let targetWidth = min(sizeToCrop.width, contextSize.width)
+        let targetHeight = min(sizeToCrop.height, contextSize.height)
         
-        let rect: CGRect = CGRect(x: posX, y: posY, width: cgwidth, height: cgheight)
+        let posX = (contextSize.width - targetWidth) / 2
+        let posY = (contextSize.height - targetHeight) / 2
+        
+        let rect: CGRect = CGRect(x: posX, y: posY, width: targetWidth, height: targetHeight)
         guard let imageRef: CGImage = cgimage.cropping(to: rect) else { return self }
         return UIImage(cgImage: imageRef, scale: self.scale, orientation: self.imageOrientation)
         #endif

@@ -13,8 +13,7 @@ final class FavoritesViewModel: ObservableObject {
     
     // Singleton instance to maintain state across the app
     static let shared: FavoritesViewModel = {
-        let repository = FavoritesRepository()
-        let useCase = ManageFavoritesUseCase(favoritesRepository: repository)
+        let useCase = DependencyContainer.shared.manageFavoritesUseCase
         return FavoritesViewModel(manageFavoritesUseCase: useCase)
     }()
     
