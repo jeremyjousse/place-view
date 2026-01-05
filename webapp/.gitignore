@@ -2,9 +2,10 @@ test-results
 node_modules
 
 # Output
+.deno-deploy
+.netlify
 .output
 .vercel
-.netlify
 .wrangler
 /.svelte-kit
 /build
