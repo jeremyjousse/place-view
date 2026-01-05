@@ -38,7 +38,6 @@ final class LoadWebcamImagesUseCase: Sendable {
             }
         }
         
-        // Order thumbnails to match webcam order
         var orderedThumbnails: [ThumbnailImg] = []
         for webcam in webcams {
             if let thumbnail = temporaryThumbnails.first(where: { $0.url == webcam.thumbnailImage }) {

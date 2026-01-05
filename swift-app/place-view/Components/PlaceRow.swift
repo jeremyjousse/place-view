@@ -10,7 +10,8 @@
 import SwiftUI
 
 struct PlaceRow: View {
-    @ObservedObject var favorites = PlaceFavorites.sharedInstance
+    //@ObservedObject var favorites = PlaceFavorites.sharedInstance
+    @ObservedObject var favorites = FavoritesViewModel.shared
     
     var place: Place
     

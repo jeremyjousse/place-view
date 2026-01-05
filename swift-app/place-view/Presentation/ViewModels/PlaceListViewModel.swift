@@ -43,10 +43,8 @@ final class PlaceListViewModel: ObservableObject {
     }
     
     func clearCacheAndRefresh() async {
-        // Clear URLSession cache for all requests (JSON and images)
         URLCache.shared.removeAllCachedResponses()
         
-        // Fetch places again and wait for completion
         await fetchAllPlaces()
     }
     

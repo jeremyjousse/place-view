@@ -10,7 +10,7 @@ This document summarizes the refactoring of the Swift iOS/macOS application to f
 
 Created a layered architecture with clear separation of concerns:
 
-```
+```text
 View Layer
     ↓
 Presentation Layer (ViewModels)
@@ -25,6 +25,7 @@ External Data Sources
 ### 2. Files Created (22 files)
 
 #### Domain Layer (6 files)
+
 - `Domain/PlaceRepositoryProtocol.swift` - Repository contract for places
 - `Domain/FavoritesRepositoryProtocol.swift` - Repository contract for favorites
 - `Domain/ImageLoaderProtocol.swift` - Image loading contract
@@ -33,24 +34,29 @@ External Data Sources
 - `Domain/UseCases/LoadWebcamImagesUseCase.swift` - Image loading business logic
 
 #### Data Layer (3 files)
+
 - `Data/Repositories/PlaceRepository.swift` - Places data access implementation
 - `Data/Repositories/FavoritesRepository.swift` - Favorites storage implementation
 - `Data/Repositories/ImageLoader.swift` - Image loading implementation
 
 #### Presentation Layer (3 files)
+
 - `Presentation/ViewModels/PlaceListViewModel.swift` - Place list presentation logic
 - `Presentation/ViewModels/PlaceDetailViewModel.swift` - Place detail presentation logic
 - `Presentation/ViewModels/FavoritesViewModel.swift` - Favorites presentation logic
 
 #### Infrastructure (2 files)
+
 - `DI/DependencyContainer.swift` - Dependency injection container
 - `Utils/PlatformImageExtensions.swift` - Shared image utilities
 
 #### Tests (2 files)
+
 - `place-viewTests/FetchPlacesUseCaseTests.swift` - Use case tests
 - `place-viewTests/ManageFavoritesUseCaseTests.swift` - Use case tests
 
 #### Documentation (4 files)
+
 - `ARCHITECTURE.md` - Complete architecture guide
 - `MIGRATION.md` - Migration guide from old architecture
 - `XCODE_SETUP.md` - Xcode project setup instructions
@@ -66,6 +72,7 @@ External Data Sources
 ### 4. Files to Remove (3 files) - Manual Step
 
 These files are now deprecated and should be removed after verification:
+
 - `Models/PlaceFetcher.swift` → Replaced by `PlaceListViewModel`
 - `Models/PlaceFavorites.swift` → Replaced by `FavoritesViewModel`
 - `ViewModels/PlaceViewModel.swift` → Replaced by `PlaceDetailViewModel`
@@ -73,12 +80,14 @@ These files are now deprecated and should be removed after verification:
 ## Architecture Benefits
 
 ### Before
+
 - Tight coupling between Views and data access
 - Difficult to test (requires real network/storage)
 - Business logic mixed with presentation logic
 - Hard to reuse code across features
 
 ### After
+
 - Clear separation of concerns
 - Easy to test with mocks
 - Business logic isolated in Use Cases
@@ -88,10 +97,12 @@ These files are now deprecated and should be removed after verification:
 ## Testing Coverage
 
 ### Unit Tests Created
+
 - ✅ `FetchPlacesUseCaseTests` - Tests place fetching logic
 - ✅ `ManageFavoritesUseCaseTests` - Tests favorites management
 
 ### Test Strategy
+
 - **Use Cases**: Tested with mocked repositories
 - **ViewModels**: Can be tested with mocked use cases
 - **Repositories**: Can be tested with mocked data sources
@@ -109,15 +120,16 @@ These files are now deprecated and should be removed after verification:
 
 The Swift app now mirrors the TypeScript architecture in `admin-tools`:
 
-| TypeScript (admin-tools) | Swift (swift-app) |
-|--------------------------|-------------------|
-| `domain/` interfaces | `Domain/` protocols |
-| `services/` | `Domain/UseCases/` |
-| `repositories/` | `Data/Repositories/` |
-| Components (Svelte) | Views (SwiftUI) |
-| `server/services.ts` | `DI/DependencyContainer.swift` |
+| TypeScript (admin-tools) | Swift (swift-app)              |
+| ------------------------ | ------------------------------ |
+| `domain/` interfaces     | `Domain/` protocols            |
+| `services/`              | `Domain/UseCases/`             |
+| `repositories/`          | `Data/Repositories/`           |
+| Components (Svelte)      | Views (SwiftUI)                |
+| `server/services.ts`     | `DI/DependencyContainer.swift` |
 
 Both projects now:
+
 - Follow Clean Architecture
 - Use repository pattern
 - Separate business logic from data access
@@ -178,7 +190,7 @@ Comprehensive documentation was created to help developers:
 
 ## Architecture Diagram
 
-```
+```text
 ┌───────────────────────────────────────────┐
 │           View Layer (SwiftUI)            │
 │   ContentView, PlaceView, Components      │

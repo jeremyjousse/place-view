@@ -9,37 +9,40 @@ This guide documents the migration from the previous architecture to Clean Archi
 ### Architecture Changes
 
 #### Before
-```
+
+```text
 Views → ViewModels/ObservableObjects → ApiClient/UserDefaults
 ```
 
 #### After
-```
+
+```text
 Views → ViewModels → Use Cases → Repositories → Data Sources
 ```
 
 ### File Changes
 
-| Old File | New File(s) | Status |
-|----------|------------|---------|
-| `Models/PlaceFetcher.swift` | `Presentation/ViewModels/PlaceListViewModel.swift` | **Replaced** |
-| `Models/PlaceFavorites.swift` | `Presentation/ViewModels/FavoritesViewModel.swift` | **Replaced** |
-| `ViewModels/PlaceViewModel.swift` | `Presentation/ViewModels/PlaceDetailViewModel.swift` | **Replaced** |
-| `Clients/ApiClient.swift` | `Clients/ApiClient.swift` (unchanged) + `Data/Repositories/PlaceRepository.swift` | **Wrapped** |
-| N/A | `Domain/UseCases/*` | **New** |
-| N/A | `Domain/*RepositoryProtocol.swift` | **New** |
-| N/A | `Data/Repositories/*` | **New** |
-| N/A | `DI/DependencyContainer.swift` | **New** |
+| Old File                          | New File(s)                                                                       | Status       |
+| --------------------------------- | --------------------------------------------------------------------------------- | ------------ |
+| `Models/PlaceFetcher.swift`       | `Presentation/ViewModels/PlaceListViewModel.swift`                                | **Replaced** |
+| `Models/PlaceFavorites.swift`     | `Presentation/ViewModels/FavoritesViewModel.swift`                                | **Replaced** |
+| `ViewModels/PlaceViewModel.swift` | `Presentation/ViewModels/PlaceDetailViewModel.swift`                              | **Replaced** |
+| `Clients/ApiClient.swift`         | `Clients/ApiClient.swift` (unchanged) + `Data/Repositories/PlaceRepository.swift` | **Wrapped**  |
+| N/A                               | `Domain/UseCases/*`                                                               | **New**      |
+| N/A                               | `Domain/*RepositoryProtocol.swift`                                                | **New**      |
+| N/A                               | `Data/Repositories/*`                                                             | **New**      |
+| N/A                               | `DI/DependencyContainer.swift`                                                    | **New**      |
 
 ### API Changes
 
 #### ContentView
 
 **Before:**
+
 ```swift
 struct ContentView: View {
     @StateObject var placeFetcher = PlaceFetcher()
-    
+
     var body: some View {
         PlaceNavigation(places: placeFetcher.places)
             .environmentObject(placeFetcher)
@@ -48,10 +51,11 @@ struct ContentView: View {
 ```
 
 **After:**
+
 ```swift
 struct ContentView: View {
     @StateObject var placeListViewModel = DependencyContainer.shared.makePlaceListViewModel()
-    
+
     var body: some View {
         PlaceNavigation(places: placeListViewModel.places)
             .environmentObject(placeListViewModel)
@@ -62,12 +66,14 @@ struct ContentView: View {
 #### PlaceNavigation
 
 **Before:**
+
 ```swift
 @EnvironmentObject var placeFetcher: PlaceFetcher
 @ObservedObject var favorites = PlaceFavorites.sharedInstance
 ```
 
 **After:**
+
 ```swift
 @EnvironmentObject var placeListViewModel: PlaceListViewModel
 @ObservedObject var favorites = FavoritesViewModel.shared
@@ -76,6 +82,7 @@ struct ContentView: View {
 #### PlaceView
 
 **Before:**
+
 ```swift
 init(place: Place) {
     self.place = place
@@ -88,6 +95,7 @@ init(place: Place) {
 ```
 
 **After:**
+
 ```swift
 init(place: Place) {
     self.place = place
@@ -102,11 +110,13 @@ init(place: Place) {
 #### FavoriteButton
 
 **Before:**
+
 ```swift
 @ObservedObject var favorites = PlaceFavorites.sharedInstance
 ```
 
 **After:**
+
 ```swift
 @ObservedObject var favorites = FavoritesViewModel.shared
 ```
@@ -114,11 +124,13 @@ init(place: Place) {
 ## Benefits of the New Architecture
 
 ### 1. Testability
+
 - Each layer can be tested independently
 - Mock implementations for protocols make unit testing easy
 - Tests don't depend on real network calls or storage
 
 **Example:**
+
 ```swift
 let mockRepository = MockPlaceRepository()
 let useCase = FetchPlacesUseCase(placeRepository: mockRepository)
@@ -126,21 +138,25 @@ let places = try await useCase.execute()
 ```
 
 ### 2. Separation of Concerns
+
 - Business logic (Use Cases) is separate from data access (Repositories)
 - ViewModels don't know about data sources
 - Easy to change data sources without affecting business logic
 
 ### 3. Dependency Injection
+
 - All dependencies are injected through constructors
 - DependencyContainer manages object creation
 - Easy to swap implementations for testing or feature flags
 
 ### 4. Reusability
+
 - Use Cases can be shared across multiple ViewModels
 - Repositories can be shared across multiple Use Cases
 - No tight coupling between layers
 
 ### 5. Maintainability
+
 - Clear structure makes code easier to navigate
 - Changes in one layer don't cascade to others
 - Follows industry-standard patterns
@@ -150,6 +166,7 @@ let places = try await useCase.execute()
 ### Unit Tests
 
 **Use Case Tests:**
+
 ```swift
 final class FetchPlacesUseCaseTests: XCTestCase {
     func testFetchPlacesReturnsDataFromRepository() async throws {
@@ -162,6 +179,7 @@ final class FetchPlacesUseCaseTests: XCTestCase {
 ```
 
 **ViewModel Tests:**
+
 ```swift
 @MainActor
 final class PlaceListViewModelTests: XCTestCase {
@@ -213,6 +231,7 @@ The old files (`PlaceFetcher`, `PlaceFavorites`, `PlaceViewModel`) are kept temp
 ## Questions or Issues?
 
 If you encounter any problems during migration:
+
 1. Check XCODE_SETUP.md for file addition instructions
 2. Review ARCHITECTURE.md for architecture overview
 3. Consult the example tests for usage patterns

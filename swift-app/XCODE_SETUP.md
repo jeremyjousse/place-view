@@ -10,6 +10,7 @@ The refactoring to Clean Architecture + MVVM has created new files that need to 
 2. Add the following directories and files to the project:
 
 #### Domain Layer
+
 - `place-view/Domain/PlaceRepositoryProtocol.swift`
 - `place-view/Domain/FavoritesRepositoryProtocol.swift`
 - `place-view/Domain/ImageLoaderProtocol.swift`
@@ -18,26 +19,32 @@ The refactoring to Clean Architecture + MVVM has created new files that need to 
 - `place-view/Domain/UseCases/LoadWebcamImagesUseCase.swift`
 
 #### Data Layer
+
 - `place-view/Data/Repositories/PlaceRepository.swift`
 - `place-view/Data/Repositories/FavoritesRepository.swift`
 - `place-view/Data/Repositories/ImageLoader.swift`
 
 #### Presentation Layer
+
 - `place-view/Presentation/ViewModels/PlaceListViewModel.swift`
 - `place-view/Presentation/ViewModels/PlaceDetailViewModel.swift`
 - `place-view/Presentation/ViewModels/FavoritesViewModel.swift`
 
 #### Dependency Injection
+
 - `place-view/DI/DependencyContainer.swift`
 
 #### Models
+
 - `place-view/Models/ThumbnailImg.swift`
 
 #### Utilities
+
 - `place-view/Utils/PlatformImageExtensions.swift`
 - `place-view/Utils/PlatformTypes.swift`
 
 #### Tests
+
 - `place-viewTests/FetchPlacesUseCaseTests.swift`
 - `place-viewTests/ManageFavoritesUseCaseTests.swift`
 
@@ -54,7 +61,7 @@ The refactoring to Clean Architecture + MVVM has created new files that need to 
 
 Organize the files in Xcode to match the directory structure:
 
-```
+```text
 place-view
 ├── Domain
 │   ├── Protocols
@@ -90,6 +97,7 @@ place-view
 ### Deprecated Files
 
 The following files can be marked as deprecated or removed after verification:
+
 - `Models/PlaceFetcher.swift` (replaced by `PlaceListViewModel`)
 - `Models/PlaceFavorites.swift` (replaced by `FavoritesViewModel`)
 - `ViewModels/PlaceViewModel.swift` (replaced by `PlaceDetailViewModel`)
@@ -97,6 +105,7 @@ The following files can be marked as deprecated or removed after verification:
 ### Build and Test
 
 After adding all files:
+
 1. Build the project (⌘B) to ensure no compilation errors
 2. Run tests (⌘U) to verify all tests pass
 3. Run the app to verify functionality
@@ -104,6 +113,7 @@ After adding all files:
 ## Troubleshooting
 
 If you encounter build errors:
+
 - Ensure all files are added to the correct target
 - Check that import statements are correct
 - Verify that the module name is `place_view` (with underscore)

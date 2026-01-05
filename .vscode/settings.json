@@ -1,31 +1,33 @@
 {
-    "conventionalCommits.scopes": [
-        "admin-tools",
-        "github-actions",
-        "swift-app",
-        "webapp",
-        "webcams-list"
-    ],
-    "cSpell.words": [
-        "geocode",
-        "lucide",
-        "panomax",
-        "Skaping",
-        "Trinum"
-    ],
-    "sonarlint.connectedMode.project": {
-        "connectionId": "jeremyjousse",
-        "projectKey": "jeremyjousse_place-view"
-    },
-    "chat.promptFilesRecommendations": {
-        "speckit.constitution": true,
-        "speckit.specify": true,
-        "speckit.plan": true,
-        "speckit.tasks": true,
-        "speckit.implement": true
-    },
-    "chat.tools.terminal.autoApprove": {
-        ".specify/scripts/bash/": true,
-        ".specify/scripts/powershell/": true
-    }
+  "conventionalCommits.scopes": [
+    "admin-tools",
+    "github-actions",
+    "swift-app",
+    "webapp",
+    "webcams-list"
+  ],
+  "cSpell.words": [
+    "geocode",
+    "lucide",
+    "MVVM",
+    "panomax",
+    "Skaping",
+    "Trinum",
+    "xcodeproj"
+  ],
+  "sonarlint.connectedMode.project": {
+    "connectionId": "jeremyjousse",
+    "projectKey": "jeremyjousse_place-view"
+  },
+  "chat.promptFilesRecommendations": {
+    "speckit.constitution": true,
+    "speckit.specify": true,
+    "speckit.plan": true,
+    "speckit.tasks": true,
+    "speckit.implement": true
+  },
+  "chat.tools.terminal.autoApprove": {
+    ".specify/scripts/bash/": true,
+    ".specify/scripts/powershell/": true
+  }
 }

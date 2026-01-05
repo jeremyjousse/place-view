@@ -14,6 +14,7 @@ final class DependencyContainer {
     // MARK: - Repositories
     
     private lazy var placeRepository: PlaceRepositoryProtocol = {
+        // Utilise NetworkSession.shared par défaut via l'init de PlaceRepository
         PlaceRepository()
     }()
     
@@ -22,6 +23,7 @@ final class DependencyContainer {
     }()
     
     private lazy var imageLoader: ImageLoaderProtocol = {
+        // Utilise aussi NetworkSession.shared pour les images
         ImageLoader()
     }()
     
@@ -41,11 +43,11 @@ final class DependencyContainer {
     
     // MARK: - ViewModels
     
-    func makePlaceListViewModel() -> PlaceListViewModel {
+    @MainActor func makePlaceListViewModel() -> PlaceListViewModel {
         PlaceListViewModel(fetchPlacesUseCase: fetchPlacesUseCase)
     }
     
-    func makePlaceDetailViewModel(webcams: [Webcam]) -> PlaceDetailViewModel {
+    @MainActor func makePlaceDetailViewModel(webcams: [Webcam]) -> PlaceDetailViewModel {
         PlaceDetailViewModel(
             webcams: webcams,
             loadWebcamImagesUseCase: loadWebcamImagesUseCase

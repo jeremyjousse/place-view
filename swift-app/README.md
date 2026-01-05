@@ -15,7 +15,7 @@ The application follows **Clean Architecture** principles combined with **MVVM (
 
 ### Layer Overview
 
-```
+```text
 ┌─────────────────────────────────────────┐
 │              Views Layer                │
 │    (SwiftUI Views & Components)         │
@@ -39,7 +39,7 @@ The application follows **Clean Architecture** principles combined with **MVVM (
 
 ## Project Structure
 
-```
+```text
 swift-app/
 ├── place-view/
 │   ├── Domain/                    # Business logic & protocols
@@ -89,6 +89,7 @@ After pulling changes, you may need to add new files to the Xcode project. See [
 ## Building & Testing
 
 ### Build
+
 ```bash
 # From Xcode: ⌘B
 # From command line (if available):
@@ -96,6 +97,7 @@ xcodebuild -project place-view.xcodeproj -scheme place-view build
 ```
 
 ### Run Tests
+
 ```bash
 # From Xcode: ⌘U
 # From command line (if available):
@@ -124,11 +126,13 @@ xcodebuild -project place-view.xcodeproj -scheme place-view test
 ## Testing
 
 The project includes unit tests for:
+
 - Use Cases (business logic)
 - ViewModels (presentation logic)
 - Repositories (data access)
 
 Example test structure:
+
 ```swift
 final class FetchPlacesUseCaseTests: XCTestCase {
     func testFetchPlaces() async throws {
@@ -149,6 +153,7 @@ final class FetchPlacesUseCaseTests: XCTestCase {
 ## Dependencies
 
 The app uses minimal external dependencies:
+
 - **Kingfisher**: For efficient image loading and caching (used in WebcamView)
 - **SwiftUI**: Apple's declarative UI framework
 - **Combine**: For reactive programming (through ObservableObject)
@@ -158,6 +163,7 @@ The app uses minimal external dependencies:
 If you're working with code from before the Clean Architecture refactor, see [MIGRATION.md](MIGRATION.md) for a comprehensive migration guide.
 
 ### Key Changes
+
 - `PlaceFetcher` → `PlaceListViewModel`
 - `PlaceFavorites` → `FavoritesViewModel`
 - `PlaceViewModel` → `PlaceDetailViewModel`
@@ -174,6 +180,7 @@ If you're working with code from before the Clean Architecture refactor, see [MI
 ## Architecture Consistency
 
 This Swift app follows the same architectural principles as the `admin-tools` TypeScript project:
+
 - Both use Clean Architecture
 - Both separate concerns into Domain, Data, and Presentation layers
 - Both use dependency injection

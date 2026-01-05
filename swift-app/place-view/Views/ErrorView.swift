@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct ErrorView: View {
-    @ObservedObject var placeFetcher: PlaceFetcher
-    
+    @ObservedObject var placeListViewModel: PlaceListViewModel
     
     var body: some View {
-        Text("Error \(placeFetcher.errorMessage ?? "") !")
+        Text("Error \(placeListViewModel.errorMessage ?? "") !")
     }
 }
 
 struct ErrorView_Previews: PreviewProvider {
     static var previews: some View {
-        ErrorView(placeFetcher: PlaceFetcher())
+        ErrorView(placeListViewModel: PlaceListViewModel.errorState())
     }
 }
