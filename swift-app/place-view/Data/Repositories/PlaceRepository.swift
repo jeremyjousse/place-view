@@ -13,7 +13,7 @@ final class PlaceRepository: PlaceRepositoryProtocol {
     
     init(
          placesURL: URL = URL(string: "https://jeremyjousse.github.io/place-view/places.json")!,
-         session: URLSession = NetworkSession.shared) {
+         session: URLSession = .shared) {
         self.placesURL = placesURL
         self.session = session
     }
