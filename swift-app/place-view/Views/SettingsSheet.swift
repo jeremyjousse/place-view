@@ -11,12 +11,12 @@ import SwiftUI
 
 struct SettingsSheet: View {
     
-    @EnvironmentObject var placeFetcher: PlaceFetcher
+    @EnvironmentObject var placeListViewModel: PlaceListViewModel
     
     var body: some View {
         VStack {
             Text("Settings").font(.title).padding([.top, .bottom])
-            ForEach(placeFetcher.states, id: \.self) { state in
+            ForEach(placeListViewModel.states, id: \.self) { state in
                 Text(state)
             }
             Spacer()
@@ -26,6 +26,6 @@ struct SettingsSheet: View {
 
 struct SettingsSheet_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsSheet().environmentObject(PlaceFetcher())
+        SettingsSheet().environmentObject(PlaceListViewModel.successState())
     }
 }

@@ -9,15 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @StateObject var placeFetcher = PlaceFetcher()
+    @StateObject var placeListViewModel = DependencyContainer.shared.makePlaceListViewModel()
     
     var body: some View {
-//        if placeFetcher.isLoading {
+//        if placeListViewModel.isLoading {
 //            LoadingView()
-//        }else if placeFetcher.errorMessage != nil  {
-//            ErrorView(placeFetcher: placeFetcher)
+//        }else if placeListViewModel.errorMessage != nil  {
+//            ErrorView(placeListViewModel: placeListViewModel)
 //        }else {
-            PlaceNavigation(places: placeFetcher.places).environmentObject(placeFetcher)
+            PlaceNavigation(places: placeListViewModel.places).environmentObject(placeListViewModel)
 //        }
     }
 }

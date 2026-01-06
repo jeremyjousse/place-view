@@ -10,7 +10,7 @@ import SwiftUI
 struct FavoriteButton: View {
     @State var place: Place
 
-    @ObservedObject var favorites = PlaceFavorites.sharedInstance
+    @ObservedObject var favorites = FavoritesViewModel.shared
 
     var body: some View {
         Button {
