@@ -5,9 +5,10 @@
 //  Data layer implementation for Favorites repository
 
 import Foundation
+import os
 
-final class FavoritesRepository: FavoritesRepositoryProtocol {
-    private var favorites: Set<String>
+final class FavoritesRepository: FavoritesRepositoryProtocol, @unchecked Sendable {
+    private let favoritesLock: OSAllocatedUnfairLock<Set<String>>
     private let defaults: UserDefaults
     private let storageKey = "placeFavorites"
     
@@ -15,33 +16,41 @@ final class FavoritesRepository: FavoritesRepositoryProtocol {
         self.defaults = defaults
         
         let decoder = JSONDecoder()
+        var initialFavorites: Set<String> = []
+        
         if let data = defaults.value(forKey: storageKey) as? Data,
            let decoded = try? decoder.decode(Set<String>.self, from: data) {
-            self.favorites = decoded
-        } else {
-            self.favorites = []
+            initialFavorites = decoded
         }
+        
+        self.favoritesLock = OSAllocatedUnfairLock(initialState: initialFavorites)
     }
     
     func getFavoriteIds() -> Set<String> {
-        return favorites
+        favoritesLock.withLock { $0 }
     }
     
     func contains(placeId: String) -> Bool {
-        return favorites.contains(placeId)
+        favoritesLock.withLock { $0.contains(placeId) }
     }
     
     func add(placeId: String) {
-        favorites.insert(placeId)
-        save()
+        let current = favoritesLock.withLock {
+            $0.insert(placeId)
+            return $0
+        }
+        save(current)
     }
     
     func remove(placeId: String) {
-        favorites.remove(placeId)
-        save()
+        let current = favoritesLock.withLock {
+            $0.remove(placeId)
+            return $0
+        }
+        save(current)
     }
     
-    private func save() {
+    private func save(_ favorites: Set<String>) {
         let encoder = JSONEncoder()
         if let encoded = try? encoder.encode(favorites) {
             defaults.set(encoded, forKey: storageKey)

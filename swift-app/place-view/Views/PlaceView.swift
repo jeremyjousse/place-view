@@ -1,38 +1,38 @@
 //
-//  CityView.swift
+//  PlaceView.swift
 //  place-view
-//
-//  Created by Jérémy Jousse on 21/11/2021.
 //
 
 import SwiftUI
 import MapKit
 import Kingfisher
 
-
 struct PlaceView: View {
     
     @StateObject private var viewModel: PlaceDetailViewModel
-    
     @State private var selectedImage: Int = 0
+    var place: Place
     
     init(place: Place) {
         self.place = place
         _viewModel = StateObject(wrappedValue: DependencyContainer.shared.makePlaceDetailViewModel(webcams: place.webcams))
     }
     
-    var place: Place
-    
     var body: some View {
         ScrollView {
             VStack {
+                // La WebcamView gère maintenant son propre état de chargement et centrage
                 WebcamView(imageUrl: place.webcams[selectedImage].largeImage)
-                    .frame(width: 350)
+                
                 Text(place.webcams[selectedImage].name)
-                if (place.webcams.count > 1) {
-                    ThubnailsView(thumbnails: self.viewModel.thumbnails, selectedThumbnail: $selectedImage)
+                    .font(.caption)
+                    .padding(.top, 4)
+                
+                if place.webcams.count > 1 {
+                    ThubnailsView(webcams: place.webcams, selectedThumbnail: $selectedImage)
                         .frame(width: 350)
                 }
+                
                 VStack(alignment: .leading) {
                     HStack {
                         if let url = URL(string: place.url) {
@@ -56,7 +56,7 @@ struct PlaceView: View {
                     }
                     
                     Divider()
-                    Text("Weather forcast")
+                    Text("Weather forecast")
                         .font(.title2)
                     Text("Add weather here.")
                     Divider()
@@ -67,51 +67,42 @@ struct PlaceView: View {
                 
                 Spacer()
             }
+            .frame(maxWidth: .infinity)
         }
         .scrollBounceBehavior(.basedOnSize)
-        .task {
-            await viewModel.loadThumbnails()
-        }
     }
 }
 
 struct ThubnailsView: View {
-    
-    var thumbnails: [ThumbnailImg]
+    var webcams: [Webcam]
     @Binding var selectedThumbnail: Int
     
+    let processor = ResizingImageProcessor(referenceSize: CGSize(width: 100, height: 100), mode: .aspectFill)
+                 |> CroppingImageProcessor(size: CGSize(width: 100, height: 100))
+    
     var body: some View {
-        if thumbnails.count < 1 {
-            ProgressView()
-        } else {
-            ScrollView(.horizontal) {
-                HStack {
-                    ForEach(thumbnails) { thumbnail in
-                        PlatformImage(thumbnail.image)
-                            .cornerRadius(10)
-                            .onTapGesture {
-                                selectedThumbnail = thumbnails.firstIndex(of: thumbnail) ?? 0
-                            }
-                    }
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+                ForEach(0..<webcams.count, id: \.self) { index in
+                    KFImage(URL(string: webcams[index].thumbnailImage))
+                        .setProcessor(processor)
+                        .serialize(by: DefaultCacheSerializer.default)
+                        .placeholder { ProgressView().frame(width: 100, height: 100) }
+                        .fade(duration: 0.25)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 100, height: 100)
+                        .cornerRadius(10)
+                        .onTapGesture {
+                            selectedThumbnail = index
+                        }
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(Color.blue, lineWidth: selectedThumbnail == index ? 3 : 0)
+                        )
                 }
             }
         }
-    }
-}
-extension View {
-    @ViewBuilder
-    func PlatformImage(_ image: PlatformImage) -> some View {
-        #if os(macOS)
-        Image(nsImage: image)
-            .resizable()
-            .scaledToFill()
-            .frame(width: 100, height: 100)
-        #else
-        Image(uiImage: image)
-            .resizable()
-            .scaledToFill()
-            .frame(width: 100, height: 100)
-        #endif
     }
 }
 

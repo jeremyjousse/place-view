@@ -21,8 +21,5 @@ final class PlaceDetailViewModel: ObservableObject {
         self.loadWebcamImagesUseCase = loadWebcamImagesUseCase
     }
     
-    func loadThumbnails() async {
-        let loadedThumbnails = await loadWebcamImagesUseCase.loadThumbnails(for: webcams)
-        self.thumbnails = loadedThumbnails
-    }
+    func loadThumbnails() async {}
 }
