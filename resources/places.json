@@ -46,24 +46,6 @@
     ]
   },
   {
-    "id": "akureyri",
-    "name": "Akureyri",
-    "state": "Norðurland eystra",
-    "country": "Iceland",
-    "coordinates": {
-      "longitude": -18.11217559813441,
-      "latitude": 65.68390355
-    },
-    "url": "https://www.hlidarfjall.is/en",
-    "webcams": [
-      {
-        "name": "Hlíðarfjall",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hlidarfjall_isq6034-e-1.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hlidarfjall_isq6034-e-1.jpg"
-      }
-    ]
-  },
-  {
     "id": "albiez",
     "name": "Albiez",
     "country": "France",
@@ -947,8 +929,8 @@
   {
     "id": "corbier",
     "name": "Le Corbier",
-    "state": "Savoie",
     "country": "France",
+    "state": "Savoie",
     "url": "https://www.le-corbier.com/",
     "coordinates": {
       "latitude": 45.240544,
@@ -956,9 +938,14 @@
     },
     "webcams": [
       {
-        "name": "Office du tourisme",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_le_corbier_office-du-tourisme.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_le_corbier_office-du-tourisme.jpg"
+        "name": "Front de neige",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=Pju8q-eVbPf-qstDY-7AYBM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=Pju8q-eVbPf-qstDY-7AYBM&quality=small"
+      },
+      {
+        "name": "Pointe du Corbier",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_le_corbier_pointe-du-corbier.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_le_corbier_pointe-du-corbier.jpg"
       }
     ]
   },
@@ -2369,49 +2356,52 @@
     "id": "megeve",
     "name": "Megève",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://megeve.com/",
     "coordinates": {
       "latitude": 45.857619,
       "longitude": 6.617472
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://megeve.com/",
     "webcams": [
       {
-        "name": "Altiport",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_altiport.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_altiport.jpg"
+        "name": "La livraz",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4qIr2-xoDeA-zkjYZ-lXxQ4&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4qIr2-xoDeA-zkjYZ-lXxQ4&quality=small"
       },
       {
-        "name": "La Livraz",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_la-livraz.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_la-livraz.jpg"
-      },
-      {
-        "name": "Place du village",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_village.jpg"
-      },
-      {
-        "name": "Lac d'Arbois",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_evasion_retenue-collinaire.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_evasion_retenue-collinaire.jpg"
-      },
-      {
-        "name": "Fontaine",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_evasion_fontaine.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_evasion_fontaine.jpg"
-      },
-      {
-        "name": "Rochebrune",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_rochebrune.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_rochebrune.jpg"
+        "name": "Village",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=UwGTq-PsgZ1-V42dn-TsAnM&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=UwGTq-PsgZ1-V42dn-TsAnM&quality=small"
       },
       {
         "name": "Jaillet - Croix de sur les Prés",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=JHoT8-YzC9G-vL9cS-tdJYh&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=JHoT8-YzC9G-vL9cS-tdJYh&quality=small"
+      },
+      {
+        "name": "Cote 2000",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=mthSm-fEMKa-44SOG-5ftpG&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=mthSm-fEMKa-44SOG-5ftpG&quality=small"
+      },
+      {
+        "name": "Rochebrune",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=ZHUZ4-rmgEI-Ia45X-i3Jgq&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=ZHUZ4-rmgEI-Ia45X-i3Jgq&quality=small"
+      },
+      {
+        "name": "Mont d'Arbois",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=xIWKN-fWfOQ-9jI6d-LVpQD&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=xIWKN-fWfOQ-9jI6d-LVpQD&quality=small"
+      },
+      {
+        "name": "Lac d'Arbois",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=QKjRp-8iiJQ-A8ToG-gJzZL&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=QKjRp-8iiJQ-A8ToG-gJzZL&quality=small"
+      },
+      {
+        "name": "Altiport",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_megeve_altiport.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_megeve_altiport.jpg"
       }
     ]
   },
