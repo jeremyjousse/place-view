@@ -320,14 +320,12 @@
     "id": "aussois",
     "name": "Aussois",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://www.haute-maurienne-vanoise.com/hiver/aussois",
     "coordinates": {
       "latitude": 45.227165,
       "longitude": 6.7413
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://www.haute-maurienne-vanoise.com/hiver/aussois",
     "webcams": [
       {
         "name": "Grand Jeu",
@@ -335,14 +333,14 @@
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
       },
       {
-        "name": "Village",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_village.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_village.jpg"
-      },
-      {
         "name": "Sommet de l’Armoise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
+      },
+      {
+        "name": "Le Village",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tGEs-g5P8S-4JwiN-wTSoq&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tGEs-g5P8S-4JwiN-wTSoq&quality=small"
       }
     ]
   },

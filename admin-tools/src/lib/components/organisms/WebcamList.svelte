@@ -104,34 +104,33 @@
 	>
 		{#each items as webcam (webcam.id)}
 			<div animate:flip={{ duration: flipDurationMs }} class="relative">
-				<form
-					method="POST"
-					action="?/removeWebcam"
-					use:enhance={() => {
-						return async ({ result, update }) => {
-							if (result.type === 'success') {
-								addToast('Webcam removed successfully', 'success');
-							} else {
-								addToast('Failed to remove webcam', 'error');
-							}
-							await update();
-						};
-					}}
-				>
-										<input
-											type="hidden"
-											name="index"
-											value={webcams.findIndex((w) => w.largeImage === webcam.largeImage)}
-										/>
-										<WebcamCard
-											{webcam}
-											ondelete={(e) => {
-												const form = (e.currentTarget as HTMLElement).closest('form');
-												if (form) form.requestSubmit();
-											}}
-										/>
-									</form>
-			</div>
+								<form
+									method="POST"
+									action="?/removeWebcam"
+									use:enhance={() => {
+										return async ({ result, update }) => {
+											if (result.type === 'success') {
+												addToast('Webcam removed successfully', 'success');
+											} else {
+												addToast('Failed to remove webcam', 'error');
+											}
+											await update();
+										};
+									}}
+								>
+									<input
+										type="hidden"
+										name="index"
+										value={webcams.findIndex((w) => w.largeImage === webcam.largeImage)}
+									/>
+									<WebcamCard
+										{webcam}
+										ondelete={(e) => {
+											const form = (e.currentTarget as HTMLElement).closest('form');
+											if (form) form.requestSubmit();
+										}}
+									/>
+								</form>			</div>
 		{/each}
 	</div>
 

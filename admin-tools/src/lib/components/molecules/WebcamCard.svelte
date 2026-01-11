@@ -4,7 +4,7 @@
 
 	interface Props {
 		webcam: Webcam;
-		ondelete?: () => void;
+		ondelete?: (event: MouseEvent) => void;
 	}
 
 	let { webcam, ondelete }: Props = $props();
