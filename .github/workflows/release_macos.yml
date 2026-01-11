@@ -23,7 +23,7 @@ jobs:
               id: get_version
               run: |
                   cd swift-app
-                  VERSION=$(xcodebuild -project place-view.xcodeproj -scheme place-view -destination "generic/platform=macOS,variant=Mac Catalyst" -showBuildSettings | grep "MARKETING_VERSION =" | head -n 1 | awk '{print $3}')
+                  VERSION=$(xcodebuild -project place-view.xcodeproj -scheme place-view -destination "generic/platform=macOS" -showBuildSettings | grep "MARKETING_VERSION =" | head -n 1 | awk '{print $3}')
                   echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
                   echo "version=$VERSION" >> $GITHUB_OUTPUT
 
@@ -34,7 +34,7 @@ jobs:
                     -scheme place-view \
                     -configuration Release \
                     -derivedDataPath build \
-                    -destination "generic/platform=macOS,variant=Mac Catalyst" \
+                    -destination "generic/platform=macOS" \
                     clean build \
                     CODE_SIGN_IDENTITY="" \
                     CODE_SIGNING_REQUIRED=NO \
