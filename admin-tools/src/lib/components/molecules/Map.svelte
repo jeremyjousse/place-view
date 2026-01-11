@@ -157,7 +157,7 @@
 			map.setView([latitude, longitude], zoom);
 		}
 	});
-</script>	
+</script>
 
 <div class="overflow-hidden rounded-lg border border-gray-200 shadow-sm" style="height: {height}">
 	<div bind:this={mapElement} class="h-full w-full"></div>

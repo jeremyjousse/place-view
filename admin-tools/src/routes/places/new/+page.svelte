@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-  <title>Place view - Admin Tools - Create New Place</title>
+	<title>Place view - Admin Tools - Create New Place</title>
 </svelte:head>
 
 <div class="container mx-auto space-y-8 p-4">

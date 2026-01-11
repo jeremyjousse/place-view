@@ -26,7 +26,9 @@
 			>
 				<Button type="submit" variant="danger">Delete Place</Button>
 			</form>
-			<a href="/" class="text-sm font-semibold text-indigo-600 hover:text-indigo-900">Back to List</a>
+			<a href="/" class="text-sm font-semibold text-indigo-600 hover:text-indigo-900"
+				>Back to List</a
+			>
 		{/snippet}
 	</PageHeader>
 

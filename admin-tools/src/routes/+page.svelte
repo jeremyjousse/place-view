@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-  <title>Place view - Admin Tools</title>
-  <meta name="description" content="Home page of the admin tools" />
+	<title>Place view - Admin Tools</title>
+	<meta name="description" content="Home page of the admin tools" />
 </svelte:head>
 
 <div class="container mx-auto p-4">

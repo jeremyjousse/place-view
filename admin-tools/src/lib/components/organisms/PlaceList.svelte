@@ -45,30 +45,33 @@
 				<ul role="list" class="divide-y divide-gray-200">
 					{#each filteredPlaces as place (place.id)}
 						<li>
-							<div class="flex items-center px-4 py-4 hover:bg-gray-50 sm:px-6">
-								<div class="flex min-w-0 flex-1 items-center">
-									<div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
-										<div>
-											<h3 class="truncate text-sm font-medium text-indigo-600">
-												<a href="{base}/places/{place.id}" class="hover:underline">{place.name}</a>
-											</h3>
-											<p class="mt-2 flex items-center text-sm text-gray-500">
-												<span class="truncate">{place.country}, {place.state}</span>
-											</p>
-										</div>
-										<div class="hidden md:block">
-											<div class="text-sm text-gray-900">
-												Webcams: {place.webcams ? place.webcams.length : 0}
+							<a href="{base}/places/{place.id}" class="block hover:bg-gray-50">
+								<div class="flex items-center px-4 py-4 sm:px-6">
+									{#if place.webcams && place.webcams.length > 0}
+										<img
+											src={place.webcams[0].thumbnailImage}
+											alt={place.webcams[0].name}
+											class="mr-4 h-12 w-16 flex-shrink-0 rounded object-cover"
+										/>
+									{/if}
+									<div class="flex min-w-0 flex-1 items-center">
+										<div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+											<div>
+												<h3 class="truncate text-sm font-medium text-indigo-600">
+													{place.name}
+												</h3>
+												<p class="mt-2 flex items-center text-sm text-gray-500">
+													<span class="truncate">{place.country}, {place.state}</span>
+												</p>
+											</div>
+											<div class="hidden md:block">
+												<div class="text-sm text-gray-900">
+													Webcams: {place.webcams ? place.webcams.length : 0}
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div>
-									<a
-										href="{base}/places/{place.id}"
-										class="text-gray-400 hover:text-gray-600"
-										aria-label="View details for {place.name}"
-									>
+									<div class="ml-5 flex-shrink-0 text-gray-400">
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -82,9 +85,9 @@
 												clip-rule="evenodd"
 											/>
 										</svg>
-									</a>
+									</div>
 								</div>
-							</div>
+							</a>
 						</li>
 					{/each}
 				</ul>

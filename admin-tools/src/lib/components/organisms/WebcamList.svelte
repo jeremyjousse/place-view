@@ -118,25 +118,19 @@
 						};
 					}}
 				>
-					<input
-						type="hidden"
-						name="index"
-						value={webcams.findIndex((w) => w.largeImage === webcam.largeImage)}
-					/>
-					<WebcamCard {webcam} ondelete={() => {}} />
-					<!-- 
-                        Wait, WebcamCard has its own delete button but it's not a submit button.
-                        I'll use a hidden submit button and call it from WebcamCard's ondelete, 
-                        or just make WebcamCard's button a submit button if passed a special prop.
-                        Actually, I'll just put the button here for now to match the test's expectation of "Remove" text.
-                    -->
-					<button
-						type="submit"
-						class="absolute top-1/2 right-4 -translate-y-1/2 text-sm font-medium text-red-600 hover:text-red-900"
-					>
-						Remove
-					</button>
-				</form>
+										<input
+											type="hidden"
+											name="index"
+											value={webcams.findIndex((w) => w.largeImage === webcam.largeImage)}
+										/>
+										<WebcamCard
+											{webcam}
+											ondelete={(e) => {
+												const form = (e.currentTarget as HTMLElement).closest('form');
+												if (form) form.requestSubmit();
+											}}
+										/>
+									</form>
 			</div>
 		{/each}
 	</div>
