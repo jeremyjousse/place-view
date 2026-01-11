@@ -19,61 +19,94 @@ struct PlaceView: View {
     }
     
     var body: some View {
-        ScrollView {
-            VStack {
-                // La WebcamView gère maintenant son propre état de chargement et centrage
-                WebcamView(imageUrl: place.webcams[selectedImage].largeImage)
-                
-                Text(place.webcams[selectedImage].name)
-                    .font(.caption)
-                    .padding(.top, 4)
-                
-                if place.webcams.count > 1 {
-                    ThubnailsView(webcams: place.webcams, selectedThumbnail: $selectedImage)
-                        .frame(width: 350)
-                }
-                
-                VStack(alignment: .leading) {
-                    HStack {
-                        if let url = URL(string: place.url) {
-                            Link(destination: url) {
-                                Text(place.name)
-                                    .font(.title)
-                                    .foregroundColor(.primary)
-                            }
-                        } else {
-                            Text(place.name)
-                                .font(.title)
-                        }
-                        FavoriteButton(place: place)
-                    }
-                    HStack {
-                        Text(place.country)
-                            .font(.subheadline)
-                        Spacer()
-                        Text(place.state)
-                            .font(.subheadline)
-                    }
+        GeometryReader { geometry in
+            ScrollView {
+                VStack(spacing: 0) {
                     
-                    Divider()
-                    Text("Weather forecast")
-                        .font(.title2)
-                    Text("Add weather here.")
-                    Divider()
-                    MapView(coordinates: place.locationCoordinate)
-                        .frame(height: 300).cornerRadius(10)
+                    // Calcul de la largeur responsive
+                    let targetWidth: CGFloat = {
+                        #if os(macOS)
+                        return min(geometry.size.width * 0.9, 1000)
+                        #else
+                        if UIDevice.current.userInterfaceIdiom == .pad || UIDevice.current.userInterfaceIdiom == .mac {
+                            return geometry.size.width * 0.8
+                        } else {
+                            // Mobile : On garde la contrainte de largeur d'origine
+                            return min(geometry.size.width - 40, 350)
+                        }
+                        #endif
+                    }()
+
+                    VStack(spacing: 24) {
+                        // Section Médias (Image + Thumbnails)
+                        VStack(spacing: 12) {
+                            WebcamView(imageUrl: place.webcams[selectedImage].largeImage)
+                                .frame(width: targetWidth)
+                            
+                            Text(place.webcams[selectedImage].name)
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                            
+                            if place.webcams.count > 1 {
+                                ThumbnailsView(webcams: place.webcams, selectedThumbnail: $selectedImage)
+                                    .frame(width: targetWidth)
+                            }
+                        }
+                        
+                        // Section Détails
+                        VStack(alignment: .leading, spacing: 16) {
+                            HStack(alignment: .firstTextBaseline) {
+                                if let url = URL(string: place.url) {
+                                    Link(destination: url) {
+                                        Text(place.name)
+                                            .font(.system(size: 34, weight: .bold))
+                                            .foregroundColor(.primary)
+                                    }
+                                } else {
+                                    Text(place.name)
+                                        .font(.system(size: 34, weight: .bold))
+                                }
+                                Spacer()
+                                FavoriteButton(place: place)
+                                    .font(.title)
+                            }
+                            
+                            HStack {
+                                Label(place.country, systemImage: "mappin.and.ellipse")
+                                Spacer()
+                                Text(place.state)
+                            }
+                            .font(.headline)
+                            .foregroundColor(.secondary)
+                            
+                            Divider()
+                            
+                            Text("Weather forecast")
+                                .font(.title2)
+                                .bold()
+                            
+                            Text("Add weather here.")
+                                .foregroundColor(.secondary)
+                                .padding(.vertical, 8)
+                            
+                            Divider()
+                            
+                            MapView(coordinates: place.locationCoordinate)
+                                .frame(height: 400)
+                                .cornerRadius(12)
+                        }
+                        .frame(width: targetWidth)
+                    }
+                    .padding(.vertical, 30)
+                    .frame(maxWidth: .infinity) // Centre tout le contenu
                 }
-                .padding()
-                
-                Spacer()
             }
-            .frame(maxWidth: .infinity)
         }
         .scrollBounceBehavior(.basedOnSize)
     }
 }
 
-struct ThubnailsView: View {
+struct ThumbnailsView: View {
     var webcams: [Webcam]
     @Binding var selectedThumbnail: Int
     
@@ -82,26 +115,29 @@ struct ThubnailsView: View {
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack {
+            HStack(spacing: 12) {
                 ForEach(0..<webcams.count, id: \.self) { index in
                     KFImage(URL(string: webcams[index].thumbnailImage))
                         .setProcessor(processor)
                         .serialize(by: DefaultCacheSerializer.default)
-                        .placeholder { ProgressView().frame(width: 100, height: 100) }
+                        .diskCacheExpiration(.seconds(3600))
+                        .placeholder { ProgressView().frame(width: 80, height: 80) }
                         .fade(duration: 0.25)
                         .resizable()
+                        .forceRefresh() // Force le téléchargement à chaque fois
                         .scaledToFill()
-                        .frame(width: 100, height: 100)
-                        .cornerRadius(10)
+                        .frame(width: 80, height: 80)
+                        .cornerRadius(8)
                         .onTapGesture {
                             selectedThumbnail = index
                         }
                         .overlay(
-                            RoundedRectangle(cornerRadius: 10)
+                            RoundedRectangle(cornerRadius: 8)
                                 .stroke(Color.blue, lineWidth: selectedThumbnail == index ? 3 : 0)
                         )
                 }
             }
+            .padding(.vertical, 4)
         }
     }
 }

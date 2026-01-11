@@ -41,24 +41,31 @@ struct PlaceNavigation: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
-                Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
+                HStack {
+                    Toggle(isOn: $showFavoritesOnly) {
+                        Text("Favorites only")
+                    }
+                    .padding(.horizontal)
+                    .padding(.vertical, 8)
+                    #if os(macOS)
+                    Button(action: {
+                        Task {
+                            await placeListViewModel.clearCacheAndRefresh()
+                        }
+                    }) {
+                        Text("Clear cache")
+                    }
+                    #endif
+                        
                 }
-                .padding(.horizontal)
-                .padding(.vertical, 8)
-                
                 Divider()
                 
                 ZStack {
                     if viewMode == .list {
-                        List(filteredPlaces) { place in
-                            NavigationLink(value: place) {
-                                PlaceRow(place: place)
+                        PlaceGrid(places: filteredPlaces)
+                            .refreshable {
+                                await placeListViewModel.clearCacheAndRefresh()
                             }
-                        }
-                        .refreshable {
-                            await placeListViewModel.clearCacheAndRefresh()
-                        }
                     } else {
                         PlacesMapView(places: filteredPlaces, position: $position, selectedPlace: $selectedPlace)
                             .onMapCameraChange(frequency: .onEnd) { context in
@@ -68,7 +75,7 @@ struct PlaceNavigation: View {
                 }
             }
             .navigationTitle("Places")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationInlineStyle()
             .navigationDestination(for: Place.self) { place in
                 PlaceView(place: place)
             }
@@ -115,6 +122,17 @@ struct PlaceNavigation: View {
         } else {
             position = .automatic
         }
+    }
+}
+
+extension View {
+    func navigationInlineStyle() -> some View {
+        #if os(iOS)
+        return self.navigationBarTitleDisplayMode(.inline)
+        #else
+        // Sur macOS, on ne fait rien, on retourne juste la vue telle quelle
+        return self
+        #endif
     }
 }
 

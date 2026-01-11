@@ -11,44 +11,69 @@ struct WebcamView: View {
     @State private var isFullScreenPresented = false
     @State private var isCentered = false
     
+    // Détection du mode large (iPad ou Mac)
+    private var useWideRatio: Bool {
+        #if os(macOS)
+        return true
+        #else
+        return UIDevice.current.userInterfaceIdiom == .pad || UIDevice.current.userInterfaceIdiom == .mac
+        #endif
+    }
+    
     var body: some View {
         ZStack {
             if !isCentered {
                 ProgressView()
-                    .frame(width: 350, height: 350)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    #if os(macOS)
+                    .background(Color(NSColor.windowBackgroundColor))
+                    #else
                     .background(Color(.systemGray6))
+                    #endif
             }
             
-            ScrollViewReader { proxy in
-                ScrollView(.horizontal, showsIndicators: false) {
-                    Button(action: { isFullScreenPresented = true }) {
-                        KFImage(URL(string: imageUrl))
-                            .onSuccess { _ in
-                                proxy.scrollTo("largeImage", anchor: .center)
-                                DispatchQueue.main.async {
-                                    isCentered = true
+            GeometryReader { geometry in
+                ScrollViewReader { proxy in
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        Button(action: { isFullScreenPresented = true }) {
+                            KFImage(URL(string: imageUrl))
+                                .forceRefresh() // Force le téléchargement à chaque fois
+                                .onSuccess { _ in
+                                    proxy.scrollTo("largeImage", anchor: .center)
+                                    DispatchQueue.main.async {
+                                        isCentered = true
+                                    }
                                 }
-                            }
-                            .fade(duration: 0)
-                            .resizable()
-                            .scaledToFill()
-                            .frame(height: 350)
-                            .id("largeImage")
-                            .opacity(isCentered ? 1 : 0)
+                                .fade(duration: 0)
+                                .resizable()
+                                .scaledToFill()
+                                // On s'assure que l'image prend toute la hauteur définie par l'aspect ratio
+                                .frame(height: geometry.size.height)
+                                .id("largeImage")
+                                .opacity(isCentered ? 1 : 0)
+                        }
+                        .buttonStyle(.plain)
                     }
-                    .buttonStyle(.plain)
+                    .scrollDisabled(!isCentered)
                 }
-                .scrollDisabled(!isCentered)
             }
-            .frame(width: 350, height: 350)
-            .cornerRadius(10)
         }
+        // Ratio 16/9 pour desktop/ipad, 1/1 pour mobile
+        .aspectRatio(useWideRatio ? 16/9 : 1, contentMode: .fit)
+        .cornerRadius(10)
         .onChange(of: imageUrl) { _ in
             isCentered = false
         }
-        .fullScreenCover(isPresented: $isFullScreenPresented) {
-            FullScreenWebcamView(imageUrl: imageUrl)
-        }
+#if os(iOS) || targetEnvironment(macCatalyst)
+.fullScreenCover(isPresented: $isFullScreenPresented) {
+    FullScreenWebcamView(imageUrl: imageUrl)
+}
+#else
+.sheet(isPresented: $isFullScreenPresented) {
+    FullScreenWebcamView(imageUrl: imageUrl)
+        .frame(minWidth: 600, minHeight: 400) // Les sheets macOS ont besoin d'une taille
+}
+#endif
     }
 }
 
@@ -61,6 +86,7 @@ struct FullScreenWebcamView: View {
             Color.black.ignoresSafeArea()
             
             KFImage(URL(string: imageUrl))
+                .forceRefresh()
                 .placeholder {
                     ProgressView().tint(.white)
                 }

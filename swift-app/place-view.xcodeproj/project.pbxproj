@@ -42,6 +42,9 @@
 		1D4D30452F0C116100970D1C /* PlatformTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D30422F0C116100970D1C /* PlatformTypes.swift */; };
 		C40497202793F6DB003F9B6A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C404971F2793F6DB003F9B6A /* Kingfisher */; };
 		C404972227948D2A003F9B6A /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C404972127948D2A003F9B6A /* SettingsSheet.swift */; };
+		C41092BD2F12754000E1F698 /* PlaceGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41092BC2F12754000E1F698 /* PlaceGrid.swift */; };
+		C41092BF2F12755800E1F698 /* PlaceGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41092BE2F12755800E1F698 /* PlaceGridItem.swift */; };
+		C41092C12F1276DC00E1F698 /* PlaceRowNumLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41092C02F1276DC00E1F698 /* PlaceRowNumLabel.swift */; };
 		C4BA0B512790BC2A00D23171 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA0B502790BC2A00D23171 /* ApiError.swift */; };
 		C4BA0B532790BD8700D23171 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA0B522790BD8700D23171 /* ErrorView.swift */; };
 		C4BA0B552790BD9700D23171 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA0B542790BD9700D23171 /* LoadingView.swift */; };
@@ -103,6 +106,9 @@
 		1D4D30412F0C116100970D1C /* PlatformImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformImageExtensions.swift; sourceTree = "<group>"; };
 		1D4D30422F0C116100970D1C /* PlatformTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformTypes.swift; sourceTree = "<group>"; };
 		C404972127948D2A003F9B6A /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		C41092BC2F12754000E1F698 /* PlaceGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceGrid.swift; sourceTree = "<group>"; };
+		C41092BE2F12755800E1F698 /* PlaceGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceGridItem.swift; sourceTree = "<group>"; };
+		C41092C02F1276DC00E1F698 /* PlaceRowNumLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRowNumLabel.swift; sourceTree = "<group>"; };
 		C4BA0B502790BC2A00D23171 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		C4BA0B522790BD8700D23171 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		C4BA0B542790BD9700D23171 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -164,7 +170,7 @@
 				1D4D30282F0C105E00970D1C /* Domain */,
 				C4BA0B4D2790BBDC00D23171 /* Clients */,
 				11E65F62274A276700A70C0A /* Components */,
-				1D4D302D2F0C105E00970D1C /* Presentation */,
+				1D4D302C2F0C105E00970D1C /* ViewModels */,
 				C4F5F1842765F637001F4C59 /* place-view.entitlements */,
 				1148549427488045004BC904 /* Models */,
 				11BE7E82274D257700D3FA6B /* Navigations */,
@@ -174,7 +180,6 @@
 				1148546E27487E41004BC904 /* Preview Content */,
 				1D4D30432F0C116100970D1C /* Utils */,
 				11E65F67274A29F100A70C0A /* Views */,
-				C4C7AA4E279899EA002C40C4 /* ViewModels */,
 			);
 			path = "place-view";
 			sourceTree = "<group>";
@@ -226,6 +231,9 @@
 		11E65F62274A276700A70C0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C41092C02F1276DC00E1F698 /* PlaceRowNumLabel.swift */,
+				C41092BE2F12755800E1F698 /* PlaceGridItem.swift */,
+				C41092BC2F12754000E1F698 /* PlaceGrid.swift */,
 				11E65F65274A289800A70C0A /* MapView.swift */,
 				11CC9D42274CD506003280A9 /* PlaceRow.swift */,
 				115AF1C8275098F9005533EB /* WebcamView.swift */,
@@ -303,14 +311,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		1D4D302D2F0C105E00970D1C /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				1D4D302C2F0C105E00970D1C /* ViewModels */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
 		1D4D30432F0C116100970D1C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,13 +326,6 @@
 				C4BA0B502790BC2A00D23171 /* ApiError.swift */,
 			);
 			path = Clients;
-			sourceTree = "<group>";
-		};
-		C4C7AA4E279899EA002C40C4 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +472,7 @@
 				1148546927487E40004BC904 /* place_viewApp.swift in Sources */,
 				1148549627488055004BC904 /* Place.swift in Sources */,
 				C4BA0B512790BC2A00D23171 /* ApiError.swift in Sources */,
+				C41092BF2F12755800E1F698 /* PlaceGridItem.swift in Sources */,
 				115AF1C9275098F9005533EB /* WebcamView.swift in Sources */,
 				1D4D30442F0C116100970D1C /* PlatformImageExtensions.swift in Sources */,
 				1D4D30452F0C116100970D1C /* PlatformTypes.swift in Sources */,
@@ -489,12 +483,14 @@
 				1D4D30302F0C105E00970D1C /* PlaceRepository.swift in Sources */,
 				1D4D30312F0C105E00970D1C /* FetchPlacesUseCase.swift in Sources */,
 				1D4D30322F0C105E00970D1C /* DependencyContainer.swift in Sources */,
+				C41092C12F1276DC00E1F698 /* PlaceRowNumLabel.swift in Sources */,
 				1D4D30332F0C105E00970D1C /* PlaceDetailViewModel.swift in Sources */,
 				1D4D30342F0C105E00970D1C /* FavoritesRepositoryProtocol.swift in Sources */,
 				1D4D30352F0C105E00970D1C /* PlaceRepositoryProtocol.swift in Sources */,
 				1D4D30362F0C105E00970D1C /* PlaceListViewModel.swift in Sources */,
 				1D4D30372F0C105E00970D1C /* FavoritesRepository.swift in Sources */,
 				1D4D30382F0C105E00970D1C /* FavoritesViewModel.swift in Sources */,
+				C41092BD2F12754000E1F698 /* PlaceGrid.swift in Sources */,
 				1D4D30392F0C105E00970D1C /* ImageLoaderProtocol.swift in Sources */,
 				1D4D303A2F0C105E00970D1C /* LoadWebcamImagesUseCase.swift in Sources */,
 				11CC9D43274CD506003280A9 /* PlaceRow.swift in Sources */,
@@ -673,6 +669,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"place-view/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -685,10 +684,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.jousse.place-view";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
@@ -705,6 +709,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"place-view/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -717,10 +724,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.jousse.place-view";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";

@@ -49,22 +49,22 @@
     "id": "albiez",
     "name": "Albiez",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://www.montagnicimes.com/albiez/",
     "coordinates": {
       "latitude": 45.218665,
       "longitude": 6.344217
     },
-    "state": "Savoie",
-    "url": "https://www.montagnicimes.com/albiez/",
     "webcams": [
       {
-        "name": "Haut Echaux",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
+        "name": "Haut Echaux, Albiez",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_albiez_arrivee.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_albiez_arrivee.jpg"
       },
       {
-        "name": "Bas Grand Loup",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_albiez_grandloupbas.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_albiez_grandloupbas.jpg"
+        "name": "Front de Neige Grand Loup",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_albiez_front-de-neige-grand-loup.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_albiez_front-de-neige-grand-loup.jpg"
       }
     ]
   },
@@ -618,19 +618,14 @@
   {
     "id": "chalmazel",
     "name": "Chalmazel",
-    "state": "Loire",
     "country": "France",
-    "coordinates": {
-      "longitude": 3.8268961102021324,
-      "latitude": 45.692768599999994
-    },
+    "state": "Loire",
     "url": "https://www.chalmazel-hiver.fr/",
+    "coordinates": {
+      "latitude": 45.692768599999994,
+      "longitude": 3.8268961102021324
+    },
     "webcams": [
-      {
-        "name": "Jasseries",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chalmazel_jasseries.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_chalmazel_jasseries.jpg"
-      },
       {
         "name": "Espace apprentissage",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_chalmazel_espace-apprentissage.jpg",

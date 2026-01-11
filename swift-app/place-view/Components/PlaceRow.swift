@@ -15,6 +15,7 @@ struct PlaceRow: View {
             ZStack {
                 if let firstWebcam = place.webcams.first {
                     KFImage(URL(string: firstWebcam.thumbnailImage))
+                        .diskCacheExpiration(.seconds(3600))
                         .placeholder { ProgressView() }
                         .fade(duration: 0.25)
                         .resizable()
@@ -37,23 +38,4 @@ struct PlaceRow: View {
     }
 }
 
-struct PlaceRowNumLabel: View {
-    let count: Int
-    
-    var body: some View {
-        ZStack(alignment: .bottomTrailing) {
-            Color.clear
-            if count > 1 {
-                Text("\(count)")
-                    .font(.caption2)
-                    .fontWeight(.bold)
-                    .padding(.horizontal, 6)
-                    .padding(.vertical, 2)
-                    .foregroundColor(.white)
-                    .background(Color.black.opacity(0.6))
-                    .clipShape(Capsule())
-                    .padding(4)
-            }
-        }
-    }
-}
+

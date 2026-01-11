@@ -5,6 +5,7 @@
 //  ViewModel for Place List - follows MVVM + Clean Architecture
 
 import Foundation
+import Kingfisher
 
 @MainActor
 final class PlaceListViewModel: ObservableObject {
@@ -43,7 +44,21 @@ final class PlaceListViewModel: ObservableObject {
     }
     
     func clearCacheAndRefresh() async {
+        // Clear places to force a UI reload
+        self.places = []
+        
+        // Purge du cache URL standard
         URLCache.shared.removeAllCachedResponses()
+        
+        // Purge du cache Kingfisher (Mémoire)
+        ImageCache.default.clearMemoryCache()
+        
+        // Purge du cache Kingfisher (Disque) - On attend la fin de l'opération
+        await withCheckedContinuation { continuation in
+            ImageCache.default.clearDiskCache {
+                continuation.resume()
+            }
+        }
         
         await fetchAllPlaces()
     }

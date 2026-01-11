@@ -10,7 +10,7 @@ The Swift application follows **Clean Architecture** principles combined with th
 
 The **Domain Layer** contains the core business logic and is completely independent of any framework or external dependencies.
 
-#### Components:
+#### Components
 
 - **Protocols/Interfaces**: Define contracts for data access
   - `PlaceRepositoryProtocol`: Contract for fetching places
@@ -23,6 +23,7 @@ The **Domain Layer** contains the core business logic and is completely independ
   - `LoadWebcamImagesUseCase`: Handles loading and processing webcam images
 
 **Key Principles:**
+
 - No dependencies on UI frameworks or external libraries
 - Pure Swift code with business logic only
 - Protocols define what data is needed, not how to get it
@@ -31,7 +32,7 @@ The **Domain Layer** contains the core business logic and is completely independ
 
 The **Data Layer** implements the domain protocols and handles all data access.
 
-#### Components:
+#### Components
 
 - **Repositories** (`Data/Repositories/`): Concrete implementations of domain protocols
   - `PlaceRepository`: Implements `PlaceRepositoryProtocol`, fetches places from API
@@ -39,6 +40,7 @@ The **Data Layer** implements the domain protocols and handles all data access.
   - `ImageLoader`: Implements `ImageLoaderProtocol`, loads images via URLSession
 
 **Key Principles:**
+
 - Implements domain protocols
 - Handles all external data sources (API, local storage, etc.)
 - Abstracts away implementation details from the domain
@@ -47,7 +49,7 @@ The **Data Layer** implements the domain protocols and handles all data access.
 
 The **Presentation Layer** contains ViewModels that act as intermediaries between Views and Use Cases.
 
-#### Components:
+#### Components
 
 - **ViewModels** (`Presentation/ViewModels/`):
   - `PlaceListViewModel`: Manages state for the place list view
@@ -55,6 +57,7 @@ The **Presentation Layer** contains ViewModels that act as intermediaries betwee
   - `FavoritesViewModel`: Manages favorites state (singleton)
 
 **Key Principles:**
+
 - ViewModels depend only on Use Cases, never on repositories directly
 - ViewModels are `@MainActor` for UI updates
 - Use `@Published` properties for reactive UI updates
@@ -64,12 +67,13 @@ The **Presentation Layer** contains ViewModels that act as intermediaries betwee
 
 SwiftUI Views that render UI and respond to user interactions.
 
-#### Components:
+#### Components
 
 - **Views**: Full screen views (`PlaceView`, `LoadingView`, `ErrorView`)
 - **Components**: Reusable UI components (`FavoriteButton`, `MapView`, `PlaceRow`, etc.)
 
 **Key Principles:**
+
 - Views observe ViewModels using `@StateObject` or `@ObservedObject`
 - Views should be as "dumb" as possible, delegating logic to ViewModels
 - Components are reusable and composable
@@ -78,11 +82,12 @@ SwiftUI Views that render UI and respond to user interactions.
 
 The **DI Layer** manages object creation and dependencies.
 
-#### Components:
+#### Components
 
 - `DependencyContainer`: Centralized factory for creating all dependencies
 
 **Key Principles:**
+
 - Singleton pattern for the container itself
 - Lazy initialization of repositories
 - Factory methods for ViewModels

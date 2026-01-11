@@ -21,7 +21,7 @@ struct WebcamThumbnail: View {
                     .font(.largeTitle)
                     .opacity(0.3)
             }
-            .retry(maxCount: 3, interval: .seconds(5))
+            .diskCacheExpiration(.seconds(3600))
             .onSuccess { r in
                 // print("success: \(r)")
             }
