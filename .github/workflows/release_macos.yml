@@ -42,12 +42,12 @@ jobs:
 
             - name: Compress App
               run: |
-                  cd swift-app/build/Build/Products/Release-maccatalyst
+                  cd swift-app/build/Build/Products/Release
                   zip -r place-view-macos.zip place-view.app
 
             - name: Create DMG
               run: |
-                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release-maccatalyst/place-view.app swift-app/build/Build/Products/Release-maccatalyst/place-view-macos.dmg
+                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release/place-view.app swift-app/build/Build/Products/Release/place-view-macos.dmg
 
             - name: Create Release
               uses: softprops/action-gh-release@v2
@@ -65,7 +65,7 @@ jobs:
                   draft: false
                   prerelease: false
                   files:
-                      -swift-app/build/Build/Products/Release-maccatalyst/place-view-macos.zip
-                      -swift-app/build/Build/Products/Release-maccatalyst/place-view-macos.dmg
+                      -swift-app/build/Build/Products/Release/place-view-macos.zip
+                      -swift-app/build/Build/Products/Release/place-view-macos.dmg
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
