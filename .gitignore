@@ -16,3 +16,6 @@ coverage/
 
 # Misc
 .idea/
+
+# Webapp places data
+webapp/static/places.json
