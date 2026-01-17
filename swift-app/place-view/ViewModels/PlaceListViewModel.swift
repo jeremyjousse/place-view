@@ -54,11 +54,7 @@ final class PlaceListViewModel: ObservableObject {
         ImageCache.default.clearMemoryCache()
         
         // Purge du cache Kingfisher (Disque) - On attend la fin de l'opération
-        await withCheckedContinuation { continuation in
-            ImageCache.default.clearDiskCache {
-                continuation.resume()
-            }
-        }
+        await ImageCache.default.clearDiskCache()
         
         await fetchAllPlaces()
     }

@@ -18,4 +18,4 @@ coverage/
 .idea/
 
 # Webapp places data
-webapp/static/places.json
+webapp/static/places.json*.xcuserstate
