@@ -1,0 +1,6 @@
+[tools]
+node = "24"
+
+[tasks.dev]
+description = "Start dev server"
+run = "pnpm run dev"
