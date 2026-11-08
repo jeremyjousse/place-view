@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { Search, Heart } from 'lucide-svelte';
-	import Button from '../atoms/Button.svelte';
+	import { Search, Heart, RotateCw } from 'lucide-svelte';
+	import { invalidateAll } from '$app/navigation';
+	import { placeService } from '$lib/services/PlaceService';
 
 	let {
 		showFavoritesOnly = false,
@@ -15,11 +16,25 @@
 	}>();
 
 	let searchQuery = $state('');
+	let isRefreshing = $state(false);
 
 	function handleInput(e: Event) {
 		const target = e.target as HTMLInputElement;
 		searchQuery = target.value;
 		onSearch?.(searchQuery);
+	}
+
+	async function handleRefresh() {
+		if (isRefreshing) return;
+		isRefreshing = true;
+		try {
+			await placeService.refresh();
+			await invalidateAll();
+		} catch (e) {
+			console.error('Failed to refresh places:', e);
+		} finally {
+			isRefreshing = false;
+		}
 	}
 </script>
 
@@ -41,8 +56,8 @@
 		</div>
 	</div>
 
-	<div class="flex items-center gap-4">
-		<div class="mr-8 hidden items-center gap-2 lg:flex">
+	<div class="flex items-center gap-3">
+		<div class="mr-6 hidden items-center gap-2 lg:flex">
 			<div class="bg-primary/20 flex h-8 w-8 items-center justify-center rounded-lg">
 				<div
 					class="border-primary h-4 w-4 translate-x-0.5 translate-y-0.5 rotate-45 transform border-t-2 border-l-2"
@@ -53,7 +68,20 @@
 		</div>
 
 		<button
-			class="bg-surface border-border hover:border-text-muted flex items-center gap-3 rounded-full border p-1 pr-4 transition-all"
+			class="bg-surface border-border hover:border-text-muted text-text-muted flex cursor-pointer items-center gap-2 rounded-full border p-2 transition-all hover:text-white"
+			onclick={handleRefresh}
+			disabled={isRefreshing}
+			aria-label="Refresh places cache"
+			title="Refresh places cache"
+		>
+			<RotateCw size={16} class={isRefreshing ? 'text-primary animate-spin' : ''} />
+			<span class="hidden pr-1 text-[10px] font-black tracking-widest uppercase sm:inline">
+				{isRefreshing ? 'Refreshing' : 'Clear Cache'}
+			</span>
+		</button>
+
+		<button
+			class="bg-surface border-border hover:border-text-muted flex cursor-pointer items-center gap-3 rounded-full border p-1 pr-4 transition-all"
 			onclick={() => onToggleFavorites?.(!showFavoritesOnly)}
 		>
 			<div

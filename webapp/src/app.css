@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import 'tailwindcss';
-@plugin "@tailwindcss/forms";
+@plugin '@tailwindcss/forms';
 
 @theme {
 	--color-background: #0f1115;
@@ -21,7 +21,7 @@
 
 @layer base {
 	body {
-		@apply bg-background font-sans text-text antialiased;
+		@apply bg-background text-text font-sans antialiased;
 	}
 
 	::selection {
@@ -32,15 +32,15 @@
 
 @layer components {
 	.card-flat {
-		@apply rounded-3xl border border-border bg-surface transition-all duration-300;
+		@apply border-border bg-surface rounded-3xl border transition-all duration-300;
 	}
 
 	.card-hover {
-		@apply hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/5;
+		@apply hover:border-primary/50 hover:shadow-primary/5 hover:shadow-2xl;
 	}
 
 	.btn-primary {
-		@apply text-primary-text rounded-2xl bg-primary px-6 py-3 font-bold transition-all active:scale-95;
+		@apply text-primary-text bg-primary rounded-2xl px-6 py-3 font-bold transition-all active:scale-95;
 	}
 }
 
@@ -55,5 +55,5 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	@apply rounded-full bg-border transition-colors hover:bg-text-muted/50;
+	@apply bg-border hover:bg-text-muted/50 rounded-full transition-colors;
 }

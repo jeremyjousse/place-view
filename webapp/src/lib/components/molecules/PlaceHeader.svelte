@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { MapPin } from 'lucide-svelte';
+	import { MapPin, ExternalLink } from 'lucide-svelte';
 	import Badge from '$lib/components/atoms/Badge.svelte';
 	import type { Place } from '$lib/common/domain/Place';
 
@@ -11,7 +11,22 @@
 
 <section class="space-y-4">
 	<div class="flex items-center justify-between">
-		<h1 class="text-4xl font-black tracking-tighter lg:text-5xl">{place.name}</h1>
+		{#if place.url}
+			<a
+				href={place.url}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="group hover:text-primary flex items-center gap-3 text-4xl font-black tracking-tighter transition-colors lg:text-5xl"
+			>
+				<span>{place.name}</span>
+				<ExternalLink
+					size={24}
+					class="text-primary opacity-0 transition-opacity group-hover:opacity-100"
+				/>
+			</a>
+		{:else}
+			<h1 class="text-4xl font-black tracking-tighter lg:text-5xl">{place.name}</h1>
+		{/if}
 		{#if hasActiveWebcam}
 			<Badge variant="primary" class="animate-pulse">LIVE VIEW</Badge>
 		{/if}

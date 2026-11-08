@@ -1,4 +1,4 @@
-import adapterAuto from '@sveltejs/adapter-auto';
+import adapterStatic from '@sveltejs/adapter-static';
 import adapterDeno from '@deno/svelte-adapter';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
@@ -7,7 +7,16 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: process.env.ADAPTER === 'deno' ? adapterDeno() : adapterAuto()
+		adapter:
+			process.env.ADAPTER === 'deno'
+				? adapterDeno()
+				: adapterStatic({
+						pages: 'build',
+						assets: 'build',
+						fallback: 'index.html',
+						precompress: false,
+						strict: true
+					})
 	}
 };
 

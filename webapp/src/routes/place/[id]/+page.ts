@@ -1,12 +1,12 @@
-import type { PageServerLoad } from './$types';
+import type { PageLoad } from './$types';
 import { error } from '@sveltejs/kit';
-import { placeRepository } from '$lib/server';
+import { placeService } from '$lib/services/PlaceService';
 
-export const load: PageServerLoad = async ({ params }) => {
+export const load: PageLoad = async ({ params }) => {
 	const { id } = params;
 
 	try {
-		const place = await placeRepository.getById(id);
+		const place = await placeService.getById(id);
 
 		if (!place) {
 			throw error(404, 'Place not found');

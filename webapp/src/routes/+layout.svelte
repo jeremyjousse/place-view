@@ -16,18 +16,20 @@
 	let title = $derived($page.url.pathname === '/map' ? 'Explorer Map' : 'Places');
 </script>
 
-<div class="flex min-h-screen bg-background text-text selection:bg-primary selection:text-primary-text">
+<div
+	class="bg-background text-text selection:bg-primary selection:text-primary-text flex min-h-screen"
+>
 	<Sidebar />
-	
-	<div class="flex-1 flex flex-col min-w-0">
-		<Header 
-			showFavoritesOnly={uiStore.showFavoritesOnly} 
-			onToggleFavorites={(v) => uiStore.showFavoritesOnly = v} 
+
+	<div class="flex min-w-0 flex-1 flex-col">
+		<Header
+			showFavoritesOnly={uiStore.showFavoritesOnly}
+			onToggleFavorites={(v) => (uiStore.showFavoritesOnly = v)}
 			onSearch={handleSearch}
 			{title}
 		/>
-		
-		<main class="flex-1 px-6 lg:px-12 pb-32 lg:pb-12">
+
+		<main class="flex-1 px-6 pb-32 lg:px-12 lg:pb-12">
 			{@render children()}
 		</main>
 	</div>

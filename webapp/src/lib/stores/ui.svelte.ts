@@ -3,10 +3,18 @@ export function createUiStore() {
 	let showFavoritesOnly = $state(false);
 
 	return {
-		get activeView() { return activeView; },
-		set activeView(v) { activeView = v; },
-		get showFavoritesOnly() { return showFavoritesOnly; },
-		set showFavoritesOnly(v) { showFavoritesOnly = v; }
+		get activeView() {
+			return activeView;
+		},
+		set activeView(v) {
+			activeView = v;
+		},
+		get showFavoritesOnly() {
+			return showFavoritesOnly;
+		},
+		set showFavoritesOnly(v) {
+			showFavoritesOnly = v;
+		}
 	};
 }
 

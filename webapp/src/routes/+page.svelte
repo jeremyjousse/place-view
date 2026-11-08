@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import PlaceCard from '$lib/components/molecules/PlaceCard.svelte';
 	import { uiStore } from '$lib/stores/ui.svelte';
 	import { searchStore } from '$lib/stores/search.svelte';
@@ -7,12 +7,18 @@
 	import { placeService } from '$lib/services/PlaceService';
 	import type { Place } from '$lib/common/domain/Place';
 
-	let { data } = $props();
+	let { data }: { data: { places: Place[] } } = $props();
 
-	let places = $state<Place[]>(data.places);
-	let offset = $state(data.places.length);
+	let places = $state<Place[]>([]);
+	let offset = $state(0);
 	let hasMore = $state(true);
 	let isLoading = $state(false);
+
+	$effect(() => {
+		places = data.places;
+		offset = data.places.length;
+		hasMore = true;
+	});
 
 	let filteredPlaces = $derived(
 		uiStore.showFavoritesOnly ? places.filter((p) => favoritesStore.isFavorite(p.id)) : places
