@@ -3829,24 +3829,19 @@
 	},
 	{
 		"id": "val-thorens",
-		"coordinates": {
-			"longitude": 6.5835663,
-			"latitude": 45.2979241
-		},
+		"name": "Val-Thorens",
 		"country": "France",
 		"state": "Savoie",
-		"name": "Val-Thorens",
 		"url": "http://www.valthorens.com",
+		"coordinates": {
+			"latitude": 45.2979241,
+			"longitude": 6.5835663
+		},
 		"webcams": [
 			{
 				"name": "Station",
 				"largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=large",
 				"thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=small"
-			},
-			{
-				"name": "Sommet 2 lacs",
-				"largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=large",
-				"thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=small"
 			},
 			{
 				"name": "3 Vallées",
@@ -3877,11 +3872,6 @@
 				"name": "Restaurant La Maison",
 				"largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0qmB-W208-FhUp-eDJW-695z&quality=large",
 				"thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0qmB-W208-FhUp-eDJW-695z&quality=small"
-			},
-			{
-				"name": "Snowcam Val Thorens x Salomon x Alpina Watches",
-				"largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OW20v-AUqmm-d8ZdM-5Lf1o&quality=large",
-				"thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OW20v-AUqmm-d8ZdM-5Lf1o&quality=small"
 			}
 		]
 	},
