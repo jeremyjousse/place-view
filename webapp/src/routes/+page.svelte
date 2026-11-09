@@ -14,12 +14,6 @@
 	let hasMore = $state(true);
 	let isLoading = $state(false);
 
-	$effect(() => {
-		places = data.places;
-		offset = data.places.length;
-		hasMore = true;
-	});
-
 	let filteredPlaces = $derived(
 		uiStore.showFavoritesOnly ? places.filter((p) => favoritesStore.isFavorite(p.id)) : places
 	);
@@ -42,6 +36,8 @@
 
 	$effect(() => {
 		const query = searchStore.query;
+		const initialPlaces = data.places;
+
 		if (query) {
 			placeService
 				.search(query, 100, 0)
@@ -51,8 +47,8 @@
 				})
 				.catch((err) => console.error(err));
 		} else {
-			places = data.places;
-			offset = data.places.length;
+			places = initialPlaces;
+			offset = initialPlaces.length;
 			hasMore = true;
 		}
 	});

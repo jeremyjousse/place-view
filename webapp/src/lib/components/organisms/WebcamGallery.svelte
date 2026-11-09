@@ -18,6 +18,7 @@
 	let isPanoramaScroll = $state(true); // Panorama par défaut
 	let scrollContainer: HTMLDivElement | undefined = $state();
 	let modalScrollContainer: HTMLDivElement | undefined = $state();
+	let dialogElement: HTMLDialogElement | undefined = $state();
 
 	function toggleFullscreenMode() {
 		isPanoramaScroll = !isPanoramaScroll;
@@ -30,8 +31,9 @@
 	}
 
 	function openFullscreen() {
-		if (selectedWebcam?.largeImage) {
+		if (selectedWebcam?.largeImage && dialogElement) {
 			isFullscreen = true;
+			dialogElement.showModal();
 			if (isPanoramaScroll) {
 				setTimeout(centerModalScroll, 50);
 			}
@@ -40,6 +42,9 @@
 
 	function closeFullscreen() {
 		isFullscreen = false;
+		if (dialogElement?.open) {
+			dialogElement.close();
+		}
 	}
 
 	function nextWebcam() {
@@ -164,7 +169,7 @@
 <!-- Thumbnails Scroll (Page View) -->
 {#if webcams.length > 1}
 	<div class="mt-8 flex snap-x gap-4 overflow-x-auto pb-4">
-		{#each webcams as webcam, i (webcam.thumbnailImage || i)}
+		{#each webcams as webcam, i (`${webcam.name}-${i}`)}
 			<button
 				onclick={(e) => {
 					e.stopPropagation();
@@ -190,13 +195,17 @@
 	</div>
 {/if}
 
-<!-- Fullscreen 100% Overlay View -->
-{#if isFullscreen && selectedWebcam?.largeImage}
-	<div
-		class="fixed inset-0 z-[99999] h-screen w-screen overflow-hidden bg-black select-none"
-		role="dialog"
-		aria-modal="true"
-	>
+<!-- Fullscreen 100% Overlay Dialog -->
+<dialog
+	bind:this={dialogElement}
+	onclose={closeFullscreen}
+	oncancel={(e) => {
+		e.preventDefault();
+		closeFullscreen();
+	}}
+	class="fixed inset-0 z-[99999] m-0 h-screen max-h-none w-screen max-w-none overflow-hidden border-0 bg-black p-0 select-none backdrop:bg-black"
+>
+	{#if isFullscreen && selectedWebcam?.largeImage}
 		<!-- 3 Overlay elements: Titre (left) | Fit Screen + Croix (right) -->
 		<div
 			class="pointer-events-none absolute top-0 right-0 left-0 z-30 flex items-center justify-between p-4 sm:p-6"
@@ -286,5 +295,5 @@
 				/>
 			</div>
 		{/if}
-	</div>
-{/if}
+	{/if}
+</dialog>

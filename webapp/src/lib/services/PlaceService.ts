@@ -23,7 +23,7 @@ export class PlaceService {
 			return this.cachedPlaces;
 		}
 
-		if (this.fetchPromise && !forceRefresh) {
+		if (this.fetchPromise !== null && !forceRefresh) {
 			return this.fetchPromise;
 		}
 
@@ -88,8 +88,8 @@ export class PlaceService {
 			places = places.filter(
 				(place) =>
 					place.name.toLowerCase().includes(lowerQuery) ||
-					(place.state && place.state.toLowerCase().includes(lowerQuery)) ||
-					(place.country && place.country.toLowerCase().includes(lowerQuery))
+					Boolean(place.state?.toLowerCase().includes(lowerQuery)) ||
+					Boolean(place.country?.toLowerCase().includes(lowerQuery))
 			);
 		}
 
@@ -104,7 +104,6 @@ export class PlaceService {
 	}
 
 	async refresh(): Promise<Place[]> {
-		this.cachedPlaces = null;
 		return this.getAll(true);
 	}
 }

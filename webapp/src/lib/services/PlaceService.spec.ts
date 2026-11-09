@@ -159,4 +159,27 @@ describe('PlaceService', () => {
 		await service.refresh();
 		expect(fetchMock).toHaveBeenCalledTimes(2);
 	});
+
+	it('retains cached data if refresh fails', async () => {
+		let callCount = 0;
+		const fetchMock = vi.fn(() => {
+			callCount++;
+			if (callCount === 1) {
+				return Promise.resolve({
+					ok: true,
+					json: async () => mockPlaces
+				});
+			}
+			return Promise.reject(new Error('Offline'));
+		});
+		vi.stubGlobal('fetch', fetchMock);
+
+		const service = new PlaceService('https://remote.test/places.json', '/fallback.json');
+		const initial = await service.getAll();
+		expect(initial).toEqual(mockPlaces);
+
+		// Refresh fails, but cached data is returned
+		const refreshed = await service.refresh();
+		expect(refreshed).toEqual(mockPlaces);
+	});
 });

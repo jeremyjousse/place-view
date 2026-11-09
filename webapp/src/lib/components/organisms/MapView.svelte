@@ -84,15 +84,14 @@
 
 		markerGroup = Leaflet.layerGroup().addTo(map);
 
-		if (persistPosition) {
-			map.on('moveend', savePosition);
-		}
+		map.on('moveend', savePosition);
 
 		updateMarkers();
 	});
 
 	$effect(() => {
-		if (markerGroup && Leaflet && places) {
+		const currentPlaces = places;
+		if (markerGroup && Leaflet && currentPlaces) {
 			updateMarkers();
 		}
 	});
@@ -126,9 +125,7 @@
 
 	onDestroy(() => {
 		if (map) {
-			if (persistPosition) {
-				map.off('moveend', savePosition);
-			}
+			map.off('moveend', savePosition);
 			map.remove();
 		}
 	});
