@@ -50,7 +50,7 @@ jobs:
                   hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release/place-view.app swift-app/build/Build/Products/Release/place-view-macos.dmg
 
             - name: Create Release
-              uses: softprops/action-gh-release@v2
+              uses: softprops/action-gh-release@v3
               with:
                   tag_name: v${{ steps.get_version.outputs.version }}
                   name: Release v${{ steps.get_version.outputs.version }}
