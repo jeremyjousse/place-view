@@ -1,4 +1,4 @@
-import type { Place } from '$lib/common/domain/Place';
+import type { Place } from '#lib/common/domain/Place';
 
 export interface SearchPlacesResult {
 	places: Place[];

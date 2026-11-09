@@ -1,17 +1,19 @@
 <script lang="ts">
+	interface Props {
+		value?: string;
+		placeholder?: string;
+		type?: string;
+		class?: string;
+		[key: string]: unknown;
+	}
+
 	let {
 		value = $bindable(),
 		placeholder = '',
 		type = 'text',
 		class: className = '',
 		...props
-	} = $props<{
-		value?: string;
-		placeholder?: string;
-		type?: string;
-		class?: string;
-		[key: string]: unknown;
-	}>();
+	}: Props = $props();
 </script>
 
 <div class="relative w-full">

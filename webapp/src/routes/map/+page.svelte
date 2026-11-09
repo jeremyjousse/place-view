@@ -1,14 +1,14 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import MapView from '$lib/components/organisms/MapView.svelte';
-	import { uiStore } from '$lib/stores/ui.svelte';
-	import { favoritesStore } from '$lib/stores/favorites.svelte';
-	import { searchStore } from '$lib/stores/search.svelte';
-	import type { Place } from '$lib/common/domain/Place';
+	import { page } from '$app/state';
+	import MapView from '#lib/components/organisms/MapView.svelte';
+	import { uiStore } from '#lib/stores/ui.svelte';
+	import { favoritesStore } from '#lib/stores/favorites.svelte';
+	import { searchStore } from '#lib/stores/search.svelte';
+	import type { Place } from '#lib/common/domain/Place';
 
 	let { data }: { data: { places: Place[] } } = $props();
 
-	const targetPlaceId = $derived($page.url.searchParams.get('place'));
+	const targetPlaceId = $derived(page.url.searchParams.get('place'));
 
 	let filteredPlaces = $derived.by(() => {
 		let list = data.places;

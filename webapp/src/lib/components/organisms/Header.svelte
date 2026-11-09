@@ -1,19 +1,21 @@
 <script lang="ts">
 	import { Search, Heart, RotateCw } from 'lucide-svelte';
-	import { invalidateAll } from '$app/navigation';
-	import { placeService } from '$lib/services/PlaceService';
+	import { refreshAll } from '$app/navigation';
+	import { placeService } from '#lib/services/PlaceService';
+
+	interface Props {
+		showFavoritesOnly?: boolean;
+		onToggleFavorites?: (show: boolean) => void;
+		onSearch?: (query: string) => void;
+		title?: string;
+	}
 
 	let {
 		showFavoritesOnly = false,
 		onToggleFavorites,
 		onSearch,
 		title = 'Places'
-	} = $props<{
-		showFavoritesOnly?: boolean;
-		onToggleFavorites?: (show: boolean) => void;
-		onSearch?: (query: string) => void;
-		title?: string;
-	}>();
+	}: Props = $props();
 
 	let searchQuery = $state('');
 	let isRefreshing = $state(false);
@@ -29,7 +31,7 @@
 		isRefreshing = true;
 		try {
 			await placeService.refresh();
-			await invalidateAll();
+			await refreshAll();
 		} catch (e) {
 			console.error('Failed to refresh places:', e);
 		} finally {

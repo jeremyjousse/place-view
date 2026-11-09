@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { Heart, Share2, ArrowLeft, Check } from 'lucide-svelte';
-	import { favoritesStore } from '$lib/stores/favorites.svelte';
-	import type { Place } from '$lib/common/domain/Place';
-	import WebcamGallery from '$lib/components/organisms/WebcamGallery.svelte';
-	import PlaceDetailsCard from '$lib/components/molecules/PlaceDetailsCard.svelte';
-	import PlaceHeader from '$lib/components/molecules/PlaceHeader.svelte';
-	import MapView from '$lib/components/organisms/MapView.svelte';
+	import { favoritesStore } from '#lib/stores/favorites.svelte';
+	import type { Place } from '#lib/common/domain/Place';
+	import WebcamGallery from '#lib/components/organisms/WebcamGallery.svelte';
+	import PlaceDetailsCard from '#lib/components/molecules/PlaceDetailsCard.svelte';
+	import PlaceHeader from '#lib/components/molecules/PlaceHeader.svelte';
+	import MapView from '#lib/components/organisms/MapView.svelte';
 
 	let { data }: { data: { place: Place } } = $props();
 	const place = $derived(data.place);

@@ -4,6 +4,15 @@
 	type Variant = 'primary' | 'secondary' | 'outline' | 'ghost';
 	type Size = 'sm' | 'md' | 'lg' | 'icon';
 
+	interface Props {
+		variant?: Variant;
+		size?: Size;
+		children?: Snippet;
+		class?: string;
+		href?: string;
+		[key: string]: unknown;
+	}
+
 	let {
 		variant = 'primary',
 		size = 'md',
@@ -11,14 +20,7 @@
 		class: className = '',
 		href = undefined,
 		...props
-	} = $props<{
-		variant?: Variant;
-		size?: Size;
-		children?: Snippet;
-		class?: string;
-		href?: string;
-		[key: string]: unknown;
-	}>();
+	}: Props = $props();
 
 	const baseStyles =
 		'inline-flex items-center justify-center font-bold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background disabled:opacity-50 disabled:pointer-events-none active:scale-95 cursor-pointer';

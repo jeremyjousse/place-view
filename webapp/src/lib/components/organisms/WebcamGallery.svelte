@@ -1,13 +1,16 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
-	import { browser } from '$app/environment';
+	import { browser } from '$app/env';
 	import { X, Maximize2, Minimize2 } from 'lucide-svelte';
-	import type { Webcam } from '$lib/common/domain/Webcam';
+	import type { Webcam } from '#lib/common/domain/Webcam';
 
-	let { webcams, placeName } = $props<{
+	let {
+		webcams,
+		placeName
+	}: {
 		webcams: Webcam[];
 		placeName: string;
-	}>();
+	} = $props();
 
 	const STORAGE_KEY_FULLSCREEN_MODE = 'webcamFullscreenMode';
 

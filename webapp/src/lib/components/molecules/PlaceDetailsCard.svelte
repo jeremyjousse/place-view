@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Button from '$lib/components/atoms/Button.svelte';
-	import type { Place } from '$lib/common/domain/Place';
+	import Button from '#lib/components/atoms/Button.svelte';
+	import type { Place } from '#lib/common/domain/Place';
 
-	let { place } = $props<{ place: Place }>();
+	let { place }: { place: Place } = $props();
 </script>
 
 <div class="bg-surface border-border space-y-6 rounded-3xl border p-8 shadow-xl">

@@ -1,11 +1,11 @@
 <script lang="ts">
 	import '../app.css';
-	import Sidebar from '$lib/components/organisms/Sidebar.svelte';
-	import Header from '$lib/components/organisms/Header.svelte';
-	import BottomNavBar from '$lib/components/organisms/BottomNavBar.svelte';
-	import { uiStore } from '$lib/stores/ui.svelte';
-	import { searchStore } from '$lib/stores/search.svelte';
-	import { page } from '$app/stores';
+	import Sidebar from '#lib/components/organisms/Sidebar.svelte';
+	import Header from '#lib/components/organisms/Header.svelte';
+	import BottomNavBar from '#lib/components/organisms/BottomNavBar.svelte';
+	import { uiStore } from '#lib/stores/ui.svelte';
+	import { searchStore } from '#lib/stores/search.svelte';
+	import { page } from '$app/state';
 
 	let { children } = $props();
 
@@ -13,7 +13,7 @@
 		searchStore.query = query;
 	};
 
-	let title = $derived($page.url.pathname === '/map' ? 'Explorer Map' : 'Places');
+	let title = $derived(page.url.pathname === '/map' ? 'Explorer Map' : 'Places');
 </script>
 
 <div
@@ -24,7 +24,7 @@
 	<div class="flex min-w-0 flex-1 flex-col">
 		<Header
 			showFavoritesOnly={uiStore.showFavoritesOnly}
-			onToggleFavorites={(v) => (uiStore.showFavoritesOnly = v)}
+			onToggleFavorites={(v: boolean) => (uiStore.showFavoritesOnly = v)}
 			onSearch={handleSearch}
 			{title}
 		/>

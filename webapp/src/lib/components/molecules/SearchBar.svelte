@@ -2,10 +2,12 @@
 	import Input from '../atoms/Input.svelte';
 	import Button from '../atoms/Button.svelte';
 
-	let { value = $bindable(), onSearch } = $props<{
+	interface Props {
 		value?: string;
 		onSearch?: (value: string) => void;
-	}>();
+	}
+
+	let { value = $bindable(), onSearch }: Props = $props();
 
 	function handleSubmit(e: Event) {
 		e.preventDefault();
