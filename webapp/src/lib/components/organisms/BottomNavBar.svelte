@@ -1,25 +1,31 @@
 <script lang="ts">
-  import { LayoutList, Map as MapIcon } from 'lucide-svelte';
-  import { page } from '$app/stores';
+	import { LayoutList, Map as MapIcon } from 'lucide-svelte';
+	import { page } from '$app/stores';
 
-  let currentPath = $derived($page.url.pathname);
-  let isMap = $derived(currentPath === '/map');
+	let currentPath = $derived($page.url.pathname);
+	let isMap = $derived(currentPath === '/map');
 </script>
 
-<nav class="lg:hidden fixed bottom-0 left-0 right-0 bg-background/80 backdrop-blur-xl border-t border-border px-6 pb-6 pt-3 flex justify-around items-center z-50">
-  <a 
-    href="/"
-    class="flex flex-col items-center gap-1 transition-colors {!isMap ? 'text-primary' : 'text-text-muted'}"
-  >
-    <LayoutList size={22} />
-    <span class="text-[10px] font-black uppercase tracking-widest">List</span>
-  </a>
+<nav
+	class="bg-background/80 border-border fixed right-0 bottom-0 left-0 z-50 flex items-center justify-around border-t px-6 pt-3 pb-6 backdrop-blur-xl lg:hidden"
+>
+	<a
+		href="/"
+		class="flex flex-col items-center gap-1 transition-colors {!isMap
+			? 'text-primary'
+			: 'text-text-muted'}"
+	>
+		<LayoutList size={22} />
+		<span class="text-[10px] font-black tracking-widest uppercase">List</span>
+	</a>
 
-  <a 
-    href="/map"
-    class="flex flex-col items-center gap-1 transition-colors {isMap ? 'text-primary' : 'text-text-muted'}"
-  >
-    <MapIcon size={22} />
-    <span class="text-[10px] font-black uppercase tracking-widest">Map</span>
-  </a>
+	<a
+		href="/map"
+		class="flex flex-col items-center gap-1 transition-colors {isMap
+			? 'text-primary'
+			: 'text-text-muted'}"
+	>
+		<MapIcon size={22} />
+		<span class="text-[10px] font-black tracking-widest uppercase">Map</span>
+	</a>
 </nav>

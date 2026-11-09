@@ -21,7 +21,22 @@
 			<span class="text-text-muted text-sm">Webcams</span>
 			<span class="text-sm font-bold tracking-tight">{place.webcams.length} Available</span>
 		</div>
+		{#if place.url}
+			<div class="border-border/50 flex items-center justify-between border-b pb-4">
+				<span class="text-text-muted text-sm">Official Website</span>
+				<a
+					href={place.url}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-primary max-w-[180px] truncate text-sm font-bold tracking-tight hover:underline"
+				>
+					Visit ↗
+				</a>
+			</div>
+		{/if}
 	</div>
 
-	<Button variant="primary" size="lg" class="mt-4 w-full">OPEN ON MAP</Button>
+	<Button variant="primary" size="lg" class="mt-4 w-full" href="/map?place={place.id}">
+		OPEN ON MAP
+	</Button>
 </div>
