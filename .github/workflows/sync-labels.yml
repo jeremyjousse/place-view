@@ -1,0 +1,11 @@
+name: Sync labels
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  sync-labels:
+    uses: jeremyjousse/.github/.github/workflows/label-synch.yml@main
