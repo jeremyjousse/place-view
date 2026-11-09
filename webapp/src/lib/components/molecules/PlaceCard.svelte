@@ -1,13 +1,9 @@
 <script lang="ts">
 	import { Heart } from 'lucide-svelte';
 	import Badge from '../atoms/Badge.svelte';
-	import type { Webcam } from '$lib/common/domain/Webcam';
+	import type { Webcam } from '#lib/common/domain/Webcam';
 
-	let {
-		place,
-		isFavorite = false,
-		onToggleFavorite
-	} = $props<{
+	interface Props {
 		place: {
 			id: string;
 			name: string;
@@ -17,7 +13,9 @@
 		};
 		isFavorite?: boolean;
 		onToggleFavorite?: (favorite: boolean) => void;
-	}>();
+	}
+
+	let { place, isFavorite = false, onToggleFavorite }: Props = $props();
 
 	const previewUrl = $derived(
 		place.webcams[0]?.thumbnailImage || place.webcams[0]?.largeImage || ''

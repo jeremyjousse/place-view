@@ -1,9 +1,18 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import { browser } from '$app/environment';
+	import { browser } from '$app/env';
 	import type L from 'leaflet';
 	import 'leaflet/dist/leaflet.css';
-	import type { Place } from '$lib/common/domain/Place';
+	import type { Place } from '#lib/common/domain/Place';
+
+	interface Props {
+		places: Place[];
+		center?: [number, number];
+		zoom?: number;
+		fitBounds?: boolean;
+		persistPosition?: boolean;
+		heightClass?: string;
+	}
 
 	let {
 		places = [],
@@ -12,14 +21,7 @@
 		fitBounds = false,
 		persistPosition = false,
 		heightClass = 'h-full min-h-[500px]'
-	} = $props<{
-		places: Place[];
-		center?: [number, number];
-		zoom?: number;
-		fitBounds?: boolean;
-		persistPosition?: boolean;
-		heightClass?: string;
-	}>();
+	}: Props = $props();
 
 	let mapElement: HTMLElement;
 	let map: L.Map | undefined;
@@ -45,7 +47,7 @@
 				}
 			}
 		}
-		return { center, zoom };
+		return { center: center as [number, number], zoom };
 	}
 
 	function savePosition() {

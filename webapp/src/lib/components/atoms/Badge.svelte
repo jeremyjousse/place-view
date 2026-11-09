@@ -3,15 +3,13 @@
 
 	type Variant = 'primary' | 'secondary' | 'outline';
 
-	let {
-		variant = 'primary',
-		children,
-		class: className = ''
-	} = $props<{
+	interface Props {
 		variant?: Variant;
 		children?: Snippet;
 		class?: string;
-	}>();
+	}
+
+	let { variant = 'primary', children, class: className = '' }: Props = $props();
 
 	const baseStyles =
 		'inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider border transition-colors';

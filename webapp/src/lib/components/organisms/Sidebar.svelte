@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { LayoutList, Map as MapIcon } from 'lucide-svelte';
 	import Button from '../atoms/Button.svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
-	let currentPath = $derived($page.url.pathname);
+	let currentPath = $derived(page.url.pathname);
 	let isMap = $derived(currentPath === '/map');
 </script>
 

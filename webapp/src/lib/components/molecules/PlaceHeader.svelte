@@ -1,12 +1,14 @@
 <script lang="ts">
 	import { MapPin, ExternalLink } from 'lucide-svelte';
-	import Badge from '$lib/components/atoms/Badge.svelte';
-	import type { Place } from '$lib/common/domain/Place';
+	import Badge from '#lib/components/atoms/Badge.svelte';
+	import type { Place } from '#lib/common/domain/Place';
 
-	let { place, hasActiveWebcam } = $props<{
+	interface Props {
 		place: Place;
 		hasActiveWebcam: boolean;
-	}>();
+	}
+
+	let { place, hasActiveWebcam }: Props = $props();
 </script>
 
 <section class="space-y-4">

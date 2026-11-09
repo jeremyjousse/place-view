@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { PlaceService } from './PlaceService';
-import type { Place } from '$lib/common/domain/Place';
+import type { Place } from '#lib/common/domain/Place';
 
 const mockPlaces: Place[] = [
 	{

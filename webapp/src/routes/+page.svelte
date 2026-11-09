@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import PlaceCard from '$lib/components/molecules/PlaceCard.svelte';
-	import { uiStore } from '$lib/stores/ui.svelte';
-	import { searchStore } from '$lib/stores/search.svelte';
-	import { favoritesStore } from '$lib/stores/favorites.svelte';
-	import { placeService } from '$lib/services/PlaceService';
-	import type { Place } from '$lib/common/domain/Place';
+	import PlaceCard from '#lib/components/molecules/PlaceCard.svelte';
+	import { uiStore } from '#lib/stores/ui.svelte';
+	import { searchStore } from '#lib/stores/search.svelte';
+	import { favoritesStore } from '#lib/stores/favorites.svelte';
+	import { placeService } from '#lib/services/PlaceService';
+	import type { Place } from '#lib/common/domain/Place';
 
 	let { data }: { data: { places: Place[] } } = $props();
 
