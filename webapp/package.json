@@ -2,6 +2,7 @@
 	"name": "webapp",
 	"private": true,
 	"version": "0.0.1",
+	"packageManager": "pnpm@12.18.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
