@@ -17,5 +17,12 @@ coverage/
 # Misc
 .idea/
 
-# Webapp places data
-webapp/static/places.json*.xcuserstate
+# Rust / Tauri
+target/
+**/src-tauri/target/
+**/src-tauri/gen/apple/Pods/
+**/src-tauri/gen/apple/build/
+*.xcuserstate
+
+# Worktrees
+.worktrees/

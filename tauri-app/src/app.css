@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+@source '../../packages/ui';
+@plugin '@tailwindcss/forms';
+
+@theme {
+	--color-background: #0f1115;
+	--color-surface: #1a1d23;
+	--color-primary: #c5ff29;
+	--color-primary-hover: #d4ff00;
+	--color-primary-text: #000000;
+	--color-accent: #c5ff29;
+	--color-text: #ffffff;
+	--color-text-muted: #8e9aaf;
+	--color-border: #2a2d35;
+
+	--font-sans: 'SF Pro', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+	--radius-3xl: 24px;
+	--radius-2xl: 20px;
+}
+
+@layer base {
+	body {
+		@apply bg-background text-text font-sans antialiased;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+
+	::selection {
+		background-color: var(--color-primary);
+		color: var(--color-primary-text);
+	}
+}
+
+@layer components {
+	.card-flat {
+		@apply border-border bg-surface rounded-3xl border transition-all duration-300;
+	}
+
+	.card-hover {
+		@apply hover:border-primary/50 hover:shadow-primary/5 hover:shadow-2xl;
+	}
+
+	.btn-primary {
+		@apply text-primary-text bg-primary rounded-2xl px-6 py-3 font-bold transition-all active:scale-95;
+	}
+}
+
+/* Custom Scrollbar - Minimalist */
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-border hover:bg-text-muted/50 rounded-full transition-colors;
+}

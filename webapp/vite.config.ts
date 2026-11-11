@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitest/config';
+import { searchForWorkspaceRoot } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import adapterStatic from '@sveltejs/adapter-static';
@@ -20,6 +21,16 @@ export default defineConfig({
 						})
 		})
 	],
+
+	server: {
+		fs: {
+			allow: [searchForWorkspaceRoot(process.cwd())]
+		}
+	},
+
+	ssr: {
+		noExternal: ['@place-view/core', '@place-view/ui']
+	},
 
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']

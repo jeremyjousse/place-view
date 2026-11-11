@@ -1,15 +1,16 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
-	import MapView from '#lib/components/organisms/MapView.svelte';
-	import { favoritesStore } from '#lib/stores/favorites.svelte';
-	import type { Place } from '#lib/common/domain/Place';
+	import { MapView } from '@place-view/ui';
 	import {
+		favoritesStore,
+		type Place,
 		mapPositionFromUrl,
 		positionParameters,
 		withParameters,
+		viewHref,
 		type MapPosition
-	} from '#lib/url-state';
+	} from '@place-view/core';
 
 	let { data }: { data: { places: Place[] } } = $props();
 
@@ -64,5 +65,6 @@
 		persistPosition={!targetPlaceId}
 		position={mapPosition}
 		onPositionChange={updatePosition}
+		getPlaceHref={(p) => viewHref(page.url, `/place/${encodeURIComponent(p.id)}/`)}
 	/>
 </div>

@@ -1,10 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import PlaceCard from '#lib/components/molecules/PlaceCard.svelte';
+	import { PlaceCard } from '@place-view/ui';
 	import { page } from '$app/state';
-	import { favoritesStore } from '#lib/stores/favorites.svelte';
-	import { placeService } from '#lib/services/PlaceService';
-	import type { Place } from '#lib/common/domain/Place';
+	import { favoritesStore, placeService, type Place, viewHref } from '@place-view/core';
 
 	let { data }: { data: { places: Place[] } } = $props();
 
@@ -83,6 +81,7 @@
 	{#each filteredPlaces as place (place.id)}
 		<PlaceCard
 			{place}
+			href={viewHref(page.url, `/place/${encodeURIComponent(place.id)}/`)}
 			isFavorite={favoritesStore.isFavorite(place.id)}
 			onToggleFavorite={() => favoritesStore.toggle(place.id)}
 		/>

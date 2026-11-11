@@ -1,0 +1,209 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import type L from 'leaflet';
+	import 'leaflet/dist/leaflet.css';
+	import type { Place, MapPosition } from '@place-view/core';
+
+	interface Props {
+		places: Place[];
+		center?: [number, number];
+		zoom?: number;
+		fitBounds?: boolean;
+		persistPosition?: boolean;
+		heightClass?: string;
+		position?: MapPosition;
+		onPositionChange?: (position: MapPosition) => void;
+		getPlaceHref?: (place: Place) => string;
+		onSelectPlace?: (place: Place) => void;
+	}
+
+	let {
+		places = [],
+		center = [46.2276, 2.2137],
+		zoom = 6,
+		fitBounds = false,
+		persistPosition = false,
+		heightClass = 'h-full min-h-[500px]',
+		position,
+		onPositionChange,
+		getPlaceHref = (place: Place) => `/place/${encodeURIComponent(place.id)}/`,
+		onSelectPlace
+	}: Props = $props();
+
+	let mapElement: HTMLElement;
+	let map = $state.raw<L.Map>();
+	let markerGroup: L.LayerGroup | undefined;
+	let Leaflet: typeof L;
+
+	const STORAGE_KEY_LAT = 'mapCenterLat';
+	const STORAGE_KEY_LON = 'mapCenterLon';
+	const STORAGE_KEY_ZOOM = 'mapZoom';
+	const isBrowser = typeof window !== 'undefined';
+
+	function getInitialCoordinates(): { center: [number, number]; zoom: number } {
+		if (position) {
+			return { center: [position.latitude, position.longitude], zoom: position.zoom };
+		}
+		if (persistPosition && isBrowser && typeof localStorage !== 'undefined') {
+			const savedLat = localStorage.getItem(STORAGE_KEY_LAT);
+			const savedLon = localStorage.getItem(STORAGE_KEY_LON);
+			const savedZoom = localStorage.getItem(STORAGE_KEY_ZOOM);
+
+			if (savedLat && savedLon && savedZoom) {
+				const lat = parseFloat(savedLat);
+				const lon = parseFloat(savedLon);
+				const z = parseInt(savedZoom, 10);
+				if (!isNaN(lat) && !isNaN(lon) && !isNaN(z)) {
+					return { center: [lat, lon], zoom: z };
+				}
+			}
+		}
+		return { center, zoom };
+	}
+
+	function savePosition() {
+		if (!map || !isBrowser) return;
+		const currentCenter = map.getCenter();
+		const currentZoom = map.getZoom();
+
+		if (persistPosition && typeof localStorage !== 'undefined') {
+			localStorage.setItem(STORAGE_KEY_LAT, currentCenter.lat.toString());
+			localStorage.setItem(STORAGE_KEY_LON, currentCenter.lng.toString());
+			localStorage.setItem(STORAGE_KEY_ZOOM, currentZoom.toString());
+		}
+		onPositionChange?.({
+			latitude: currentCenter.lat,
+			longitude: currentCenter.lng,
+			zoom: currentZoom
+		});
+	}
+
+	onMount(() => {
+		let cancelled = false;
+
+		async function initialize() {
+			Leaflet = (await import('leaflet')).default;
+			if (cancelled) return;
+
+			// @ts-expect-error Leaflet icon prototype override
+			delete Leaflet.Icon.Default.prototype._getIconUrl;
+			Leaflet.Icon.Default.mergeOptions({
+				iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+				iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+				shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
+			});
+
+			const initial = getInitialCoordinates();
+			map = Leaflet.map(mapElement).setView(initial.center, initial.zoom);
+
+			Leaflet.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution:
+					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+				maxZoom: 19
+			}).addTo(map);
+
+			markerGroup = Leaflet.layerGroup().addTo(map);
+			updateMarkers();
+			map.on('moveend', savePosition);
+			savePosition();
+		}
+
+		void initialize().catch((error) => console.error('Failed to initialize map:', error));
+
+		return () => {
+			cancelled = true;
+			map?.off('moveend', savePosition);
+			map?.remove();
+		};
+	});
+
+	$effect(() => {
+		const currentPlaces = places;
+		if (map && markerGroup && Leaflet && currentPlaces) {
+			updateMarkers();
+		}
+	});
+
+	$effect(() => {
+		const currentMap = map;
+		const target = position;
+		if (!currentMap || !target) return;
+		const current = currentMap.getCenter();
+		if (
+			Math.abs(current.lat - target.latitude) > 0.00001 ||
+			Math.abs(current.lng - target.longitude) > 0.00001 ||
+			currentMap.getZoom() !== target.zoom
+		) {
+			currentMap.off('moveend', savePosition);
+			currentMap.setView([target.latitude, target.longitude], target.zoom, { animate: false });
+			currentMap.on('moveend', savePosition);
+		}
+	});
+
+	function updateMarkers() {
+		if (!Leaflet || !markerGroup || !map) return;
+
+		markerGroup.clearLayers();
+		const bounds = Leaflet.latLngBounds([]);
+
+		places.forEach((place: Place) => {
+			if (place.coordinates?.latitude && place.coordinates?.longitude) {
+				const popup = document.createElement('div');
+				const name = document.createElement('div');
+				name.className = 'font-bold text-sm';
+				name.textContent = place.name;
+				const location = document.createElement('div');
+				location.className = 'text-xs text-neutral-400 mb-2';
+				location.textContent = [place.state, place.country].filter(Boolean).join(' • ');
+				const link = document.createElement('a');
+				link.href = getPlaceHref(place);
+				link.className =
+					'inline-block bg-primary text-black font-black px-3 py-1.5 rounded-lg text-xs uppercase tracking-wider hover:opacity-90';
+				link.textContent = 'View Place';
+				if (onSelectPlace) {
+					link.onclick = (e) => {
+						e.preventDefault();
+						onSelectPlace(place);
+					};
+				}
+				popup.append(name, location, link);
+				const marker = Leaflet.marker([
+					place.coordinates.latitude,
+					place.coordinates.longitude
+				]).bindPopup(popup);
+				markerGroup?.addLayer(marker);
+				bounds.extend([place.coordinates.latitude, place.coordinates.longitude]);
+			}
+		});
+
+		// Auto center if only 1 place
+		if (!position && places.length === 1 && places[0].coordinates?.latitude) {
+			map.setView([places[0].coordinates.latitude, places[0].coordinates.longitude], 12);
+		} else if (fitBounds && places.length > 1 && bounds.isValid()) {
+			map.fitBounds(bounds, { padding: [50, 50] });
+		}
+	}
+</script>
+
+<div
+	bind:this={mapElement}
+	class="border-border relative isolate z-0 w-full overflow-hidden rounded-3xl border shadow-2xl {heightClass}"
+></div>
+
+<style>
+	:global(.leaflet-popup-content-wrapper) {
+		background: #1a1d23;
+		color: white;
+		border: 1px solid #2a2d35;
+		border-radius: 1rem;
+		padding: 0.5rem;
+		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+	}
+	:global(.leaflet-popup-tip) {
+		background: #1a1d23;
+	}
+	:global(.leaflet-popup-content) {
+		margin: 8px 12px;
+		line-height: 1.4;
+	}
+</style>

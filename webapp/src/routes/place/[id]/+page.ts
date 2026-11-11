@@ -1,6 +1,6 @@
 import type { PageLoad } from './$types';
 import { error } from '@sveltejs/kit';
-import { placeService } from '#lib/services/PlaceService';
+import { placeService } from '@place-view/core';
 
 export const load: PageLoad = async ({ params }) => {
 	const { id } = params;
