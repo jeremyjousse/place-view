@@ -1,0 +1,28 @@
+{
+	"name": "@place-view/core",
+	"version": "0.0.1",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./src/index.ts",
+			"default": "./src/index.ts"
+		}
+	},
+	"scripts": {
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"test": "vitest run",
+		"build": "true",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"devDependencies": {
+		"prettier": "^3.9.10",
+		"prettier-plugin-svelte": "^4.1.1",
+		"prettier-plugin-tailwindcss": "^0.8.1",
+		"svelte": "^5.57.3",
+		"svelte-check": "4.7.8",
+		"typescript": "^6.0.3",
+		"vitest": "^5.1.0"
+	}
+}

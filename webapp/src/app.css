@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import 'tailwindcss';
+@source '../../packages/ui';
 @plugin '@tailwindcss/forms';
 
 @theme {
@@ -13,7 +14,7 @@
 	--color-text-muted: #8e9aaf;
 	--color-border: #2a2d35;
 
-	--font-sans: 'SF Pro', 'Inter', sans-serif;
+	--font-sans: 'SF Pro', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 
 	--radius-3xl: 24px;
 	--radius-2xl: 20px;

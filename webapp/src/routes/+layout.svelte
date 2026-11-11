@@ -1,11 +1,9 @@
 <script lang="ts">
 	import '../app.css';
-	import Sidebar from '#lib/components/organisms/Sidebar.svelte';
-	import Header from '#lib/components/organisms/Header.svelte';
-	import BottomNavBar from '#lib/components/organisms/BottomNavBar.svelte';
+	import { Sidebar, Header, BottomNavBar } from '@place-view/ui';
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
-	import { withParameters } from '#lib/url-state';
+	import { withParameters } from '@place-view/core';
 
 	let { children } = $props();
 

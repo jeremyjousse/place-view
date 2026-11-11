@@ -1,0 +1,4 @@
+static/places.json
+src-tauri/
+build/
+.svelte-kit/

@@ -1,0 +1,26 @@
+[tools]
+node = "lts"
+
+[tasks.check]
+description = "Check Svelte and TypeScript"
+run = "pnpm run check"
+
+[tasks.lint]
+description = "Lint the app"
+run = "pnpm run lint"
+
+[tasks."format:check"]
+description = "Check app formatting"
+run = "pnpm run format:check"
+
+[tasks.format]
+description = "Format the app"
+run = "pnpm run format"
+
+[tasks.test]
+description = "Run unit tests"
+run = "pnpm test"
+
+[tasks.build]
+description = "Build the app"
+run = "pnpm run build"

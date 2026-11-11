@@ -1,13 +1,15 @@
 <script lang="ts">
 	import { Heart, Share2, ArrowLeft, Check } from 'lucide-svelte';
-	import { favoritesStore } from '#lib/stores/favorites.svelte';
-	import type { Place } from '#lib/common/domain/Place';
-	import WebcamGallery from '#lib/components/organisms/WebcamGallery.svelte';
-	import PlaceDetailsCard from '#lib/components/molecules/PlaceDetailsCard.svelte';
-	import PlaceHeader from '#lib/components/molecules/PlaceHeader.svelte';
-	import MapView from '#lib/components/organisms/MapView.svelte';
+	import {
+		favoritesStore,
+		type Place,
+		viewHref,
+		withParameters,
+		webcamIndexFromUrl
+	} from '@place-view/core';
+	import { WebcamGallery, PlaceDetailsCard, PlaceHeader, MapView } from '@place-view/ui';
 	import { page } from '$app/state';
-	import { viewHref } from '#lib/url-state';
+	import { goto } from '$app/navigation';
 
 	let { data }: { data: { place: Place } } = $props();
 	const place = $derived(data.place);
@@ -15,6 +17,16 @@
 	let copied = $state(false);
 
 	const hasActiveWebcam = $derived(place.webcams.some((w) => w.isActive));
+	let urlWebcamIndex = $derived(webcamIndexFromUrl(page.url, place.webcams));
+
+	function updateWebcamUrl(index: number | null) {
+		const targetParam = index !== null ? (index + 1).toString() : null;
+		if (page.url.searchParams.get('webcam') === targetParam) return;
+		const url = withParameters(page.url, { webcam: targetParam });
+		void goto(url, { replace: true, reset: false }).catch((err) =>
+			console.error('Failed to update webcam URL:', err)
+		);
+	}
 
 	function toggleFavorite() {
 		favoritesStore.toggle(place.id);
@@ -84,12 +96,26 @@
 		<!-- Left Column: Media & Gallery -->
 		<div class="space-y-8 lg:col-span-2">
 			<PlaceHeader {place} {hasActiveWebcam} />
-			<WebcamGallery webcams={place.webcams} placeName={place.name} />
+			<WebcamGallery
+				webcams={place.webcams}
+				placeName={place.name}
+				activeWebcamIndex={urlWebcamIndex}
+				onWebcamChange={updateWebcamUrl}
+			/>
 		</div>
 
 		<!-- Right Column: Info & Actions & Map -->
 		<div class="space-y-8">
-			<PlaceDetailsCard {place} />
+			<PlaceDetailsCard
+				{place}
+				mapHref={viewHref(page.url, '/map/', {
+					place: place.id,
+					lat: null,
+					lon: null,
+					zoom: null,
+					webcam: null
+				})}
+			/>
 
 			{#if place.description}
 				<div class="bg-surface/50 border-border space-y-4 rounded-3xl border p-8">

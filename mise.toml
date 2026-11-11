@@ -1,1 +1,54 @@
 monorepo_root = true
+
+[monorepo]
+config_roots = ["webapp", "tauri-app"]
+
+[tools]
+node = "lts"
+
+[tasks.dev]
+description = "Start webapp development server (default dev runner)"
+run = "pnpm --filter webapp dev"
+
+[tasks."dev:web"]
+description = "Start webapp development server"
+run = "pnpm --filter webapp dev"
+
+[tasks."dev:desktop"]
+description = "Start Tauri desktop app in development mode"
+run = "pnpm --filter tauri-app tauri dev"
+
+[tasks."dev:ios"]
+description = "Start Tauri iOS app in development mode"
+run = "pnpm --filter tauri-app tauri ios dev"
+
+[tasks.check]
+description = "Check Svelte, TypeScript, and Rust across workspace"
+run = """
+pnpm -r --filter '!./admin-tools' run check
+cargo check --manifest-path tauri-app/src-tauri/Cargo.toml
+"""
+
+[tasks.lint]
+description = "Lint all workspace packages and apps"
+run = "pnpm -r --filter '!./admin-tools' run lint"
+
+[tasks."format:check"]
+description = "Check formatting across workspace"
+run = "pnpm -r --filter '!./admin-tools' run format:check"
+
+[tasks.format]
+description = "Format all workspace packages and apps"
+run = "pnpm -r --filter '!./admin-tools' run format"
+
+[tasks.test]
+description = "Run unit tests across workspace"
+run = "pnpm -r --filter '!./admin-tools' --filter '!webapp' run test && pnpm --filter webapp run test:unit --run"
+
+[tasks.build]
+description = "Build webapp, shared packages, and tauri app"
+run = "pnpm -r --filter '!./admin-tools' run build"
+
+[tasks.verify]
+description = "Verify entire workspace (check, lint, format:check, test)"
+depends = ["check", "lint", "format:check", "test"]
