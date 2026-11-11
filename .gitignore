@@ -13,6 +13,7 @@ coverage/
 
 # SvelteKit
 .svelte-kit/
+**/static/places.json
 
 # Misc
 .idea/
