@@ -11,15 +11,15 @@ run = "pnpm run check"
 
 [tasks.lint]
 description = "Lint the web app"
-run = "pnpm exec eslint ."
+run = "pnpm run lint"
 
 [tasks."format:check"]
 description = "Check web app formatting"
-run = "pnpm exec prettier --check ."
+run = "pnpm run format:check"
 
 [tasks.format]
 description = "Format the web app"
-run = "pnpm exec prettier --write ."
+run = "pnpm run format"
 
 [tasks.test]
 description = "Run unit and browser tests"

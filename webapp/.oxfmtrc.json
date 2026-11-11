@@ -1,0 +1,16 @@
+{
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 100,
+	"sortPackageJson": false,
+	"sortTailwindcss": {},
+	"svelte": {},
+	"associations": [
+		{
+			"files": ["*.svelte"],
+			"language": "svelte"
+		}
+	],
+	"ignorePatterns": ["package-lock.json", "pnpm-lock.yaml", "yarn.lock", "static/places.json"]
+}
