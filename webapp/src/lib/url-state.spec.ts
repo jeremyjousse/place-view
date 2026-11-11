@@ -106,6 +106,7 @@ describe('URL state', () => {
 		it('slugifies names with accents and special characters', () => {
 			expect(slugify("Télécabine de l'Essert")).toBe('telecabine-de-l-essert');
 			expect(slugify('Crêt-Béni')).toBe('cret-beni');
+			expect(slugify('---leading-and-trailing---')).toBe('leading-and-trailing');
 		});
 	});
 });
