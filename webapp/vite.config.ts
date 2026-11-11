@@ -14,7 +14,7 @@ export default defineConfig({
 					: adapterStatic({
 							pages: 'build',
 							assets: 'build',
-							fallback: 'index.html',
+							fallback: '404.html',
 							precompress: false,
 							strict: true
 						})

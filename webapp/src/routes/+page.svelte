@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import PlaceCard from '#lib/components/molecules/PlaceCard.svelte';
-	import { uiStore } from '#lib/stores/ui.svelte';
-	import { searchStore } from '#lib/stores/search.svelte';
+	import { page } from '$app/state';
 	import { favoritesStore } from '#lib/stores/favorites.svelte';
 	import { placeService } from '#lib/services/PlaceService';
 	import type { Place } from '#lib/common/domain/Place';
@@ -13,13 +12,15 @@
 	let offset = $state(0);
 	let hasMore = $state(true);
 	let isLoading = $state(false);
+	let query = $derived(page.url.searchParams.get('q') ?? '');
+	let showFavoritesOnly = $derived(page.url.searchParams.get('favorites') === '1');
 
 	let filteredPlaces = $derived(
-		uiStore.showFavoritesOnly ? places.filter((p) => favoritesStore.isFavorite(p.id)) : places
+		showFavoritesOnly ? places.filter((p) => favoritesStore.isFavorite(p.id)) : places
 	);
 
 	async function loadMore() {
-		if (isLoading || !hasMore || searchStore.query) return;
+		if (isLoading || !hasMore || query) return;
 		isLoading = true;
 
 		try {
@@ -35,12 +36,12 @@
 	}
 
 	$effect(() => {
-		const query = searchStore.query;
+		const currentQuery = query;
 		const initialPlaces = data.places;
 
-		if (query) {
+		if (currentQuery) {
 			placeService
-				.search(query, 100, 0)
+				.search(currentQuery, 100, 0)
 				.then((result) => {
 					places = result.places;
 					hasMore = false;
@@ -88,7 +89,7 @@
 	{/each}
 </div>
 
-{#if hasMore && !searchStore.query}
+{#if hasMore && !query}
 	<div bind:this={loaderElement} class="flex h-20 items-center justify-center">
 		<div
 			class="border-primary h-8 w-8 animate-spin rounded-full border-4 border-t-transparent"

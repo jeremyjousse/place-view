@@ -2,9 +2,10 @@
 	import { LayoutList, Map as MapIcon } from 'lucide-svelte';
 	import Button from '../atoms/Button.svelte';
 	import { page } from '$app/state';
+	import { viewHref } from '#lib/url-state';
 
 	let currentPath = $derived(page.url.pathname);
-	let isMap = $derived(currentPath === '/map');
+	let isMap = $derived(currentPath === '/map/');
 </script>
 
 <aside
@@ -13,7 +14,7 @@
 	<div class="mb-12">
 		<!-- Mini Logo Placeholder -->
 		<div class="bg-primary flex h-10 w-10 items-center justify-center rounded-xl">
-			<a href="/" aria-label="Home">
+			<a href={viewHref(page.url, '/', { place: null })} aria-label="Home">
 				<div
 					class="border-primary-text h-5 w-5 translate-x-0.5 translate-y-0.5 rotate-45 transform border-t-2 border-l-2"
 				></div>
@@ -25,8 +26,9 @@
 		<Button
 			variant="ghost"
 			size="icon"
-			href="/"
+			href={viewHref(page.url, '/', { place: null })}
 			class="group relative {!isMap ? 'text-primary' : ''}"
+			aria-label="Places"
 		>
 			<LayoutList size={24} />
 			{#if !isMap}
@@ -39,8 +41,9 @@
 		<Button
 			variant="ghost"
 			size="icon"
-			href="/map"
+			href={viewHref(page.url, '/map/', { place: null })}
 			class="group relative {isMap ? 'text-primary' : ''}"
+			aria-label="Map"
 		>
 			<MapIcon size={24} />
 			{#if isMap}
