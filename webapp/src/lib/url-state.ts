@@ -56,3 +56,41 @@ export function positionParameters(position: MapPosition): Record<string, string
 		zoom: position.zoom.toString()
 	};
 }
+
+export function slugify(text: string): string {
+	return text
+		.toLowerCase()
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-+/, '')
+		.replace(/-+$/, '');
+}
+
+export function webcamIndexFromUrl(
+	url: { searchParams: Pick<URLSearchParams, 'get'> },
+	webcams: { name: string }[]
+): number | undefined {
+	const raw = url.searchParams.get('webcam');
+	if (raw === null || raw.trim() === '') return undefined;
+
+	const num = Number(raw);
+	if (Number.isInteger(num) && num >= 1 && num <= webcams.length) {
+		return num - 1;
+	}
+
+	const normalized = raw.trim().toLowerCase();
+	const index = webcams.findIndex((w) => {
+		const name = w.name.toLowerCase();
+		return name === normalized || slugify(w.name) === normalized;
+	});
+
+	return index >= 0 ? index : undefined;
+}
+
+export function webcamParameter(index: number | null | undefined): Record<string, string | null> {
+	if (index === null || index === undefined || index < 0) {
+		return { webcam: null };
+	}
+	return { webcam: (index + 1).toString() };
+}

@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 	import { browser } from '$app/env';
-	import { X, Maximize2, Minimize2 } from 'lucide-svelte';
+	import { page } from '$app/state';
+	import { goto } from '$app/navigation';
+	import { X, Maximize2, Minimize2, Share2, Check } from 'lucide-svelte';
 	import type { Webcam } from '#lib/common/domain/Webcam';
+	import { webcamIndexFromUrl, withParameters } from '#lib/url-state';
 
 	let {
 		webcams,
@@ -14,6 +17,7 @@
 
 	const STORAGE_KEY_FULLSCREEN_MODE = 'webcamFullscreenMode';
 
+	let urlWebcamIndex = $derived(webcamIndexFromUrl(page.url, webcams));
 	let selectedWebcamIndex = $state(0);
 	const selectedWebcam = $derived(webcams[selectedWebcamIndex]);
 	let isImageLoading = $state(true);
@@ -22,6 +26,16 @@
 	let scrollContainer: HTMLDivElement | undefined = $state();
 	let modalScrollContainer: HTMLDivElement | undefined = $state();
 	let dialogElement: HTMLDialogElement | undefined = $state();
+	let copied = $state(false);
+
+	function updateWebcamUrl(index: number | null, replace = false) {
+		const targetParam = index !== null ? (index + 1).toString() : null;
+		if (page.url.searchParams.get('webcam') === targetParam) return;
+		const url = withParameters(page.url, { webcam: targetParam });
+		void goto(url, { replace, reset: false }).catch((err) =>
+			console.error('Failed to update webcam URL:', err)
+		);
+	}
 
 	function toggleFullscreenMode() {
 		isPanoramaScroll = !isPanoramaScroll;
@@ -34,26 +48,24 @@
 	}
 
 	function openFullscreen() {
-		if (selectedWebcam?.largeImage && dialogElement) {
-			isFullscreen = true;
-			dialogElement.showModal();
-			if (isPanoramaScroll) {
-				setTimeout(centerModalScroll, 50);
-			}
+		if (selectedWebcam?.largeImage) {
+			updateWebcamUrl(selectedWebcamIndex, false);
 		}
 	}
 
 	function closeFullscreen() {
-		isFullscreen = false;
+		updateWebcamUrl(null, true);
 		if (dialogElement?.open) {
 			dialogElement.close();
 		}
+		isFullscreen = false;
 	}
 
 	function nextWebcam() {
 		if (webcams.length > 1) {
-			selectedWebcamIndex = (selectedWebcamIndex + 1) % webcams.length;
+			const nextIndex = (selectedWebcamIndex + 1) % webcams.length;
 			isImageLoading = true;
+			updateWebcamUrl(nextIndex, true);
 			if (isPanoramaScroll) {
 				setTimeout(centerModalScroll, 50);
 			}
@@ -62,11 +74,35 @@
 
 	function prevWebcam() {
 		if (webcams.length > 1) {
-			selectedWebcamIndex = (selectedWebcamIndex - 1 + webcams.length) % webcams.length;
+			const prevIndex = (selectedWebcamIndex - 1 + webcams.length) % webcams.length;
 			isImageLoading = true;
+			updateWebcamUrl(prevIndex, true);
 			if (isPanoramaScroll) {
 				setTimeout(centerModalScroll, 50);
 			}
+		}
+	}
+
+	async function handleShare() {
+		if (typeof navigator !== 'undefined' && navigator.share) {
+			try {
+				await navigator.share({
+					title: `${selectedWebcam?.name ?? 'Webcam'} - ${placeName}`,
+					text: `Check out live webcam for ${selectedWebcam?.name ?? placeName}`,
+					url: window.location.href
+				});
+				return;
+			} catch {
+				// User cancelled or share failed, fallback to clipboard
+			}
+		}
+
+		if (typeof navigator !== 'undefined' && navigator.clipboard) {
+			await navigator.clipboard.writeText(window.location.href);
+			copied = true;
+			setTimeout(() => {
+				copied = false;
+			}, 2000);
 		}
 	}
 
@@ -88,6 +124,32 @@
 			prevWebcam();
 		}
 	}
+
+	$effect(() => {
+		const targetIndex = urlWebcamIndex;
+		if (targetIndex !== undefined) {
+			if (selectedWebcamIndex !== targetIndex) {
+				selectedWebcamIndex = targetIndex;
+				isImageLoading = true;
+			}
+			if (dialogElement && webcams[targetIndex]?.largeImage) {
+				isFullscreen = true;
+				if (!dialogElement.open) {
+					dialogElement.showModal();
+				}
+				if (isPanoramaScroll) {
+					setTimeout(centerModalScroll, 50);
+				}
+			}
+		} else {
+			if (isFullscreen && dialogElement) {
+				isFullscreen = false;
+				if (dialogElement.open) {
+					dialogElement.close();
+				}
+			}
+		}
+	});
 
 	onMount(() => {
 		if (browser) {
@@ -111,6 +173,7 @@
 	onclick={openFullscreen}
 	role="button"
 	tabindex="0"
+	aria-label="View webcam fullscreen"
 	onkeydown={(e) => {
 		if (e.key === 'Enter' || e.key === ' ') {
 			e.preventDefault();
@@ -225,7 +288,7 @@
 				{/if}
 			</div>
 
-			<!-- 2. Bouton Fit screen & 3. Croix de fermeture -->
+			<!-- 2. Bouton Fit screen & 3. Share & 4. Croix de fermeture -->
 			<div class="pointer-events-auto flex items-center gap-3">
 				<!-- Fit Screen toggle -->
 				<button
@@ -245,15 +308,32 @@
 					{/if}
 				</button>
 
-				<!-- Croix de fermeture -->
+				<!-- Share webcam button -->
+				<button
+					onclick={(e) => {
+						e.stopPropagation();
+						void handleShare();
+					}}
+					class="cursor-pointer rounded-full border border-white/10 bg-black/60 p-2.5 text-white shadow-2xl backdrop-blur-md transition-all hover:border-white/20 hover:bg-black/80 active:scale-95"
+					aria-label="Share webcam"
+					title="Share webcam"
+				>
+					{#if copied}
+						<Check size={20} class="text-primary" />
+					{:else}
+						<Share2 size={20} />
+					{/if}
+				</button>
+
+				<!-- Close button -->
 				<button
 					onclick={(e) => {
 						e.stopPropagation();
 						closeFullscreen();
 					}}
 					class="cursor-pointer rounded-full border border-white/10 bg-black/60 p-2.5 text-white shadow-2xl backdrop-blur-md transition-all hover:border-white/20 hover:bg-black/80 active:scale-95"
-					aria-label="Fermer"
-					title="Fermer (Esc ou clic sur l'image)"
+					aria-label="Close fullscreen"
+					title="Close (Esc or click on image)"
 				>
 					<X size={20} />
 				</button>

@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { mapPositionFromUrl, positionParameters, viewHref, withParameters } from './url-state';
+import {
+	mapPositionFromUrl,
+	positionParameters,
+	slugify,
+	viewHref,
+	webcamIndexFromUrl,
+	webcamParameter,
+	withParameters
+} from './url-state';
 
 describe('URL state', () => {
 	it('reads a valid map position', () => {
@@ -31,6 +39,74 @@ describe('URL state', () => {
 			lat: '45.12346',
 			lon: '-179.00000',
 			zoom: '9'
+		});
+	});
+
+	describe('webcam URL state', () => {
+		const sampleWebcams = [
+			{ name: "Télécabine de l'Essert" },
+			{ name: 'TSD Crêt-Béni' },
+			{ name: 'Sommet' }
+		];
+
+		it('parses valid 1-based index', () => {
+			expect(
+				webcamIndexFromUrl(new URL('https://example.test/place/abondance/?webcam=1'), sampleWebcams)
+			).toBe(0);
+			expect(
+				webcamIndexFromUrl(new URL('https://example.test/place/abondance/?webcam=2'), sampleWebcams)
+			).toBe(1);
+			expect(
+				webcamIndexFromUrl(new URL('https://example.test/place/abondance/?webcam=3'), sampleWebcams)
+			).toBe(2);
+		});
+
+		it('parses slugified name or case-insensitive name', () => {
+			expect(
+				webcamIndexFromUrl(
+					new URL('https://example.test/place/abondance/?webcam=telecabine-de-l-essert'),
+					sampleWebcams
+				)
+			).toBe(0);
+			expect(
+				webcamIndexFromUrl(
+					new URL('https://example.test/place/abondance/?webcam=tsd-cret-beni'),
+					sampleWebcams
+				)
+			).toBe(1);
+			expect(
+				webcamIndexFromUrl(
+					new URL('https://example.test/place/abondance/?webcam=sommet'),
+					sampleWebcams
+				)
+			).toBe(2);
+		});
+
+		it.each([
+			'webcam=0',
+			'webcam=4',
+			'webcam=-1',
+			'webcam=1.5',
+			'webcam=NaN',
+			'webcam=',
+			'webcam=unknown-webcam'
+		])('rejects invalid webcam identifier: %s', (query) => {
+			expect(
+				webcamIndexFromUrl(new URL(`https://example.test/place/abondance/?${query}`), sampleWebcams)
+			).toBeUndefined();
+		});
+
+		it('generates webcam parameters', () => {
+			expect(webcamParameter(0)).toEqual({ webcam: '1' });
+			expect(webcamParameter(2)).toEqual({ webcam: '3' });
+			expect(webcamParameter(null)).toEqual({ webcam: null });
+			expect(webcamParameter(undefined)).toEqual({ webcam: null });
+		});
+
+		it('slugifies names with accents and special characters', () => {
+			expect(slugify("Télécabine de l'Essert")).toBe('telecabine-de-l-essert');
+			expect(slugify('Crêt-Béni')).toBe('cret-beni');
+			expect(slugify('---leading-and-trailing---')).toBe('leading-and-trailing');
 		});
 	});
 });
