@@ -42,7 +42,13 @@
 		variant="primary"
 		size="lg"
 		class="mt-4 w-full"
-		href={viewHref(page.url, '/map/', { place: place.id, lat: null, lon: null, zoom: null })}
+		href={viewHref(page.url, '/map/', {
+			place: place.id,
+			lat: null,
+			lon: null,
+			zoom: null,
+			webcam: null
+		})}
 	>
 		OPEN ON MAP
 	</Button>

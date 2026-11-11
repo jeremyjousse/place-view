@@ -29,4 +29,5 @@ The URL stores the current view and place in the path.
 It stores search text in `q` and the favorites-only filter in `favorites=1`.
 It stores the map position in `lat`, `lon`, and `zoom`.
 The map uses `place` to focus on a selected place.
+The place view uses `webcam` to open and share a fullscreen webcam.
 Favorite selections remain in browser storage and are not shared in the URL.

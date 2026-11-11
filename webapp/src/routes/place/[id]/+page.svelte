@@ -47,7 +47,7 @@
 <div class="mx-auto max-w-7xl py-8">
 	<div class="mb-8 flex items-center justify-between">
 		<a
-			href={viewHref(page.url, '/')}
+			href={viewHref(page.url, '/', { webcam: null })}
 			class="text-text-muted hover:text-text flex items-center gap-2 text-xs font-bold tracking-widest uppercase transition-colors"
 		>
 			<ArrowLeft size={16} />

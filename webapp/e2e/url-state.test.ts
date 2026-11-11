@@ -11,7 +11,22 @@ test.beforeEach(async ({ page }) => {
 					state: 'Haute-Savoie',
 					country: 'France',
 					coordinates: { latitude: 45.9237, longitude: 6.8694 },
-					webcams: []
+					webcams: [
+						{
+							name: "Télécabine de l'Essert",
+							largeImage:
+								'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect fill="blue" width="100" height="100"/></svg>',
+							thumbnailImage:
+								'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect fill="blue" width="10" height="10"/></svg>'
+						},
+						{
+							name: 'TSD Crêt-Béni',
+							largeImage:
+								'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect fill="green" width="100" height="100"/></svg>',
+							thumbnailImage:
+								'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect fill="green" width="10" height="10"/></svg>'
+						}
+					]
 				},
 				{
 					id: 'annecy',
@@ -118,6 +133,56 @@ test('shares the selected place and map movements', async ({ page }) => {
 	await page.getByRole('link', { name: 'Map', exact: true }).click();
 	await expect(page).not.toHaveURL(/place=/);
 	await expect(page).toHaveURL(/q=Abondance/);
+});
+
+test('synchronizes fullscreen webcam with URL state and keyboard navigation', async ({ page }) => {
+	await page.goto('/place/abondance/');
+	const preview = page.getByRole('button', { name: 'View webcam fullscreen' });
+	await preview.click();
+
+	await expect(page).toHaveURL(/webcam=1/);
+	const dialog = page.locator('dialog');
+	await expect(dialog).toBeVisible();
+	await expect(dialog.getByRole('heading', { name: "Télécabine de l'Essert" })).toBeVisible();
+
+	await page.keyboard.press('ArrowRight');
+	await expect(page).toHaveURL(/webcam=2/);
+	await expect(dialog.getByRole('heading', { name: 'TSD Crêt-Béni' })).toBeVisible();
+
+	await page.keyboard.press('Escape');
+	await expect(page).not.toHaveURL(/webcam=/);
+	await expect(dialog).not.toBeVisible();
+});
+
+test('restores fullscreen webcam from URL and handles browser history', async ({ page }) => {
+	await page.goto('/place/abondance/?webcam=2');
+	const dialog = page.locator('dialog');
+	await expect(dialog).toBeVisible();
+	await expect(dialog.getByRole('heading', { name: 'TSD Crêt-Béni' })).toBeVisible();
+
+	await page.goBack();
+	await expect(dialog).not.toBeVisible();
+
+	await page.goForward();
+	await expect(dialog).toBeVisible();
+	await expect(dialog.getByRole('heading', { name: 'TSD Crêt-Béni' })).toBeVisible();
+});
+
+test('ignores invalid or out-of-range webcam identifier', async ({ page }) => {
+	await page.goto('/place/abondance/?webcam=99');
+	const dialog = page.locator('dialog');
+	await expect(dialog).not.toBeVisible();
+	await expect(page.getByRole('heading', { name: 'Abondance' })).toBeVisible();
+});
+
+test('closes fullscreen webcam via close button', async ({ page }) => {
+	await page.goto('/place/abondance/?webcam=1');
+	const dialog = page.locator('dialog');
+	await expect(dialog).toBeVisible();
+
+	await dialog.getByRole('button', { name: 'Close fullscreen' }).click();
+	await expect(page).not.toHaveURL(/webcam=/);
+	await expect(dialog).not.toBeVisible();
 });
 
 test('build contains a static page for every place and the map', () => {
