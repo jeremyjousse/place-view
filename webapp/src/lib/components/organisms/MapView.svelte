@@ -1,9 +1,11 @@
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import { browser } from '$app/env';
+	import { page } from '$app/state';
 	import type L from 'leaflet';
 	import 'leaflet/dist/leaflet.css';
 	import type { Place } from '#lib/common/domain/Place';
+	import { viewHref, type MapPosition } from '#lib/url-state';
 
 	interface Props {
 		places: Place[];
@@ -12,6 +14,8 @@
 		fitBounds?: boolean;
 		persistPosition?: boolean;
 		heightClass?: string;
+		position?: MapPosition;
+		onPositionChange?: (position: MapPosition) => void;
 	}
 
 	let {
@@ -20,11 +24,13 @@
 		zoom = 6,
 		fitBounds = false,
 		persistPosition = false,
-		heightClass = 'h-full min-h-[500px]'
+		heightClass = 'h-full min-h-[500px]',
+		position,
+		onPositionChange
 	}: Props = $props();
 
 	let mapElement: HTMLElement;
-	let map: L.Map | undefined;
+	let map = $state.raw<L.Map>();
 	let markerGroup: L.LayerGroup | undefined;
 	let Leaflet: typeof L;
 
@@ -33,6 +39,9 @@
 	const STORAGE_KEY_ZOOM = 'mapZoom';
 
 	function getInitialCoordinates(): { center: [number, number]; zoom: number } {
+		if (position) {
+			return { center: [position.latitude, position.longitude], zoom: position.zoom };
+		}
 		if (persistPosition && browser) {
 			const savedLat = localStorage.getItem(STORAGE_KEY_LAT);
 			const savedLon = localStorage.getItem(STORAGE_KEY_LON);
@@ -47,54 +56,85 @@
 				}
 			}
 		}
-		return { center: center as [number, number], zoom };
+		return { center, zoom };
 	}
 
 	function savePosition() {
-		if (!persistPosition || !map || !browser) return;
+		if (!map || !browser) return;
 		const currentCenter = map.getCenter();
 		const currentZoom = map.getZoom();
 
-		localStorage.setItem(STORAGE_KEY_LAT, currentCenter.lat.toString());
-		localStorage.setItem(STORAGE_KEY_LON, currentCenter.lng.toString());
-		localStorage.setItem(STORAGE_KEY_ZOOM, currentZoom.toString());
+		if (persistPosition) {
+			localStorage.setItem(STORAGE_KEY_LAT, currentCenter.lat.toString());
+			localStorage.setItem(STORAGE_KEY_LON, currentCenter.lng.toString());
+			localStorage.setItem(STORAGE_KEY_ZOOM, currentZoom.toString());
+		}
+		onPositionChange?.({
+			latitude: currentCenter.lat,
+			longitude: currentCenter.lng,
+			zoom: currentZoom
+		});
 	}
 
-	onMount(async () => {
-		if (!browser) return;
+	onMount(() => {
+		let cancelled = false;
 
-		// Dynamically import Leaflet
-		Leaflet = (await import('leaflet')).default;
+		async function initialize() {
+			Leaflet = (await import('leaflet')).default;
+			if (cancelled) return;
 
-		// Fix Leaflet marker icons
-		// @ts-expect-error Leaflet icon prototype override
-		delete Leaflet.Icon.Default.prototype._getIconUrl;
-		Leaflet.Icon.Default.mergeOptions({
-			iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-			iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-			shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
-		});
+			// @ts-expect-error Leaflet icon prototype override
+			delete Leaflet.Icon.Default.prototype._getIconUrl;
+			Leaflet.Icon.Default.mergeOptions({
+				iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+				iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+				shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
+			});
 
-		const initial = getInitialCoordinates();
-		map = Leaflet.map(mapElement).setView(initial.center, initial.zoom);
+			const initial = getInitialCoordinates();
+			map = Leaflet.map(mapElement).setView(initial.center, initial.zoom);
 
-		Leaflet.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			attribution:
-				'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-			maxZoom: 19
-		}).addTo(map);
+			Leaflet.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution:
+					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+				maxZoom: 19
+			}).addTo(map);
 
-		markerGroup = Leaflet.layerGroup().addTo(map);
+			markerGroup = Leaflet.layerGroup().addTo(map);
+			updateMarkers();
+			map.on('moveend', savePosition);
+			savePosition();
+		}
 
-		map.on('moveend', savePosition);
+		void initialize().catch((error) => console.error('Failed to initialize map:', error));
 
-		updateMarkers();
+		return () => {
+			cancelled = true;
+			map?.off('moveend', savePosition);
+			map?.remove();
+		};
 	});
 
 	$effect(() => {
 		const currentPlaces = places;
-		if (markerGroup && Leaflet && currentPlaces) {
+		if (map && markerGroup && Leaflet && currentPlaces) {
 			updateMarkers();
+		}
+	});
+
+	$effect(() => {
+		const currentMap = map;
+		const target = position;
+		if (!currentMap || !target) return;
+		const current = currentMap.getCenter();
+		if (
+			Math.abs(current.lat - target.latitude) > 0.00001 ||
+			Math.abs(current.lng - target.longitude) > 0.00001 ||
+			currentMap.getZoom() !== target.zoom
+		) {
+			currentMap.off('moveend', savePosition);
+			currentMap.setView([target.latitude, target.longitude], target.zoom, { animate: false });
+			currentMap.on('moveend', savePosition);
 		}
 	});
 
@@ -106,31 +146,35 @@
 
 		places.forEach((place: Place) => {
 			if (place.coordinates?.latitude && place.coordinates?.longitude) {
-				const marker = Leaflet.marker([place.coordinates.latitude, place.coordinates.longitude])
-					.bindPopup(`
-					<div class="font-bold text-sm">${place.name}</div>
-					<div class="text-xs text-neutral-400 mb-2">${place.state || ''}${place.country ? ' • ' + place.country : ''}</div>
-					<a href="/place/${place.id}" class="inline-block bg-primary text-black font-black px-3 py-1.5 rounded-lg text-xs uppercase tracking-wider hover:opacity-90">View Place</a>
-				`);
+				const popup = document.createElement('div');
+				const name = document.createElement('div');
+				name.className = 'font-bold text-sm';
+				name.textContent = place.name;
+				const location = document.createElement('div');
+				location.className = 'text-xs text-neutral-400 mb-2';
+				location.textContent = [place.state, place.country].filter(Boolean).join(' • ');
+				const link = document.createElement('a');
+				link.href = viewHref(page.url, `/place/${encodeURIComponent(place.id)}/`);
+				link.className =
+					'inline-block bg-primary text-black font-black px-3 py-1.5 rounded-lg text-xs uppercase tracking-wider hover:opacity-90';
+				link.textContent = 'View Place';
+				popup.append(name, location, link);
+				const marker = Leaflet.marker([
+					place.coordinates.latitude,
+					place.coordinates.longitude
+				]).bindPopup(popup);
 				markerGroup?.addLayer(marker);
 				bounds.extend([place.coordinates.latitude, place.coordinates.longitude]);
 			}
 		});
 
 		// Auto center if only 1 place
-		if (places.length === 1 && places[0].coordinates?.latitude) {
+		if (!position && places.length === 1 && places[0].coordinates?.latitude) {
 			map.setView([places[0].coordinates.latitude, places[0].coordinates.longitude], 12);
 		} else if (fitBounds && places.length > 1 && bounds.isValid()) {
 			map.fitBounds(bounds, { padding: [50, 50] });
 		}
 	}
-
-	onDestroy(() => {
-		if (map) {
-			map.off('moveend', savePosition);
-			map.remove();
-		}
-	});
 </script>
 
 <div

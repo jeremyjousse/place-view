@@ -1,16 +1,17 @@
 <script lang="ts">
 	import { LayoutList, Map as MapIcon } from 'lucide-svelte';
 	import { page } from '$app/state';
+	import { viewHref } from '#lib/url-state';
 
 	let currentPath = $derived(page.url.pathname);
-	let isMap = $derived(currentPath === '/map');
+	let isMap = $derived(currentPath === '/map/');
 </script>
 
 <nav
 	class="bg-background/80 border-border fixed right-0 bottom-0 left-0 z-50 flex items-center justify-around border-t px-6 pt-3 pb-6 backdrop-blur-xl lg:hidden"
 >
 	<a
-		href="/"
+		href={viewHref(page.url, '/', { place: null })}
 		class="flex flex-col items-center gap-1 transition-colors {!isMap
 			? 'text-primary'
 			: 'text-text-muted'}"
@@ -20,7 +21,7 @@
 	</a>
 
 	<a
-		href="/map"
+		href={viewHref(page.url, '/map/', { place: null })}
 		class="flex flex-col items-center gap-1 transition-colors {isMap
 			? 'text-primary'
 			: 'text-text-muted'}"

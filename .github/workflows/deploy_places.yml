@@ -1,35 +1,52 @@
-name: Deploy places
+name: Deploy website
 
 on:
   push:
     branches:
       - main
     paths:
-      - "resources/**"
+      - ".github/workflows/deploy_places.yml"
+      - "resources/places.json"
+      - "webapp/**"
   workflow_dispatch:
 
-jobs:
-  deploy:
-    name: Deploy website
-    runs-on: ubuntu-latest
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - name: 📥 Checkout main branch
-        uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
         with:
-          path: "sources"
-      - name: ⛓️‍💥 Checkout site branch
-        uses: actions/checkout@v7
+          package_json_file: webapp/package.json
+      - uses: actions/setup-node@v6
         with:
-          ref: "gh-pages"
-          path: "site"
-      - name: 📤 Copy places.json
-        run: |
-          cp "./sources/resources/places.json" "site"
-      - name: ✅ Commit changes to deploy
-        run: |
-          cd site
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-          git add .
-          if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then git commit -m "🏔 update places.json" && git push && echo "🚀 places.json pushed to gp-page branch"; fi
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: webapp/pnpm-lock.yaml
+      - uses: actions/configure-pages@v6
+      - name: Install dependencies
+        run: pnpm --dir webapp install --frozen-lockfile
+      - name: Build website
+        run: pnpm --dir webapp build
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: webapp/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

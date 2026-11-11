@@ -6,6 +6,8 @@
 	import PlaceDetailsCard from '#lib/components/molecules/PlaceDetailsCard.svelte';
 	import PlaceHeader from '#lib/components/molecules/PlaceHeader.svelte';
 	import MapView from '#lib/components/organisms/MapView.svelte';
+	import { page } from '$app/state';
+	import { viewHref } from '#lib/url-state';
 
 	let { data }: { data: { place: Place } } = $props();
 	const place = $derived(data.place);
@@ -45,7 +47,7 @@
 <div class="mx-auto max-w-7xl py-8">
 	<div class="mb-8 flex items-center justify-between">
 		<a
-			href="/"
+			href={viewHref(page.url, '/')}
 			class="text-text-muted hover:text-text flex items-center gap-2 text-xs font-bold tracking-widest uppercase transition-colors"
 		>
 			<ArrowLeft size={16} />

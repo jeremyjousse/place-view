@@ -2,6 +2,8 @@
 	import { Heart } from 'lucide-svelte';
 	import Badge from '../atoms/Badge.svelte';
 	import type { Webcam } from '#lib/common/domain/Webcam';
+	import { page } from '$app/state';
+	import { viewHref } from '#lib/url-state';
 
 	interface Props {
 		place: {
@@ -41,7 +43,10 @@
 		/>
 	</button>
 
-	<a href="/place/{place.id}" class="flex h-full flex-col">
+	<a
+		href={viewHref(page.url, `/place/${encodeURIComponent(place.id)}/`)}
+		class="flex h-full flex-col"
+	>
 		<div class="relative mb-4 aspect-[4/3] overflow-hidden rounded-2xl bg-neutral-900">
 			{#if previewUrl}
 				<img

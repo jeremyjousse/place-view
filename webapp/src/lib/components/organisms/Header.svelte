@@ -5,6 +5,7 @@
 
 	interface Props {
 		showFavoritesOnly?: boolean;
+		searchQuery?: string;
 		onToggleFavorites?: (show: boolean) => void;
 		onSearch?: (query: string) => void;
 		title?: string;
@@ -12,18 +13,17 @@
 
 	let {
 		showFavoritesOnly = false,
+		searchQuery = '',
 		onToggleFavorites,
 		onSearch,
 		title = 'Places'
 	}: Props = $props();
 
-	let searchQuery = $state('');
 	let isRefreshing = $state(false);
 
 	function handleInput(e: Event) {
 		const target = e.target as HTMLInputElement;
-		searchQuery = target.value;
-		onSearch?.(searchQuery);
+		onSearch?.(target.value);
 	}
 
 	async function handleRefresh() {
@@ -51,7 +51,7 @@
 			<input
 				type="text"
 				placeholder="Search places..."
-				bind:value={searchQuery}
+				value={searchQuery}
 				oninput={handleInput}
 				class="bg-surface border-border focus:ring-primary placeholder:text-text-muted/50 w-full rounded-2xl border py-3 pr-4 pl-12 font-medium transition-all focus:border-transparent focus:ring-2 focus:outline-none"
 			/>

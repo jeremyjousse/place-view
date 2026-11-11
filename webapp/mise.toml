@@ -4,3 +4,27 @@ node = "lts"
 [tasks.dev]
 description = "Start dev server"
 run = "pnpm run dev"
+
+[tasks.check]
+description = "Check Svelte and TypeScript"
+run = "pnpm run check"
+
+[tasks.lint]
+description = "Lint the web app"
+run = "pnpm exec eslint ."
+
+[tasks."format:check"]
+description = "Check web app formatting"
+run = "pnpm exec prettier --check ."
+
+[tasks.format]
+description = "Format the web app"
+run = "pnpm exec prettier --write ."
+
+[tasks.test]
+description = "Run unit and browser tests"
+run = "pnpm test"
+
+[tasks.verify]
+description = "Verify the web app"
+depends = ["check", "lint", "format:check", "test"]

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Button from '#lib/components/atoms/Button.svelte';
 	import type { Place } from '#lib/common/domain/Place';
+	import { page } from '$app/state';
+	import { viewHref } from '#lib/url-state';
 
 	let { place }: { place: Place } = $props();
 </script>
@@ -36,7 +38,12 @@
 		{/if}
 	</div>
 
-	<Button variant="primary" size="lg" class="mt-4 w-full" href="/map?place={place.id}">
+	<Button
+		variant="primary"
+		size="lg"
+		class="mt-4 w-full"
+		href={viewHref(page.url, '/map/', { place: place.id, lat: null, lon: null, zoom: null })}
+	>
 		OPEN ON MAP
 	</Button>
 </div>

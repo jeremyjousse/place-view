@@ -3,17 +3,19 @@
 	import Sidebar from '#lib/components/organisms/Sidebar.svelte';
 	import Header from '#lib/components/organisms/Header.svelte';
 	import BottomNavBar from '#lib/components/organisms/BottomNavBar.svelte';
-	import { uiStore } from '#lib/stores/ui.svelte';
-	import { searchStore } from '#lib/stores/search.svelte';
 	import { page } from '$app/state';
+	import { goto } from '$app/navigation';
+	import { withParameters } from '#lib/url-state';
 
 	let { children } = $props();
 
-	const handleSearch = (query: string) => {
-		searchStore.query = query;
-	};
+	function updateFilters(parameters: Record<string, string | null>, replaceState = false) {
+		void goto(withParameters(page.url, parameters), { replace: replaceState, reset: false }).catch(
+			(error) => console.error('Failed to update filters:', error)
+		);
+	}
 
-	let title = $derived(page.url.pathname === '/map' ? 'Explorer Map' : 'Places');
+	let title = $derived(page.url.pathname === '/map/' ? 'Explorer Map' : 'Places');
 </script>
 
 <div
@@ -23,9 +25,10 @@
 
 	<div class="flex min-w-0 flex-1 flex-col">
 		<Header
-			showFavoritesOnly={uiStore.showFavoritesOnly}
-			onToggleFavorites={(v: boolean) => (uiStore.showFavoritesOnly = v)}
-			onSearch={handleSearch}
+			showFavoritesOnly={page.url.searchParams.get('favorites') === '1'}
+			searchQuery={page.url.searchParams.get('q') ?? ''}
+			onToggleFavorites={(v: boolean) => updateFilters({ favorites: v ? '1' : null })}
+			onSearch={(query: string) => updateFilters({ q: query }, true)}
 			{title}
 		/>
 
