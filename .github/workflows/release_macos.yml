@@ -1,71 +1,65 @@
 name: Build and Release macOS App
 
 on:
-    push:
-        branches:
-            - main
-        paths:
-            - "swift-app/**"
-    workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'tauri-app/**'
+  workflow_dispatch:
 
 permissions:
-    contents: write
+  contents: write
 
 jobs:
-    build-and-release:
-        runs-on: macos-latest
+  build-and-release:
+    runs-on: macos-latest
 
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v7
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
 
-            - name: Get App Version
-              id: get_version
-              run: |
-                  cd swift-app
-                  VERSION=$(xcodebuild -project place-view.xcodeproj -scheme place-view -destination "generic/platform=macOS" -showBuildSettings | grep "MARKETING_VERSION =" | head -n 1 | awk '{print $3}')
-                  echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
-                  echo "version=$VERSION" >> $GITHUB_OUTPUT
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          package_json_file: package.json
 
-            - name: Build macOS App
-              run: |
-                  cd swift-app
-                  xcodebuild -project place-view.xcodeproj \
-                    -scheme place-view \
-                    -configuration Release \
-                    -derivedDataPath build \
-                    -destination "generic/platform=macOS" \
-                    clean build \
-                    CODE_SIGN_IDENTITY="" \
-                    CODE_SIGNING_REQUIRED=NO \
-                    CODE_SIGNING_ALLOWED=NO
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
 
-            - name: Compress App
-              run: |
-                  cd swift-app/build/Build/Products/Release
-                  zip -r place-view-macos.zip place-view.app
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
 
-            - name: Create DMG
-              run: |
-                  hdiutil create -format UDZO -srcfolder swift-app/build/Build/Products/Release/place-view.app swift-app/build/Build/Products/Release/place-view-macos.dmg
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
-            - name: Create Release
-              uses: softprops/action-gh-release@v3
-              with:
-                  tag_name: v${{ steps.get_version.outputs.version }}
-                  name: Release v${{ steps.get_version.outputs.version }}
-                  body: |
-                      Automated release from main branch.
+      - name: Get App Version
+        id: get_version
+        run: |
+          VERSION=$(jq -r '.version' tauri-app/src-tauri/tauri.conf.json)
+          echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-                      **Note:** This app is not signed with an Apple Developer Certificate.
-                      To run it, you may need to:
-                      1. Unzip the app.
-                      2. Right-click and select "Open" (to bypass Gatekeeper).
-                      3. If that doesn't work, run `xattr -cr /path/to/place-view.app` in terminal.
-                  draft: false
-                  prerelease: false
-                  files:
-                      -swift-app/build/Build/Products/Release/place-view-macos.zip
-                      -swift-app/build/Build/Products/Release/place-view-macos.dmg
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and Release macOS App
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          projectPath: tauri-app
+          tauriScript: pnpm tauri
+          tagName: v${{ steps.get_version.outputs.version }}
+          releaseName: Release v${{ steps.get_version.outputs.version }}
+          releaseBody: |
+            Automated release from main branch.
+
+            **Note:** This app is not signed with an Apple Developer Certificate.
+            To run it, you may need to:
+            1. Unzip the app.
+            2. Right-click and select "Open" (to bypass Gatekeeper).
+            3. If that doesn't work, run `xattr -cr /path/to/place-view.app` in terminal.
+          releaseDraft: false
+          prerelease: false
