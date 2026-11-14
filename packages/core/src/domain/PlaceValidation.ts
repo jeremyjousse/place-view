@@ -150,12 +150,14 @@ export function parsePlacesJson(raw: string): Place[] {
 				? (record.coordinates as Record<string, unknown>)
 				: null;
 
-		const latitude = coords && typeof coords.latitude === 'number' ? coords.latitude : NaN;
-		const longitude = coords && typeof coords.longitude === 'number' ? coords.longitude : NaN;
+		const latitude = coords?.latitude;
+		const longitude = coords?.longitude;
 		if (
+			typeof latitude !== 'number' ||
 			!Number.isFinite(latitude) ||
 			latitude < -90 ||
 			latitude > 90 ||
+			typeof longitude !== 'number' ||
 			!Number.isFinite(longitude) ||
 			longitude < -180 ||
 			longitude > 180
