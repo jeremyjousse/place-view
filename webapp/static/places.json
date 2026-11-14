@@ -2,13 +2,13 @@
   {
     "id": "abondance",
     "name": "Abondance",
-    "state": "Haute-Savoie",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.portesdusoleil.com/les-portes-du-soleil/les-stations/abondance/",
     "coordinates": {
       "latitude": 46.2806378,
       "longitude": 6.7199134
     },
-    "url": "https://www.portesdusoleil.com/les-portes-du-soleil/les-stations/abondance/",
     "webcams": [
       {
         "name": "Télécabine de l'Essert",
@@ -25,8 +25,8 @@
   {
     "id": "aillons-margeriaz",
     "name": "Aillons-Margériaz",
-    "state": "Savoie",
     "country": "France",
+    "state": "Savoie",
     "url": "https://www.lesaillons.com",
     "coordinates": {
       "latitude": 45.643813,
@@ -71,13 +71,13 @@
   {
     "id": "allonzier-la-caille",
     "name": "Allonzier-la-Caille",
-    "state": "Haute-savoie",
     "country": "France",
+    "state": "Haute-savoie",
+    "url": "https://www.allonzierlacaille.fr/",
     "coordinates": {
       "latitude": 46.0001467,
       "longitude": 6.1185532
     },
-    "url": "https://www.allonzierlacaille.fr/",
     "webcams": [
       {
         "name": "La grange",
@@ -90,14 +90,12 @@
     "id": "alpe-huez",
     "name": "Alpe d'Huez",
     "country": "France",
+    "state": "Isère",
+    "url": "https://www.alpedhuez.com",
     "coordinates": {
       "latitude": 45.090463,
       "longitude": 6.066684
     },
-    "isFavorite": true,
-    "isFeatured": true,
-    "state": "Isère",
-    "url": "https://www.alpedhuez.com",
     "webcams": [
       {
         "name": "Signal de l'homme",
@@ -118,15 +116,14 @@
   },
   {
     "id": "ancelle",
-    "coordinates": {
-      "longitude": 6.2054506,
-      "latitude": 44.6240547
-    },
+    "name": "Ancelle",
     "country": "France",
     "state": "Hautes Alpes",
-    "name": "Ancelle",
     "url": "https://ancelleski.fr/",
-    "trail_map": "https://ancelleski.fr/wp-content/uploads/2021/06/Ancelle-Remontees-Mecanique-plan-pistes.jpg",
+    "coordinates": {
+      "latitude": 44.6240547,
+      "longitude": 6.2054506
+    },
     "webcams": [
       {
         "name": "Piste Zénith",
@@ -149,14 +146,12 @@
     "id": "annecy",
     "name": "Annecy",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.lac-annecy.com",
     "coordinates": {
       "latitude": 45.90469,
       "longitude": 6.142201
     },
-    "isFavorite": true,
-    "isFeatured": true,
-    "state": "Haute-Savoie",
-    "url": "https://www.lac-annecy.com",
     "webcams": [
       {
         "name": "Annecy, Le lac",
@@ -208,13 +203,13 @@
   {
     "id": "anzat-le-luguet",
     "name": "Anzat-Le-Luguet",
-    "state": "Puy-de-Dôme",
     "country": "France",
-    "coordinates": {
-      "longitude": 3.0400629,
-      "latitude": 45.3304973
-    },
+    "state": "Puy-de-Dôme",
     "url": "https://www.anzat-le-luguet.fr/",
+    "coordinates": {
+      "latitude": 45.3304973,
+      "longitude": 3.0400629
+    },
     "webcams": [
       {
         "name": "Parrot",
@@ -227,14 +222,12 @@
     "id": "areches-beaufort",
     "name": "Arêches Beaufort",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://www.areches-beaufort.com",
     "coordinates": {
       "latitude": 45.685025,
       "longitude": 6.563997
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://www.areches-beaufort.com",
     "webcams": [
       {
         "name": "Planay",
@@ -261,13 +254,13 @@
   {
     "id": "auberge-du-pere-bise",
     "name": "Talloires-Montmin",
-    "state": "Haute-Savoie",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.perebise.com/",
     "coordinates": {
       "latitude": 45.81733355,
       "longitude": 6.253543870078719
     },
-    "url": "https://www.perebise.com/",
     "webcams": [
       {
         "name": "Auberge du Père Bise",
@@ -280,14 +273,12 @@
     "id": "auron",
     "name": "Auron",
     "country": "France",
+    "state": "Alpes-Maritimes",
+    "url": "https://hiver.auron.com",
     "coordinates": {
       "latitude": 44.225187,
       "longitude": 6.932811
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Alpes-Maritimes",
-    "url": "https://hiver.auron.com",
     "webcams": [
       {
         "name": "Blainon",
@@ -348,14 +339,12 @@
     "id": "autrans",
     "name": "Autrans",
     "country": "France",
+    "state": "Isère",
+    "url": "https://autrans-meaudre.com/",
     "coordinates": {
       "latitude": 45.174942,
       "longitude": 5.541953
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Isère",
-    "url": "https://autrans-meaudre.com/",
     "webcams": [
       {
         "name": "Front de neige - La Sure",
@@ -398,14 +387,12 @@
     "id": "avoriaz",
     "name": "Avoriaz",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.avoriaz.com",
     "coordinates": {
       "latitude": 46.192397,
       "longitude": 6.774469
     },
-    "isFavorite": true,
-    "isFeatured": true,
-    "state": "Haute-Savoie",
-    "url": "https://www.avoriaz.com",
     "webcams": [
       {
         "name": "Centre station",
@@ -437,13 +424,13 @@
   {
     "id": "aydat",
     "name": "Aydat",
-    "state": "Puy-de-Dôme",
     "country": "France",
+    "state": "Puy-de-Dôme",
+    "url": "https://www.clermontauvergnevolcans.com/lac-aydat/",
     "coordinates": {
       "latitude": 45.6609027,
       "longitude": 2.9757079
     },
-    "url": "https://www.clermontauvergnevolcans.com/lac-aydat/",
     "webcams": [
       {
         "name": "Lac d'Aydat",
@@ -455,13 +442,13 @@
   {
     "id": "bardonecchia",
     "name": "Bardonecchia",
-    "state": "Piedmont",
     "country": "Italie",
-    "coordinates": {
-      "longitude": 6.703205,
-      "latitude": 45.078339
-    },
+    "state": "Piedmont",
     "url": "https://www.bardonecchia.it/fr/",
+    "coordinates": {
+      "latitude": 45.078339,
+      "longitude": 6.703205
+    },
     "webcams": [
       {
         "name": "Panoramique",
@@ -488,13 +475,13 @@
   {
     "id": "barges",
     "name": "Barèges",
-    "state": "Hautes Pyrenees",
     "country": "France",
+    "state": "Hautes Pyrenees",
+    "url": "https://www.n-py.com/fr/grand-tourmalet",
     "coordinates": {
       "latitude": 42.8958816,
       "longitude": 0.0622368
     },
-    "url": "https://www.n-py.com/fr/grand-tourmalet",
     "webcams": [
       {
         "name": "Barèges Tournaboup - 1450M",
@@ -532,14 +519,12 @@
     "id": "bernex",
     "name": "Bernex",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://hiver.bernex-tourisme.com",
     "coordinates": {
       "latitude": 46.346724,
       "longitude": 6.697732
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Haute-Savoie",
-    "url": "https://hiver.bernex-tourisme.com",
     "webcams": [
       {
         "name": "TSD  Pré-Richard",
@@ -550,15 +535,14 @@
   },
   {
     "id": "bessans",
-    "coordinates": {
-      "longitude": 6.9937862,
-      "latitude": 45.3202339
-    },
+    "name": "Bessans",
     "country": "France",
     "state": "Savoie",
-    "name": "Bessans",
     "url": "https://www.haute-maurienne-vanoise.com/hiver/bessans/",
-    "trail_map": "https://haute-maurienne-vanoise.pro/download/hmv-hiver/bessans-plan-des-pistes-hiver-fr.pdf",
+    "coordinates": {
+      "latitude": 45.3202339,
+      "longitude": 6.9937862
+    },
     "webcams": [
       {
         "name": "La Bessannaise",
@@ -579,14 +563,14 @@
   },
   {
     "id": "brides-les-bains",
-    "coordinates": {
-      "longitude": 6.567099,
-      "latitude": 45.452539
-    },
+    "name": "Brides-les-Bains",
     "country": "France",
     "state": "Savoie",
-    "name": "Brides-les-Bains",
     "url": "http://brides-les-bains.com",
+    "coordinates": {
+      "latitude": 45.452539,
+      "longitude": 6.567099
+    },
     "webcams": [
       {
         "name": "Centre Village",
@@ -599,14 +583,12 @@
     "id": "chabanon",
     "name": "Chabanon",
     "country": "France",
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.selonnetchabanon-tourisme.fr/",
     "coordinates": {
       "latitude": 44.346895,
       "longitude": 6.293254
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Alpes-de-Haute-Provence",
-    "url": "https://www.selonnetchabanon-tourisme.fr/",
     "webcams": [
       {
         "name": "Sommet les Monges",
@@ -641,13 +623,13 @@
   {
     "id": "chambon-sur-lac-",
     "name": "Chambon-Sur-Lac ",
-    "state": "Puy-de-Dôme",
     "country": "France",
-    "coordinates": {
-      "longitude": 2.8980689,
-      "latitude": 45.5712859
-    },
+    "state": "Puy-de-Dôme",
     "url": "https://www.sancy.com/decouvrir/toutes-les-communes/chambon-sur-lac/",
+    "coordinates": {
+      "latitude": 45.5712859,
+      "longitude": 2.8980689
+    },
     "webcams": [
       {
         "name": "Le lac",
@@ -659,8 +641,8 @@
   {
     "id": "champagny",
     "name": "Champagny-en-Vanoise",
-    "state": "Savoie",
     "country": "France",
+    "state": "Savoie",
     "url": "https://www.la-plagne.com/champagny-en-vanoise",
     "coordinates": {
       "latitude": 45.456095,
@@ -668,27 +650,27 @@
     },
     "webcams": [
       {
-        "name": "Tour de Glace - Alt.1470m",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_cascade-de-glace.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_cascade-de-glace.jpg"
-      },
-      {
         "name": "Espace nordique",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_champagny-le-haut.jpg",
         "thumbnailImage": "https://srv06.trinum.com/ibox/ftpcam/small_champagny_champagny-le-haut.jpg"
+      },
+      {
+        "name": "Tour de Glace - Alt.1470m",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_champagny_cascade-de-glace.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_champagny_cascade-de-glace.jpg"
       }
     ]
   },
   {
     "id": "chamrousse",
     "name": "Chamrousse",
-    "state": "Isère",
     "country": "France",
-    "coordinates": {
-      "longitude": 5.893161878703198,
-      "latitude": 45.1171487
-    },
+    "state": "Isère",
     "url": "https://www.chamrousse.com/webcams.html",
+    "coordinates": {
+      "latitude": 45.1171487,
+      "longitude": 5.893161878703198
+    },
     "webcams": [
       {
         "name": "Vue vers Grenoble et le Vercors",
@@ -704,14 +686,14 @@
   },
   {
     "id": "chastreix",
-    "coordinates": {
-      "longitude": 2.734751,
-      "latitude": 45.511948
-    },
+    "name": "Chastreix",
     "country": "France",
     "state": "Puy-de-Dôme",
-    "name": "Chastreix",
     "url": "https://www.sancy.com/decouvrir/toutes-les-communes/chastreix/",
+    "coordinates": {
+      "latitude": 45.511948,
+      "longitude": 2.734751
+    },
     "webcams": [
       {
         "name": "Station",
@@ -722,15 +704,14 @@
   },
   {
     "id": "chatel",
-    "coordinates": {
-      "longitude": 6.8409694,
-      "latitude": 46.2672351
-    },
+    "name": "Châtel",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Châtel",
     "url": "https://www.chatel.com",
-    "trail_map": "https://www.chatel.com/medias/images/info_pages/portes-du-soleil-2018-2019-v12-2-bd-10223.pdf",
+    "coordinates": {
+      "latitude": 46.2672351,
+      "longitude": 6.8409694
+    },
     "webcams": [
       {
         "name": "Panoramique Morclan",
@@ -767,13 +748,13 @@
   {
     "id": "chorges",
     "name": "Chorges",
-    "state": "Hautes-Alpes",
     "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.mairie-chorges.fr/",
     "coordinates": {
       "latitude": 44.5450837,
       "longitude": 6.2754561
     },
-    "url": "https://www.mairie-chorges.fr/",
     "webcams": [
       {
         "name": "Webcam - Chorges - Baie Saint Michel ",
@@ -786,14 +767,12 @@
     "id": "clusaz",
     "name": "La Clusaz",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.laclusaz.com",
     "coordinates": {
       "latitude": 45.90472,
       "longitude": 6.42541
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Haute-Savoie",
-    "url": "https://www.laclusaz.com",
     "webcams": [
       {
         "name": "Place du village",
@@ -850,13 +829,13 @@
   {
     "id": "col-de-la-faucille",
     "name": "Col de la Faucille",
-    "state": "Ain",
     "country": "France",
+    "state": "Ain",
+    "url": "https://www.montagnes-du-jura.fr/montagnes-du-jura-une-destination-nature/pratiquer-la-randonnee/randonnez-entre-cols-et-sommets/le-col-de-la-faucille/",
     "coordinates": {
       "latitude": 46.366868,
       "longitude": 6.014835
     },
-    "url": "https://www.montagnes-du-jura.fr/montagnes-du-jura-une-destination-nature/pratiquer-la-randonnee/randonnez-entre-cols-et-sommets/le-col-de-la-faucille/",
     "webcams": [
       {
         "name": "Col de la Faucille",
@@ -868,13 +847,13 @@
   {
     "id": "col-de-la-loge",
     "name": "Col de la Loge",
-    "state": "Loire",
     "country": "France",
-    "coordinates": {
-      "longitude": 3.8509409,
-      "latitude": 45.7027289
-    },
+    "state": "Loire",
     "url": "https://www.station-coldelaloge.fr/",
+    "coordinates": {
+      "latitude": 45.7027289,
+      "longitude": 3.8509409
+    },
     "webcams": [
       {
         "name": "Col de la Loge",
@@ -885,14 +864,14 @@
   },
   {
     "id": "combloux",
-    "coordinates": {
-      "longitude": 6.623814,
-      "latitude": 45.893212
-    },
+    "name": "Combloux",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Combloux",
     "url": "https://www.combloux.com/",
+    "coordinates": {
+      "latitude": 45.893212,
+      "longitude": 6.623814
+    },
     "webcams": [
       {
         "name": "Pertuis",
@@ -903,14 +882,14 @@
   },
   {
     "id": "contamines-montjoie",
-    "coordinates": {
-      "longitude": 6.727374,
-      "latitude": 45.8211358
-    },
+    "name": "Les Contamines-Montjoie",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Les Contamines-Montjoie",
     "url": "https://www.lescontamines.com/",
+    "coordinates": {
+      "latitude": 45.8211358,
+      "longitude": 6.727374
+    },
     "webcams": [
       {
         "name": "Centre du village",
@@ -946,14 +925,12 @@
     "id": "correncon",
     "name": "Corrençon",
     "country": "France",
+    "state": "Isère",
+    "url": "https://www.villarddelans.com/hiver/webcams.html",
     "coordinates": {
       "latitude": 45.031023,
       "longitude": 5.526644
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Isère",
-    "url": "https://www.villarddelans.com/hiver/webcams.html",
     "webcams": [
       {
         "name": "Site nordique-Porte des Hauts Plateaux",
@@ -971,14 +948,12 @@
     "id": "courchevel",
     "name": "Courchevel",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://courchevel.com",
     "coordinates": {
       "latitude": 45.414433,
       "longitude": 6.634647
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://courchevel.com",
     "webcams": [
       {
         "name": "Col de la loze",
@@ -1020,13 +995,13 @@
   {
     "id": "crévoux",
     "name": "Crévoux",
-    "state": "Hautes-Alpes",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.628920568308963,
-      "latitude": 44.5301536
-    },
+    "state": "Hautes-Alpes",
     "url": "https://www.crevoux.fr/",
+    "coordinates": {
+      "latitude": 44.5301536,
+      "longitude": 6.628920568308963
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -1038,13 +1013,13 @@
   {
     "id": "embrun",
     "name": "Embrun",
-    "state": "Hautes-Alpes",
     "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.ville-embrun.fr/",
     "coordinates": {
       "latitude": 44.5641764,
       "longitude": 6.4958189
     },
-    "url": "https://www.ville-embrun.fr/",
     "webcams": [
       {
         "name": "Plage et plan d'eau d'Embrun",
@@ -1055,15 +1030,14 @@
   },
   {
     "id": "flaine",
-    "coordinates": {
-      "longitude": 6.6895325,
-      "latitude": 46.0065359
-    },
+    "name": "Flaine",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Flaine",
     "url": "https://www.flaine.com/",
-    "trail_map": "https://www.flaine.com/media/gm_planpistes_2024_bd.pdf",
+    "coordinates": {
+      "latitude": 46.0065359,
+      "longitude": 6.6895325
+    },
     "webcams": [
       {
         "name": "Flaine - Grandes Platières",
@@ -1091,14 +1065,12 @@
     "id": "flumet",
     "name": "Flumet / St Nicolas la Chapelle",
     "country": "France",
+    "state": "Savoie",
+    "url": "http://www.valdarly-montblanc.com",
     "coordinates": {
       "latitude": 45.823731,
       "longitude": 6.543064
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "http://www.valdarly-montblanc.com",
     "webcams": [
       {
         "name": "Ban Rouge",
@@ -1135,13 +1107,13 @@
   {
     "id": "foncine-le-haut",
     "name": "Foncine-Le-Haut",
-    "state": "Jura",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.0743773,
-      "latitude": 46.6596029
-    },
+    "state": "Jura",
     "url": "https://www.jura-foncine.com/",
+    "coordinates": {
+      "latitude": 46.6596029,
+      "longitude": 6.0743773
+    },
     "webcams": [
       {
         "name": "Teleski Foncine",
@@ -1154,14 +1126,12 @@
     "id": "font-romeu",
     "name": "Font-Romeu-Odeillo-Via",
     "country": "France",
+    "state": "Pyrénées-Orientales",
+    "url": "https://font-romeu.fr/",
     "coordinates": {
       "latitude": 42.505197577969724,
       "longitude": 2.042147008363868
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Pyrénées-Orientales",
-    "url": "https://font-romeu.fr/",
     "webcams": [
       {
         "name": "Les Airelles",
@@ -1194,14 +1164,12 @@
     "id": "grand-bornand",
     "name": "Le Grand Bornand",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.legrandbornand.com",
     "coordinates": {
       "latitude": 45.943229,
       "longitude": 6.434244
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Haute-Savoie",
-    "url": "https://www.legrandbornand.com",
     "webcams": [
       {
         "name": "Terres Rouges",
@@ -1237,14 +1205,14 @@
   },
   {
     "id": "grand-echaillon",
-    "coordinates": {
-      "longitude": 5.20874,
-      "latitude": 44.913429
-    },
+    "name": "Le Grand Echaillon",
     "country": "France",
     "state": "Drôme",
-    "name": "Le Grand Echaillon",
     "url": "https://www.grand-echaillon.com/",
+    "coordinates": {
+      "latitude": 44.913429,
+      "longitude": 5.20874
+    },
     "webcams": [
       {
         "name": "Grand Echaillon",
@@ -1256,13 +1224,13 @@
   {
     "id": "grimentz",
     "name": "Grimentz",
-    "state": "Valais",
     "country": "Suisse",
+    "state": "Valais",
+    "url": "https://www.valdanniviers.ch/fr/Z15430/grimentz",
     "coordinates": {
       "latitude": 46.1802947,
       "longitude": 7.573834
     },
-    "url": "https://www.valdanniviers.ch/fr/Z15430/grimentz",
     "webcams": [
       {
         "name": " Zinal Sorebois",
@@ -1279,13 +1247,13 @@
   {
     "id": "hirmentaz",
     "name": "Hirmentaz",
-    "state": "Haute-savoie",
     "country": "France",
+    "state": "Haute-savoie",
+    "url": "https://hirmentaz-bellevaux.com/",
     "coordinates": {
       "latitude": 46.2467581,
       "longitude": 6.5060807
     },
-    "url": "https://hirmentaz-bellevaux.com/",
     "webcams": [
       {
         "name": "Espace nordique",
@@ -1313,15 +1281,12 @@
     "id": "isola-2000",
     "name": "Isola 2000",
     "country": "France",
+    "state": "Alpes-Maritimes",
+    "url": "https://www.isola2000.com/",
     "coordinates": {
       "latitude": 44.185579,
       "longitude": 7.15942
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Alpes-Maritimes",
-    "url": "https://www.isola2000.com/",
-    "trail_map": "https://www.isola2000.com/wp-content/uploads/2021/10/isola-2000-v8-2021-2022-bd.pdf",
     "webcams": [
       {
         "name": "Snowpark",
@@ -1358,13 +1323,13 @@
   {
     "id": "jard-sur-mer",
     "name": "Jard-sur-Mer",
-    "state": "Vendée",
     "country": "France",
+    "state": "Vendée",
+    "url": "https://www.ville-jardsurmer.fr/",
     "coordinates": {
       "latitude": 46.4173018,
       "longitude": -1.5758538
     },
-    "url": "https://www.ville-jardsurmer.fr/",
     "webcams": [
       {
         "name": "Capitainerie",
@@ -1375,14 +1340,14 @@
   },
   {
     "id": "karellis",
-    "coordinates": {
-      "longitude": 6.4063772,
-      "latitude": 45.227996
-    },
+    "name": "Les Karellis",
     "country": "France",
     "state": "Savoie",
-    "name": "Les Karellis",
     "url": "http://www.karellis.com/",
+    "coordinates": {
+      "latitude": 45.227996,
+      "longitude": 6.4063772
+    },
     "webcams": [
       {
         "name": "Webcam station 1600m",
@@ -1399,13 +1364,13 @@
   {
     "id": "l'aiguillon-sur-mer",
     "name": "L'Aiguillon-sur-Mer",
-    "state": "Vendée",
     "country": "France",
+    "state": "Vendée",
+    "url": "https://www.laiguillonlapresquile.fr/",
     "coordinates": {
       "latitude": 46.3344721,
       "longitude": -1.3076557
     },
-    "url": "https://www.laiguillonlapresquile.fr/",
     "webcams": [
       {
         "name": "Plan d'eau",
@@ -1416,14 +1381,14 @@
   },
   {
     "id": "la-chapelle-d-abondance",
-    "coordinates": {
-      "longitude": 6.787976,
-      "latitude": 46.295497
-    },
+    "name": "La Chapelle-d'Abondance",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "La Chapelle-d'Abondance",
     "url": "https://hiver.lachapelledabondance-tourisme.com/",
+    "coordinates": {
+      "latitude": 46.295497,
+      "longitude": 6.787976
+    },
     "webcams": [
       {
         "name": "Hotel Esprit Montagne",
@@ -1440,13 +1405,13 @@
   {
     "id": "la-chapelle-en-valgaudémar",
     "name": "La Chapelle-en-Valgaudémar",
-    "state": "Hautes-Alpes",
     "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.champsaur-valgaudemar.com/",
     "coordinates": {
       "latitude": 44.8169384,
       "longitude": 6.1958804
     },
-    "url": "https://www.champsaur-valgaudemar.com/",
     "webcams": [
       {
         "name": "Front de neige",
@@ -1468,13 +1433,13 @@
   {
     "id": "la-combe-saint-pierre",
     "name": "La Combe Saint Pierre",
-    "state": "Doubs",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.8237024,
-      "latitude": 47.2141791
-    },
+    "state": "Doubs",
     "url": "https://lacombesaintpierre.com/",
+    "coordinates": {
+      "latitude": 47.2141791,
+      "longitude": 6.8237024
+    },
     "webcams": [
       {
         "name": "Front de Neige",
@@ -1486,13 +1451,13 @@
   {
     "id": "la-giettaz",
     "name": "La Giettaz",
-    "state": "Savoie",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.519823078784661,
-      "latitude": 45.877241
-    },
+    "state": "Savoie",
     "url": "https://www.valdarly-montblanc.com/villages-stations/la-giettaz-en-aravis/",
+    "coordinates": {
+      "latitude": 45.877241,
+      "longitude": 6.519823078784661
+    },
     "webcams": [
       {
         "name": "La Giettaz - Sommet Tête du Torraz 1930m",
@@ -1504,13 +1469,13 @@
   {
     "id": "la-norma",
     "name": "La Norma",
-    "state": "Savoie",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.697037,
-      "latitude": 45.2014469
-    },
+    "state": "Savoie",
     "url": "https://www.la-norma.fr/",
+    "coordinates": {
+      "latitude": 45.2014469,
+      "longitude": 6.697037
+    },
     "webcams": [
       {
         "name": "Carrelet",
@@ -1523,14 +1488,12 @@
     "id": "la-plagne",
     "name": "La Plagne",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://www.la-plagne.com",
     "coordinates": {
       "latitude": 45.506536,
       "longitude": 6.677127
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://www.la-plagne.com",
     "webcams": [
       {
         "name": "Bellecôte",
@@ -1598,14 +1561,12 @@
     "id": "la-rosiere",
     "name": "La Rosière",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://www.larosiere.net/",
     "coordinates": {
       "latitude": 45.629533,
       "longitude": 6.848892
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://www.larosiere.net/",
     "webcams": [
       {
         "name": "Mont Valaisan",
@@ -1647,13 +1608,13 @@
   {
     "id": "la-toussuire",
     "name": "La Toussuire",
-    "state": "Savoie",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.2626689,
-      "latitude": 45.2557745
-    },
+    "state": "Savoie",
     "url": "https://la-toussuire.com/",
+    "coordinates": {
+      "latitude": 45.2557745,
+      "longitude": 6.2626689
+    },
     "webcams": [
       {
         "name": "Front de Neige",
@@ -1676,14 +1637,12 @@
     "id": "lac-blanc",
     "name": "Le lac blanc",
     "country": "France",
+    "state": "Haut-Rhin",
+    "url": "https://www.lac-blanc.com/",
     "coordinates": {
       "latitude": 48.137237,
       "longitude": 7.083907
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Haut-Rhin",
-    "url": "https://www.lac-blanc.com/",
     "webcams": [
       {
         "name": "1200",
@@ -1700,10 +1659,8 @@
   {
     "id": "lake-louise",
     "name": "Lake Louise",
-    "state": "Alberta",
     "country": "Canada",
-    "longitude": -116.177535,
-    "latitude": 51.4249668,
+    "state": "Alberta",
     "url": "https://www.skilouise.com/fr/mountain-cam/",
     "coordinates": {
       "latitude": 51.4249668,
@@ -1731,14 +1688,12 @@
     "id": "lans-en-vercors",
     "name": "Lans En Vercors",
     "country": "France",
+    "state": "Isère",
+    "url": "https://www.lansenvercors.com",
     "coordinates": {
       "latitude": 45.114593,
       "longitude": 5.607077
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Isère",
-    "url": "https://www.lansenvercors.com",
     "webcams": [
       {
         "name": "Espace Aigle",
@@ -1765,13 +1720,13 @@
   {
     "id": "le-collet d'allevard",
     "name": "Le Collet d'Allevard",
-    "state": "Isère",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.111079,
-      "latitude": 45.3957287
-    },
+    "state": "Isère",
     "url": "https://www.lecollet.com",
+    "coordinates": {
+      "latitude": 45.3957287,
+      "longitude": 6.111079
+    },
     "webcams": [
       {
         "name": "Les plagnes ",
@@ -1793,13 +1748,13 @@
   {
     "id": "le-grand-puy",
     "name": "Le Grand Puy",
-    "state": "Alpes-de-Haute-Provence",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.3563226,
-      "latitude": 44.3521974
-    },
+    "state": "Alpes-de-Haute-Provence",
     "url": "https://www.seynelesalpes-tourisme.com/",
+    "coordinates": {
+      "latitude": 44.3521974,
+      "longitude": 6.3563226
+    },
     "webcams": [
       {
         "name": "Les planes",
@@ -1821,13 +1776,13 @@
   {
     "id": "le-markstein",
     "name": "Le Markstein",
-    "state": "Haut-Rhin",
     "country": "France",
+    "state": "Haut-Rhin",
+    "url": "https://www.lemarkstein.net/fr/",
     "coordinates": {
       "latitude": 47.9233312,
       "longitude": 7.0318064
     },
-    "url": "https://www.lemarkstein.net/fr/",
     "webcams": [
       {
         "name": "Front de neige",
@@ -1854,13 +1809,13 @@
   {
     "id": "le-petit-abergement",
     "name": "Le Petit-Abergement",
-    "state": "Ain",
     "country": "France",
-    "coordinates": {
-      "longitude": 5.651116970670241,
-      "latitude": 46.06656985
-    },
+    "state": "Ain",
     "url": "https://ski-lachat.fr/",
+    "coordinates": {
+      "latitude": 46.06656985,
+      "longitude": 5.651116970670241
+    },
     "webcams": [
       {
         "name": "Haut Valromey",
@@ -1872,13 +1827,13 @@
   {
     "id": "le-refuge-des-cortalets",
     "name": "Le refuge des Cortalets",
-    "state": "Pyrénées-Orientales",
     "country": "France",
+    "state": "Pyrénées-Orientales",
+    "url": "https://refugedescortalets.ffcam.fr/",
     "coordinates": {
       "latitude": 42.58087,
       "longitude": 2.426801
     },
-    "url": "https://refugedescortalets.ffcam.fr/",
     "webcams": [
       {
         "name": "les cortalets refuge des cortalets",
@@ -1889,15 +1844,14 @@
   },
   {
     "id": "le-reposoir",
-    "coordinates": {
-      "longitude": 6.5349608,
-      "latitude": 46.0112491
-    },
+    "name": "Le Reposoir",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Le Reposoir",
     "url": "http://www.lereposoir.fr/",
-    "trail_map": "http://static.apidae-tourisme.com/filestore/objets-touristiques/plans/141/31/11804557.pdf",
+    "coordinates": {
+      "latitude": 46.0112491,
+      "longitude": 6.5349608
+    },
     "webcams": [
       {
         "name": "Village",
@@ -1909,13 +1863,13 @@
   {
     "id": "le-sauze-du-lac",
     "name": "Le Sauze-du-Lac",
-    "state": "Hautes-Alpes",
     "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.lesauzedulac.fr/",
     "coordinates": {
       "latitude": 44.4783324,
       "longitude": 6.3147084
     },
-    "url": "https://www.lesauzedulac.fr/",
     "webcams": [
       {
         "name": "Webcam - Le Sauze du Lac",
@@ -1928,14 +1882,12 @@
     "id": "les-arcs",
     "name": "Les Arcs",
     "country": "France",
+    "state": "Savoie",
+    "url": "https://www.lesarcs.com",
     "coordinates": {
       "latitude": 45.577597,
       "longitude": 6.779631
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Savoie",
-    "url": "https://www.lesarcs.com",
     "webcams": [
       {
         "name": "Varet",
@@ -1986,15 +1938,14 @@
   },
   {
     "id": "les-carroz",
-    "coordinates": {
-      "longitude": 6.5627494,
-      "latitude": 45.6902494
-    },
+    "name": "Les Carroz",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Les Carroz",
     "url": "https://www.lescarroz.com/",
-    "trail_map": "https://www.lescarroz.com/content/uploads/2021/12/GM_PlanPistes_2021.pdf",
+    "coordinates": {
+      "latitude": 45.6902494,
+      "longitude": 6.5627494
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -2027,14 +1978,12 @@
     "id": "les-deux-alpes",
     "name": "Les Deux Aples",
     "country": "France",
+    "state": "Isère",
+    "url": "https://www.les2alpes.com",
     "coordinates": {
       "latitude": 45.009453,
       "longitude": 6.125173
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Isère",
-    "url": "https://www.les2alpes.com",
     "webcams": [
       {
         "name": "Les hauts plateaux",
@@ -2077,14 +2026,12 @@
     "id": "les-gets",
     "name": "Les Gets",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.lesgets.com/webcams",
     "coordinates": {
       "latitude": 46.149588,
       "longitude": 6.658463
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Haute-Savoie",
-    "url": "https://www.lesgets.com/webcams",
     "webcams": [
       {
         "name": "Départ Perrières",
@@ -2131,13 +2078,13 @@
   {
     "id": "les-houches",
     "name": "Les Houches",
-    "state": "Savoie",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.799138,
-      "latitude": 45.891508
-    },
+    "state": "Savoie",
     "url": "https://www.chamonix.com/la-vallee/les-stations-villages/les-houches",
+    "coordinates": {
+      "latitude": 45.891508,
+      "longitude": 6.799138
+    },
     "webcams": [
       {
         "name": "Les Houches Vallée de Chamonix-Mont-Blanc",
@@ -2150,14 +2097,12 @@
     "id": "les-orres",
     "name": "Les Orres",
     "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.lesorres.com/",
     "coordinates": {
       "latitude": 44.484668,
       "longitude": 6.553725
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Hautes-Alpes",
-    "url": "https://www.lesorres.com/",
     "webcams": [
       {
         "name": "Sommet Pousterle",
@@ -2169,13 +2114,13 @@
   {
     "id": "les-rhodos",
     "name": "Les Rhodos",
-    "state": "Haute-savoie",
     "country": "France",
+    "state": "Haute-savoie",
+    "url": "https://rhodos.fr/",
     "coordinates": {
       "latitude": 45.87187027856812,
       "longitude": 6.465205913949054
     },
-    "url": "https://rhodos.fr/",
     "webcams": [
       {
         "name": "Les Rhodos Col des Aravis",
@@ -2188,14 +2133,12 @@
     "id": "les-rousses",
     "name": "Les Rousses",
     "country": "France",
+    "state": "Jura",
+    "url": "https://www.lesrousses.com/",
     "coordinates": {
       "latitude": 46.485291,
       "longitude": 6.059871
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Jura",
-    "url": "https://www.lesrousses.com/",
     "webcams": [
       {
         "name": "Centre du village, Omnibus",
@@ -2247,13 +2190,13 @@
   {
     "id": "les-sables-d'olonne",
     "name": "Les Sables-d'Olonne",
-    "state": "Vendée",
     "country": "France",
-    "coordinates": {
-      "longitude": -1.7767859,
-      "latitude": 46.4990505
-    },
+    "state": "Vendée",
     "url": "https://www.lessablesdolonne.fr/",
+    "coordinates": {
+      "latitude": 46.4990505,
+      "longitude": -1.7767859
+    },
     "webcams": [
       {
         "name": "Les Sables-d'Olonne",
@@ -2265,13 +2208,13 @@
   {
     "id": "loudenvielle",
     "name": "Loudenvielle",
-    "state": "Hautes Pyrenees",
     "country": "France",
+    "state": "Hautes Pyrenees",
+    "url": "https://www.loudenvielle.fr/",
     "coordinates": {
       "latitude": 42.7958729,
       "longitude": 0.4112159
     },
-    "url": "https://www.loudenvielle.fr/",
     "webcams": [
       {
         "name": "Vallée du Louron",
@@ -2288,13 +2231,13 @@
   {
     "id": "mandelieu-la-napoule",
     "name": "Mandelieu-La-Napoule",
-    "state": "Alpes-Maritimes",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.9409749,
-      "latitude": 43.5242272
-    },
+    "state": "Alpes-Maritimes",
     "url": "https://www.mandelieu-tourisme.com/",
+    "coordinates": {
+      "latitude": 43.5242272,
+      "longitude": 6.9409749
+    },
     "webcams": [
       {
         "name": "Capitainerie",
@@ -2305,14 +2248,14 @@
   },
   {
     "id": "manigod",
-    "coordinates": {
-      "longitude": 6.3692595,
-      "latitude": 45.861295
-    },
+    "name": "Manigod",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Manigod",
     "url": "https://www.manigod.com/hiver",
+    "coordinates": {
+      "latitude": 45.861295,
+      "longitude": 6.3692595
+    },
     "webcams": [
       {
         "name": "Manigod Village",
@@ -2328,15 +2271,14 @@
   },
   {
     "id": "massif-des-brasses",
-    "coordinates": {
-      "longitude": 6.449905,
-      "latitude": 46.176101
-    },
+    "name": "Massif des Brasses",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Massif des Brasses",
     "url": "http://www.lesbrasses.com/fr/hiver/",
-    "trail_map": "http://www.lesbrasses.com/fr/brochures/plan-piste-alpin-2021.pdf",
+    "coordinates": {
+      "latitude": 46.176101,
+      "longitude": 6.449905
+    },
     "webcams": [
       {
         "name": "Restaurant",
@@ -2400,14 +2342,14 @@
   },
   {
     "id": "menuires",
-    "coordinates": {
-      "longitude": 6.5375494,
-      "latitude": 45.3228838
-    },
+    "name": "Les Ménuires",
     "country": "France",
     "state": "Savoie",
-    "name": "Les Ménuires",
     "url": "https://lesmenuires.com/",
+    "coordinates": {
+      "latitude": 45.3228838,
+      "longitude": 6.5375494
+    },
     "webcams": [
       {
         "name": "La Croisette",
@@ -2438,14 +2380,14 @@
   },
   {
     "id": "meribel",
-    "coordinates": {
-      "longitude": 6.0482524,
-      "latitude": 46.3330195
-    },
+    "name": "Méribel",
     "country": "France",
     "state": "Savoie",
-    "name": "Méribel",
     "url": "http://www.meribel.net",
+    "coordinates": {
+      "latitude": 46.3330195,
+      "longitude": 6.0482524
+    },
     "webcams": [
       {
         "name": "Roc de Fer",
@@ -2482,13 +2424,13 @@
   {
     "id": "mers-les-bains",
     "name": "Mers-les-Bains",
-    "state": "Somme",
     "country": "France",
-    "coordinates": {
-      "longitude": 1.3892492,
-      "latitude": 50.0656442
-    },
+    "state": "Somme",
     "url": "https://www.merslesbains.fr/",
+    "coordinates": {
+      "latitude": 50.0656442,
+      "longitude": 1.3892492
+    },
     "webcams": [
       {
         "name": "Esplanade",
@@ -2501,14 +2443,12 @@
     "id": "metabief",
     "name": "Metabief",
     "country": "France",
+    "state": "Doubs",
+    "url": "https://www.tourisme-metabief.com",
     "coordinates": {
       "latitude": 46.768753,
       "longitude": 6.356971
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Doubs",
-    "url": "https://www.tourisme-metabief.com",
     "webcams": [
       {
         "name": "Front de neige",
@@ -2536,14 +2476,12 @@
     "id": "millau",
     "name": "Millau",
     "country": "France",
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.explore-millau.com/",
     "coordinates": {
       "latitude": 44.099723,
       "longitude": 3.078531
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Alpes-de-Haute-Provence",
-    "url": "https://www.explore-millau.com/",
     "webcams": [
       {
         "name": "Causse noir",
@@ -2556,14 +2494,12 @@
     "id": "mont-dore",
     "name": "Mont-Dore",
     "country": "France",
+    "state": "Puy-de-Dôme",
+    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/le-mont-dore/",
     "coordinates": {
       "latitude": 45.551709,
       "longitude": 2.813375
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Puy-de-Dôme",
-    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/le-mont-dore/",
     "webcams": [
       {
         "name": "Sommet",
@@ -2580,13 +2516,13 @@
   {
     "id": "montchavin",
     "name": "Montchavin",
-    "state": "Savoie",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.7365611,
-      "latitude": 45.5598949
-    },
+    "state": "Savoie",
     "url": "https://www.la-plagne.com/decouvrir-la-plagne/domaine-skiable/webcams/montchavin-bijolin",
+    "coordinates": {
+      "latitude": 45.5598949,
+      "longitude": 6.7365611
+    },
     "webcams": [
       {
         "name": "Village",
@@ -2604,14 +2540,12 @@
     "id": "montclar",
     "name": "Montclar",
     "country": "France",
+    "state": "Alpes-de-Haute-Provence",
+    "url": "https://www.montclar.com/",
     "coordinates": {
       "latitude": 44.410753,
       "longitude": 6.351358
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Alpes-de-Haute-Provence",
-    "url": "https://www.montclar.com/",
     "webcams": [
       {
         "name": "Espace Débutant",
@@ -2634,14 +2568,12 @@
     "id": "montgenevre",
     "name": "Montgenevre",
     "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://montgenevre.com",
     "coordinates": {
       "latitude": 44.930712,
       "longitude": 6.72352
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "state": "Hautes-Alpes",
-    "url": "https://montgenevre.com",
     "webcams": [
       {
         "name": "L'eglise",
@@ -2688,13 +2620,13 @@
   {
     "id": "morteau",
     "name": "Morteau",
-    "state": "Doubs",
     "country": "France",
+    "state": "Doubs",
+    "url": "https://www.pays-horloger.com",
     "coordinates": {
       "latitude": 47.0569367,
       "longitude": 6.6047189
     },
-    "url": "https://www.pays-horloger.com",
     "webcams": [
       {
         "name": "Meix Musy",
@@ -2710,14 +2642,14 @@
   },
   {
     "id": "morzine",
-    "coordinates": {
-      "longitude": 6.7086936,
-      "latitude": 46.179186
-    },
+    "name": "Morzine",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Morzine",
     "url": "http://www.morzine-avoriaz.com/",
+    "coordinates": {
+      "latitude": 46.179186,
+      "longitude": 6.7086936
+    },
     "webcams": [
       {
         "name": "Sommet de la Télécabine d",
@@ -2733,21 +2665,15 @@
   },
   {
     "id": "orcieres",
-    "coordinates": {
-      "longitude": 6.3233453,
-      "latitude": 44.6963829
-    },
+    "name": "Orcières",
     "country": "France",
     "state": "Hautes Alpes",
-    "name": "Orcières",
     "url": "https://www.orcieres.com/",
-    "trail_map": "https://www.orcieres.com/fileadmin/user_upload/Brochures/Hiver_2022/Plan-des-pistes-Orcieres-Hiver2022.pdf",
+    "coordinates": {
+      "latitude": 44.6963829,
+      "longitude": 6.3233453
+    },
     "webcams": [
-      {
-        "name": "Sommet Estaris",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_sommet-estaris.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_orcieres_1850_sommet-estaris.jpg"
-      },
       {
         "name": "Front de neige",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_Orcieres_Front.jpg",
@@ -2777,15 +2703,14 @@
   },
   {
     "id": "Orelle",
-    "coordinates": {
-      "longitude": 6.5341606,
-      "latitude": 45.2100675
-    },
+    "name": "Orelle",
     "country": "France",
     "state": "Savoie",
-    "name": "Orelle",
     "url": "https://www.orelle.net/",
-    "trail_map": "https://www.orelle.net/build/files/plan-pistes-3-vallees_min.d37d51d1.pdf",
+    "coordinates": {
+      "latitude": 45.2100675,
+      "longitude": 6.5341606
+    },
     "webcams": [
       {
         "name": "Sommet TC Orelle",
@@ -2802,13 +2727,13 @@
   {
     "id": "oz-en-oisans",
     "name": "Oz-en-Oisans",
-    "state": "Isère",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.0516231,
-      "latitude": 45.140555
-    },
+    "state": "Isère",
     "url": "https://www.oz-en-oisans.com/",
+    "coordinates": {
+      "latitude": 45.140555,
+      "longitude": 6.0516231
+    },
     "webcams": [
       {
         "name": "Station",
@@ -2819,15 +2744,14 @@
   },
   {
     "id": "passy",
-    "coordinates": {
-      "longitude": 6.7402977,
-      "latitude": 45.9503838
-    },
+    "name": "Passy",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Passy",
     "url": "https://www.passy-mont-blanc.com/",
-    "trail_map": "https://www.passy-mont-blanc.com/wp-content/uploads/2021/11/Plan-des-pistes-FR-2021-web.pdf",
+    "coordinates": {
+      "latitude": 45.9503838,
+      "longitude": 6.7402977
+    },
     "webcams": [
       {
         "name": "Base de loisirs",
@@ -2844,8 +2768,8 @@
   {
     "id": "peisey-vallandry",
     "name": "Peisey-Vallandry",
-    "state": "Savoie",
     "country": "France",
+    "state": "Savoie",
     "url": "https://www.peisey-vallandry.com",
     "coordinates": {
       "latitude": 45.5466581,
@@ -2854,21 +2778,21 @@
     "webcams": [
       {
         "name": "Vanoise Express",
-        "thumbnailImage": "https://trinum2.trinum.com/ibox/ftpcam/small_Peisey-Vallandry_vanoise-expresse.jpg",
-        "largeImage": "https://trinum2.trinum.com/ibox/ftpcam/mega_Peisey-Vallandry_vanoise-expresse.jpg"
+        "largeImage": "https://trinum2.trinum.com/ibox/ftpcam/mega_Peisey-Vallandry_vanoise-expresse.jpg",
+        "thumbnailImage": "https://trinum2.trinum.com/ibox/ftpcam/small_Peisey-Vallandry_vanoise-expresse.jpg"
       }
     ]
   },
   {
     "id": "pontarlier",
     "name": "Pontarlier",
-    "state": "Franche-Comté",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.3546345,
-      "latitude": 46.9040348
-    },
+    "state": "Franche-Comté",
     "url": "https://www.destination-haut-doubs.com/pontarlier.html",
+    "coordinates": {
+      "latitude": 46.9040348,
+      "longitude": 6.3546345
+    },
     "webcams": [
       {
         "name": "Chapelle",
@@ -2880,13 +2804,13 @@
   {
     "id": "port-bourgenay",
     "name": "Port Bourgenay",
-    "state": "Vendée",
     "country": "France",
+    "state": "Vendée",
+    "url": "https://ports-vendeegrandlittoral.fr/port-bourgenay/",
     "coordinates": {
       "latitude": 46.4440156,
       "longitude": -1.6703321
     },
-    "url": "https://ports-vendeegrandlittoral.fr/port-bourgenay/",
     "webcams": [
       {
         "name": "capitainerie",
@@ -2898,13 +2822,13 @@
   {
     "id": "prabouré",
     "name": "Prabouré",
-    "state": "Puy-de-Dôme",
     "country": "France",
-    "coordinates": {
-      "longitude": 3.8708597,
-      "latitude": 45.5625435
-    },
+    "state": "Puy-de-Dôme",
     "url": "https://praboure.fr/",
+    "coordinates": {
+      "latitude": 45.5625435,
+      "longitude": 3.8708597
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -2915,14 +2839,14 @@
   },
   {
     "id": "pralognan-la-vanoise",
-    "coordinates": {
-      "longitude": 6.7216512,
-      "latitude": 45.3811425
-    },
+    "name": "Pralognan-la-Vanoise",
     "country": "France",
     "state": "Savoie",
-    "name": "Pralognan-la-Vanoise",
     "url": "http://www.pralognan.com/",
+    "coordinates": {
+      "latitude": 45.3811425,
+      "longitude": 6.7216512
+    },
     "webcams": [
       {
         "name": "Front de Neige",
@@ -2939,13 +2863,13 @@
   {
     "id": "prapoutel",
     "name": "Prapoutel",
-    "state": "Isère",
     "country": "France",
-    "coordinates": {
-      "longitude": 5.9954353,
-      "latitude": 45.2567786
-    },
+    "state": "Isère",
     "url": "https://www.les7laux.com",
+    "coordinates": {
+      "latitude": 45.2567786,
+      "longitude": 5.9954353
+    },
     "webcams": [
       {
         "name": "Les 7 Laux - Prapoutel - Bouquetins",
@@ -2956,14 +2880,14 @@
   },
   {
     "id": "praz-de-lys",
-    "country": "France",
-    "coordinates": {
-      "longitude": 6.592619,
-      "latitude": 46.149044
-    },
-    "state": "Haute-Savoie",
     "name": "Praz De Lys",
+    "country": "France",
+    "state": "Haute-Savoie",
     "url": "http://www.prazdelys-sommand.com/",
+    "coordinates": {
+      "latitude": 46.149044,
+      "longitude": 6.592619
+    },
     "webcams": [
       {
         "name": "Molliettes",
@@ -3000,13 +2924,13 @@
   {
     "id": "reallon",
     "name": "Reallon",
-    "state": "Hautes-Alpes",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.3564377252838185,
-      "latitude": 44.616193249999995
-    },
+    "state": "Hautes-Alpes",
     "url": "https://www.reallon-ski.com/",
+    "coordinates": {
+      "latitude": 44.616193249999995,
+      "longitude": 6.3564377252838185
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -3023,13 +2947,13 @@
   {
     "id": "rencurel",
     "name": "Rencurel",
-    "state": "Isère",
     "country": "France",
+    "state": "Isère",
+    "url": "https://coulmes-vercors.com/",
     "coordinates": {
       "latitude": 45.1028091,
       "longitude": 5.472705
     },
-    "url": "https://coulmes-vercors.com/",
     "webcams": [
       {
         "name": "Foyer",
@@ -3045,14 +2969,14 @@
   },
   {
     "id": "Risoul",
-    "coordinates": {
-      "longitude": 6.6369838,
-      "latitude": 44.6487432
-    },
+    "name": "Risoul",
     "country": "France",
     "state": "Hautes Alpes",
-    "name": "Risoul",
     "url": "http://www.risoul.com/",
+    "coordinates": {
+      "latitude": 44.6487432,
+      "longitude": 6.6369838
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -3079,13 +3003,13 @@
   {
     "id": "saint-christophe-en-oisans",
     "name": "Saint-Christophe-en-Oisans",
-    "state": "Isère",
     "country": "France",
+    "state": "Isère",
+    "url": "https://www.oisans.com/stations-et-villages/saint-christophe-oisans-berarde/",
     "coordinates": {
       "latitude": 44.9576485,
       "longitude": 6.1763805
     },
-    "url": "https://www.oisans.com/stations-et-villages/saint-christophe-oisans-berarde/",
     "webcams": [
       {
         "name": "La ville",
@@ -3097,13 +3021,13 @@
   {
     "id": "saint-cyprien",
     "name": "Saint-Cyprien",
-    "state": "Pyrénées-Orientales",
     "country": "France",
-    "coordinates": {
-      "longitude": 3.0043728,
-      "latitude": 42.6176479
-    },
+    "state": "Pyrénées-Orientales",
     "url": "https://www.tourisme-saint-cyprien.com/",
+    "coordinates": {
+      "latitude": 42.6176479,
+      "longitude": 3.0043728
+    },
     "webcams": [
       {
         "name": "Capitainerie du port",
@@ -3115,13 +3039,13 @@
   {
     "id": "saint-dalmas-le-selvage",
     "name": "Saint-Dalmas-le-Selvage",
-    "state": "Alpes-Maritimes",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.8661309,
-      "latitude": 44.284611
-    },
+    "state": "Alpes-Maritimes",
     "url": "http://saintdalmasleselvage.fr/",
+    "coordinates": {
+      "latitude": 44.284611,
+      "longitude": 6.8661309
+    },
     "webcams": [
       {
         "name": "Mairie",
@@ -3132,14 +3056,14 @@
   },
   {
     "id": "saint-francois-longchamp",
-    "coordinates": {
-      "longitude": 6.3470014,
-      "latitude": 45.4081806
-    },
+    "name": "Saint-François-Longchamp",
     "country": "France",
     "state": "Savoie",
-    "name": "Saint-François-Longchamp",
     "url": "http://www.saintfrancoislongchamp.com",
+    "coordinates": {
+      "latitude": 45.4081806,
+      "longitude": 6.3470014
+    },
     "webcams": [
       {
         "name": "Centre station 1650m",
@@ -3151,13 +3075,13 @@
   {
     "id": "saint-genis-pouilly",
     "name": "Saint-Genis-Pouilly",
-    "state": "Ain",
     "country": "France",
+    "state": "Ain",
+    "url": "https://www.saint-genis-pouilly.fr/",
     "coordinates": {
       "latitude": 46.243244,
       "longitude": 6.0207779
     },
-    "url": "https://www.saint-genis-pouilly.fr/",
     "webcams": [
       {
         "name": "Porte de france",
@@ -3169,15 +3093,13 @@
   {
     "id": "saint-gervais",
     "name": "Saint Gervais Mont-Blanc",
+    "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.saintgervais.com",
     "coordinates": {
       "latitude": 45.891638,
       "longitude": 6.7135
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "country": "France",
-    "state": "Haute-Savoie",
-    "url": "https://www.saintgervais.com",
     "webcams": [
       {
         "name": "Mont d'Arbois Eté",
@@ -3229,13 +3151,13 @@
   {
     "id": "saint-hilaire-de-riez",
     "name": "Saint-Hilaire-de-Riez",
-    "state": "Vendée",
     "country": "France",
-    "coordinates": {
-      "longitude": -1.9441667,
-      "latitude": 46.7219444
-    },
+    "state": "Vendée",
     "url": "https://www.sainthilairederiez.fr/",
+    "coordinates": {
+      "latitude": 46.7219444,
+      "longitude": -1.9441667
+    },
     "webcams": [
       {
         "name": "Feu de grosse terre",
@@ -3256,14 +3178,14 @@
   },
   {
     "id": "saint-jean-de-sixt",
-    "coordinates": {
-      "longitude": 6.4116026,
-      "latitude": 45.9228616
-    },
+    "name": "Saint-Jean-de-Sixt",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Saint-Jean-de-Sixt",
     "url": "https://www.saintjeandesixt.com",
+    "coordinates": {
+      "latitude": 45.9228616,
+      "longitude": 6.4116026
+    },
     "webcams": [
       {
         "name": "Sixt - Feulatière",
@@ -3279,15 +3201,14 @@
   },
   {
     "id": "saint-leger-les-melezes",
-    "coordinates": {
-      "longitude": 6.2003299,
-      "latitude": 44.6445528
-    },
+    "name": "Saint-Léger-les-Mélèzes",
     "country": "France",
     "state": "Hautes-Alpes",
-    "name": "Saint-Léger-les-Mélèzes",
     "url": "https://www.champsaur-valgaudemar.com/hiver/ski-et-neige/les-stations/saint-leger-les-melezes/",
-    "trail_map": "https://woody.cloudly.space/app/themes/champsaur-valgaudemar/src/static/plan-des-pistes-st-leger.jpg",
+    "coordinates": {
+      "latitude": 44.6445528,
+      "longitude": 6.2003299
+    },
     "webcams": [
       {
         "name": "Les mélèzes",
@@ -3304,13 +3225,13 @@
   {
     "id": "saint-léger-les-mélèzes",
     "name": "Saint-Léger-les-Mélèzes",
-    "state": "Hautes-Alpes",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.1993686,
-      "latitude": 44.6442109
-    },
+    "state": "Hautes-Alpes",
     "url": "https://www.champsaur-valgaudemar.com/decouvrir/les-stations/saint-leger-les-melezes/",
+    "coordinates": {
+      "latitude": 44.6442109,
+      "longitude": 6.1993686
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -3322,13 +3243,13 @@
   {
     "id": "saint-luc",
     "name": "Saint-Luc",
-    "state": "Valais",
     "country": "Suisse",
+    "state": "Valais",
+    "url": "https://tignousa.ch/",
     "coordinates": {
       "latitude": 46.2205594,
       "longitude": 7.596488
     },
-    "url": "https://tignousa.ch/",
     "webcams": [
       {
         "name": "Tignousa",
@@ -3344,14 +3265,14 @@
   },
   {
     "id": "saint-pierre-de-chartreuse",
-    "coordinates": {
-      "longitude": 5.803436,
-      "latitude": 45.321534
-    },
+    "name": "Saint-Pierre-de-Chartreuse",
     "country": "",
     "state": "Isère",
-    "name": "Saint-Pierre-de-Chartreuse",
     "url": "https://www.ski-alpin-chartreuse.com/",
+    "coordinates": {
+      "latitude": 45.321534,
+      "longitude": 5.803436
+    },
     "webcams": [
       {
         "name": "La Scia",
@@ -3373,13 +3294,13 @@
   {
     "id": "saint-point",
     "name": "Saint-Point",
-    "state": "Saône-et-Loire",
     "country": "France",
+    "state": "Saône-et-Loire",
+    "url": "https://www.destination-saone-et-loire.fr/fr/activite/lac-de-saint-point.html",
     "coordinates": {
       "latitude": 46.340167,
       "longitude": 4.6170559
     },
-    "url": "https://www.destination-saone-et-loire.fr/fr/activite/lac-de-saint-point.html",
     "webcams": [
       {
         "name": "Les grangettes",
@@ -3396,13 +3317,13 @@
   {
     "id": "saint-vincent-sur-jard-",
     "name": "Saint-Vincent-Sur-Jard ",
-    "state": "Vendée",
     "country": "France",
-    "coordinates": {
-      "longitude": -1.5482619,
-      "latitude": 46.4160524
-    },
+    "state": "Vendée",
     "url": "http://www.mairiesaintvincentsurjard.fr/",
+    "coordinates": {
+      "latitude": 46.4160524,
+      "longitude": -1.5482619
+    },
     "webcams": [
       {
         "name": "Maison Clemenceau",
@@ -3414,8 +3335,8 @@
   {
     "id": "sainte-foy-tarentaise",
     "name": "Sainte-Foy-Tarentaise",
-    "state": "Savoie",
     "country": "France",
+    "state": "Savoie",
     "url": "https://www.saintefoy-tarentaise.com/",
     "coordinates": {
       "latitude": 45.5903604,
@@ -3442,15 +3363,13 @@
   {
     "id": "saisies",
     "name": "Les Saisies",
+    "country": "France",
+    "state": "Savoie",
+    "url": "https://www.lessaisies.com/",
     "coordinates": {
       "latitude": 45.757167,
       "longitude": 6.538018
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "country": "France",
-    "state": "Savoie",
-    "url": "https://www.lessaisies.com/",
     "webcams": [
       {
         "name": "Domaine nordique",
@@ -3521,14 +3440,14 @@
   },
   {
     "id": "samoens",
-    "coordinates": {
-      "longitude": 6.7274,
-      "latitude": 46.0834488
-    },
+    "name": "Samoëns",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Samoëns",
     "url": "",
+    "coordinates": {
+      "latitude": 46.0834488,
+      "longitude": 6.7274
+    },
     "webcams": [
       {
         "name": "Samoëns 1600",
@@ -3545,13 +3464,13 @@
   {
     "id": "semnoz",
     "name": "Semnoz",
-    "state": "Haute-Savoie",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.semnoz.fr/",
     "coordinates": {
       "latitude": 45.796933,
       "longitude": 6.104734
     },
-    "url": "https://www.semnoz.fr/",
     "webcams": [
       {
         "name": "Sommet tmx",
@@ -3573,13 +3492,13 @@
   {
     "id": "serre-chevalier",
     "name": "Serre Chevalier",
-    "state": "Hautes-Alpes",
     "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.alpedugrandserre.info",
     "coordinates": {
       "latitude": 44.945955,
       "longitude": 6.559166
     },
-    "url": "https://www.alpedugrandserre.info",
     "webcams": [
       {
         "name": "Briançon",
@@ -3621,13 +3540,13 @@
   {
     "id": "singen",
     "name": "Singen",
-    "state": "Baden-Württemberg",
     "country": "Germany",
+    "state": "Baden-Württemberg",
+    "url": "https://www.singen-totallokal.de/",
     "coordinates": {
       "latitude": 47.7617515,
       "longitude": 8.8348709
     },
-    "url": "https://www.singen-totallokal.de/",
     "webcams": [
       {
         "name": "Singen",
@@ -3639,15 +3558,13 @@
   {
     "id": "super-besse",
     "name": "Super-Besse",
+    "country": "France",
+    "state": "Puy-de-Dôme",
+    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/super-besse/superbesse-station-de-ski-et-sports-hiver/",
     "coordinates": {
       "latitude": 45.509164,
       "longitude": 2.853922
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "country": "France",
-    "state": "Puy-de-Dôme",
-    "url": "https://www.sancy.com/decouvrir/toutes-les-communes/super-besse/superbesse-station-de-ski-et-sports-hiver/",
     "webcams": [
       {
         "name": "Haut de station",
@@ -3664,15 +3581,13 @@
   {
     "id": "super-devoluy",
     "name": "SuperDévoluy",
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.ledevoluy.com/fr",
     "coordinates": {
       "latitude": 44.677507,
       "longitude": 5.92639
     },
-    "isFavorite": false,
-    "isFeatured": false,
-    "country": "France",
-    "state": "Hautes-Alpes",
-    "url": "https://www.ledevoluy.com/fr",
     "webcams": [
       {
         "name": "Pied des pistes",
@@ -3699,13 +3614,13 @@
   {
     "id": "talloires-montmin",
     "name": "Talloires-Montmin",
-    "state": "Haute-Savoie",
     "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.perebise.com/",
     "coordinates": {
       "latitude": 45.81733355,
       "longitude": 6.253543870078719
     },
-    "url": "https://www.perebise.com/",
     "webcams": [
       {
         "name": "Auberge du Père Bise",
@@ -3716,14 +3631,14 @@
   },
   {
     "id": "thollon-les-memises",
-    "coordinates": {
-      "longitude": 6.7131582,
-      "latitude": 46.3901349
-    },
+    "name": "Thollon-les-Mémises",
     "country": "France",
     "state": "Haute-Savoie",
-    "name": "Thollon-les-Mémises",
     "url": "http://www.thollonlesmemises-tourisme.com",
+    "coordinates": {
+      "latitude": 46.3901349,
+      "longitude": 6.7131582
+    },
     "webcams": [
       {
         "name": "Front de neige",
@@ -3739,14 +3654,14 @@
   },
   {
     "id": "val-cenis",
-    "coordinates": {
-      "longitude": 6.8826081,
-      "latitude": 45.2855631
-    },
+    "name": "Val Cenis",
     "country": "France",
     "state": "Savoie",
-    "name": "Val Cenis",
     "url": "http://www.valcenis.com",
+    "coordinates": {
+      "latitude": 45.2855631,
+      "longitude": 6.8826081
+    },
     "webcams": [
       {
         "name": "Sommet du Solert",
@@ -3772,14 +3687,14 @@
   },
   {
     "id": "val-thorens",
-    "coordinates": {
-      "longitude": 6.5835663,
-      "latitude": 45.2979241
-    },
+    "name": "Val-Thorens",
     "country": "France",
     "state": "Savoie",
-    "name": "Val-Thorens",
     "url": "http://www.valthorens.com",
+    "coordinates": {
+      "latitude": 45.2979241,
+      "longitude": 6.5835663
+    },
     "webcams": [
       {
         "name": "Station",
@@ -3830,15 +3745,14 @@
   },
   {
     "id": "valberg",
-    "coordinates": {
-      "longitude": 6.9294552,
-      "latitude": 44.0952614
-    },
+    "name": "Valberg",
     "country": "France",
     "state": "Alpes Maritimes",
-    "name": "Valberg",
     "url": "http://www.valberg.com/",
-    "trail_map": "https://www.valberg.com/plandespistes-alpin.html",
+    "coordinates": {
+      "latitude": 44.0952614,
+      "longitude": 6.9294552
+    },
     "webcams": [
       {
         "name": "Beuil-Les Launes ",
@@ -3869,14 +3783,14 @@
   },
   {
     "id": "valdisere",
-    "coordinates": {
-      "longitude": 6.980186,
-      "latitude": 45.44886
-    },
+    "name": "Val d'Isere",
     "country": "France",
     "state": "Savoie",
-    "name": "Val d'Isere",
     "url": "https://www.valdisere.com/",
+    "coordinates": {
+      "latitude": 45.44886,
+      "longitude": 6.980186
+    },
     "webcams": [
       {
         "name": "Solaise",
@@ -3903,13 +3817,13 @@
   {
     "id": "valloire",
     "name": "Valloire",
-    "state": "Savoie",
     "country": "France",
-    "coordinates": {
-      "longitude": 6.4296372,
-      "latitude": 45.165
-    },
+    "state": "Savoie",
     "url": "https://www.valloire.net",
+    "coordinates": {
+      "latitude": 45.165,
+      "longitude": 6.4296372
+    },
     "webcams": [
       {
         "name": "Poingt Ravier",
@@ -3925,15 +3839,14 @@
   },
   {
     "id": "valmorel",
-    "coordinates": {
-      "longitude": 6.4424427,
-      "latitude": 45.4617057
-    },
+    "name": "Valmorel",
     "country": "France",
     "state": "Savoie",
-    "name": "Valmorel",
     "url": "https://www.valmorel.com/",
-    "trail_map": "https://www.valmorel.com/wp-content/uploads/2020/10/Plan-Grand-Domaine-2020-2021-WEB-2.pdf",
+    "coordinates": {
+      "latitude": 45.4617057,
+      "longitude": 6.4424427
+    },
     "webcams": [
       {
         "name": "Village",
@@ -3959,15 +3872,14 @@
   },
   {
     "id": "Vars",
-    "coordinates": {
-      "longitude": 6.6894121,
-      "latitude": 44.5929794
-    },
+    "name": "Vars",
     "country": "France",
     "state": "Hautes Alpes",
-    "name": "Vars",
     "url": "http://www.vars.com",
-    "trail_map": "https://www.vars.com/app/uploads/vars/2021/11/depliant-plan-des-pistes-2021-22-bd.pdf",
+    "coordinates": {
+      "latitude": 44.5929794,
+      "longitude": 6.6894121
+    },
     "webcams": [
       {
         "name": "Chabrières",
@@ -4008,14 +3920,14 @@
   },
   {
     "id": "vaujany",
-    "coordinates": {
-      "longitude": 6.0767341,
-      "latitude": 45.1577515
-    },
+    "name": "Vaujany",
     "country": "France",
     "state": "Isère",
-    "name": "Vaujany",
     "url": "http://www.vaujany.com/",
+    "coordinates": {
+      "latitude": 45.1577515,
+      "longitude": 6.0767341
+    },
     "webcams": [
       {
         "name": "Alpette",
@@ -4037,13 +3949,13 @@
   {
     "id": "vercorin",
     "name": "Vercorin",
-    "state": "Valais",
     "country": "Suisse",
-    "coordinates": {
-      "longitude": 7.530704,
-      "latitude": 46.2571655
-    },
+    "state": "Valais",
     "url": "",
+    "coordinates": {
+      "latitude": 46.2571655,
+      "longitude": 7.530704
+    },
     "webcams": [
       {
         "name": "Village",
@@ -4064,14 +3976,14 @@
   },
   {
     "id": "villard-de-lans",
-    "coordinates": {
-      "longitude": 5.550028,
-      "latitude": 45.068834
-    },
+    "name": "Villard-de-Lans",
     "country": "",
     "state": "Isère",
-    "name": "Villard-de-Lans",
     "url": "http://www.villarddelans-correnconenvercors.com",
+    "coordinates": {
+      "latitude": 45.068834,
+      "longitude": 5.550028
+    },
     "webcams": [
       {
         "name": "Colline des Bains",
@@ -4088,13 +4000,13 @@
   {
     "id": "violay",
     "name": "Violay",
-    "state": "Loire",
     "country": "France",
+    "state": "Loire",
+    "url": "https://www.loiretourisme.com/la-loire/forez-est/a-voir-a-faire/tour-matagrin/",
     "coordinates": {
       "latitude": 45.8526035,
       "longitude": 4.3567286
     },
-    "url": "https://www.loiretourisme.com/la-loire/forez-est/a-voir-a-faire/tour-matagrin/",
     "webcams": [
       {
         "name": "Tour de Matagrin",
@@ -4228,5 +4140,17 @@
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_les-lindarets.jpg"
       }
     ]
+  },
+  {
+    "id": "tignes",
+    "name": "Tignes",
+    "country": "France",
+    "state": "Savoie",
+    "url": "https://www.tignes.net/",
+    "coordinates": {
+      "latitude": 45.469729,
+      "longitude": 6.907594
+    },
+    "webcams": []
   }
 ]

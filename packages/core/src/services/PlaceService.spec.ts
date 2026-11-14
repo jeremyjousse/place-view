@@ -1,5 +1,10 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { PlaceService } from './PlaceService';
+import {
+	filterAdminPlaces,
+	isPlaceMissingMeta,
+	matchesPlaceQuery,
+	PlaceService
+} from './PlaceService';
 import type { Place } from '../domain/Place';
 
 const mockPlaces: Place[] = [
@@ -163,5 +168,31 @@ describe('PlaceService', () => {
 
 		await service.refresh();
 		expect(fetchMock).toHaveBeenCalledTimes(2);
+	});
+
+	it('filters admin places by mode and query including id', () => {
+		const places: Place[] = [
+			...mockPlaces,
+			{
+				id: 'incomplete-spot',
+				name: 'Incomplete Spot',
+				state: '',
+				country: 'France',
+				url: '',
+				coordinates: { latitude: 45, longitude: 6 },
+				webcams: []
+			}
+		];
+
+		expect(matchesPlaceQuery(places[0], 'chamonix')).toBe(true);
+		expect(matchesPlaceQuery(places[1], 'val-thorens', false)).toBe(false);
+		expect(matchesPlaceQuery(places[1], 'val-thorens', true)).toBe(true);
+		expect(isPlaceMissingMeta(places[3])).toBe(true);
+		expect(filterAdminPlaces(places, '', 'no-webcams').map((p) => p.id)).toEqual([
+			'incomplete-spot'
+		]);
+		expect(filterAdminPlaces(places, 'incomplete', 'missing-meta').map((p) => p.id)).toEqual([
+			'incomplete-spot'
+		]);
 	});
 });

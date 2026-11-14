@@ -1,0 +1,22 @@
+.leaflet-container {
+	z-index: 1;
+	font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+	background: #1a1d23;
+	color: white;
+	border: 1px solid #2a2d35;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.leaflet-popup-tip {
+	background: #1a1d23;
+}
+
+.leaflet-popup-content {
+	margin: 8px 12px;
+	line-height: 1.4;
+}

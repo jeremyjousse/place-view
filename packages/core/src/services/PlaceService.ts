@@ -1,5 +1,34 @@
 import type { Place } from '../domain/Place.js';
 
+export type AdminPlaceFilter = 'all' | 'no-webcams' | 'missing-meta';
+
+export function matchesPlaceQuery(place: Place, query: string, includeId = false): boolean {
+	const q = query.trim().toLowerCase();
+	if (!q) return true;
+	return (
+		place.name.toLowerCase().includes(q) ||
+		Boolean(place.state?.toLowerCase().includes(q)) ||
+		Boolean(place.country?.toLowerCase().includes(q)) ||
+		(includeId && place.id.toLowerCase().includes(q))
+	);
+}
+
+export function isPlaceMissingMeta(place: Place): boolean {
+	return !place.country?.trim() || !place.state?.trim() || !place.url?.trim();
+}
+
+export function filterAdminPlaces(
+	places: readonly Place[],
+	query: string,
+	filterMode: AdminPlaceFilter = 'all'
+): Place[] {
+	return places.filter((place) => {
+		if (filterMode === 'no-webcams' && (place.webcams?.length ?? 0) > 0) return false;
+		if (filterMode === 'missing-meta' && !isPlaceMissingMeta(place)) return false;
+		return matchesPlaceQuery(place, query, true);
+	});
+}
+
 export interface SearchPlacesResult {
 	places: Place[];
 	total: number;
@@ -83,13 +112,7 @@ export class PlaceService {
 		let places = await this.getAll();
 
 		if (query && query.trim() !== '') {
-			const lowerQuery = query.toLowerCase().trim();
-			places = places.filter(
-				(place) =>
-					place.name.toLowerCase().includes(lowerQuery) ||
-					Boolean(place.state?.toLowerCase().includes(lowerQuery)) ||
-					Boolean(place.country?.toLowerCase().includes(lowerQuery))
-			);
+			places = places.filter((place) => matchesPlaceQuery(place, query));
 		}
 
 		const total = places.length;

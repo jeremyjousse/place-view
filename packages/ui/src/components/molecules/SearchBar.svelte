@@ -34,8 +34,9 @@
 			>
 			<Input
 				bind:value
+				variant="bare"
 				placeholder="SEARCH DESTINATIONS, RESORTS, OR CITIES..."
-				class="border-none text-sm font-bold tracking-wider uppercase focus:ring-0"
+				class="text-sm font-bold tracking-wider uppercase"
 			/>
 		</div>
 		<Button
