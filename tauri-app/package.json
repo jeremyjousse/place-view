@@ -3,6 +3,9 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
+	"imports": {
+		"#lib/*": "./src/lib/*"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "cp ../resources/places.json ./static/. 2>/dev/null || true && vite build",
@@ -43,6 +46,7 @@
 		"@place-view/core": "workspace:*",
 		"@place-view/ui": "workspace:*",
 		"@tauri-apps/api": "^2.10.1",
+		"@tauri-apps/plugin-dialog": "^2.8.4",
 		"@tauri-apps/plugin-opener": "^2.5.4",
 		"@tauri-apps/plugin-os": "^2.4.0",
 		"@types/leaflet": "^1.9.22",

@@ -2,7 +2,14 @@
 	import { onMount } from 'svelte';
 	import type L from 'leaflet';
 	import 'leaflet/dist/leaflet.css';
+	import '../../lib/leaflet-theme.css';
 	import type { Place, MapPosition } from '@place-view/core';
+	import {
+		createLeafletMap,
+		createPlacePopupElement,
+		DEFAULT_MAP_CENTER,
+		loadLeaflet
+	} from '../../lib/leaflet';
 
 	interface Props {
 		places: Place[];
@@ -12,6 +19,8 @@
 		persistPosition?: boolean;
 		heightClass?: string;
 		position?: MapPosition;
+		markerVariant?: 'pin' | 'dot';
+		actionLabel?: string;
 		onPositionChange?: (position: MapPosition) => void;
 		getPlaceHref?: (place: Place) => string;
 		onSelectPlace?: (place: Place) => void;
@@ -19,12 +28,14 @@
 
 	let {
 		places = [],
-		center = [46.2276, 2.2137],
+		center = DEFAULT_MAP_CENTER,
 		zoom = 6,
 		fitBounds = false,
 		persistPosition = false,
 		heightClass = 'h-full min-h-[500px]',
 		position,
+		markerVariant = 'pin',
+		actionLabel = 'View Place',
 		onPositionChange,
 		getPlaceHref = (place: Place) => `/place/${encodeURIComponent(place.id)}/`,
 		onSelectPlace
@@ -82,26 +93,11 @@
 		let cancelled = false;
 
 		async function initialize() {
-			Leaflet = (await import('leaflet')).default;
-			if (cancelled) return;
-
-			// @ts-expect-error Leaflet icon prototype override
-			delete Leaflet.Icon.Default.prototype._getIconUrl;
-			Leaflet.Icon.Default.mergeOptions({
-				iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-				iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-				shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
-			});
+			Leaflet = await loadLeaflet();
+			if (cancelled || !mapElement) return;
 
 			const initial = getInitialCoordinates();
-			map = Leaflet.map(mapElement).setView(initial.center, initial.zoom);
-
-			Leaflet.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution:
-					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-				maxZoom: 19
-			}).addTo(map);
-
+			map = createLeafletMap(Leaflet, mapElement, initial.center, initial.zoom);
 			markerGroup = Leaflet.layerGroup().addTo(map);
 			updateMarkers();
 			map.on('moveend', savePosition);
@@ -146,38 +142,35 @@
 		markerGroup.clearLayers();
 		const bounds = Leaflet.latLngBounds([]);
 
-		places.forEach((place: Place) => {
-			if (place.coordinates?.latitude && place.coordinates?.longitude) {
-				const popup = document.createElement('div');
-				const name = document.createElement('div');
-				name.className = 'font-bold text-sm';
-				name.textContent = place.name;
-				const location = document.createElement('div');
-				location.className = 'text-xs text-neutral-400 mb-2';
-				location.textContent = [place.state, place.country].filter(Boolean).join(' • ');
-				const link = document.createElement('a');
-				link.href = getPlaceHref(place);
-				link.className =
-					'inline-block bg-primary text-black font-black px-3 py-1.5 rounded-lg text-xs uppercase tracking-wider hover:opacity-90';
-				link.textContent = 'View Place';
-				if (onSelectPlace) {
-					link.onclick = (e) => {
-						e.preventDefault();
-						onSelectPlace(place);
-					};
-				}
-				popup.append(name, location, link);
-				const marker = Leaflet.marker([
-					place.coordinates.latitude,
-					place.coordinates.longitude
-				]).bindPopup(popup);
-				markerGroup?.addLayer(marker);
-				bounds.extend([place.coordinates.latitude, place.coordinates.longitude]);
-			}
-		});
+		for (const place of places) {
+			const lat = place.coordinates?.latitude;
+			const lon = place.coordinates?.longitude;
+			if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
 
-		// Auto center if only 1 place
-		if (!position && places.length === 1 && places[0].coordinates?.latitude) {
+			const popup = createPlacePopupElement({
+				place,
+				href: getPlaceHref(place),
+				actionLabel,
+				onSelect: onSelectPlace
+			});
+
+			const marker =
+				markerVariant === 'dot'
+					? Leaflet.circleMarker([lat, lon], {
+							radius: 6,
+							fillColor: '#c5ff29',
+							color: '#0f1115',
+							weight: 2,
+							opacity: 1,
+							fillOpacity: 0.9
+						}).bindPopup(popup)
+					: Leaflet.marker([lat, lon]).bindPopup(popup);
+
+			markerGroup.addLayer(marker);
+			bounds.extend([lat, lon]);
+		}
+
+		if (!position && places.length === 1 && Number.isFinite(places[0].coordinates?.latitude)) {
 			map.setView([places[0].coordinates.latitude, places[0].coordinates.longitude], 12);
 		} else if (fitBounds && places.length > 1 && bounds.isValid()) {
 			map.fitBounds(bounds, { padding: [50, 50] });
@@ -189,21 +182,3 @@
 	bind:this={mapElement}
 	class="border-border relative isolate z-0 w-full overflow-hidden rounded-3xl border shadow-2xl {heightClass}"
 ></div>
-
-<style>
-	:global(.leaflet-popup-content-wrapper) {
-		background: #1a1d23;
-		color: white;
-		border: 1px solid #2a2d35;
-		border-radius: 1rem;
-		padding: 0.5rem;
-		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
-	}
-	:global(.leaflet-popup-tip) {
-		background: #1a1d23;
-	}
-	:global(.leaflet-popup-content) {
-		margin: 8px 12px;
-		line-height: 1.4;
-	}
-</style>

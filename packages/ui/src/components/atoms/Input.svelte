@@ -1,8 +1,15 @@
 <script lang="ts">
+	type Variant = 'default' | 'surface' | 'bare';
+	type Size = 'sm' | 'md';
+
 	interface Props {
-		value?: string;
+		value?: string | number;
 		placeholder?: string;
 		type?: string;
+		variant?: Variant;
+		size?: Size;
+		mono?: boolean;
+		invalid?: boolean;
 		class?: string;
 		[key: string]: unknown;
 	}
@@ -11,17 +18,35 @@
 		value = $bindable(),
 		placeholder = '',
 		type = 'text',
+		variant = 'default',
+		size = 'md',
+		mono = false,
+		invalid = false,
 		class: className = '',
 		...props
 	}: Props = $props();
+
+	const variantClasses: Record<Variant, string> = {
+		default:
+			'bg-background border-border text-text placeholder:text-text-muted/40 focus:ring-primary border transition-all focus:border-transparent focus:ring-2 focus:outline-none read-only:cursor-not-allowed read-only:opacity-60',
+		surface:
+			'bg-surface border-border text-text placeholder:text-text-muted/40 focus:ring-primary border transition-all focus:border-transparent focus:ring-2 focus:outline-none read-only:cursor-not-allowed read-only:opacity-60',
+		bare: 'bg-transparent border-none text-text placeholder:text-text/30 focus:ring-0 focus:outline-none'
+	};
+
+	const sizeClasses: Record<Size, string> = {
+		sm: 'rounded-xl px-3 py-2 text-xs',
+		md: 'rounded-2xl px-4 py-2.5 text-sm font-medium'
+	};
 </script>
 
-<div class="relative w-full">
-	<input
-		{type}
-		{placeholder}
-		bind:value
-		class="bg-surface border-border text-text placeholder-text/30 focus:ring-primary focus:border-primary w-full rounded-none border px-4 py-2 transition-all duration-200 focus:ring-1 focus:outline-none {className}"
-		{...props}
-	/>
-</div>
+<input
+	{type}
+	{placeholder}
+	bind:value
+	aria-invalid={invalid || undefined}
+	class="w-full {variantClasses[variant]} {variant === 'bare'
+		? 'px-4 py-2'
+		: sizeClasses[size]} {mono ? 'font-mono' : ''} {invalid ? 'border-red-500/60' : ''} {className}"
+	{...props}
+/>
