@@ -4,6 +4,7 @@ export { default as Button } from './components/atoms/Button.svelte';
 export { default as FormField } from './components/atoms/FormField.svelte';
 export { default as IconButton } from './components/atoms/IconButton.svelte';
 export { default as Input } from './components/atoms/Input.svelte';
+export { default as PlaceLogo } from './components/atoms/PlaceLogo.svelte';
 export { default as Textarea } from './components/atoms/Textarea.svelte';
 
 // Molecules
