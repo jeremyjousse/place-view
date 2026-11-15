@@ -10,7 +10,7 @@ import {
 	localStoragePathStorage,
 	tauriFetchText,
 	tauriFilePicker,
-	tauriPlacesRepository
+	tauriPlacesBackend
 } from '#lib/adapters/tauri-admin';
 import { LocalPlacesStore } from '#lib/admin/local-places-store.svelte';
 import { addToast } from '#lib/admin/toast.svelte';
@@ -26,7 +26,7 @@ const ADMIN_CONTEXT_KEY = Symbol('place-view-admin-context');
 
 export function createTauriAdminContext(): AdminContextValue {
 	const placesStore = new LocalPlacesStore({
-		repository: tauriPlacesRepository,
+		backend: tauriPlacesBackend,
 		filePicker: tauriFilePicker,
 		pathStorage: localStoragePathStorage
 	});

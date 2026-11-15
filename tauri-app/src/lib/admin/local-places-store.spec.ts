@@ -1,15 +1,89 @@
-import { describe, expect, it } from 'vitest';
-import { LocalPlacesStore, type LocalPlacesPorts } from './local-places-store.svelte';
+import type { Place } from '@place-view/core';
+import { describe, expect, it, vi } from 'vitest';
+import {
+	LocalPlacesStore,
+	type LocalPlacesBackend,
+	type LocalPlacesPorts
+} from './local-places-store.svelte';
 
-function createMemoryPorts(initialFileContent?: string): {
+function createMockPorts(initialPlaces: Place[]): {
 	ports: LocalPlacesPorts;
-	getDiskContent: () => string;
-	setDiskContent: (next: string) => void;
+	backend: LocalPlacesBackend;
+	setFailLoad: (message: string | null) => void;
 	getSavedPath: () => string | null;
 } {
-	let diskPath: string | null = initialFileContent ? '/tmp/places.json' : null;
-	let diskContent = initialFileContent ?? '[]';
+	const diskPath = '/tmp/places.json';
 	let savedPath: string | null = null;
+	let places = [...initialPlaces];
+	let loadFailure: string | null = null;
+
+	const sortById = (items: Place[]) =>
+		[...items].sort((a, b) => a.id.toLowerCase().localeCompare(b.id.toLowerCase()));
+
+	const backend: LocalPlacesBackend = {
+		loadPlaces: vi.fn(async (path: string) => {
+			if (loadFailure) throw loadFailure;
+			if (path !== diskPath) throw new Error('File not found');
+			return places;
+		}),
+		createPlace: vi.fn(async (_path, input) => {
+			const created: Place = {
+				id: input.id?.trim() || 'chamonix-mont-blanc',
+				name: input.name,
+				country: input.country,
+				state: input.state,
+				url: input.url,
+				...(input.description ? { description: input.description } : {}),
+				coordinates: input.coordinates,
+				webcams: input.webcams ?? []
+			};
+			places = sortById([...places, created]);
+			return { places, place: created };
+		}),
+		updatePlace: vi.fn(async (_path, id, details) => {
+			const existing = places.find((p) => p.id === id);
+			if (!existing) throw `Place "${id}" not found.`;
+			const updated: Place = { ...existing, ...details };
+			places = sortById(places.map((p) => (p.id === id ? updated : p)));
+			return { places, place: updated };
+		}),
+		deletePlace: vi.fn(async (_path, id) => {
+			places = sortById(places.filter((p) => p.id !== id));
+			return places;
+		}),
+		addWebcam: vi.fn(async (_path, placeId, webcam) => {
+			const existing = places.find((p) => p.id === placeId);
+			if (!existing) throw `Place "${placeId}" not found.`;
+			const updated: Place = { ...existing, webcams: [...existing.webcams, webcam] };
+			places = places.map((p) => (p.id === placeId ? updated : p));
+			return { places, place: updated };
+		}),
+		updateWebcam: vi.fn(async (_path, placeId, index, webcam) => {
+			const existing = places.find((p) => p.id === placeId)!;
+			const webcams = existing.webcams.map((w, i) => (i === index ? webcam : w));
+			const updated: Place = { ...existing, webcams };
+			places = places.map((p) => (p.id === placeId ? updated : p));
+			return { places, place: updated };
+		}),
+		removeWebcam: vi.fn(async (_path, placeId, index) => {
+			const existing = places.find((p) => p.id === placeId)!;
+			const updated: Place = {
+				...existing,
+				webcams: existing.webcams.filter((_, i) => i !== index)
+			};
+			places = places.map((p) => (p.id === placeId ? updated : p));
+			return { places, place: updated };
+		}),
+		reorderWebcam: vi.fn(async (_path, placeId, fromIndex, toIndex) => {
+			const existing = places.find((p) => p.id === placeId)!;
+			const webcams = [...existing.webcams];
+			const [moved] = webcams.splice(fromIndex, 1);
+			webcams.splice(toIndex, 0, moved);
+			const updated: Place = { ...existing, webcams };
+			places = places.map((p) => (p.id === placeId ? updated : p));
+			return { places, place: updated };
+		})
+	};
 
 	const ports: LocalPlacesPorts = {
 		filePicker: {
@@ -17,18 +91,7 @@ function createMemoryPorts(initialFileContent?: string): {
 				return diskPath;
 			}
 		},
-		repository: {
-			async readFile(path: string) {
-				if (path !== diskPath) {
-					throw new Error('File not found');
-				}
-				return diskContent;
-			},
-			async writeFile(path: string, content: string) {
-				diskPath = path;
-				diskContent = content;
-			}
-		},
+		backend,
 		pathStorage: {
 			getSavedPath() {
 				return savedPath;
@@ -41,36 +104,34 @@ function createMemoryPorts(initialFileContent?: string): {
 
 	return {
 		ports,
-		getDiskContent: () => diskContent,
-		setDiskContent: (next: string) => {
-			diskContent = next;
+		backend,
+		setFailLoad: (message: string | null) => {
+			loadFailure = message;
 		},
 		getSavedPath: () => savedPath
 	};
 }
 
 describe('LocalPlacesStore', () => {
-	it('picks, remembers, creates, updates, manages webcams, and deletes places', async () => {
-		const mem = createMemoryPorts(
-			JSON.stringify([
-				{
-					id: 'albiez',
-					name: 'Albiez',
-					country: 'France',
-					state: 'Savoie',
-					url: 'https://www.albiez.fr',
-					coordinates: { latitude: 45.21, longitude: 6.34 },
-					webcams: []
-				}
-			])
-		);
+	const seedPlace: Place = {
+		id: 'val-thorens',
+		name: 'Val Thorens',
+		country: 'France',
+		state: 'Savoie',
+		url: 'https://www.valthorens.com',
+		coordinates: { latitude: 45.2979, longitude: 6.5802 },
+		webcams: []
+	};
 
-		const store = new LocalPlacesStore(mem.ports);
+	it('delegates load and mutations to backend and syncs sorted places state', async () => {
+		const mock = createMockPorts([seedPlace]);
+		const store = new LocalPlacesStore(mock.ports);
+
 		expect(await store.pickAndLoadFile()).toBe(true);
 		expect(store.places).toHaveLength(1);
-		expect(mem.getSavedPath()).toBe('/tmp/places.json');
+		expect(mock.getSavedPath()).toBe('/tmp/places.json');
 
-		const restoredStore = new LocalPlacesStore(mem.ports);
+		const restoredStore = new LocalPlacesStore(mock.ports);
 		expect(await restoredStore.restoreRememberedFile()).toBe(true);
 		expect(restoredStore.places).toHaveLength(1);
 
@@ -83,7 +144,7 @@ describe('LocalPlacesStore', () => {
 			webcams: []
 		});
 		expect(created.id).toBe('chamonix-mont-blanc');
-		expect(store.places).toHaveLength(2);
+		expect(store.places.map((p) => p.id)).toEqual(['chamonix-mont-blanc', 'val-thorens']);
 
 		await store.addWebcam('chamonix-mont-blanc', {
 			name: 'Cam A',
@@ -92,33 +153,26 @@ describe('LocalPlacesStore', () => {
 		});
 		expect(store.getById('chamonix-mont-blanc')?.webcams).toHaveLength(1);
 
-		await store.deletePlace('albiez');
-		expect(store.places).toHaveLength(1);
-		expect(JSON.parse(mem.getDiskContent())).toHaveLength(1);
+		await store.deletePlace('val-thorens');
+		expect(store.places.map((p) => p.id)).toEqual(['chamonix-mont-blanc']);
 	});
 
-	it('preserves active session when reload fails on invalid JSON', async () => {
-		const mem = createMemoryPorts(
-			JSON.stringify([
-				{
-					id: 'albiez',
-					name: 'Albiez',
-					country: 'France',
-					state: 'Savoie',
-					url: 'https://www.albiez.fr',
-					coordinates: { latitude: 45.21, longitude: 6.34 },
-					webcams: []
-				}
-			])
-		);
-
-		const store = new LocalPlacesStore(mem.ports);
+	it('preserves active session and surfaces string IPC errors when reload fails', async () => {
+		const mock = createMockPorts([seedPlace]);
+		const store = new LocalPlacesStore(mock.ports);
 		expect(await store.pickAndLoadFile()).toBe(true);
 
-		mem.setDiskContent('{corrupted');
+		mock.setFailLoad('Invalid JSON content: expected value');
 		expect(await store.reload()).toBe(false);
 		expect(store.filePath).toBe('/tmp/places.json');
 		expect(store.places).toHaveLength(1);
-		expect(store.error).toBeTruthy();
+		expect(store.error).toBe('Invalid JSON content: expected value');
+	});
+
+	it('rejects mutations when no file is selected', async () => {
+		const mock = createMockPorts([seedPlace]);
+		const store = new LocalPlacesStore(mock.ports);
+
+		await expect(store.deletePlace('val-thorens')).rejects.toThrow(/no local places\.json file/i);
 	});
 });
