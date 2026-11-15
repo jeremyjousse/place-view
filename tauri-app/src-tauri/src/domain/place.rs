@@ -1,5 +1,6 @@
 //! Pure place entities, validation rules, slugification, sorting, and list mutations.
 
+use icu_normalizer::DecomposingNormalizerBorrowed;
 use serde::{Deserialize, Serialize};
 use url::Url;
 
@@ -98,40 +99,27 @@ pub struct PlaceDetailsUpdate {
     pub coordinates: Coordinates,
 }
 
-fn fold_latin_char(ch: char) -> char {
-    match ch {
-        'à' | 'á' | 'â' | 'ã' | 'ä' | 'å' => 'a',
-        'ç' => 'c',
-        'è' | 'é' | 'ê' | 'ë' => 'e',
-        'ì' | 'í' | 'î' | 'ï' => 'i',
-        'ñ' => 'n',
-        'ò' | 'ó' | 'ô' | 'õ' | 'ö' | 'ø' => 'o',
-        'ù' | 'ú' | 'û' | 'ü' => 'u',
-        'ý' | 'ÿ' => 'y',
-        other => other,
-    }
-}
-
 /// Converts arbitrary text into a lowercase ASCII URL slug.
+///
+/// Matches `packages/core/src/utils/url-state.ts` (`toLowerCase -> NFD -> strip U+0300..=U+036F -> ASCII slug`).
 pub fn slugify(text: &str) -> String {
-    let mut slug = String::with_capacity(text.len());
+    let lowered = text.to_lowercase();
+    let nfd = DecomposingNormalizerBorrowed::new_nfd();
+    let mut slug = String::with_capacity(lowered.len());
     let mut pending_dash = false;
 
-    for raw in text.chars() {
-        if ('\u{0300}'..='\u{036f}').contains(&raw) {
+    for ch in nfd.normalize_iter(lowered.chars()) {
+        if ('\u{0300}'..='\u{036f}').contains(&ch) {
             continue;
         }
-        for lower in raw.to_lowercase() {
-            let folded = fold_latin_char(lower);
-            if folded.is_ascii_alphanumeric() {
-                if pending_dash && !slug.is_empty() {
-                    slug.push('-');
-                }
-                slug.push(folded);
-                pending_dash = false;
-            } else if !slug.is_empty() {
-                pending_dash = true;
+        if ch.is_ascii_alphanumeric() {
+            if pending_dash && !slug.is_empty() {
+                slug.push('-');
             }
+            slug.push(ch);
+            pending_dash = false;
+        } else if !slug.is_empty() {
+            pending_dash = true;
         }
     }
 
@@ -491,6 +479,8 @@ mod tests {
         assert_eq!(slugify("Aillons-Margériaz"), "aillons-margeriaz");
         assert_eq!(slugify("L'Alpe d'Huez"), "l-alpe-d-huez");
         assert_eq!(slugify("e\u{0301}cole"), "ecole");
+        assert_eq!(slugify("Špindlerův Mlýn"), "spindleruv-mlyn");
+        assert_eq!(slugify("Sølden"), "s-lden");
         assert_eq!(slugify("  ---  "), "");
     }
 
