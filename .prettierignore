@@ -12,6 +12,4 @@ target/
 **/target/
 **/static/places.json
 resources/
-admin-tools/
-swift-app/
 tools/.cache/

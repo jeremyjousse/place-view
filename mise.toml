@@ -25,29 +25,29 @@ run = "pnpm --filter tauri-app tauri ios dev"
 [tasks.check]
 description = "Check Svelte, TypeScript, and Rust across workspace"
 run = """
-pnpm -r --filter '!./admin-tools' run check
+pnpm -r run check
 cargo check --manifest-path tauri-app/src-tauri/Cargo.toml
 """
 
 [tasks.lint]
 description = "Lint all workspace packages and apps"
-run = "pnpm -r --filter '!./admin-tools' run lint"
+run = "pnpm -r run lint"
 
 [tasks."format:check"]
 description = "Check formatting across workspace"
-run = "pnpm -r --filter '!./admin-tools' run format:check"
+run = "pnpm -r run format:check"
 
 [tasks.format]
 description = "Format all workspace packages and apps"
-run = "pnpm -r --filter '!./admin-tools' run format"
+run = "pnpm -r run format"
 
 [tasks.test]
 description = "Run unit tests across workspace"
-run = "pnpm -r --filter '!./admin-tools' --filter '!webapp' run test && pnpm --filter webapp run test:unit --run"
+run = "pnpm -r --filter '!webapp' run test && pnpm --filter webapp run test:unit --run"
 
 [tasks.build]
 description = "Build webapp, shared packages, and tauri app"
-run = "pnpm -r --filter '!./admin-tools' run build"
+run = "pnpm -r run build"
 
 [tasks.verify]
 description = "Verify entire workspace (check, lint, format:check, test)"

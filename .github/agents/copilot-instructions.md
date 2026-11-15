@@ -3,7 +3,7 @@
 Auto-generated from all feature plans. Last updated: 2025-12-29
 
 ## Active Technologies
-- Local JSON files (reusing `resources/` or `admin-tools/` data) (001-migrate-admin-svelte)
+- Local JSON files (reusing `resources/` data) (001-migrate-admin-svelte)
 - TypeScript (SvelteKit), Node.js + Svelte 5, SvelteKit 2, Tailwind CSS v4 (002-reorder-webcams)
 - JSON files (`resources/places.json`) accessed via Node.js `fs` (002-reorder-webcams)
 

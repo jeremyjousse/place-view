@@ -7,12 +7,12 @@
 		"dev:web": "pnpm --filter webapp dev",
 		"dev:desktop": "pnpm --filter tauri-app tauri dev",
 		"dev:ios": "pnpm --filter tauri-app tauri ios dev",
-		"check": "pnpm -r --filter '!./admin-tools' run check",
-		"lint": "pnpm -r --filter '!./admin-tools' run lint",
-		"format": "pnpm -r --filter '!./admin-tools' run format",
-		"format:check": "pnpm -r --filter '!./admin-tools' run format:check",
-		"test": "pnpm -r --filter '!./admin-tools' run test",
-		"build": "pnpm -r --filter '!./admin-tools' run build",
+		"check": "pnpm -r run check",
+		"lint": "pnpm -r run lint",
+		"format": "pnpm -r run format",
+		"format:check": "pnpm -r run format:check",
+		"test": "pnpm -r run test",
+		"build": "pnpm -r run build",
 		"import:roundshot": "pnpm --filter @place-view/tools import:roundshot"
 	},
 	"devDependencies": {
