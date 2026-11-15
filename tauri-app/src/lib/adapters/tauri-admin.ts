@@ -1,20 +1,52 @@
 import type {
+	CreatePlaceInput,
 	FetchTextFn,
 	FilePickerPort,
 	PathStoragePort,
-	PlacesRepository
+	Place,
+	PlaceDetailsUpdate,
+	Webcam
 } from '@place-view/core';
 import { invoke } from '@tauri-apps/api/core';
 import { open } from '@tauri-apps/plugin-dialog';
+import type { LocalPlacesBackend, PlaceMutationResult } from '#lib/admin/local-places-store.svelte';
 
 const STORAGE_KEY_FILE_PATH = 'place-view:admin-places-file-path';
 
-export const tauriPlacesRepository: PlacesRepository = {
-	readFile(path: string) {
-		return invoke<string>('read_local_places', { path });
+export const tauriPlacesBackend: LocalPlacesBackend = {
+	loadPlaces(path: string) {
+		return invoke<Place[]>('load_local_places', { path });
 	},
-	writeFile(path: string, content: string) {
-		return invoke<void>('write_local_places', { path, content });
+	createPlace(path: string, input: CreatePlaceInput) {
+		return invoke<PlaceMutationResult>('create_local_place', { path, input });
+	},
+	updatePlace(path: string, id: string, details: PlaceDetailsUpdate) {
+		return invoke<PlaceMutationResult>('update_local_place', { path, id, details });
+	},
+	deletePlace(path: string, id: string) {
+		return invoke<Place[]>('delete_local_place', { path, id });
+	},
+	addWebcam(path: string, placeId: string, webcam: Webcam) {
+		return invoke<PlaceMutationResult>('add_local_place_webcam', { path, placeId, webcam });
+	},
+	updateWebcam(path: string, placeId: string, index: number, webcam: Webcam) {
+		return invoke<PlaceMutationResult>('update_local_place_webcam', {
+			path,
+			placeId,
+			index,
+			webcam
+		});
+	},
+	removeWebcam(path: string, placeId: string, index: number) {
+		return invoke<PlaceMutationResult>('remove_local_place_webcam', { path, placeId, index });
+	},
+	reorderWebcam(path: string, placeId: string, fromIndex: number, toIndex: number) {
+		return invoke<PlaceMutationResult>('reorder_local_place_webcam', {
+			path,
+			placeId,
+			fromIndex,
+			toIndex
+		});
 	}
 };
 
