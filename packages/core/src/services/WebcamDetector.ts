@@ -91,12 +91,86 @@ export function parseWebcamHdGroupJson(jsonText: string, webcamIdPart: string): 
 	};
 }
 
+const ROUNDSHOT_CAM_PATH_REGEX =
+	/^(?:https?:\/\/backend\.roundshot\.com)?\/cams\/([0-9a-f]+)(?:\/(?:default|thumbnail))?(?:[?#].*)?$/i;
+
+export function extractRoundshotCamId(urlOrPath: string): string | null {
+	const match = urlOrPath.trim().match(ROUNDSHOT_CAM_PATH_REGEX);
+	return match?.[1] ? match[1].toLowerCase() : null;
+}
+
+export function buildRoundshotWebcam(camId: string, name = ''): Webcam {
+	const normalizedId = camId.toLowerCase();
+	return {
+		name,
+		largeImage: `https://backend.roundshot.com/cams/${normalizedId}/default`,
+		thumbnailImage: `https://backend.roundshot.com/cams/${normalizedId}/thumbnail`
+	};
+}
+
+function extractMetaContent(
+	html: string,
+	attrName: 'property' | 'name',
+	attrValue: string
+): string | null {
+	const metaRegex = /<meta\b[^>]*>/gi;
+	const attrRegex = new RegExp(`\\b${attrName}\\s*=\\s*["']${attrValue}["']`, 'i');
+	const contentRegex = /\bcontent\s*=\s*["']([^"']+)["']/i;
+	let match: RegExpExecArray | null;
+	while ((match = metaRegex.exec(html)) !== null) {
+		const tag = match[0];
+		if (!attrRegex.test(tag)) continue;
+		const contentMatch = tag.match(contentRegex);
+		if (contentMatch?.[1]) return contentMatch[1].trim();
+	}
+	return null;
+}
+
+export function parseRoundshotHtml(html: string): Webcam | null {
+	const ogImage = extractMetaContent(html, 'property', 'og:image');
+	const twitterImage = extractMetaContent(html, 'name', 'twitter:image');
+	const camId =
+		(ogImage ? extractRoundshotCamId(ogImage) : null) ??
+		(twitterImage ? extractRoundshotCamId(twitterImage) : null);
+	if (!camId) return null;
+
+	return buildRoundshotWebcam(camId, extractHtmlTitle(html));
+}
+
 export async function detectWebcamFromUrl(
 	rawUrl: string,
 	fetchText: FetchTextFn
 ): Promise<Webcam | null> {
 	const url = rawUrl.trim();
 	if (!url) return null;
+
+	let parsedUrl: URL | null = null;
+	try {
+		parsedUrl = new URL(url);
+	} catch {
+		parsedUrl = null;
+	}
+
+	if (parsedUrl && (parsedUrl.protocol === 'https:' || parsedUrl.protocol === 'http:')) {
+		const host = parsedUrl.hostname.toLowerCase();
+
+		if (host === 'backend.roundshot.com') {
+			const camId = extractRoundshotCamId(parsedUrl.pathname);
+			if (!camId || !/\/(default|thumbnail)\/?$/i.test(parsedUrl.pathname)) return null;
+			return buildRoundshotWebcam(camId);
+		}
+
+		if (/^storage\d*\.roundshot\.com$/i.test(host)) {
+			return null;
+		}
+
+		if (host.endsWith('.roundshot.com') && host !== 'www.roundshot.com') {
+			const cleanUrl = new URL(parsedUrl.toString());
+			cleanUrl.hash = '';
+			const html = await fetchText(cleanUrl.toString());
+			return parseRoundshotHtml(html);
+		}
+	}
 
 	if (url.startsWith('https://www.skaping.com')) {
 		const html = await fetchText(url);

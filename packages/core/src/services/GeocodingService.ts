@@ -51,14 +51,28 @@ export function parseNominatimResponse(jsonText: string): LocationPrediction[] {
 	);
 }
 
+export interface SearchLocationsOptions {
+	acceptLanguage?: string;
+}
+
 export async function searchLocations(
 	query: string,
-	fetchText: FetchTextFn
+	fetchText: FetchTextFn,
+	options?: SearchLocationsOptions
 ): Promise<LocationPrediction[]> {
 	const trimmed = query.trim();
 	if (trimmed.length < 3) return [];
 
-	const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(trimmed)}&format=json&limit=6&addressdetails=1`;
+	const params = new URLSearchParams({
+		q: trimmed,
+		format: 'json',
+		limit: '6',
+		addressdetails: '1'
+	});
+	if (options?.acceptLanguage) {
+		params.set('accept-language', options.acceptLanguage);
+	}
+	const url = `https://nominatim.openstreetmap.org/search?${params.toString()}`;
 	const body = await fetchText(url);
 	return parseNominatimResponse(body);
 }

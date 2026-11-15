@@ -47,5 +47,8 @@ describe('GeocodingService', () => {
 		await searchLocations('Chamonix', fetcher);
 		expect(fetcher).toHaveBeenCalledTimes(1);
 		expect(fetcher.mock.calls[0][0]).toContain('nominatim.openstreetmap.org/search?q=Chamonix');
+
+		await searchLocations('Tignes', fetcher, { acceptLanguage: 'fr' });
+		expect(fetcher.mock.calls[1][0]).toContain('accept-language=fr');
 	});
 });

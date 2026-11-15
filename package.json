@@ -12,7 +12,8 @@
 		"format": "pnpm -r --filter '!./admin-tools' run format",
 		"format:check": "pnpm -r --filter '!./admin-tools' run format:check",
 		"test": "pnpm -r --filter '!./admin-tools' run test",
-		"build": "pnpm -r --filter '!./admin-tools' run build"
+		"build": "pnpm -r --filter '!./admin-tools' run build",
+		"import:roundshot": "pnpm --filter @place-view/tools import:roundshot"
 	},
 	"devDependencies": {
 		"prettier": "^3.9.10",

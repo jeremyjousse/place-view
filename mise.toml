@@ -52,3 +52,7 @@ run = "pnpm -r --filter '!./admin-tools' run build"
 [tasks.verify]
 description = "Verify entire workspace (check, lint, format:check, test)"
 depends = ["check", "lint", "format:check", "test"]
+
+[tasks."import:roundshot"]
+description = "Import Roundshot webcams into resources/places.json (pass -- --write to write changes)"
+run = "pnpm --filter @place-view/tools import:roundshot"
