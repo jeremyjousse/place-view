@@ -14,3 +14,4 @@ target/
 resources/
 admin-tools/
 swift-app/
+tools/.cache/

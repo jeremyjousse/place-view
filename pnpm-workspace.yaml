@@ -2,6 +2,7 @@ packages:
   - 'packages/*'
   - 'webapp'
   - 'tauri-app'
+  - 'tools'
 
 allowBuilds:
   esbuild: true

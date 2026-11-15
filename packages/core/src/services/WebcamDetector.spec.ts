@@ -1,8 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import {
+	buildRoundshotWebcam,
 	detectWebcamFromUrl,
+	extractRoundshotCamId,
 	extractWebcamFromTrinumImage,
 	parsePanomaxHtml,
+	parseRoundshotHtml,
 	parseSkapingHtml,
 	parseWebcamHdGroupJson
 } from './WebcamDetector.js';
@@ -97,5 +100,80 @@ describe('WebcamDetector', () => {
 		});
 
 		expect(await detectWebcamFromUrl('https://example.com/page', noopFetch)).toBeNull();
+	});
+
+	it('parses Roundshot HTML from og:image and falls back to twitter:image', () => {
+		const htmlOg = `
+			<html>
+				<head>
+					<title>Tignes - Le Lac</title>
+					<meta property="og:image" content="/cams/220">
+					<meta name="twitter:image" content="/cams/220/thumbnail">
+				</head>
+			</html>
+		`;
+		expect(parseRoundshotHtml(htmlOg)).toEqual({
+			name: 'Tignes - Le Lac',
+			largeImage: 'https://backend.roundshot.com/cams/220/default',
+			thumbnailImage: 'https://backend.roundshot.com/cams/220/thumbnail'
+		});
+
+		const htmlTwitterHex = `
+			<html>
+				<head>
+					<title>IID &amp; Anza-Borrego</title>
+					<meta content="/cams/7c489eeced76dff9294e39d9925bed1b/thumbnail" name="twitter:image">
+				</head>
+			</html>
+		`;
+		expect(parseRoundshotHtml(htmlTwitterHex)).toEqual({
+			name: 'IID & Anza-Borrego',
+			largeImage: 'https://backend.roundshot.com/cams/7c489eeced76dff9294e39d9925bed1b/default',
+			thumbnailImage:
+				'https://backend.roundshot.com/cams/7c489eeced76dff9294e39d9925bed1b/thumbnail'
+		});
+
+		expect(parseRoundshotHtml('<html><head><title>Empty</title></head></html>')).toBeNull();
+	});
+
+	it('detects Roundshot page URLs (dropping hash fragment) and direct backend URLs', async () => {
+		const requestedUrls: string[] = [];
+		const detected = await detectWebcamFromUrl(
+			'https://tignes.roundshot.com/lac/#/',
+			async (url) => {
+				requestedUrls.push(url);
+				return '<title>Tignes - Le Lac</title><meta property="og:image" content="/cams/220">';
+			}
+		);
+		expect(requestedUrls).toEqual(['https://tignes.roundshot.com/lac/']);
+		expect(detected).toEqual({
+			name: 'Tignes - Le Lac',
+			largeImage: 'https://backend.roundshot.com/cams/220/default',
+			thumbnailImage: 'https://backend.roundshot.com/cams/220/thumbnail'
+		});
+
+		expect(
+			await detectWebcamFromUrl('https://backend.roundshot.com/cams/225/default', noopFetch)
+		).toEqual(buildRoundshotWebcam('225'));
+		expect(
+			await detectWebcamFromUrl(
+				'https://backend.roundshot.com/cams/7c489eeced76dff9294e39d9925bed1b/thumbnail',
+				noopFetch
+			)
+		).toEqual(buildRoundshotWebcam('7c489eeced76dff9294e39d9925bed1b'));
+
+		expect(
+			await detectWebcamFromUrl(
+				'https://www.roundshot.com/en/livecam-references.html/102/',
+				noopFetch
+			)
+		).toBeNull();
+		expect(
+			await detectWebcamFromUrl(
+				'https://storage2.roundshot.com/543bc630698b92.10661132/2026-11-14/08-20-00/2026-11-14-08-20-00_default.jpg',
+				noopFetch
+			)
+		).toBeNull();
+		expect(extractRoundshotCamId('https://backend.roundshot.com/cams/220/default')).toBe('220');
 	});
 });

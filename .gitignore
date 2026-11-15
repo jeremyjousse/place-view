@@ -27,3 +27,6 @@ target/
 
 # Worktrees
 .worktrees/
+
+# Tool caches
+tools/.cache/

@@ -1,0 +1,25 @@
+{
+	"name": "@place-view/tools",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"check": "tsc --noEmit",
+		"test": "vitest run",
+		"build": "true",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"import:roundshot": "jiti import-roundshot.ts"
+	},
+	"dependencies": {
+		"@place-view/core": "workspace:*"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.6",
+		"jiti": "^2.7.0",
+		"prettier": "^3.9.10",
+		"typescript": "^6.0.3",
+		"vitest": "^5.1.0"
+	}
+}

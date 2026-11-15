@@ -6,6 +6,10 @@
 		".": {
 			"types": "./src/index.ts",
 			"default": "./src/index.ts"
+		},
+		"./pure": {
+			"types": "./src/pure.ts",
+			"default": "./src/pure.ts"
 		}
 	},
 	"scripts": {
