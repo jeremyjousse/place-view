@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { LayoutList, Map as MapIcon, Wrench } from 'lucide-svelte';
 	import Button from '../atoms/Button.svelte';
+	import PlaceLogo from '../atoms/PlaceLogo.svelte';
 	import { resolveNavItems, type NavKey } from './nav';
 
 	interface Props {
@@ -49,12 +50,10 @@
 				onNavigate(homeHref);
 			}
 		}}
-		class="bg-primary text-primary-text flex h-10 w-10 items-center justify-center rounded-2xl shadow-lg transition-transform hover:scale-105"
+		class="flex h-10 w-10 items-center justify-center rounded-xl shadow-lg transition-transform hover:scale-105"
 		aria-label="Place View Home"
 	>
-		<div
-			class="border-primary-text h-5 w-5 translate-x-0.5 translate-y-0.5 rotate-45 transform border-t-2 border-l-2"
-		></div>
+		<PlaceLogo class="h-10 w-10" />
 	</a>
 
 	<nav class="flex flex-1 flex-col gap-6" aria-label="Primary navigation">
