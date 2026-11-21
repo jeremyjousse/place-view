@@ -6376,6 +6376,11 @@
         "thumbnailImage": "https://backend.roundshot.com/cams/225/thumbnail"
       },
       {
+        "name": "Val Claret",
+        "largeImage": "https://backend.roundshot.com/cams/221/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/221/thumbnail"
+      },
+      {
         "name": "Snowpark",
         "largeImage": "https://backend.roundshot.com/cams/727/default",
         "thumbnailImage": "https://backend.roundshot.com/cams/727/thumbnail"
@@ -6384,11 +6389,6 @@
         "name": "Tovière",
         "largeImage": "https://backend.roundshot.com/cams/223/default",
         "thumbnailImage": "https://backend.roundshot.com/cams/223/thumbnail"
-      },
-      {
-        "name": "Val Claret",
-        "largeImage": "https://backend.roundshot.com/cams/221/default",
-        "thumbnailImage": "https://backend.roundshot.com/cams/221/thumbnail"
       }
     ]
   },

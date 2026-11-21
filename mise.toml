@@ -47,7 +47,7 @@ run = "pnpm -r --filter '!webapp' run test && pnpm --filter webapp run test:unit
 
 [tasks.build]
 description = "Build webapp, shared packages, and tauri app"
-run = "pnpm -r run build"
+run = "pnpm -r run build && mise run unquarantine"
 
 [tasks.verify]
 description = "Verify entire workspace (check, lint, format:check, test)"
@@ -56,3 +56,59 @@ depends = ["check", "lint", "format:check", "test"]
 [tasks."import:roundshot"]
 description = "Import Roundshot webcams into resources/places.json (pass -- --write to write changes)"
 run = "pnpm --filter @place-view/tools import:roundshot"
+
+[tasks.unquarantine]
+description = "Remove macOS quarantine attribute from the installed app"
+run = "xattr -dr com.apple.quarantine /Applications/Discory.app"
+
+[tasks.update]
+description = "Check and install latest release from GitHub if a newer version is available"
+usage = 'flag "-f --force" help="Force update even if version is current"'
+run = """
+set -euo pipefail
+
+echo "🔍 Checking for updates..."
+LATEST_TAG=$(gh release view --repo jeremyjousse/place-view --json tagName --jq .tagName)
+LATEST_VERSION="${LATEST_TAG#v}"
+
+CURRENT_VERSION="none"
+if [ -d "/Applications/place-view.app" ]; then
+  CURRENT_VERSION=$(defaults read /Applications/place-view.app/Contents/Info.plist CFBundleShortVersionString 2>/dev/null || echo "unknown")
+  CURRENT_VERSION="${CURRENT_VERSION#v}"
+fi
+
+IS_FORCED="${usage_force:-false}"
+
+if [ "$CURRENT_VERSION" = "$LATEST_VERSION" ] && [ "$IS_FORCED" != "true" ]; then
+  echo "✅ place-view is already up to date (v${CURRENT_VERSION})."
+  echo "💡 Tip: run 'mise run update --force' to force reinstallation."
+  echo "🔓 Removing macOS quarantine attribute..."
+  exit 0
+fi
+
+if [ "$CURRENT_VERSION" = "none" ]; then
+  echo "✨ Installing place-view v${LATEST_VERSION}..."
+elif [ "$CURRENT_VERSION" = "$LATEST_VERSION" ]; then
+  echo "🔄 Force reinstalling place-view v${LATEST_VERSION}..."
+else
+  echo "⬆️  Updating place-view from v${CURRENT_VERSION} to v${LATEST_VERSION}..."
+fi
+
+TEMP_DIR=$(mktemp -d)
+trap 'rm -rf "$TEMP_DIR"' EXIT
+
+echo "⬇️  Downloading release ${LATEST_TAG}..."
+gh release download --repo jeremyjousse/place-view "${LATEST_TAG}" --pattern "*_aarch64.app.tar.gz" --dir "$TEMP_DIR" --clobber
+
+echo "📦 Extracting place-view.app..."
+tar -xzf "$TEMP_DIR"/*.app.tar.gz -C "$TEMP_DIR"
+
+echo "🚀 Installing to /Applications..."
+rm -rf /Applications/place-view.app
+cp -R "$TEMP_DIR/place-view.app" /Applications/
+
+echo "🔓 Removing macOS quarantine attribute..."
+mise run unquarantine
+
+echo "🎉 place-view successfully updated to v${LATEST_VERSION}!"
+"""
