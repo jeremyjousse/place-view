@@ -600,14 +600,14 @@
     },
     "webcams": [
       {
-        "name": "Grand Jeu",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
-      },
-      {
         "name": "Sommet de l’Armoise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
+      },
+      {
+        "name": "Grand Jeu",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
       },
       {
         "name": "Le Village",
@@ -6351,6 +6351,11 @@
     },
     "webcams": [
       {
+        "name": "Val Claret",
+        "largeImage": "https://backend.roundshot.com/cams/221/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/221/thumbnail"
+      },
+      {
         "name": "Brévières",
         "largeImage": "https://backend.roundshot.com/cams/224/default",
         "thumbnailImage": "https://backend.roundshot.com/cams/224/thumbnail"
@@ -6374,11 +6379,6 @@
         "name": "Les Boisses - 1800",
         "largeImage": "https://backend.roundshot.com/cams/225/default",
         "thumbnailImage": "https://backend.roundshot.com/cams/225/thumbnail"
-      },
-      {
-        "name": "Val Claret",
-        "largeImage": "https://backend.roundshot.com/cams/221/default",
-        "thumbnailImage": "https://backend.roundshot.com/cams/221/thumbnail"
       },
       {
         "name": "Snowpark",
@@ -6532,11 +6532,6 @@
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=small"
       },
       {
-        "name": "Sommet 2 lacs",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=small"
-      },
-      {
         "name": "3 Vallées",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=small"
@@ -6565,11 +6560,6 @@
         "name": "Restaurant La Maison",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0qmB-W208-FhUp-eDJW-695z&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0qmB-W208-FhUp-eDJW-695z&quality=small"
-      },
-      {
-        "name": "Snowcam Val Thorens x Salomon x Alpina Watches",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OW20v-AUqmm-d8ZdM-5Lf1o&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OW20v-AUqmm-d8ZdM-5Lf1o&quality=small"
       }
     ]
   },
