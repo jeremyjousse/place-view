@@ -18,7 +18,7 @@ impl HttpClientState {
         let client = reqwest::Client::builder()
             .timeout(Duration::from_secs(15))
             .redirect(reqwest::redirect::Policy::none())
-            .user_agent("place-view-desktop/0.1.0")
+            .user_agent(concat!("place-view-desktop/", env!("CARGO_PKG_VERSION")))
             .build()
             .map_err(|err| format!("Failed to initialize HTTP client: {err}"))?;
         Ok(Self(client))

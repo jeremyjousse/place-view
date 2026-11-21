@@ -6,18 +6,34 @@ on:
       - main
     paths:
       - 'tauri-app/**'
+      - 'packages/**'
+      - '.releaserc.json'
+      - '.github/workflows/release_macos.yml'
+      - 'tools/tauri-version.*'
+      - 'tools/bump-tauri-version.*'
+      - 'tools/semantic-release-output.mjs'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: release-macos-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build-and-release:
-    runs-on: macos-latest
+  release:
+    runs-on: ubuntu-latest
+    outputs:
+      released: ${{ steps.semantic_release.outputs.released }}
+      version: ${{ steps.semantic_release.outputs.version }}
+      notes: ${{ steps.semantic_release.outputs.notes }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
@@ -27,7 +43,39 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 24
+          node-version: 26
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run semantic-release
+        id: semantic_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm exec semantic-release
+
+  build-macos:
+    needs: release
+    if: needs.release.outputs.released == 'true'
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout release tag
+        uses: actions/checkout@v7
+        with:
+          ref: v${{ needs.release.outputs.version }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          package_json_file: package.json
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 26
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
 
@@ -37,13 +85,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Get App Version
-        id: get_version
-        run: |
-          VERSION=$(jq -r '.version' tauri-app/src-tauri/tauri.conf.json)
-          echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-
       - name: Build and Release macOS App
         uses: tauri-apps/tauri-action@v1
         env:
@@ -51,15 +92,17 @@ jobs:
         with:
           projectPath: tauri-app
           tauriScript: pnpm tauri
-          tagName: v${{ steps.get_version.outputs.version }}
-          releaseName: Release v${{ steps.get_version.outputs.version }}
+          tagName: v${{ needs.release.outputs.version }}
+          releaseName: Release v${{ needs.release.outputs.version }}
           releaseBody: |
-            Automated release from main branch.
+            ${{ needs.release.outputs.notes }}
+
+            ---
 
             **Note:** This app is not signed with an Apple Developer Certificate.
             To run it, you may need to:
-            1. Unzip the app.
-            2. Right-click and select "Open" (to bypass Gatekeeper).
-            3. If that doesn't work, run `xattr -cr /path/to/place-view.app` in terminal.
+            1. Open the `.dmg` (or extract the `.app.tar.gz`) and drag `place-view.app` to Applications.
+            2. Right-click `place-view.app` and select "Open" (to bypass Gatekeeper).
+            3. If macOS still blocks it, run `xattr -cr /Applications/place-view.app` in Terminal.
           releaseDraft: false
           prerelease: false
