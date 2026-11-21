@@ -24,9 +24,9 @@
 		onMove: (delta: -1 | 1) => void;
 		onSave: (webcam: Webcam) => Promise<void>;
 		onRemove: () => void;
-		onDragStart: () => void;
+		onDragStart: (e: DragEvent) => void;
 		onDragOver: (e: DragEvent) => void;
-		onDragLeave: () => void;
+		onDragLeave: (e: DragEvent) => void;
 		onDrop: (e: DragEvent) => void;
 		onDragEnd: () => void;
 	}
@@ -167,6 +167,7 @@
 					src={webcam.thumbnailImage || webcam.largeImage}
 					alt={webcam.name}
 					loading="lazy"
+					draggable="false"
 					class="h-full w-full object-cover"
 				/>
 			</div>
@@ -178,6 +179,7 @@
 					href={webcam.largeImage}
 					target="_blank"
 					rel="noopener noreferrer"
+					draggable="false"
 					class="text-primary inline-flex items-center gap-1 text-[11px] font-bold hover:underline"
 				>
 					Open Large Image

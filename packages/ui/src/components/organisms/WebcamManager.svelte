@@ -57,7 +57,7 @@
 		const from = draggedIndex;
 		draggedIndex = null;
 		dragOverIndex = null;
-		if (from === null || from === targetIndex) return;
+		if (busy || from === null || from === targetIndex) return;
 		void runWithNotification(
 			() => onReorder(from, targetIndex),
 			'Webcam order saved',
@@ -107,14 +107,33 @@
 							'Webcam removed',
 							'Failed to remove webcam'
 						)}
-					onDragStart={() => {
+					onDragStart={(e) => {
+						if (busy) {
+							e.preventDefault();
+							return;
+						}
 						draggedIndex = index;
+						if (e.dataTransfer) {
+							e.dataTransfer.effectAllowed = 'move';
+							e.dataTransfer.setData('text/plain', String(index));
+						}
 					}}
 					onDragOver={(e) => {
+						if (busy || draggedIndex === null) return;
 						e.preventDefault();
+						if (e.dataTransfer) {
+							e.dataTransfer.dropEffect = 'move';
+						}
 						dragOverIndex = index;
 					}}
-					onDragLeave={() => {
+					onDragLeave={(e) => {
+						if (
+							e.currentTarget instanceof HTMLElement &&
+							e.relatedTarget instanceof Node &&
+							e.currentTarget.contains(e.relatedTarget)
+						) {
+							return;
+						}
 						if (dragOverIndex === index) dragOverIndex = null;
 					}}
 					onDrop={(e) => {
