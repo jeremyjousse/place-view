@@ -10,7 +10,8 @@
 		"lint": "prettier --check .",
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
-		"import:roundshot": "jiti import-roundshot.ts"
+		"import:roundshot": "jiti import-roundshot.ts",
+		"bump:tauri-version": "jiti bump-tauri-version.ts"
 	},
 	"dependencies": {
 		"@place-view/core": "workspace:*"
