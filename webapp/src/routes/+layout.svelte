@@ -35,5 +35,5 @@
 		</main>
 	</div>
 
-	<BottomNavBar />
+	<BottomNavBar hideOnScroll={page.url.pathname === '/'} />
 </div>

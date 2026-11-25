@@ -8,10 +8,18 @@
 		placeName: string;
 		activeWebcamIndex?: number;
 		onWebcamChange?: (index: number | null) => void;
+		onFullscreenChange?: (fullscreen: boolean) => void;
 		shareUrl?: string;
 	}
 
-	let { webcams, placeName, activeWebcamIndex, onWebcamChange, shareUrl }: Props = $props();
+	let {
+		webcams,
+		placeName,
+		activeWebcamIndex,
+		onWebcamChange,
+		onFullscreenChange,
+		shareUrl
+	}: Props = $props();
 
 	const STORAGE_KEY_FULLSCREEN_MODE = 'webcamFullscreenMode';
 	const isBrowser = typeof window !== 'undefined';
@@ -29,6 +37,12 @@
 	let modalScrollContainer: HTMLDivElement | undefined = $state();
 	let dialogElement: HTMLDialogElement | undefined = $state();
 	let copied = $state(false);
+
+	$effect(() => {
+		if (!isFullscreen) return;
+		onFullscreenChange?.(true);
+		return () => onFullscreenChange?.(false);
+	});
 
 	function setWebcam(index: number | null) {
 		if (index !== null) {
@@ -286,7 +300,7 @@
 		<div class="relative flex h-full w-full flex-col">
 			<!-- Header Controls -->
 			<div
-				class="from-background/90 absolute inset-x-0 top-0 z-50 flex items-center justify-between bg-gradient-to-b to-transparent p-6"
+				class="from-background/90 absolute inset-x-0 top-0 z-50 flex items-center justify-between bg-gradient-to-b to-transparent p-6 pt-[max(1.5rem,env(safe-area-inset-top))] pr-[max(1.5rem,env(safe-area-inset-right))] pl-[max(1.5rem,env(safe-area-inset-left))]"
 			>
 				<div>
 					<h2 class="text-xl font-bold tracking-tight">{selectedWebcam.name}</h2>

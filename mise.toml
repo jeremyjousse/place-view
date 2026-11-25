@@ -20,7 +20,7 @@ run = "pnpm --filter tauri-app tauri dev"
 
 [tasks."dev:ios"]
 description = "Start Tauri iOS app in development mode"
-run = "pnpm --filter tauri-app tauri ios dev"
+run = "pnpm --filter tauri-app tauri ios build --open"
 
 [tasks.check]
 description = "Check Svelte, TypeScript, and Rust across workspace"
@@ -47,7 +47,8 @@ run = "pnpm -r --filter '!webapp' run test && pnpm --filter webapp run test:unit
 
 [tasks.build]
 description = "Build webapp, shared packages, and tauri app"
-run = "pnpm -r run build && mise run unquarantine"
+run = "pnpm -r run build"
+depends_post = ["unquarantine"]
 
 [tasks.verify]
 description = "Verify entire workspace (check, lint, format:check, test)"
@@ -64,6 +65,7 @@ run = "xattr -dr com.apple.quarantine /Applications/Discory.app"
 [tasks.update]
 description = "Check and install latest release from GitHub if a newer version is available"
 usage = 'flag "-f --force" help="Force update even if version is current"'
+depends_post = ["unquarantine"]
 run = """
 set -euo pipefail
 
@@ -106,9 +108,6 @@ tar -xzf "$TEMP_DIR"/*.app.tar.gz -C "$TEMP_DIR"
 echo "🚀 Installing to /Applications..."
 rm -rf /Applications/place-view.app
 cp -R "$TEMP_DIR/place-view.app" /Applications/
-
-echo "🔓 Removing macOS quarantine attribute..."
-mise run unquarantine
 
 echo "🎉 place-view successfully updated to v${LATEST_VERSION}!"
 """

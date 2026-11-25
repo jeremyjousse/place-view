@@ -42,7 +42,12 @@
 		</main>
 	</div>
 
-	<BottomNavBar currentPath={page.url.pathname} showAdmin={isDesktop} adminHref="/admin/" />
+	<BottomNavBar
+		currentPath={page.url.pathname}
+		showAdmin={isDesktop}
+		adminHref="/admin/"
+		hideOnScroll={page.url.pathname === '/'}
+	/>
 
 	{#if isDesktop}
 		<ToastList items={toastStore.items} onDismiss={(id) => toastStore.dismiss(id)} />

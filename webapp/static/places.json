@@ -23,6 +23,42 @@
     ]
   },
   {
+    "id": "aeroclub-geneve",
+    "name": "Aéroclub Genève",
+    "country": "Suisse",
+    "state": "Genève",
+    "url": "https://aeroclub-geneve.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.2343734,
+      "longitude": 6.0973923
+    },
+    "webcams": [
+      {
+        "name": "Aéroclub Genève",
+        "largeImage": "https://backend.roundshot.com/cams/1477/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1477/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "aiglon-college",
+    "name": "Aiglon College",
+    "country": "Suisse",
+    "state": "District d'Aigle",
+    "url": "https://aigloncollege.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.3025476,
+      "longitude": 7.0470163
+    },
+    "webcams": [
+      {
+        "name": "Aiglon College",
+        "largeImage": "https://backend.roundshot.com/cams/514/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/514/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "aillons-margeriaz",
     "name": "Aillons-Margériaz",
     "country": "France",
@@ -65,6 +101,24 @@
         "name": "Front de Neige Grand Loup",
         "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_albiez_front-de-neige-grand-loup.jpg",
         "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_albiez_front-de-neige-grand-loup.jpg"
+      }
+    ]
+  },
+  {
+    "id": "albinen-gemeinde",
+    "name": "Albinen Gemeinde",
+    "country": "Suisse",
+    "state": "Loèche",
+    "url": "https://albinen.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.3400876,
+      "longitude": 7.6359259
+    },
+    "webcams": [
+      {
+        "name": "Albinen Gemeinde",
+        "largeImage": "https://backend.roundshot.com/cams/1123/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1123/thumbnail"
       }
     ]
   },
@@ -115,6 +169,60 @@
     ]
   },
   {
+    "id": "alpenland-lauenen",
+    "name": "Alpenland Lauenen",
+    "country": "Suisse",
+    "state": "Arrondissement administratif du Haut-Simmental et Gessenay",
+    "url": "https://alpenland-lauenen.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4184578,
+      "longitude": 7.3243533
+    },
+    "webcams": [
+      {
+        "name": "Alpenland Lauenen",
+        "largeImage": "https://backend.roundshot.com/cams/1612/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1612/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "alyeska-resort",
+    "name": "Alyeska Resort",
+    "country": "États-Unis d'Amérique",
+    "state": "Alaska",
+    "url": "https://alyeskaresort.roundshot.com/",
+    "coordinates": {
+      "latitude": 60.9702713,
+      "longitude": -149.0986622
+    },
+    "webcams": [
+      {
+        "name": "Alyeska Resort",
+        "largeImage": "https://backend.roundshot.com/cams/602/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/602/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "anakeesta",
+    "name": "Anakeesta",
+    "country": "États-Unis d'Amérique",
+    "state": "Sevier County",
+    "url": "https://anakeesta.roundshot.com/",
+    "coordinates": {
+      "latitude": 35.7107903,
+      "longitude": -83.5064087
+    },
+    "webcams": [
+      {
+        "name": "Anakeesta",
+        "largeImage": "https://backend.roundshot.com/cams/1097/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1097/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "ancelle",
     "name": "Ancelle",
     "country": "France",
@@ -139,6 +247,54 @@
         "name": "Nordique",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ancelle_nordique.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ancelle_nordique.jpg"
+      }
+    ]
+  },
+  {
+    "id": "andermatt-sedrun-disentis",
+    "name": "Andermatt Sedrun Disentis",
+    "country": "Suisse",
+    "state": "Korporation Ursern",
+    "url": "https://andermatt-sedrun-disentis.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.6594492,
+      "longitude": 8.6714678
+    },
+    "webcams": [
+      {
+        "name": "Bostgas Cuolm",
+        "largeImage": "https://backend.roundshot.com/cams/1347/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1347/thumbnail"
+      },
+      {
+        "name": "Caischavedra",
+        "largeImage": "https://backend.roundshot.com/cams/1078/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1078/thumbnail"
+      },
+      {
+        "name": "Cuolm Da Vi",
+        "largeImage": "https://backend.roundshot.com/cams/1076/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1076/thumbnail"
+      },
+      {
+        "name": "Gemsstock",
+        "largeImage": "https://backend.roundshot.com/cams/331/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/331/thumbnail"
+      },
+      {
+        "name": "Gendusas",
+        "largeImage": "https://backend.roundshot.com/cams/1077/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1077/thumbnail"
+      },
+      {
+        "name": "Gütsch",
+        "largeImage": "https://backend.roundshot.com/cams/1767/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1767/thumbnail"
+      },
+      {
+        "name": "Schneehüenerstock",
+        "largeImage": "https://backend.roundshot.com/cams/1768/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1768/thumbnail"
       }
     ]
   },
@@ -219,6 +375,47 @@
     ]
   },
   {
+    "id": "anzere-tourisme",
+    "name": "Anzère Tourisme",
+    "country": "Suisse",
+    "state": "Hérens",
+    "url": "https://lac-de-tseuzier.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.2974505,
+      "longitude": 7.3999936
+    },
+    "webcams": [
+      {
+        "name": "Anzère - Lac de Tseuzier",
+        "largeImage": "https://backend.roundshot.com/cams/674/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/674/thumbnail"
+      },
+      {
+        "name": "Anzère - Village",
+        "largeImage": "https://backend.roundshot.com/cams/2/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "ardeche-360",
+    "name": "Ardèche 360",
+    "country": "France",
+    "state": "Ardèche",
+    "url": "https://aubenas.roundshot.com/",
+    "coordinates": {
+      "latitude": 45.0194297,
+      "longitude": 4.7136685
+    },
+    "webcams": [
+      {
+        "name": "Aubenas",
+        "largeImage": "https://backend.roundshot.com/cams/193/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/193/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "areches-beaufort",
     "name": "Arêches Beaufort",
     "country": "France",
@@ -252,6 +449,67 @@
     ]
   },
   {
+    "id": "aspen",
+    "name": "Aspen",
+    "country": "États-Unis d'Amérique",
+    "state": "Pitkin County",
+    "url": "https://aspen.roundshot.com/",
+    "coordinates": {
+      "latitude": 39.1911128,
+      "longitude": -106.82356
+    },
+    "webcams": [
+      {
+        "name": "Aspen Highlands",
+        "largeImage": "https://backend.roundshot.com/cams/89/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/89/thumbnail"
+      },
+      {
+        "name": "Aspen Mountain",
+        "largeImage": "https://backend.roundshot.com/cams/91/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/91/thumbnail"
+      },
+      {
+        "name": "Buttermilk",
+        "largeImage": "https://backend.roundshot.com/cams/87/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/87/thumbnail"
+      },
+      {
+        "name": "Power of Four",
+        "largeImage": "https://backend.roundshot.com/cams/90/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/90/thumbnail"
+      },
+      {
+        "name": "Snowmass Mountain",
+        "largeImage": "https://backend.roundshot.com/cams/88/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/88/thumbnail"
+      },
+      {
+        "name": "Snowmass Sams Knob",
+        "largeImage": "https://backend.roundshot.com/cams/797/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/797/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "aspi-titter-hangebrucke",
+    "name": "Aspi Titter Hängebrücke",
+    "country": "Suisse",
+    "state": "Conches",
+    "url": "https://aspititter.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4454932,
+      "longitude": 8.1389782
+    },
+    "webcams": [
+      {
+        "name": "Aspi Titter Hängebrücke",
+        "largeImage": "https://backend.roundshot.com/cams/1547/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1547/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "auberge-du-pere-bise",
     "name": "Talloires-Montmin",
     "country": "France",
@@ -266,6 +524,29 @@
         "name": "Auberge du Père Bise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pere-bise_auberge.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pere-bise_auberge.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ault",
+    "name": "Ault",
+    "country": "France",
+    "state": "Somme",
+    "url": "https://www.villes-soeurs.fr/",
+    "coordinates": {
+      "latitude": 50.101533096777914,
+      "longitude": 1.447277069091797
+    },
+    "webcams": [
+      {
+        "name": "Ault Centre Ville",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-centre-ville.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_ville-soeur_ault-centre-ville.jpg"
+      },
+      {
+        "name": "Ault Onival",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-onival.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_ville-soeur_ault-onival.jpg"
       }
     ]
   },
@@ -319,14 +600,14 @@
     },
     "webcams": [
       {
-        "name": "Grand Jeu",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
-      },
-      {
         "name": "Sommet de l’Armoise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_armoise.jpg"
+      },
+      {
+        "name": "Grand Jeu",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_aussois_grand-jeu.jpg"
       },
       {
         "name": "Le Village",
@@ -384,6 +665,24 @@
     ]
   },
   {
+    "id": "avenches-tourisme",
+    "name": "Avenches Tourisme",
+    "country": "Suisse",
+    "state": "District de la Broye-Vully",
+    "url": "https://avenches.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8802198,
+      "longitude": 7.0401313
+    },
+    "webcams": [
+      {
+        "name": "Avenches - Camping-plage",
+        "largeImage": "https://backend.roundshot.com/cams/376/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/376/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "avoriaz",
     "name": "Avoriaz",
     "country": "France",
@@ -394,6 +693,11 @@
       "longitude": 6.774469
     },
     "webcams": [
+      {
+        "name": "Station",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EaS2-F076-lZVs-xPZN-Q3dO",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EaS2-F076-lZVs-xPZN-Q3dO&quality=small"
+      },
       {
         "name": "Centre station",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=large",
@@ -436,6 +740,75 @@
         "name": "Lac d'Aydat",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-cheires_lac-d-aydat.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-cheires_lac-d-aydat.jpg"
+      }
+    ]
+  },
+  {
+    "id": "badrutt-s-palace-hotel",
+    "name": "Badrutt's Palace Hotel",
+    "country": "Suisse",
+    "state": "Maloja",
+    "url": "https://badruttspalace.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4972479,
+      "longitude": 9.8407597
+    },
+    "webcams": [
+      {
+        "name": "Badrutt's Palace Hotel",
+        "largeImage": "https://backend.roundshot.com/cams/1194/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1194/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "balances-hotel",
+    "name": "Balances Hotel",
+    "country": "Suisse",
+    "state": "Lucerne",
+    "url": "https://hoteldesbalances.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.0515076,
+      "longitude": 8.3044753
+    },
+    "webcams": [
+      {
+        "name": "Hotel des Balances",
+        "largeImage": "https://backend.roundshot.com/cams/826/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/826/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "baqueira",
+    "name": "Baqueira",
+    "country": "Espagne",
+    "state": "Val-d'Aran",
+    "url": "https://baqueira.roundshot.com/",
+    "coordinates": {
+      "latitude": 42.6992676,
+      "longitude": 0.9316411
+    },
+    "webcams": [
+      {
+        "name": "Blanhiblar",
+        "largeImage": "https://backend.roundshot.com/cams/588/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/588/thumbnail"
+      },
+      {
+        "name": "Bosque",
+        "largeImage": "https://backend.roundshot.com/cams/567/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/567/thumbnail"
+      },
+      {
+        "name": "Teso",
+        "largeImage": "https://backend.roundshot.com/cams/589/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/589/thumbnail"
+      },
+      {
+        "name": "Bonaigua",
+        "largeImage": "https://backend.roundshot.com/cams/1652/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1652/thumbnail"
       }
     ]
   },
@@ -516,6 +889,96 @@
     ]
   },
   {
+    "id": "baumlihof-gymnasium",
+    "name": "Bäumlihof Gymnasium",
+    "country": "Suisse",
+    "state": "Bâle-Ville",
+    "url": "https://baeumlihof.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.5673485,
+      "longitude": 7.6266771
+    },
+    "webcams": [
+      {
+        "name": "Bäumlihof Gymnasium",
+        "largeImage": "https://backend.roundshot.com/cams/568/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/568/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "beatus-wellness-spa-hotel",
+    "name": "Beatus Wellness & Spa - Hotel",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Thoune",
+    "url": "https://beatuswellness.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.6962555,
+      "longitude": 7.7375843
+    },
+    "webcams": [
+      {
+        "name": "Beatus Wellness & Spa - Hotel",
+        "largeImage": "https://backend.roundshot.com/cams/1337/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1337/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "beau-soleil-college",
+    "name": "Beau Soleil Collège",
+    "country": "Suisse",
+    "state": "District d'Aigle",
+    "url": "https://beausoleil.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.2992349,
+      "longitude": 7.0525513
+    },
+    "webcams": [
+      {
+        "name": "Collège Beau Soleil - Villars",
+        "largeImage": "https://backend.roundshot.com/cams/11/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/11/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "berggasthof-konigstuhl",
+    "name": "Berggasthof Königstuhl",
+    "country": "Allemagne",
+    "state": "Bade-Wurtemberg",
+    "url": "https://berggasthofkoenigstuhl.roundshot.com/",
+    "coordinates": {
+      "latitude": 49.4037228,
+      "longitude": 8.7274822
+    },
+    "webcams": [
+      {
+        "name": "Berggasthof Königstuhl",
+        "largeImage": "https://backend.roundshot.com/cams/1318/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1318/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "bern-airport",
+    "name": "Bern Airport",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Berne-Mittelland",
+    "url": "https://bernairport.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.9132379,
+      "longitude": 7.4978604
+    },
+    "webcams": [
+      {
+        "name": "Bern Airport",
+        "largeImage": "https://backend.roundshot.com/cams/1637/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1637/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "bernex",
     "name": "Bernex",
     "country": "France",
@@ -530,6 +993,29 @@
         "name": "TSD  Pré-Richard",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_ot-peva_bernex-tsd-pre-richard.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_ot-peva_bernex-tsd-pre-richard.jpg"
+      }
+    ]
+  },
+  {
+    "id": "bernexpo",
+    "name": "BERNEXPO",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Berne-Mittelland",
+    "url": "https://bernexpo.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.9589636,
+      "longitude": 7.467338
+    },
+    "webcams": [
+      {
+        "name": "Festhalle - A - Public",
+        "largeImage": "https://backend.roundshot.com/cams/1534/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1534/thumbnail"
+      },
+      {
+        "name": "Hotel IBIS - Festhalle - A - Public",
+        "largeImage": "https://backend.roundshot.com/cams/1535/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1535/thumbnail"
       }
     ]
   },
@@ -562,6 +1048,83 @@
     ]
   },
   {
+    "id": "big-bear-mountain-resort",
+    "name": "Big Bear Mountain Resort",
+    "country": "États-Unis d'Amérique",
+    "state": "San Bernardino County",
+    "url": "https://bigbearmountainresort.roundshot.com/",
+    "coordinates": {
+      "latitude": 34.2198296,
+      "longitude": -116.8600565
+    },
+    "webcams": [
+      {
+        "name": "Snow Valley",
+        "largeImage": "https://backend.roundshot.com/cams/2145/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2145/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "birrfeld-flughafen",
+    "name": "Birrfeld Flughafen",
+    "country": "Suisse",
+    "state": "Bezirk Brugg",
+    "url": "https://birrfeld.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.443693,
+      "longitude": 8.2335792
+    },
+    "webcams": [
+      {
+        "name": "Flughafen Birrfeld",
+        "largeImage": "https://backend.roundshot.com/cams/4d4ace145f81c381b57a67cee137338caabbcc99/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/4d4ace145f81c381b57a67cee137338caabbcc99/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "blatten-gemeinde",
+    "name": "Blatten Gemeinde",
+    "country": "Suisse",
+    "state": "Obwald",
+    "url": "https://blatten.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8084627,
+      "longitude": 8.3972768
+    },
+    "webcams": [
+      {
+        "name": "Fafleralp",
+        "largeImage": "https://backend.roundshot.com/cams/986/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/986/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "bregaglia-turismo",
+    "name": "Bregaglia Turismo",
+    "country": "Suisse",
+    "state": "Maloja",
+    "url": "https://bregagliaturismo.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4036096,
+      "longitude": 9.6950737
+    },
+    "webcams": [
+      {
+        "name": "Aela - Bregaglia Turismo",
+        "largeImage": "https://backend.roundshot.com/cams/1339/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1339/thumbnail"
+      },
+      {
+        "name": "Albigna - Bregaglia Turismo",
+        "largeImage": "https://backend.roundshot.com/cams/1338/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1338/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "brides-les-bains",
     "name": "Brides-les-Bains",
     "country": "France",
@@ -576,6 +1139,96 @@
         "name": "Centre Village",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_brides-les-bains_centre-village.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_brides-les-bains_centre-village.jpg"
+      }
+    ]
+  },
+  {
+    "id": "buochs-airport",
+    "name": "Buochs Airport",
+    "country": "Suisse",
+    "state": "Nidwald",
+    "url": "https://buochs.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.9744444,
+      "longitude": 8.3969444
+    },
+    "webcams": [
+      {
+        "name": "Buochs Airport",
+        "largeImage": "https://backend.roundshot.com/cams/140/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/140/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "capanna-gorda",
+    "name": "Capanna Gorda",
+    "country": "Suisse",
+    "state": "District de Blenio",
+    "url": "https://capannagorda.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4980084,
+      "longitude": 8.9109304
+    },
+    "webcams": [
+      {
+        "name": "Capanna Gorda",
+        "largeImage": "https://backend.roundshot.com/cams/882/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/882/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "casa-berno-hotel",
+    "name": "Casa Berno Hotel",
+    "country": "Suisse",
+    "state": "District de Locarno",
+    "url": "https://casaberno.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.1529758,
+      "longitude": 8.7481478
+    },
+    "webcams": [
+      {
+        "name": "Casa Berno Hotel",
+        "largeImage": "https://backend.roundshot.com/cams/835/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/835/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "castello-seeschloss-hotel",
+    "name": "Castello Seeschloss Hotel",
+    "country": "Suisse",
+    "state": "District de Locarno",
+    "url": "https://castello-seeschloss.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.1528014,
+      "longitude": 8.7711348
+    },
+    "webcams": [
+      {
+        "name": "Castello Seeschloss Hotel Ascona",
+        "largeImage": "https://backend.roundshot.com/cams/887/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/887/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "celerina-gemeinde",
+    "name": "Celerina Gemeinde",
+    "country": "Suisse",
+    "state": "Maloja",
+    "url": "https://celerina.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.51394,
+      "longitude": 9.87284
+    },
+    "webcams": [
+      {
+        "name": "Celerina",
+        "largeImage": "https://backend.roundshot.com/cams/539/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/539/thumbnail"
       }
     ]
   },
@@ -605,7 +1258,7 @@
     "url": "https://www.chalmazel-hiver.fr/",
     "coordinates": {
       "latitude": 45.692768599999994,
-      "longitude": 3.8268961102021324
+      "longitude": 3.826896110202133
     },
     "webcams": [
       {
@@ -622,7 +1275,7 @@
   },
   {
     "id": "chambon-sur-lac-",
-    "name": "Chambon-Sur-Lac ",
+    "name": "Chambon-Sur-Lac",
     "country": "France",
     "state": "Puy-de-Dôme",
     "url": "https://www.sancy.com/decouvrir/toutes-les-communes/chambon-sur-lac/",
@@ -746,6 +1399,24 @@
     ]
   },
   {
+    "id": "cheyres-chables-commune",
+    "name": "Cheyres-Chables  Commune",
+    "country": "Suisse",
+    "state": "District de la Broye",
+    "url": "https://cheyreschables.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8161783,
+      "longitude": 6.7872338
+    },
+    "webcams": [
+      {
+        "name": "Cheyres Chables - Port",
+        "largeImage": "https://backend.roundshot.com/cams/2180/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2180/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "chorges",
     "name": "Chorges",
     "country": "France",
@@ -760,6 +1431,24 @@
         "name": "Webcam - Chorges - Baie Saint Michel ",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=XiG2K-ZmvJP-QLT5z-vjfss&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=XiG2K-ZmvJP-QLT5z-vjfss&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "clinica-hildebrand",
+    "name": "Clinica Hildebrand",
+    "country": "Suisse",
+    "state": "District de Locarno",
+    "url": "https://clinicahildebrand.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.1244689,
+      "longitude": 8.7149978
+    },
+    "webcams": [
+      {
+        "name": "Clinica Hildebrand",
+        "largeImage": "https://backend.roundshot.com/cams/855/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/855/thumbnail"
       }
     ]
   },
@@ -993,6 +1682,60 @@
     ]
   },
   {
+    "id": "cresta-palace-celerina",
+    "name": "CRESTA PALACE - Celerina",
+    "country": "Suisse",
+    "state": "Maloja",
+    "url": "https://crestapalace.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.5122586,
+      "longitude": 9.8576252
+    },
+    "webcams": [
+      {
+        "name": "CRESTA PALACE - Celerina",
+        "largeImage": "https://backend.roundshot.com/cams/474/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/474/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "cristal-hotel",
+    "name": "Cristal Hotel",
+    "country": "Suisse",
+    "state": "Wahlkreis Sarganserland",
+    "url": "https://hotelcristal.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.0085054,
+      "longitude": 9.5049993
+    },
+    "webcams": [
+      {
+        "name": "Cristal Hotel",
+        "largeImage": "https://backend.roundshot.com/cams/1368/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1368/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "crystal-mountain-resort",
+    "name": "Crystal Mountain Resort",
+    "country": "États-Unis d'Amérique",
+    "state": "Pierce County",
+    "url": "https://crystalmountainresort.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.9327365,
+      "longitude": -121.4877287
+    },
+    "webcams": [
+      {
+        "name": "Crystal Mountain Summit",
+        "largeImage": "https://backend.roundshot.com/cams/1011/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1011/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "crévoux",
     "name": "Crévoux",
     "country": "France",
@@ -1011,6 +1754,60 @@
     ]
   },
   {
+    "id": "eggensberger-hotel",
+    "name": "Eggensberger Hotel",
+    "country": "Allemagne",
+    "state": "Landkreis Ostallgäu",
+    "url": "https://hoteleggensberger.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.6093136,
+      "longitude": 10.6826421
+    },
+    "webcams": [
+      {
+        "name": "Eggensberger Hotel",
+        "largeImage": "https://backend.roundshot.com/cams/148/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/148/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "el-paradiso-st-moritz",
+    "name": "El Paradiso St. Moritz",
+    "country": "Suisse",
+    "state": "Maloja",
+    "url": "https://paradiso-stmoritz.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4896485,
+      "longitude": 9.8079835
+    },
+    "webcams": [
+      {
+        "name": "El Paradiso",
+        "largeImage": "https://backend.roundshot.com/cams/844/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/844/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "elgg-gemeinde",
+    "name": "Elgg Gemeinde",
+    "country": "Suisse",
+    "state": "Bezirk Winterthur",
+    "url": "https://schauenberg.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.4959314,
+      "longitude": 8.8671461
+    },
+    "webcams": [
+      {
+        "name": "Schauenberg",
+        "largeImage": "https://backend.roundshot.com/cams/646/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/646/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "embrun",
     "name": "Embrun",
     "country": "France",
@@ -1025,6 +1822,174 @@
         "name": "Plage et plan d'eau d'Embrun",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OtsEt-AoHKs-fQLwp-5Ef4y&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OtsEt-AoHKs-fQLwp-5Ef4y&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "energie-service-biel",
+    "name": "Energie Service Biel",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Bienne",
+    "url": "https://esb.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.142835,
+      "longitude": 7.2624284
+    },
+    "webcams": [
+      {
+        "name": "Energie Service Biel",
+        "largeImage": "https://backend.roundshot.com/cams/713/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/713/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "epfl",
+    "name": "EPFL",
+    "country": "Suisse",
+    "state": "District de l'Ouest lausannois",
+    "url": "https://epfl.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.5186594,
+      "longitude": 6.5665615
+    },
+    "webcams": [
+      {
+        "name": "EPFL BC",
+        "largeImage": "https://backend.roundshot.com/cams/2c3a63ce6e913dce53e5006efafafa7e/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2c3a63ce6e913dce53e5006efafafa7e/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "fairmont-banff-springs",
+    "name": "Fairmont Banff Springs",
+    "country": "Canada",
+    "state": "Alberta",
+    "url": "https://fairmont.roundshot.com/",
+    "coordinates": {
+      "latitude": 51.1640762,
+      "longitude": -115.5617749
+    },
+    "webcams": [
+      {
+        "name": "Fairmont Banff Springs",
+        "largeImage": "https://backend.roundshot.com/cams/733/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/733/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "fairmont-chateau-lake-louise",
+    "name": "Fairmont Chateau Lake Louise",
+    "country": "Canada",
+    "state": "Improvement District No. 9",
+    "url": "https://fairmont.roundshot.com/",
+    "coordinates": {
+      "latitude": 51.4176772,
+      "longitude": -116.217054
+    },
+    "webcams": [
+      {
+        "name": "Fairmont Chateau Lake Louise",
+        "largeImage": "https://backend.roundshot.com/cams/1185/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1185/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "federation-de-peche-de-l-ardeche",
+    "name": "Fédération de Pêche de l'Ardèche",
+    "country": "France",
+    "state": "Ardèche",
+    "url": "https://peche-ardeche.roundshot.com/",
+    "coordinates": {
+      "latitude": 44.6553805,
+      "longitude": 4.3685192
+    },
+    "webcams": [
+      {
+        "name": "Lac de Véron",
+        "largeImage": "https://backend.roundshot.com/cams/595/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/595/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "fgc",
+    "name": "FGC",
+    "country": "Espagne",
+    "state": "Barcelonais",
+    "url": "https://fgc.roundshot.com/",
+    "coordinates": {
+      "latitude": 41.389673,
+      "longitude": 2.1086047
+    },
+    "webcams": [
+      {
+        "name": "Cap de Comella inferior",
+        "largeImage": "https://backend.roundshot.com/cams/1116/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1116/thumbnail"
+      },
+      {
+        "name": "Cap de Comella superior",
+        "largeImage": "https://backend.roundshot.com/cams/1842/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1842/thumbnail"
+      },
+      {
+        "name": "Cap del Bosc",
+        "largeImage": "https://backend.roundshot.com/cams/1844/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1844/thumbnail"
+      },
+      {
+        "name": "Cap de Vaques",
+        "largeImage": "https://backend.roundshot.com/cams/2006/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2006/thumbnail"
+      },
+      {
+        "name": "Centre de Serveis",
+        "largeImage": "https://backend.roundshot.com/cams/1118/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1118/thumbnail"
+      },
+      {
+        "name": "Clots",
+        "largeImage": "https://backend.roundshot.com/cams/1117/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1117/thumbnail"
+      },
+      {
+        "name": "Cremallera Túnel",
+        "largeImage": "https://backend.roundshot.com/cams/1115/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1115/thumbnail"
+      },
+      {
+        "name": "Marmotes",
+        "largeImage": "https://backend.roundshot.com/cams/1846/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1846/thumbnail"
+      },
+      {
+        "name": "Mirador de la Canal",
+        "largeImage": "https://backend.roundshot.com/cams/2005/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2005/thumbnail"
+      },
+      {
+        "name": "Niu d'Àliga",
+        "largeImage": "https://backend.roundshot.com/cams/1593/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1593/thumbnail"
+      },
+      {
+        "name": "Parc Astronòmic del Montsec",
+        "largeImage": "https://backend.roundshot.com/cams/1847/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1847/thumbnail"
+      },
+      {
+        "name": "Pla de Morens",
+        "largeImage": "https://backend.roundshot.com/cams/1114/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1114/thumbnail"
+      },
+      {
+        "name": "Torrent Negre inferior",
+        "largeImage": "https://backend.roundshot.com/cams/1592/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1592/thumbnail"
       }
     ]
   },
@@ -1129,7 +2094,7 @@
     "state": "Pyrénées-Orientales",
     "url": "https://font-romeu.fr/",
     "coordinates": {
-      "latitude": 42.505197577969724,
+      "latitude": 42.50519757796973,
       "longitude": 2.042147008363868
     },
     "webcams": [
@@ -1157,6 +2122,116 @@
         "name": "Col de la Pam",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_font-romeu_col-del-pam.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_font-romeu_col-del-pam.jpg"
+      }
+    ]
+  },
+  {
+    "id": "ga-weissenstein-gmbh",
+    "name": "GA Weissenstein GmbH",
+    "country": "Suisse",
+    "state": "Amtei Solothurn-Lebern",
+    "url": "https://ga-weissenstein.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.2104132,
+      "longitude": 7.5291712
+    },
+    "webcams": [
+      {
+        "name": "Hafen Solothurn",
+        "largeImage": "https://backend.roundshot.com/cams/965/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/965/thumbnail"
+      },
+      {
+        "name": "Solothurn Stadt",
+        "largeImage": "https://backend.roundshot.com/cams/912/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/912/thumbnail"
+      },
+      {
+        "name": "Weissenstein",
+        "largeImage": "https://backend.roundshot.com/cams/726/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/726/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "gampel-bratsch",
+    "name": "Gampel-Bratsch",
+    "country": "Suisse",
+    "state": "Loèche",
+    "url": "https://jeizinen.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.3371097,
+      "longitude": 7.7264456
+    },
+    "webcams": [
+      {
+        "name": "Grindij - Gampel-Bratsch - Solar",
+        "largeImage": "https://backend.roundshot.com/cams/1552/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1552/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "gemmi-bahnen",
+    "name": "Gemmi Bahnen",
+    "country": "Suisse",
+    "state": "Loèche",
+    "url": "https://gemmi.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.3831072,
+      "longitude": 7.6250775
+    },
+    "webcams": [
+      {
+        "name": "Gemmi",
+        "largeImage": "https://backend.roundshot.com/cams/23/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/23/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "gerardmer",
+    "name": "Gérardmer",
+    "country": "France",
+    "state": "Vosges",
+    "url": "https://www.gerardmer-ski.com/fr/",
+    "coordinates": {
+      "latitude": 48.07062355783574,
+      "longitude": 6.877613067626954
+    },
+    "webcams": [
+      {
+        "name": "Tetras",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_gerardmer_tetras.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_gerardmer_tetras.jpg"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_gerardmer_front-de-neige.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_gerardmer_front-de-neige.jpg"
+      },
+      {
+        "name": "Hôtel du Nohneck",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_hotel-hohneck_hohneck.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_hotel-hohneck_hohneck.jpg"
+      }
+    ]
+  },
+  {
+    "id": "golfclub-erlen",
+    "name": "Golfclub Erlen",
+    "country": "Suisse",
+    "state": "Bezirk Weinfelden",
+    "url": "https://erlengolf.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.5428695,
+      "longitude": 9.2415254
+    },
+    "webcams": [
+      {
+        "name": "Golfclub Erlen",
+        "largeImage": "https://backend.roundshot.com/cams/1642/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1642/thumbnail"
       }
     ]
   },
@@ -1222,6 +2297,93 @@
     ]
   },
   {
+    "id": "grande-dixence-sa",
+    "name": "Grande Dixence SA",
+    "country": "Suisse",
+    "state": "Hérens",
+    "url": "https://grande-dixence.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.0153773,
+      "longitude": 7.4786285
+    },
+    "webcams": [
+      {
+        "name": "Barrage - Grande Dixence",
+        "largeImage": "https://backend.roundshot.com/cams/1415/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1415/thumbnail"
+      },
+      {
+        "name": "Bunker - Grande Dixence",
+        "largeImage": "https://backend.roundshot.com/cams/1434/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1434/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "grande-motte",
+    "name": "Grande Motte",
+    "country": "France",
+    "state": "Savoie",
+    "url": "https://grandemotte.roundshot.com/",
+    "coordinates": {
+      "latitude": 45.4107909,
+      "longitude": 6.8698803
+    },
+    "webcams": [
+      {
+        "name": "Port de Plaisance Public",
+        "largeImage": "https://backend.roundshot.com/cams/1000/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1000/thumbnail"
+      },
+      {
+        "name": "Port Ouest Public",
+        "largeImage": "https://backend.roundshot.com/cams/1695/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1695/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "grau-du-roi",
+    "name": "Grau du Roi",
+    "country": "France",
+    "state": "Gard",
+    "url": "https://grauduroi.roundshot.com/",
+    "coordinates": {
+      "latitude": 43.5425758,
+      "longitude": 4.1342094
+    },
+    "webcams": [
+      {
+        "name": "Les Bains de Camargue",
+        "largeImage": "https://backend.roundshot.com/cams/533/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/533/thumbnail"
+      },
+      {
+        "name": "Impérial - Centre Ville - Maison du Phare",
+        "largeImage": "https://backend.roundshot.com/cams/532/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/532/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "grenchen-flugschule",
+    "name": "Grenchen Flugschule",
+    "country": "Suisse",
+    "state": "Amtei Solothurn-Lebern",
+    "url": "https://fliegen.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.1817922,
+      "longitude": 7.4113744
+    },
+    "webcams": [
+      {
+        "name": "Grenchen Flughafen",
+        "largeImage": "https://backend.roundshot.com/cams/21/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/21/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "grimentz",
     "name": "Grimentz",
     "country": "Suisse",
@@ -1241,6 +2403,133 @@
         "name": "Zinal Télépherique",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_grimentz-zinal_telepherique.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_grimentz-zinal_telepherique.jpg"
+      }
+    ]
+  },
+  {
+    "id": "grindelwald-tourismus",
+    "name": "Grindelwald Tourismus",
+    "country": "Suisse",
+    "state": "Arrondissement administratif d'Interlaken-Oberhasli",
+    "url": "https://baeregg.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.6233543,
+      "longitude": 8.0356699
+    },
+    "webcams": [
+      {
+        "name": "Bäregg Solar",
+        "largeImage": "https://backend.roundshot.com/cams/1726/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1726/thumbnail"
+      },
+      {
+        "name": "Faulhorn Solar",
+        "largeImage": "https://backend.roundshot.com/cams/1571/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1571/thumbnail"
+      },
+      {
+        "name": "Mittellegihütte",
+        "largeImage": "https://backend.roundshot.com/cams/1314/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1314/thumbnail"
+      },
+      {
+        "name": "Mönchsjochhütte",
+        "largeImage": "https://backend.roundshot.com/cams/1451/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1451/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "grossen-sport-kandersteg",
+    "name": "Grossen Sport Kandersteg",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Frutigen-Bas-Simmental",
+    "url": "https://kandersteg.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4948981,
+      "longitude": 7.6721423
+    },
+    "webcams": [
+      {
+        "name": "Kandersteg Langlaufzentrum",
+        "largeImage": "https://backend.roundshot.com/cams/1061/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1061/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "gstaad-3000",
+    "name": "Gstaad 3000",
+    "country": "Suisse",
+    "state": "Arrondissement administratif du Haut-Simmental et Gessenay",
+    "url": "https://glacier3000.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4721619,
+      "longitude": 7.288748
+    },
+    "webcams": [
+      {
+        "name": "Black Wall",
+        "largeImage": "https://backend.roundshot.com/cams/1294/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1294/thumbnail"
+      },
+      {
+        "name": "Cabane",
+        "largeImage": "https://backend.roundshot.com/cams/1293/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1293/thumbnail"
+      },
+      {
+        "name": "Glacier3000",
+        "largeImage": "https://backend.roundshot.com/cams/153/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/153/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "gzo-spital-wetzikon",
+    "name": "GZO Spital Wetzikon",
+    "country": "Suisse",
+    "state": "Bezirk Hinwil",
+    "url": "https://gzo.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.321524,
+      "longitude": 8.8015
+    },
+    "webcams": [
+      {
+        "name": "GZO Spital Wetzikon",
+        "largeImage": "https://backend.roundshot.com/cams/24/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/24/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "habere-poche",
+    "name": "Habère-Poche",
+    "country": "France",
+    "state": "Haute-Savoie",
+    "url": "http://leshaberes.com/",
+    "coordinates": {
+      "latitude": 46.24860604134826,
+      "longitude": 6.473522186279297
+    },
+    "webcams": []
+  },
+  {
+    "id": "headland-hotel",
+    "name": "Headland Hotel",
+    "country": "Royaume-Uni",
+    "state": "Cornouailles",
+    "url": "https://headlandhotel.roundshot.com/",
+    "coordinates": {
+      "latitude": 50.4205336,
+      "longitude": -5.0970156
+    },
+    "webcams": [
+      {
+        "name": "Headland Hotel & Spa",
+        "largeImage": "https://backend.roundshot.com/cams/886/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/886/thumbnail"
       }
     ]
   },
@@ -1274,6 +2563,65 @@
         "name": "Glisse tranquille",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_hirmentaz_glisse-tranquille.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_hirmentaz_glisse-tranquille.jpg"
+      }
+    ]
+  },
+  {
+    "id": "hotel-chasseral",
+    "name": "Hotel-Chasseral",
+    "country": "Suisse",
+    "state": "Arrondissement administratif du Jura bernois",
+    "url": "https://hotel-chasseral.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.1268843,
+      "longitude": 7.0456456
+    },
+    "webcams": [
+      {
+        "name": "Hotel-Chasseral",
+        "largeImage": "https://backend.roundshot.com/cams/2084/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2084/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "huus-ag",
+    "name": "Huus AG",
+    "country": "Suisse",
+    "state": "Bezirk Aarau",
+    "url": "https://huusgstaad.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.3925593,
+      "longitude": 8.0468843
+    },
+    "webcams": [
+      {
+        "name": "Huus Hotel Gstaad",
+        "largeImage": "https://backend.roundshot.com/cams/581/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/581/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "iid",
+    "name": "IID",
+    "country": "États-Unis d'Amérique",
+    "state": "Riverside County",
+    "url": "https://iid.roundshot.com/",
+    "coordinates": {
+      "latitude": 33.6282095,
+      "longitude": -116.2401284
+    },
+    "webcams": [
+      {
+        "name": "Anza-Borrego",
+        "largeImage": "https://backend.roundshot.com/cams/7c489eeced76dff9294e39d9925bed1b/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/7c489eeced76dff9294e39d9925bed1b/thumbnail"
+      },
+      {
+        "name": "Salton South",
+        "largeImage": "https://backend.roundshot.com/cams/c45767f2311f4df4c094686fdbb1c7f0/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/c45767f2311f4df4c094686fdbb1c7f0/thumbnail"
       }
     ]
   },
@@ -1321,6 +2669,29 @@
     ]
   },
   {
+    "id": "jackson-hole",
+    "name": "Jackson Hole",
+    "country": "États-Unis d'Amérique",
+    "state": "Pope County",
+    "url": "https://jacksonhole.roundshot.com/",
+    "coordinates": {
+      "latitude": 37.5115171,
+      "longitude": -88.6102995
+    },
+    "webcams": [
+      {
+        "name": "Rendezvous Lodge",
+        "largeImage": "https://backend.roundshot.com/cams/553/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/553/thumbnail"
+      },
+      {
+        "name": "Summit",
+        "largeImage": "https://backend.roundshot.com/cams/848/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/848/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "jard-sur-mer",
     "name": "Jard-sur-Mer",
     "country": "France",
@@ -1335,6 +2706,95 @@
         "name": "Capitainerie",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_jard-sur-mer_capitainerie.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_jard-sur-mer_capitainerie.jpg"
+      }
+    ]
+  },
+  {
+    "id": "jenzer-fleisch-feinkost-ag",
+    "name": "Jenzer Fleisch + Feinkost AG",
+    "country": "Suisse",
+    "state": "Bezirk Arlesheim",
+    "url": "https://hotel-ochsen.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.4934539,
+      "longitude": 7.6214454
+    },
+    "webcams": [
+      {
+        "name": "Hotel Ochsen - Arlesheim",
+        "largeImage": "https://backend.roundshot.com/cams/1358/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1358/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "jura-tourisme",
+    "name": "Jura Tourisme",
+    "country": "Suisse",
+    "state": "District de Delémont",
+    "url": "https://juratourisme.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.3661135,
+      "longitude": 7.3461229
+    },
+    "webcams": [
+      {
+        "name": "Delémont Gare",
+        "largeImage": "https://backend.roundshot.com/cams/40/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/40/thumbnail"
+      },
+      {
+        "name": "Delémont Vieille Ville",
+        "largeImage": "https://backend.roundshot.com/cams/1570/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1570/thumbnail"
+      },
+      {
+        "name": "Golf Club Les Bois",
+        "largeImage": "https://backend.roundshot.com/cams/1617/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1617/thumbnail"
+      },
+      {
+        "name": "Les Ordons",
+        "largeImage": "https://backend.roundshot.com/cams/677/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/677/thumbnail"
+      },
+      {
+        "name": "Moutier",
+        "largeImage": "https://backend.roundshot.com/cams/2229/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2229/thumbnail"
+      },
+      {
+        "name": "Porrentruy",
+        "largeImage": "https://backend.roundshot.com/cams/38/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/38/thumbnail"
+      },
+      {
+        "name": "Saignelégier",
+        "largeImage": "https://backend.roundshot.com/cams/36/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/36/thumbnail"
+      },
+      {
+        "name": "St Ursanne",
+        "largeImage": "https://backend.roundshot.com/cams/39/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/39/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "kantonsspital-graubunden",
+    "name": "Kantonsspital Graubünden",
+    "country": "Suisse",
+    "state": "Plessur",
+    "url": "https://ksgr.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8637057,
+      "longitude": 9.5396738
+    },
+    "webcams": [
+      {
+        "name": "Chur",
+        "largeImage": "https://backend.roundshot.com/cams/151/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/151/thumbnail"
       }
     ]
   },
@@ -1358,6 +2818,83 @@
         "name": "Webcam 2130m",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_karellis_vinouve.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_karellis_vinouve.jpg"
+      }
+    ]
+  },
+  {
+    "id": "killington",
+    "name": "Killington",
+    "country": "États-Unis d'Amérique",
+    "state": "Rutland County",
+    "url": "https://killington.roundshot.com/",
+    "coordinates": {
+      "latitude": 43.67433,
+      "longitude": -72.7784445
+    },
+    "webcams": [
+      {
+        "name": "Base Lodge",
+        "largeImage": "https://backend.roundshot.com/cams/2017/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2017/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "kirchfeld-ag",
+    "name": "Kirchfeld AG",
+    "country": "Suisse",
+    "state": "Bezirk Aarau",
+    "url": "https://kirchfeld.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.3548286,
+      "longitude": 8.0539346
+    },
+    "webcams": [
+      {
+        "name": "Kirchfeld Public",
+        "largeImage": "https://backend.roundshot.com/cams/1322/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1322/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "kreuz-post-hotel",
+    "name": "Kreuz Post Hotel",
+    "country": "Suisse",
+    "state": "Arrondissement administratif d'Interlaken-Oberhasli",
+    "url": "https://kreuz.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.6245821,
+      "longitude": 8.0341802
+    },
+    "webcams": [
+      {
+        "name": "Kreuz Post Hotel - Grindelwald",
+        "largeImage": "https://backend.roundshot.com/cams/1699/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1699/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "kronberg-luftseilbahn",
+    "name": "Kronberg Luftseilbahn",
+    "country": "Suisse",
+    "state": "Appenzell Rhodes-Intérieures",
+    "url": "https://kronberg.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.3057323,
+      "longitude": 9.32809
+    },
+    "webcams": [
+      {
+        "name": "Kronberg Gipfel",
+        "largeImage": "https://backend.roundshot.com/cams/1272/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1272/thumbnail"
+      },
+      {
+        "name": "Kronberg Talstation",
+        "largeImage": "https://backend.roundshot.com/cams/1275/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1275/thumbnail"
       }
     ]
   },
@@ -1718,6 +3255,24 @@
     ]
   },
   {
+    "id": "le-carrefour-verbier",
+    "name": "Le Carrefour Verbier",
+    "country": "Suisse",
+    "state": "Entremont",
+    "url": "https://lecarrefour.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.1019575,
+      "longitude": 7.241985
+    },
+    "webcams": [
+      {
+        "name": "Le Carrefour",
+        "largeImage": "https://backend.roundshot.com/cams/50/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/50/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "le-collet d'allevard",
     "name": "Le Collet d'Allevard",
     "country": "France",
@@ -1742,6 +3297,24 @@
         "name": "Chamois d'or",
         "largeImage": "https://webcams.lecollet.com/imageSC.jpg",
         "thumbnailImage": "https://webcams.lecollet.com/imageSC.jpg"
+      }
+    ]
+  },
+  {
+    "id": "le-grand-domaine-stellenbosch",
+    "name": "Le Grand Domaine - Stellenbosch",
+    "country": "Afrique du Sud",
+    "state": "Cape Winelands District Municipality",
+    "url": "https://granddomaine.roundshot.com/",
+    "coordinates": {
+      "latitude": -33.9382047,
+      "longitude": 18.8603416
+    },
+    "webcams": [
+      {
+        "name": "Le Grand Domaine - Stellenbosch",
+        "largeImage": "https://backend.roundshot.com/cams/1085/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1085/thumbnail"
       }
     ]
   },
@@ -2206,6 +3779,47 @@
     ]
   },
   {
+    "id": "limelight-hotels",
+    "name": "Limelight Hotels",
+    "country": "États-Unis d'Amérique",
+    "state": "Colorado",
+    "url": "https://limelighthotels.roundshot.com/",
+    "coordinates": {
+      "latitude": 39.7531853,
+      "longitude": -105.0020644
+    },
+    "webcams": [
+      {
+        "name": "Limelight Ketchum",
+        "largeImage": "https://backend.roundshot.com/cams/803/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/803/thumbnail"
+      },
+      {
+        "name": "Limelight Snowmass",
+        "largeImage": "https://backend.roundshot.com/cams/850/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/850/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "lodge-at-whitefish-lake",
+    "name": "Lodge at Whitefish Lake",
+    "country": "États-Unis d'Amérique",
+    "state": "Flathead County",
+    "url": "https://lodgeatwhitefishlake.roundshot.com/",
+    "coordinates": {
+      "latitude": 48.4312175,
+      "longitude": -114.3420655
+    },
+    "webcams": [
+      {
+        "name": "Lodge at Whitefish Lake",
+        "largeImage": "https://backend.roundshot.com/cams/1394/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1394/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "loudenvielle",
     "name": "Loudenvielle",
     "country": "France",
@@ -2225,6 +3839,101 @@
         "name": "Peyragudes",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=KQWcy-UQ6Od-fkMUd-bsJkK&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=KQWcy-UQ6Od-fkMUd-bsJkK&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "lutry-commune",
+    "name": "Lutry Commune",
+    "country": "Suisse",
+    "state": "District de Lavaux-Oron",
+    "url": "https://lutry.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.5214241,
+      "longitude": 6.7012832
+    },
+    "webcams": [
+      {
+        "name": "Lutry Commune",
+        "largeImage": "https://backend.roundshot.com/cams/1435/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1435/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "lutsen-mountains",
+    "name": "Lutsen Mountains",
+    "country": "États-Unis d'Amérique",
+    "state": "Cook County",
+    "url": "https://lutsen.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.6559901,
+      "longitude": -90.7250636
+    },
+    "webcams": [
+      {
+        "name": "Lutsen Mountains",
+        "largeImage": "https://backend.roundshot.com/cams/823/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/823/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "luzerner-hohenklinik-montana",
+    "name": "Luzerner Höhenklinik Montana",
+    "country": "Suisse",
+    "state": "Sierre",
+    "url": "https://lhm.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.3169348,
+      "longitude": 7.4975161
+    },
+    "webcams": [
+      {
+        "name": "Luzerner Höhenklinik Montana",
+        "largeImage": "https://backend.roundshot.com/cams/57/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/57/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "luzerner-kantonsspital",
+    "name": "Luzerner Kantonsspital",
+    "country": "Suisse",
+    "state": "Lucerne",
+    "url": "https://luks-luzern.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.0586067,
+      "longitude": 8.2972048
+    },
+    "webcams": [
+      {
+        "name": "Luzern Kinderspital",
+        "largeImage": "https://backend.roundshot.com/cams/1112/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1112/thumbnail"
+      },
+      {
+        "name": "Wolhusen Baustelle",
+        "largeImage": "https://backend.roundshot.com/cams/a92e741816723c4d21d71c40a6705154/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/a92e741816723c4d21d71c40a6705154/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "maiengarten",
+    "name": "Maiengarten",
+    "country": "Suisse",
+    "state": "Bezirk Winterthur",
+    "url": "https://maiengarten.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.5233884,
+      "longitude": 8.8385557
+    },
+    "webcams": [
+      {
+        "name": "Bertschikon",
+        "largeImage": "https://backend.roundshot.com/cams/58/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/58/thumbnail"
       }
     ]
   },
@@ -2270,6 +3979,60 @@
     ]
   },
   {
+    "id": "marbachegg-sportbahnen",
+    "name": "Marbachegg Sportbahnen",
+    "country": "Suisse",
+    "state": "Lucerne",
+    "url": "https://marbachegg.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8505719,
+      "longitude": 7.8948822
+    },
+    "webcams": [
+      {
+        "name": "Marbachegg",
+        "largeImage": "https://backend.roundshot.com/cams/686/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/686/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "marchenhotel-braunwald",
+    "name": "Märchenhotel Braunwald",
+    "country": "Suisse",
+    "state": "Glaris",
+    "url": "https://maerchenhotel.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.9410221,
+      "longitude": 8.9999762
+    },
+    "webcams": [
+      {
+        "name": "Märchenhotel Braunwald",
+        "largeImage": "https://backend.roundshot.com/cams/857/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/857/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "masella",
+    "name": "Masella",
+    "country": "Espagne",
+    "state": "Cerdagne",
+    "url": "https://masella.roundshot.com/",
+    "coordinates": {
+      "latitude": 42.351104,
+      "longitude": 1.9012152
+    },
+    "webcams": [
+      {
+        "name": "Masella",
+        "largeImage": "https://backend.roundshot.com/cams/1188/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1188/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "massif-des-brasses",
     "name": "Massif des Brasses",
     "country": "France",
@@ -2284,6 +4047,29 @@
         "name": "Restaurant",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_les-brasses_restaurant.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_les-brasses_restaurant.jpg"
+      }
+    ]
+  },
+  {
+    "id": "matterhorn-gotthard-bahn",
+    "name": "Matterhorn Gotthard Bahn",
+    "country": "Suisse",
+    "state": "Brigue",
+    "url": "https://gornergrat.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.3126345,
+      "longitude": 7.9655895
+    },
+    "webcams": [
+      {
+        "name": "Gornergrat MGB",
+        "largeImage": "https://backend.roundshot.com/cams/1586/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1586/thumbnail"
+      },
+      {
+        "name": "Matterhorn Gotthard Bahn - Riffelberg",
+        "largeImage": "https://backend.roundshot.com/cams/1591/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1591/thumbnail"
       }
     ]
   },
@@ -2341,6 +4127,34 @@
     ]
   },
   {
+    "id": "meiringen-hasliberg-bergbahnen",
+    "name": "Meiringen Hasliberg Bergbahnen",
+    "country": "Suisse",
+    "state": "Arrondissement administratif d'Interlaken-Oberhasli",
+    "url": "https://alpentower.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.7452048,
+      "longitude": 8.1955071
+    },
+    "webcams": [
+      {
+        "name": "Meiringen Hasliberg - Alpen Tower",
+        "largeImage": "https://backend.roundshot.com/cams/439/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/439/thumbnail"
+      },
+      {
+        "name": "Meiringen Hasliberg - Käserstatt",
+        "largeImage": "https://backend.roundshot.com/cams/364/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/364/thumbnail"
+      },
+      {
+        "name": "Meiringen Hasliberg - Maegisalp",
+        "largeImage": "https://backend.roundshot.com/cams/124/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/124/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "menuires",
     "name": "Les Ménuires",
     "country": "France",
@@ -2375,6 +4189,16 @@
         "name": "Lac du Lou",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=LD9MM-7VHg5-HkTyr-61GXX&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=LD9MM-7VHg5-HkTyr-61GXX&quality=small"
+      },
+      {
+        "name": "Le Mont de la Chambre",
+        "largeImage": "https://backend.roundshot.com/cams/902/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/902/thumbnail"
+      },
+      {
+        "name": "Roc des 3 Marches",
+        "largeImage": "https://backend.roundshot.com/cams/207/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/207/thumbnail"
       }
     ]
   },
@@ -2487,6 +4311,42 @@
         "name": "Causse noir",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=i2mx1-NSfZW-n4T13-NLhBq&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "mittagbahn",
+    "name": "Mittagbahn",
+    "country": "Allemagne",
+    "state": "Landkreis Oberallgäu",
+    "url": "https://mittagbahn.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.5543565,
+      "longitude": 10.2189182
+    },
+    "webcams": [
+      {
+        "name": "Mittagbahn",
+        "largeImage": "https://backend.roundshot.com/cams/466/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/466/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "mollis-airport",
+    "name": "Mollis Airport",
+    "country": "Suisse",
+    "state": "Glaris",
+    "url": "https://esaf2025.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.0790018,
+      "longitude": 9.0658596
+    },
+    "webcams": [
+      {
+        "name": "Mollis Airport",
+        "largeImage": "https://backend.roundshot.com/cams/1641/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1641/thumbnail"
       }
     ]
   },
@@ -2618,6 +4478,42 @@
     ]
   },
   {
+    "id": "montrose",
+    "name": "Montrose",
+    "country": "United States",
+    "state": "Colorado",
+    "url": "https://visitmontrose.com/",
+    "coordinates": {
+      "latitude": 38.48162,
+      "longitude": -107.883682
+    },
+    "webcams": [
+      {
+        "name": "Sunset Mesa",
+        "largeImage": "https://backend.roundshot.com/cams/1312/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1312/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "morges-region-tourisme",
+    "name": "Morges Région Tourisme",
+    "country": "Suisse",
+    "state": "District de Morges",
+    "url": "https://morgesregion.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.5082655,
+      "longitude": 6.4981798
+    },
+    "webcams": [
+      {
+        "name": "Morges - Port",
+        "largeImage": "https://backend.roundshot.com/cams/348/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/348/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "morteau",
     "name": "Morteau",
     "country": "France",
@@ -2660,6 +4556,98 @@
         "name": "Morzine Chamossière",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_motiv-oxygene_morzine-avoriaz.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_motiv-oxygene_morzine-avoriaz.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mount-buller",
+    "name": "Mount Buller",
+    "country": "Australie",
+    "state": "Victoria",
+    "url": "https://mtbuller.roundshot.com/",
+    "coordinates": {
+      "latitude": -37.2694615,
+      "longitude": 146.4008688
+    },
+    "webcams": [
+      {
+        "name": "Pendergast Hut - Mount Buller",
+        "largeImage": "https://backend.roundshot.com/cams/1083/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1083/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "nyon-region-tourisme",
+    "name": "Nyon Région Tourisme",
+    "country": "Suisse",
+    "state": "District de Nyon",
+    "url": "https://nyon-tourisme.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.383562,
+      "longitude": 6.2379999
+    },
+    "webcams": [
+      {
+        "name": "Nyon",
+        "largeImage": "https://backend.roundshot.com/cams/401/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/401/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "nzz",
+    "name": "NZZ",
+    "country": "Suisse",
+    "state": "Bezirk Bülach",
+    "url": "https://nzz.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.4535547,
+      "longitude": 8.5611754
+    },
+    "webcams": [
+      {
+        "name": "NZZ Zürich",
+        "largeImage": "https://backend.roundshot.com/cams/66/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/66/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "oeschinensee",
+    "name": "Oeschinensee",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Frutigen-Bas-Simmental",
+    "url": "https://oeschinensee.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4984951,
+      "longitude": 7.7268429
+    },
+    "webcams": [
+      {
+        "name": "Berghotel",
+        "largeImage": "https://backend.roundshot.com/cams/838/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/838/thumbnail"
+      },
+      {
+        "name": "Rodelbahn Sommer",
+        "largeImage": "https://backend.roundshot.com/cams/1474/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1474/thumbnail"
+      },
+      {
+        "name": "Rodelbahn Winter",
+        "largeImage": "https://backend.roundshot.com/cams/1475/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1475/thumbnail"
+      },
+      {
+        "name": "Sunnbüel",
+        "largeImage": "https://backend.roundshot.com/cams/1553/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1553/thumbnail"
+      },
+      {
+        "name": "Sunnbüel Spittelmatte",
+        "largeImage": "https://backend.roundshot.com/cams/2085/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2085/thumbnail"
       }
     ]
   },
@@ -2743,6 +4731,47 @@
     ]
   },
   {
+    "id": "palace-hotel-gstaad",
+    "name": "Palace Hotel Gstaad",
+    "country": "Suisse",
+    "state": "Arrondissement administratif du Haut-Simmental et Gessenay",
+    "url": "https://palacegstaad.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4732324,
+      "longitude": 7.2896803
+    },
+    "webcams": [
+      {
+        "name": "Palace Gstaad",
+        "largeImage": "https://backend.roundshot.com/cams/1708/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1708/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "palisades-tahoe",
+    "name": "Palisades Tahoe",
+    "country": "États-Unis d'Amérique",
+    "state": "Placer County",
+    "url": "https://palisadestahoe.roundshot.com/",
+    "coordinates": {
+      "latitude": 39.1966225,
+      "longitude": -120.2345468
+    },
+    "webcams": [
+      {
+        "name": "Alpine Summit",
+        "largeImage": "https://backend.roundshot.com/cams/250/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/250/thumbnail"
+      },
+      {
+        "name": "Silverado",
+        "largeImage": "https://backend.roundshot.com/cams/249/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/249/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "passy",
     "name": "Passy",
     "country": "France",
@@ -2784,6 +4813,24 @@
     ]
   },
   {
+    "id": "plurial-novilia-reims",
+    "name": "Plurial Novilia Reims",
+    "country": "France",
+    "state": "Marne",
+    "url": "https://reims.roundshot.com/",
+    "coordinates": {
+      "latitude": 49.2533089,
+      "longitude": 4.0402951
+    },
+    "webcams": [
+      {
+        "name": "Reims - Tour des Argonautes",
+        "largeImage": "https://backend.roundshot.com/cams/216/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/216/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "pontarlier",
     "name": "Pontarlier",
     "country": "France",
@@ -2816,6 +4863,24 @@
         "name": "capitainerie",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_port-bourgenay_capitainerie.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_port-bourgenay_capitainerie.jpg"
+      }
+    ]
+  },
+  {
+    "id": "portes-du-soleil",
+    "name": "Portes du Soleil",
+    "country": "Suisse",
+    "state": "Monthey",
+    "url": "https://portesdusoleil.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.1945114,
+      "longitude": 6.8312885
+    },
+    "webcams": [
+      {
+        "name": "Sommet de Grand-Conche",
+        "largeImage": "https://backend.roundshot.com/cams/215/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/215/thumbnail"
       }
     ]
   },
@@ -2945,6 +5010,78 @@
     ]
   },
   {
+    "id": "refuge-du-lac-de-derborence",
+    "name": "Refuge du Lac de Derborence",
+    "country": "Suisse",
+    "state": "Conthey",
+    "url": "https://refugederborence.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.2798371,
+      "longitude": 7.2144607
+    },
+    "webcams": [
+      {
+        "name": "Refuge du Lac de Derborence",
+        "largeImage": "https://backend.roundshot.com/cams/876/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/876/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "refuge-solalex",
+    "name": "Refuge Solalex",
+    "country": "Suisse",
+    "state": "District d'Aigle",
+    "url": "https://refugesolalex.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.2885987,
+      "longitude": 7.1366212
+    },
+    "webcams": [
+      {
+        "name": "Refuge Solalex",
+        "largeImage": "https://backend.roundshot.com/cams/1340/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1340/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "regionalwerke-ag-baden",
+    "name": "Regionalwerke AG Baden",
+    "country": "Suisse",
+    "state": "Bezirk Baden",
+    "url": "https://baden.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.4781214,
+      "longitude": 8.3066871
+    },
+    "webcams": [
+      {
+        "name": "Wasserturm Baldegg",
+        "largeImage": "https://backend.roundshot.com/cams/676/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/676/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "rehaklinik-bellikon",
+    "name": "Rehaklinik Bellikon",
+    "country": "Suisse",
+    "state": "Plessur",
+    "url": "https://rehabellikon.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8465915,
+      "longitude": 9.5069719
+    },
+    "webcams": [
+      {
+        "name": "Rehaklinik Bellikon",
+        "largeImage": "https://backend.roundshot.com/cams/1269/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1269/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "rencurel",
     "name": "Rencurel",
     "country": "France",
@@ -2964,6 +5101,42 @@
         "name": "Belvédère",
         "largeImage": "https://coulmes-vercors.com/wp-content/uploads/webcam-belvedere/webcam-belvedere.jpg",
         "thumbnailImage": "https://coulmes-vercors.com/wp-content/uploads/webcam-belvedere/webcam-belvedere.jpg"
+      }
+    ]
+  },
+  {
+    "id": "rhatische-bahn",
+    "name": "Rhätische Bahn",
+    "country": "Suisse",
+    "state": "Plessur",
+    "url": "https://albulatunnel.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8517927,
+      "longitude": 9.5325733
+    },
+    "webcams": [
+      {
+        "name": "Albulatunnel",
+        "largeImage": "https://backend.roundshot.com/cams/263/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/263/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "rheinunternehmen",
+    "name": "Rheinunternehmen",
+    "country": "Suisse",
+    "state": "Wahlkreis Werdenberg",
+    "url": "https://hafenamrheinspitz.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.0701422,
+      "longitude": 9.4786266
+    },
+    "webcams": [
+      {
+        "name": "Rheinspitz",
+        "largeImage": "https://backend.roundshot.com/cams/456/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/456/thumbnail"
       }
     ]
   },
@@ -2997,6 +5170,24 @@
         "name": "Pointe de Razis",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=R9GoI-loilM-pXvm2-t4XzS&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=R9GoI-loilM-pXvm2-t4XzS&quality=small"
+      }
+    ]
+  },
+  {
+    "id": "ruag-schweiz",
+    "name": "Ruag Schweiz",
+    "country": "Suisse",
+    "state": "Arrondissement administratif d'Interlaken-Oberhasli",
+    "url": "https://pizzomatro.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.6696185,
+      "longitude": 7.876375
+    },
+    "webcams": [
+      {
+        "name": "Pizzo Matro",
+        "largeImage": "https://backend.roundshot.com/cams/1002/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1002/thumbnail"
       }
     ]
   },
@@ -3177,6 +5368,39 @@
     ]
   },
   {
+    "id": "saint-jean-d-aulps",
+    "name": "Saint-Jean-d'Aulps",
+    "country": "France",
+    "state": "Haute-Savoie",
+    "url": "https://www.valleedaulps.com",
+    "coordinates": {
+      "latitude": 46.234596578912914,
+      "longitude": 6.654796600341798
+    },
+    "webcams": [
+      {
+        "name": "Plateau St Jean d'Aulps",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_plateau-st-jean-d-aulps.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_vallee-d-aulps_plateau-st-jean-d-aulps.jpg"
+      },
+      {
+        "name": "Col des Follys",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_col-des-follys.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_vallee-d-aulps_col-des-follys.jpg"
+      },
+      {
+        "name": "Roc d'Enfer",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tWfs-G599K-PJyiE-mTThI&quality=large",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tWfs-G599K-PJyiE-mTThI&quality=small"
+      },
+      {
+        "name": "Les Lindarets",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_les-lindarets.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_les-lindarets.jpg"
+      }
+    ]
+  },
+  {
     "id": "saint-jean-de-sixt",
     "name": "Saint-Jean-de-Sixt",
     "country": "France",
@@ -3223,24 +5447,6 @@
     ]
   },
   {
-    "id": "saint-léger-les-mélèzes",
-    "name": "Saint-Léger-les-Mélèzes",
-    "country": "France",
-    "state": "Hautes-Alpes",
-    "url": "https://www.champsaur-valgaudemar.com/decouvrir/les-stations/saint-leger-les-melezes/",
-    "coordinates": {
-      "latitude": 44.6442109,
-      "longitude": 6.1993686
-    },
-    "webcams": [
-      {
-        "name": "Front de neige",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_front-de-neige.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_front-de-neige.jpg"
-      }
-    ]
-  },
-  {
     "id": "saint-luc",
     "name": "Saint-Luc",
     "country": "Suisse",
@@ -3260,6 +5466,24 @@
         "name": "Funiculaire",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-luc_funiculaire.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-luc_funiculaire.jpg"
+      }
+    ]
+  },
+  {
+    "id": "saint-léger-les-mélèzes",
+    "name": "Saint-Léger-les-Mélèzes",
+    "country": "France",
+    "state": "Hautes-Alpes",
+    "url": "https://www.champsaur-valgaudemar.com/decouvrir/les-stations/saint-leger-les-melezes/",
+    "coordinates": {
+      "latitude": 44.6442109,
+      "longitude": 6.1993686
+    },
+    "webcams": [
+      {
+        "name": "Front de neige",
+        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_st-leger_front-de-neige.jpg",
+        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_st-leger_front-de-neige.jpg"
       }
     ]
   },
@@ -3316,7 +5540,7 @@
   },
   {
     "id": "saint-vincent-sur-jard-",
-    "name": "Saint-Vincent-Sur-Jard ",
+    "name": "Saint-Vincent-Sur-Jard",
     "country": "France",
     "state": "Vendée",
     "url": "http://www.mairiesaintvincentsurjard.fr/",
@@ -3462,6 +5686,149 @@
     ]
   },
   {
+    "id": "santis-schwebebahn",
+    "name": "Säntis Schwebebahn",
+    "country": "Suisse",
+    "state": "Hinterland",
+    "url": "https://saentis.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.2564785,
+      "longitude": 9.3175958
+    },
+    "webcams": [
+      {
+        "name": "Säntis Gipfel",
+        "largeImage": "https://backend.roundshot.com/cams/156/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/156/thumbnail"
+      },
+      {
+        "name": "Säntis Schwägalp",
+        "largeImage": "https://backend.roundshot.com/cams/1130/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1130/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "schilthorn",
+    "name": "Schilthorn",
+    "country": "Suisse",
+    "state": "Arrondissement administratif d'Interlaken-Oberhasli",
+    "url": "https://schilthorn.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.5572822,
+      "longitude": 7.8351745
+    },
+    "webcams": [
+      {
+        "name": "Mürren Public",
+        "largeImage": "https://backend.roundshot.com/cams/1513/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1513/thumbnail"
+      },
+      {
+        "name": "Allmendhubel",
+        "largeImage": "https://backend.roundshot.com/cams/429/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/429/thumbnail"
+      },
+      {
+        "name": "Birg",
+        "largeImage": "https://backend.roundshot.com/cams/428/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/428/thumbnail"
+      },
+      {
+        "name": "Stechelberg Public",
+        "largeImage": "https://backend.roundshot.com/cams/1496/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1496/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "schonberg-klinik",
+    "name": "Schönberg Klinik",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Thoune",
+    "url": "https://schoenberg.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.7146006,
+      "longitude": 7.6989955
+    },
+    "webcams": [
+      {
+        "name": "Schönberg Klinik",
+        "largeImage": "https://backend.roundshot.com/cams/1657/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1657/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "schwarzsee-tourismus",
+    "name": "Schwarzsee Tourismus",
+    "country": "Suisse",
+    "state": "District de la Singine",
+    "url": "https://schwarzseetourismus.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.6710447,
+      "longitude": 7.2900136
+    },
+    "webcams": [
+      {
+        "name": "Schwarzsee Tourismus",
+        "largeImage": "https://backend.roundshot.com/cams/430/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/430/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "schweitzer-mountain-resort",
+    "name": "Schweitzer Mountain Resort",
+    "country": "États-Unis d'Amérique",
+    "state": "Idaho",
+    "url": "https://www.schweitzer.com/",
+    "coordinates": {
+      "latitude": 48.3786997,
+      "longitude": -116.6130791
+    },
+    "webcams": [
+      {
+        "name": "Sky House",
+        "largeImage": "https://backend.roundshot.com/cams/792/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/792/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "scuol-engadin",
+    "name": "Scuol Engadin",
+    "country": "Suisse",
+    "state": "Engiadina Bassa/Val Müstair",
+    "url": "https://engadin.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.7976371,
+      "longitude": 10.2996234
+    },
+    "webcams": [
+      {
+        "name": "Ardez",
+        "largeImage": "https://backend.roundshot.com/cams/1135/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1135/thumbnail"
+      },
+      {
+        "name": "Ftan",
+        "largeImage": "https://backend.roundshot.com/cams/1208/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1208/thumbnail"
+      },
+      {
+        "name": "Sent",
+        "largeImage": "https://backend.roundshot.com/cams/1209/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1209/thumbnail"
+      },
+      {
+        "name": "Tarasp",
+        "largeImage": "https://backend.roundshot.com/cams/1134/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1134/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "semnoz",
     "name": "Semnoz",
     "country": "France",
@@ -3534,6 +5901,11 @@
         "name": "Saint Chaffrey",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=2KeU2-7DUTK-Td50n-5cJJ1&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=2KeU2-7DUTK-Td50n-5cJJ1&quality=small"
+      },
+      {
+        "name": "Ratier",
+        "largeImage": "https://backend.roundshot.com/cams/219/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/219/thumbnail"
       }
     ]
   },
@@ -3552,6 +5924,222 @@
         "name": "Singen",
         "largeImage": "https://live-image.panomax.com/cams/1170/recent_reduced.jpg",
         "thumbnailImage": "https://live-image.panomax.com/cams/1170/recent_reduced.jpg"
+      }
+    ]
+  },
+  {
+    "id": "sion-aeroport",
+    "name": "Sion Aéroport",
+    "country": "Suisse",
+    "state": "Sion",
+    "url": "https://sionairport.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.2236309,
+      "longitude": 7.337594
+    },
+    "webcams": [
+      {
+        "name": "Sion Aéroport",
+        "largeImage": "https://backend.roundshot.com/cams/518/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/518/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "ski-lake-louise",
+    "name": "Ski Lake Louise",
+    "country": "Canada",
+    "state": "Improvement District No. 9",
+    "url": "https://skilouise.roundshot.com/",
+    "coordinates": {
+      "latitude": 51.4423106,
+      "longitude": -116.1619165
+    },
+    "webcams": [
+      {
+        "name": "Ptarmigan",
+        "largeImage": "https://backend.roundshot.com/cams/585/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/585/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "snowbird",
+    "name": "Snowbird",
+    "country": "États-Unis d'Amérique",
+    "state": "Salt Lake County",
+    "url": "https://snowbird.roundshot.com/",
+    "coordinates": {
+      "latitude": 40.5807546,
+      "longitude": -111.6572955
+    },
+    "webcams": [
+      {
+        "name": "Snowbird",
+        "largeImage": "https://backend.roundshot.com/cams/1003/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1003/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "societe-nautique-de-geneve",
+    "name": "Société Nautique de Genève",
+    "country": "Suisse",
+    "state": "Genève",
+    "url": "https://nautique.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.2128969,
+      "longitude": 6.1729231
+    },
+    "webcams": [
+      {
+        "name": "Société Nautique de Genève",
+        "largeImage": "https://backend.roundshot.com/cams/1884/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1884/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "sonnenalp",
+    "name": "Sonnenalp",
+    "country": "Allemagne",
+    "state": "Landkreis Oberallgäu",
+    "url": "https://soalp.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.4904357,
+      "longitude": 10.2578258
+    },
+    "webcams": [
+      {
+        "name": "Sonnenalp",
+        "largeImage": "https://backend.roundshot.com/cams/67/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/67/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "sorenberg-bergbahnen",
+    "name": "Sörenberg Bergbahnen",
+    "country": "Suisse",
+    "state": "Arrondissement administratif d'Interlaken-Oberhasli",
+    "url": "https://soerenberg.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.7872163,
+      "longitude": 8.0444008
+    },
+    "webcams": [
+      {
+        "name": "Brienzer Rothorn Gipfel",
+        "largeImage": "https://backend.roundshot.com/cams/620/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/620/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "space-needle",
+    "name": "Space Needle",
+    "country": "États-Unis d'Amérique",
+    "state": "King County",
+    "url": "https://spaceneedle.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.6205131,
+      "longitude": -122.3493036
+    },
+    "webcams": [
+      {
+        "name": "Space Needle Seattle",
+        "largeImage": "https://backend.roundshot.com/cams/241/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/241/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "spital-nidwalden",
+    "name": "Spital Nidwalden",
+    "country": "Suisse",
+    "state": "Nidwald",
+    "url": "https://ksnw.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.959739,
+      "longitude": 8.3572711
+    },
+    "webcams": [
+      {
+        "name": "Stans",
+        "largeImage": "https://backend.roundshot.com/cams/559/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/559/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "splugen-bergbahnen",
+    "name": "Splügen Bergbahnen",
+    "country": "Suisse",
+    "state": "Region Viamala",
+    "url": "https://spluegen.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.5502473,
+      "longitude": 9.32112
+    },
+    "webcams": [
+      {
+        "name": "Tanatzhöhe",
+        "largeImage": "https://backend.roundshot.com/cams/125/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/125/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "sportbahnen-elm",
+    "name": "Sportbahnen Elm",
+    "country": "Suisse",
+    "state": "Glaris",
+    "url": "https://sportbahnenelm.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.9136836,
+      "longitude": 9.1624755
+    },
+    "webcams": [
+      {
+        "name": "Schabell - Sportbahnen Elm",
+        "largeImage": "https://backend.roundshot.com/cams/1721/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1721/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "sportzentrum-zurich",
+    "name": "Sportzentrum Zürich",
+    "country": "Suisse",
+    "state": "Bezirk Uster",
+    "url": "https://sportzentrum-zurich.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.4082708,
+      "longitude": 8.6361899
+    },
+    "webcams": [
+      {
+        "name": "Sportzentrum Zürich Dürrbach - Public",
+        "largeImage": "https://backend.roundshot.com/cams/1714/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1714/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "stalden-gemeinde",
+    "name": "Stalden Gemeinde",
+    "country": "Suisse",
+    "state": "Obwald",
+    "url": "https://gemeindestalden.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.8062571,
+      "longitude": 8.4438048
+    },
+    "webcams": [
+      {
+        "name": "Stalden",
+        "largeImage": "https://backend.roundshot.com/cams/304/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/304/thumbnail"
       }
     ]
   },
@@ -3612,6 +6200,51 @@
     ]
   },
   {
+    "id": "sur-lyand",
+    "name": "Sur Lyand",
+    "country": "France",
+    "state": "Ain",
+    "url": "https://sur-lyand.hautrhone-tourisme.fr/",
+    "coordinates": {
+      "latitude": 45.95186578956742,
+      "longitude": 5.775890350341798
+    },
+    "webcams": []
+  },
+  {
+    "id": "swisscom-broadcast-ag",
+    "name": "Swisscom Broadcast AG",
+    "country": "Suisse",
+    "state": "Arrondissement administratif de Berne-Mittelland",
+    "url": "https://monte-tamaro.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.9559161,
+      "longitude": 7.474258
+    },
+    "webcams": [
+      {
+        "name": "Monte Tamaro",
+        "largeImage": "https://backend.roundshot.com/cams/1658/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1658/thumbnail"
+      },
+      {
+        "name": "Rigi",
+        "largeImage": "https://backend.roundshot.com/cams/901/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/901/thumbnail"
+      },
+      {
+        "name": "Monte San Salvatore",
+        "largeImage": "https://backend.roundshot.com/cams/832/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/832/thumbnail"
+      },
+      {
+        "name": "St. Chrischona",
+        "largeImage": "https://backend.roundshot.com/cams/687/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/687/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "talloires-montmin",
     "name": "Talloires-Montmin",
     "country": "France",
@@ -3626,6 +6259,65 @@
         "name": "Auberge du Père Bise",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_pere-bise_auberge.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_pere-bise_auberge.jpg"
+      }
+    ]
+  },
+  {
+    "id": "technische-betriebe-glarus",
+    "name": "Technische Betriebe Glarus",
+    "country": "Suisse",
+    "state": "Glaris",
+    "url": "https://brunnenberg.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.0384054,
+      "longitude": 9.0642115
+    },
+    "webcams": [
+      {
+        "name": "Brunnenberg",
+        "largeImage": "https://backend.roundshot.com/cams/1121/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1121/thumbnail"
+      },
+      {
+        "name": "Oberblegisee - Solar",
+        "largeImage": "https://backend.roundshot.com/cams/1501/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1501/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "telluride",
+    "name": "Telluride",
+    "country": "États-Unis d'Amérique",
+    "state": "San Miguel County",
+    "url": "https://tellurideskiresort.roundshot.com/",
+    "coordinates": {
+      "latitude": 37.9374939,
+      "longitude": -107.812285
+    },
+    "webcams": [
+      {
+        "name": "Revelation Bowl",
+        "largeImage": "https://backend.roundshot.com/cams/983/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/983/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "the-lecht",
+    "name": "The Lecht",
+    "country": "Scotland",
+    "state": "Aberdeenshire",
+    "url": "https://www.lecht.co.uk",
+    "coordinates": {
+      "latitude": 57.201852462606055,
+      "longitude": -3.248519897460938
+    },
+    "webcams": [
+      {
+        "name": "The Lecht",
+        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_the-lecht.jpg",
+        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_the-lecht.jpg"
       }
     ]
   },
@@ -3649,6 +6341,149 @@
         "name": "Thollon les Mémises - Som",
         "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_thollon-les-memises_sommet-parchet.jpg",
         "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_thollon-les-memises_sommet-parchet.jpg"
+      }
+    ]
+  },
+  {
+    "id": "tignes",
+    "name": "Tignes",
+    "country": "France",
+    "state": "Savoie",
+    "url": "https://www.tignes.net/",
+    "coordinates": {
+      "latitude": 45.469729,
+      "longitude": 6.907594
+    },
+    "webcams": [
+      {
+        "name": "Val Claret",
+        "largeImage": "https://backend.roundshot.com/cams/221/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/221/thumbnail"
+      },
+      {
+        "name": "Brévières",
+        "largeImage": "https://backend.roundshot.com/cams/224/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/224/thumbnail"
+      },
+      {
+        "name": "Chaudannes",
+        "largeImage": "https://backend.roundshot.com/cams/1428/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1428/thumbnail"
+      },
+      {
+        "name": "Grande Motte",
+        "largeImage": "https://backend.roundshot.com/cams/222/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/222/thumbnail"
+      },
+      {
+        "name": "Lac",
+        "largeImage": "https://backend.roundshot.com/cams/220/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/220/thumbnail"
+      },
+      {
+        "name": "Les Boisses - 1800",
+        "largeImage": "https://backend.roundshot.com/cams/225/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/225/thumbnail"
+      },
+      {
+        "name": "Snowpark",
+        "largeImage": "https://backend.roundshot.com/cams/727/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/727/thumbnail"
+      },
+      {
+        "name": "Tovière",
+        "largeImage": "https://backend.roundshot.com/cams/223/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/223/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "tin-top-texas",
+    "name": "Tin Top Texas",
+    "country": "États-Unis d'Amérique",
+    "state": "Matagorda County",
+    "url": "https://tintop.roundshot.com/",
+    "coordinates": {
+      "latitude": 28.7841586,
+      "longitude": -96.1242891
+    },
+    "webcams": [
+      {
+        "name": "Tin Top Texas",
+        "largeImage": "https://backend.roundshot.com/cams/06bf5ed437245daf0542118bdc4fbb60/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/06bf5ed437245daf0542118bdc4fbb60/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "tissot",
+    "name": "Tissot",
+    "country": "Suisse",
+    "state": "Neuchâtel",
+    "url": "https://tissot.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.0562225,
+      "longitude": 6.7523115
+    },
+    "webcams": [
+      {
+        "name": "Tissot - Le Locle",
+        "largeImage": "https://backend.roundshot.com/cams/70/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/70/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "uffer-savognin",
+    "name": "Uffer Savognin",
+    "country": "Suisse",
+    "state": "Albula/Alvra",
+    "url": "https://uffer.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.5944075,
+      "longitude": 9.6046657
+    },
+    "webcams": [
+      {
+        "name": "Uffer Savognin",
+        "largeImage": "https://backend.roundshot.com/cams/76/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/76/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "university-of-alabama-huntsville",
+    "name": "University of Alabama Huntsville",
+    "country": "États-Unis d'Amérique",
+    "state": "Madison County",
+    "url": "https://uah.roundshot.com/",
+    "coordinates": {
+      "latitude": 34.7257273,
+      "longitude": -86.6409329
+    },
+    "webcams": [
+      {
+        "name": "UAH - SWIRLL",
+        "largeImage": "https://backend.roundshot.com/cams/485/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/485/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "uto-kulm",
+    "name": "Uto Kulm",
+    "country": "Suisse",
+    "state": "Bezirk Affoltern",
+    "url": "https://uetliberg.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.3496743,
+      "longitude": 8.4912982
+    },
+    "webcams": [
+      {
+        "name": "Uetliberg",
+        "largeImage": "https://backend.roundshot.com/cams/78/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/78/thumbnail"
       }
     ]
   },
@@ -3702,11 +6537,6 @@
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=tHCTk-f4ZXm-e4NYt-ZfRkr&quality=small"
       },
       {
-        "name": "Sommet 2 lacs",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=vLKz-T658-YBG1-nYEG-44FX&quality=small"
-      },
-      {
         "name": "3 Vallées",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=4sJn-4879-A5wg-RWfm-8RKG&quality=small"
@@ -3735,11 +6565,6 @@
         "name": "Restaurant La Maison",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0qmB-W208-FhUp-eDJW-695z&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=0qmB-W208-FhUp-eDJW-695z&quality=small"
-      },
-      {
-        "name": "Snowcam Val Thorens x Salomon x Alpina Watches",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OW20v-AUqmm-d8ZdM-5Lf1o&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=OW20v-AUqmm-d8ZdM-5Lf1o&quality=small"
       }
     ]
   },
@@ -3811,6 +6636,87 @@
         "name": "Borsat",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=S8Gyk-GBGoI-OoxCG-dIOJD&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=S8Gyk-GBGoI-OoxCG-dIOJD&quality=small"
+      },
+      {
+        "name": "Bellevarde",
+        "largeImage": "https://backend.roundshot.com/cams/229/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/229/thumbnail"
+      },
+      {
+        "name": "Crête des Lessières",
+        "largeImage": "https://backend.roundshot.com/cams/858/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/858/thumbnail"
+      },
+      {
+        "name": "Front de neige",
+        "largeImage": "https://backend.roundshot.com/cams/226/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/226/thumbnail"
+      },
+      {
+        "name": "Village",
+        "largeImage": "https://backend.roundshot.com/cams/571/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/571/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "vallee-de-joux-tourisme",
+    "name": "Vallée de Joux Tourisme",
+    "country": "Suisse",
+    "state": "District du Jura-Nord vaudois",
+    "url": "https://valleedejoux.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.6683012,
+      "longitude": 6.3258409
+    },
+    "webcams": [
+      {
+        "name": "Lac de Joux",
+        "largeImage": "https://backend.roundshot.com/cams/2103/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2103/thumbnail"
+      },
+      {
+        "name": "Vallée de Joux",
+        "largeImage": "https://backend.roundshot.com/cams/413/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/413/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "vallee-du-trient",
+    "name": "Vallée du Trient",
+    "country": "Suisse",
+    "state": "Saint-Maurice",
+    "url": "https://valleedutrient.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.1030389,
+      "longitude": 6.9781877
+    },
+    "webcams": [
+      {
+        "name": "Emosson",
+        "largeImage": "https://backend.roundshot.com/cams/875/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/875/thumbnail"
+      },
+      {
+        "name": "Salanfe",
+        "largeImage": "https://backend.roundshot.com/cams/1110/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1110/thumbnail"
+      },
+      {
+        "name": "Télé Marécottes",
+        "largeImage": "https://backend.roundshot.com/cams/802/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/802/thumbnail"
+      },
+      {
+        "name": "Trient",
+        "largeImage": "https://backend.roundshot.com/cams/891/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/891/thumbnail"
+      },
+      {
+        "name": "Vernayaz",
+        "largeImage": "https://backend.roundshot.com/cams/892/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/892/thumbnail"
       }
     ]
   },
@@ -3834,6 +6740,39 @@
         "name": "Webcam du Galibier",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=nmhpc-emfZH-99hV8-B8wwM&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=nmhpc-emfZH-99hV8-B8wwM&quality=small"
+      },
+      {
+        "name": "Valloire - Crey du Quart - Plan de la Séa - 2100m",
+        "largeImage": "https://backend.roundshot.com/cams/231/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/231/thumbnail"
+      },
+      {
+        "name": "Valloire - Sétaz - Thymel - 1900m",
+        "largeImage": "https://backend.roundshot.com/cams/230/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/230/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "valmeinier",
+    "name": "Valmeinier",
+    "country": "France",
+    "state": "Savoie",
+    "url": "https://valmeinier.roundshot.com/",
+    "coordinates": {
+      "latitude": 45.1853248,
+      "longitude": 6.4808156
+    },
+    "webcams": [
+      {
+        "name": "Les Jeux",
+        "largeImage": "https://backend.roundshot.com/cams/247/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/247/thumbnail"
+      },
+      {
+        "name": "Moneul - Crey du Quart",
+        "largeImage": "https://backend.roundshot.com/cams/248/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/248/thumbnail"
       }
     ]
   },
@@ -3975,6 +6914,24 @@
     ]
   },
   {
+    "id": "vicheres-liddes",
+    "name": "Vichères-Liddes",
+    "country": "Suisse",
+    "state": "Entremont",
+    "url": "https://lavuardette.roundshot.com/",
+    "coordinates": {
+      "latitude": 45.9967693,
+      "longitude": 7.1664908
+    },
+    "webcams": [
+      {
+        "name": "La Vuardette",
+        "largeImage": "https://backend.roundshot.com/cams/1119/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1119/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "villard-de-lans",
     "name": "Villard-de-Lans",
     "country": "",
@@ -3998,6 +6955,24 @@
     ]
   },
   {
+    "id": "ville-de-vevey",
+    "name": "Ville de Vevey",
+    "country": "Suisse",
+    "state": "District de la Riviera-Pays-d'Enhaut",
+    "url": "https://vevey.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.4589659,
+      "longitude": 6.8468092
+    },
+    "webcams": [
+      {
+        "name": "Vevey",
+        "largeImage": "https://backend.roundshot.com/cams/60/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/60/thumbnail"
+      }
+    ]
+  },
+  {
     "id": "violay",
     "name": "Violay",
     "country": "France",
@@ -4016,141 +6991,169 @@
     ]
   },
   {
-    "id": "gerardmer",
-    "name": "Gérardmer",
-    "country": "France",
-    "state": "Vosges",
-    "url": "https://www.gerardmer-ski.com/fr/",
+    "id": "wamo",
+    "name": "WAMO",
+    "country": "Suisse",
+    "state": "Bezirk Schaffhausen",
+    "url": "https://hagenturm.roundshot.com/",
     "coordinates": {
-      "latitude": 48.07062355783574,
-      "longitude": 6.877613067626954
+      "latitude": 47.6968882,
+      "longitude": 8.6324048
     },
     "webcams": [
       {
-        "name": "Tetras",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_gerardmer_tetras.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_gerardmer_tetras.jpg"
-      },
-      {
-        "name": "Front de neige",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_gerardmer_front-de-neige.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_gerardmer_front-de-neige.jpg"
-      },
-      {
-        "name": "Hôtel du Nohneck",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_hotel-hohneck_hohneck.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_hotel-hohneck_hohneck.jpg"
+        "name": "Hagenturm",
+        "largeImage": "https://backend.roundshot.com/cams/246305c5d0274ffa846231878df8c038/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/246305c5d0274ffa846231878df8c038/thumbnail"
       }
     ]
   },
   {
-    "id": "the-lecht",
-    "name": "The Lecht",
-    "country": "Scotland",
-    "state": "Aberdeenshire",
-    "url": "https://www.lecht.co.uk",
+    "id": "wasserauen-ebenalp-luftseilbahn",
+    "name": "Wasserauen-Ebenalp Luftseilbahn",
+    "country": "Suisse",
+    "state": "Appenzell Rhodes-Intérieures",
+    "url": "https://ebenalp.roundshot.com/",
     "coordinates": {
-      "latitude": 57.201852462606055,
-      "longitude": -3.248519897460938
+      "latitude": 47.285652,
+      "longitude": 9.4200829
     },
     "webcams": [
       {
-        "name": "The Lecht",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_the-lecht.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_the-lecht.jpg"
+        "name": "Ebenalp",
+        "largeImage": "https://backend.roundshot.com/cams/724/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/724/thumbnail"
       }
     ]
   },
   {
-    "id": "sur-lyand",
-    "name": "Sur Lyand",
-    "country": "France",
-    "state": "Ain",
-    "url": "https://sur-lyand.hautrhone-tourisme.fr/",
+    "id": "wengen-tourismus",
+    "name": "Wengen Tourismus",
+    "country": "Suisse",
+    "state": "Arrondissement administratif d'Interlaken-Oberhasli",
+    "url": "https://wengen-tourismus.roundshot.com/",
     "coordinates": {
-      "latitude": 45.95186578956742,
-      "longitude": 5.775890350341798
-    },
-    "webcams": []
-  },
-  {
-    "id": "habere-poche",
-    "name": "Habère-Poche",
-    "country": "France",
-    "state": "Haute-Savoie",
-    "url": "http://leshaberes.com/",
-    "coordinates": {
-      "latitude": 46.24860604134826,
-      "longitude": 6.473522186279297
-    },
-    "webcams": []
-  },
-  {
-    "id": "ault",
-    "name": "Ault",
-    "country": "France",
-    "state": "Somme",
-    "url": "https://www.villes-soeurs.fr/",
-    "coordinates": {
-      "latitude": 50.101533096777914,
-      "longitude": 1.447277069091797
+      "latitude": 46.6059913,
+      "longitude": 7.9218831
     },
     "webcams": [
       {
-        "name": "Ault Centre Ville",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-centre-ville.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_ville-soeur_ault-centre-ville.jpg"
-      },
-      {
-        "name": "Ault Onival",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_ville-soeur_ault-onival.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_ville-soeur_ault-onival.jpg"
+        "name": "Talstation - Wengen Tourismus",
+        "largeImage": "https://backend.roundshot.com/cams/1636/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1636/thumbnail"
       }
     ]
   },
   {
-    "id": "saint-jean-d-aulps",
-    "name": "Saint-Jean-d'Aulps",
-    "country": "France",
-    "state": "Haute-Savoie",
-    "url": "https://www.valleedaulps.com",
+    "id": "whitefish-mountain-resort",
+    "name": "Whitefish Mountain Resort",
+    "country": "États-Unis d'Amérique",
+    "state": "Flathead County",
+    "url": "https://skiwhitefish.roundshot.com/",
     "coordinates": {
-      "latitude": 46.234596578912914,
-      "longitude": 6.654796600341798
+      "latitude": 48.494092,
+      "longitude": -114.3470106
     },
     "webcams": [
       {
-        "name": "Plateau St Jean d'Aulps",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_plateau-st-jean-d-aulps.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_vallee-d-aulps_plateau-st-jean-d-aulps.jpg"
-      },
-      {
-        "name": "Col des Follys",
-        "largeImage": "https://trinum3.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_col-des-follys.jpg",
-        "thumbnailImage": "https://trinum3.trinum.com/ibox/ftpcam/small_vallee-d-aulps_col-des-follys.jpg"
-      },
-      {
-        "name": "Roc d'Enfer",
-        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tWfs-G599K-PJyiE-mTThI&quality=large",
-        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=7tWfs-G599K-PJyiE-mTThI&quality=small"
-      },
-      {
-        "name": "Les Lindarets",
-        "largeImage": "https://www.trinum.com/ibox/ftpcam/mega_vallee-d-aulps_les-lindarets.jpg",
-        "thumbnailImage": "https://www.trinum.com/ibox/ftpcam/small_vallee-d-aulps_les-lindarets.jpg"
+        "name": "Whitefish Summit",
+        "largeImage": "https://backend.roundshot.com/cams/849/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/849/thumbnail"
       }
     ]
   },
   {
-    "id": "tignes",
-    "name": "Tignes",
-    "country": "France",
-    "state": "Savoie",
-    "url": "https://www.tignes.net/",
+    "id": "winterthur-stadt",
+    "name": "Winterthur Stadt",
+    "country": "Suisse",
+    "state": "Bezirk Winterthur",
+    "url": "https://winterthur.roundshot.com/",
     "coordinates": {
-      "latitude": 45.469729,
-      "longitude": 6.907594
+      "latitude": 47.5003138,
+      "longitude": 8.7239736
     },
-    "webcams": []
+    "webcams": [
+      {
+        "name": "Roter Turm",
+        "largeImage": "https://backend.roundshot.com/cams/738/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/738/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "zermatt-tourismus",
+    "name": "Zermatt Tourismus",
+    "country": "Suisse",
+    "state": "Viège",
+    "url": "https://zermatt.roundshot.com/",
+    "coordinates": {
+      "latitude": 46.0236881,
+      "longitude": 7.747672
+    },
+    "webcams": [
+      {
+        "name": "Golf Club Matterhorn",
+        "largeImage": "https://backend.roundshot.com/cams/c0b638cd54de03899f68d3c9fd18a51a/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/c0b638cd54de03899f68d3c9fd18a51a/thumbnail"
+      },
+      {
+        "name": "Gornergrat",
+        "largeImage": "https://backend.roundshot.com/cams/1042/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1042/thumbnail"
+      },
+      {
+        "name": "Hohtälli",
+        "largeImage": "https://backend.roundshot.com/cams/4a19df9977b310d996c39cabb1cf6907/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/4a19df9977b310d996c39cabb1cf6907/thumbnail"
+      },
+      {
+        "name": "Monte Rosa",
+        "largeImage": "https://backend.roundshot.com/cams/0a2a2a5d1d27a9e07b4f7250613836ed/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/0a2a2a5d1d27a9e07b4f7250613836ed/thumbnail"
+      },
+      {
+        "name": "Randa",
+        "largeImage": "https://backend.roundshot.com/cams/3f43d703172868cc5068fdfa7ef67892/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/3f43d703172868cc5068fdfa7ef67892/thumbnail"
+      },
+      {
+        "name": "Schönegg Hotel",
+        "largeImage": "https://backend.roundshot.com/cams/17b288bb281358f47d8e1be92d6b042a/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/17b288bb281358f47d8e1be92d6b042a/thumbnail"
+      },
+      {
+        "name": "Täsch Schalisee / Langlaufloipe",
+        "largeImage": "https://backend.roundshot.com/cams/5514e78b52ba9078816367129d5b27f3/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/5514e78b52ba9078816367129d5b27f3/thumbnail"
+      },
+      {
+        "name": "Täsch Dorf",
+        "largeImage": "https://backend.roundshot.com/cams/db525e5462a2414abd7500e07aa08d51/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/db525e5462a2414abd7500e07aa08d51/thumbnail"
+      },
+      {
+        "name": "Zermatterhof",
+        "largeImage": "https://backend.roundshot.com/cams/2c35670bc04a525fa1b912728ae463b8/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/2c35670bc04a525fa1b912728ae463b8/thumbnail"
+      }
+    ]
+  },
+  {
+    "id": "zug-stadt",
+    "name": "Zug Stadt",
+    "country": "Suisse",
+    "state": "Bâle-Ville",
+    "url": "https://zug-stadt.roundshot.com/",
+    "coordinates": {
+      "latitude": 47.5777372,
+      "longitude": 7.5932239
+    },
+    "webcams": [
+      {
+        "name": "Zug Stadt",
+        "largeImage": "https://backend.roundshot.com/cams/1365/default",
+        "thumbnailImage": "https://backend.roundshot.com/cams/1365/thumbnail"
+      }
+    ]
   }
 ]

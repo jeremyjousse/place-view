@@ -10,6 +10,7 @@
 	import { WebcamGallery, PlaceDetailsCard, PlaceHeader, MapView } from '@place-view/ui';
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
+	import { setWebcamFullscreen } from '#lib/platform';
 
 	let { data }: { data: { place: Place } } = $props();
 	const place = $derived(data.place);
@@ -18,6 +19,12 @@
 
 	const hasActiveWebcam = $derived(place.webcams.some((w) => w.isActive));
 	let urlWebcamIndex = $derived(webcamIndexFromUrl(page.url, place.webcams));
+
+	function updateFullscreenAppearance(fullscreen: boolean) {
+		void setWebcamFullscreen(fullscreen).catch((error) =>
+			console.error('Failed to update iOS fullscreen appearance:', error)
+		);
+	}
 
 	function updateWebcamUrl(index: number | null) {
 		const targetParam = index !== null ? (index + 1).toString() : null;
@@ -101,6 +108,7 @@
 				placeName={place.name}
 				activeWebcamIndex={urlWebcamIndex}
 				onWebcamChange={updateWebcamUrl}
+				onFullscreenChange={updateFullscreenAppearance}
 			/>
 		</div>
 

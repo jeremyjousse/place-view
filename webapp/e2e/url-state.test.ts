@@ -185,6 +185,41 @@ test('closes fullscreen webcam via close button', async ({ page }) => {
 	await expect(dialog).not.toBeVisible();
 });
 
+test('hides mobile navigation scrolling down and restores it scrolling up or focusing it', async ({
+	page
+}) => {
+	await page.setViewportSize({ width: 390, height: 500 });
+	await page.goto('/');
+	const navigation = page.getByRole('navigation', { name: 'Mobile navigation' });
+	await expect(navigation).toBeInViewport();
+	await navigation.getByRole('link', { name: 'Places', exact: true }).click();
+	await page.waitForLoadState('networkidle');
+
+	await page.evaluate(() => window.scrollTo(0, 250));
+	await expect(navigation).not.toBeInViewport();
+	await page.evaluate(() => window.scrollTo(0, 150));
+	await expect(navigation).toBeInViewport();
+
+	await page.evaluate(() => window.scrollTo(0, 250));
+	await expect(navigation).not.toBeInViewport();
+	await page.keyboard.press('Tab');
+	await navigation.getByRole('link', { name: 'Places', exact: true }).focus();
+	await expect(navigation).toBeInViewport();
+
+	await page.getByPlaceholder('Search places...').focus();
+	await page.evaluate(() => window.scrollTo(0, 0));
+	await expect(navigation).toBeInViewport();
+});
+
+test('keeps mobile navigation visible outside the places list', async ({ page }) => {
+	await page.setViewportSize({ width: 390, height: 500 });
+	await page.goto('/place/abondance/');
+	const navigation = page.getByRole('navigation', { name: 'Mobile navigation' });
+	await expect(navigation).toBeInViewport();
+	await page.evaluate(() => window.scrollTo(0, 250));
+	await expect(navigation).toBeInViewport();
+});
+
 test('build contains a static page for every place and the map', () => {
 	const places: { id: string }[] = JSON.parse(readFileSync('../resources/places.json', 'utf8'));
 	expect(existsSync('build/map/index.html')).toBe(true);

@@ -4,6 +4,9 @@ pub mod application;
 pub mod domain;
 pub mod infrastructure;
 
+#[cfg(target_os = "ios")]
+mod ios;
+
 /// Builds and runs the Tauri application.
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
@@ -39,6 +42,9 @@ pub fn run() {
             infrastructure::tauri_commands::reorder_local_place_webcam,
             infrastructure::tauri_commands::fetch_external_text,
         ]);
+
+    #[cfg(target_os = "ios")]
+    let builder = builder.invoke_handler(tauri::generate_handler![ios::set_webcam_fullscreen]);
 
     builder
         .run(tauri::generate_context!())

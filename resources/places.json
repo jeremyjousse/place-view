@@ -694,6 +694,11 @@
     },
     "webcams": [
       {
+        "name": "Station",
+        "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EaS2-F076-lZVs-xPZN-Q3dO",
+        "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=EaS2-F076-lZVs-xPZN-Q3dO&quality=small"
+      },
+      {
         "name": "Centre station",
         "largeImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=large",
         "thumbnailImage": "https://api.skaping.com/media/getLatest?format=jpg&api_key=AmWlD-tWsDB-hROmx-YGYKa&quality=small"

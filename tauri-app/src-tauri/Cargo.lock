@@ -70,6 +70,7 @@ version = "0.3.0"
 dependencies = [
  "icu_normalizer",
  "log",
+ "objc2",
  "reqwest",
  "serde",
  "serde_json",
